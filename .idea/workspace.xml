@@ -11,105 +11,99 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="tmp1">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/asm-3.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/neethi-3.0.2-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/neethi-3.0.2-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/neethi-3.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/xml-resolver-1.2-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/xml-resolver-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.testcfx/org.universe.testcfx.iml" afterPath="$PROJECT_DIR$/org.universe.testcfx/org.universe.testcfx.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_frontend_jaxws_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_frontend_jaxws_2_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_transports_http_jetty_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_transports_http_jetty_2_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/org_universe_cxf_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_cxf_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/org_universe_testcfx_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_testcfx_jar.xml" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="tmp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/asm-3.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-api-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-api-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/neethi-3.0.2-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/neethi-3.0.2-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/neethi-3.0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/slf4j-api-1.7.5-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/slf4j-api-1.7.5-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/slf4j-api-1.7.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/stax2-api-3.1.1-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/wsdl4j-1.6.3-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/wsdl4j-1.6.3-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/xml-resolver-1.2-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/xml-resolver-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385658943812" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385659171850" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385659385485" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -445,7 +439,7 @@
       <file leaf-file-name="ServerSide.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.universe.testcfx/src/org/universe/testcfx/ServerSide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="412" selection-end="412" vertical-scroll-proportion="0.5523156">
+            <state line="14" column="18" selection-start="412" selection-end="412" vertical-scroll-proportion="0.5152">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1076,169 +1070,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sqljdbc4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqljdbc4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqlite-3.7.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql-5.1.27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql-connector-java-5.1.27.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log4j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit-4.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jacob" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="derby-10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cxf-rt-2.7.7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-io-latest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-dpcp-latest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-dbutils-latest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-cli-latest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2424,14 +2256,18 @@
       <created>1385628749870</created>
       <updated>1385628749870</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="tmp">
+      <created>1385659253695</created>
+      <updated>1385659253695</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20649967" sideWeight="0.6604514" order="8" side_tool="false" content_ui="tabs" />
@@ -2449,8 +2285,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46662173" sideWeight="0.6317308" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36826923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46662173" sideWeight="0.6721154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36826923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2503,7 +2339,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="tmp1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tmp" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -2517,7 +2353,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="LightSysInfo" />
     <MESSAGE value="Memory" />
     <MESSAGE value="Windows Info" />
     <MESSAGE value="Fast Tests" />
@@ -2542,6 +2377,7 @@
     <MESSAGE value="README.md + idea project structure" />
     <MESSAGE value="README.md" />
     <MESSAGE value="tmp1" />
+    <MESSAGE value="tmp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2644,7 +2480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.testcfx/src/org/universe/testcfx/ServerSide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="412" selection-end="412" vertical-scroll-proportion="0.5523156">
+        <state line="14" column="18" selection-start="412" selection-end="412" vertical-scroll-proportion="0.5152">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
