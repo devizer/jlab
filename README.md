@@ -20,12 +20,22 @@ byte[] serialize(MyVo1 myVo) {
   return SimpleIntegrity.Store(message, SimpleIntegrity.Alg.md5);
 }
 ...
-byte[] parse(byte[] message) {
+MyVo1 parse(byte[] message) {
   return MyVoConverter.Parse(SimpleIntegrity.Parse(message).getData());
 }
 ```
 
-
-SimpleSysInfo, ConnectionMetadataReader
+SimpleSysInfo
 ===
-we need to know human readable database structure and environment on production
+we need to know human readable database structure on production in human readable form
+
+ConnectionMetadataReader
+===
+we need to know environment on production (OS, Processor, Memory, Disks) in human readable form
+
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
