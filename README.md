@@ -11,7 +11,7 @@ extentions, demos, tests and stress
 
 JAXBSerializer, SimpleItegrity
 ===
-we need to store long living POJO in blobs and queues with versioning and integrity check:
+we need to store **long living** POJO in blobs and queues with *versioning* and integrity check:
 ```
 private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
 ...
@@ -27,15 +27,15 @@ MyVo1 parse(byte[] message) {
 
 SimpleSysInfo
 ===
-we need to know human readable database structure on production in human readable form
+we need to know human readable **database structure** on production in human readable form
 
 ConnectionMetadataReader
 ===
-we need to know environment on production (OS, Processor, Memory, Disks) in human readable form
+we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form
 
 
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] @mentions, #refs, [links](http://google.com), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
