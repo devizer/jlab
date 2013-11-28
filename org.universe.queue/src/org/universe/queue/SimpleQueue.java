@@ -167,7 +167,7 @@ public class SimpleQueue {
 
             Timestamp tsNow = new Timestamp(new Date().getTime());
             // mssql
-            String idOut = (String) JdbcCommand.selectFirstValue(connection, sql1, queueName, tsNow);
+            String idOut = JdbcCommand.selectFirstString(connection, sql1, queueName, tsNow);
 
             if (idOut == null)
                 return null;

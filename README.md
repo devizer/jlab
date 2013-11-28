@@ -13,7 +13,7 @@ JAXBSerializer, SimpleItegrity
 ===
 we need to store long living POJO in blobs and queues with versioning and integrity check:
 ```
-private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBUtils<MyVo1>(MyVo1.class);
+private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
 ...
 byte[] serialize(MyVo1 myVo) {
   byte[] message = MyVoConverter.ToData(myVo);

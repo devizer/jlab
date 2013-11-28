@@ -45,6 +45,15 @@ public class JdbcCommand {
     }
 
     // MS SQL криво meta-данные читаются.
+    public static String selectFirstString(Connection con, String sql, Object... parameters) throws SQLException {
+        Object ret = selectFirstValue(con, sql, parameters);
+        if (ret == null || ret instanceof String)
+            return (String) ret;
+
+        throw new ClassCastException("String returned value is expected by sql query. But query returns " + ret.getClass().getName());
+    }
+
+    // MS SQL криво meta-данные читаются.
     public static Object selectFirstValue(Connection con, String sql, Object... parameters) throws SQLException {
         PreparedStatement stmt = null;
         ResultSet rs = null;
