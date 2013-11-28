@@ -27,14 +27,14 @@ MyVo1 parse(byte[] message) {
 
 SimpleSysInfo
 ===
-we need to know human readable **database structure** on production in human readable form
+we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form
 
 ConnectionMetadataReader
 ===
-we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form
+we need to know human readable **database structure** on production in human readable form
 
 
-
+samples:
 - [x] @mentions, #refs, [links](http://google.com), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
