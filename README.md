@@ -20,7 +20,7 @@ we need to store a **long living** POJO in blobs and queues with *versioning* an
 
 
 ```java
-private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
+static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
 ...
 byte[] serialize(MyVo1 myVo) {
   byte[] message = MyVoConverter.ToData(myVo);
