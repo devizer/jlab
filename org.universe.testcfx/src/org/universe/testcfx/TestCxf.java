@@ -1,7 +1,5 @@
 package org.universe.testcfx;
 
-import org.apache.cxf.interceptor.LoggingInInterceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 import org.apache.log4j.PropertyConfigurator;
@@ -11,8 +9,8 @@ import org.slf4j.Logger;
 import org.universe.ConsoleTable;
 import org.universe.DateCalc;
 import org.universe.System6;
-import org.universe.cfx.MessageInfo;
-import org.universe.cfx.TransferInterceptor;
+import org.universe.cxf.MessageInfo;
+import org.universe.cxf.TransferInterceptor;
 import org.universe.jcl.Stress;
 import org.universe.tests.TestEnv;
 import org.universe.tests.jaxb.MyVo1;

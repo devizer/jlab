@@ -1,4 +1,4 @@
-package org.universe.cfx;
+package org.universe.cxf;
 
 import org.apache.cxf.interceptor.Fault;
 import org.apache.cxf.interceptor.Interceptor;

@@ -3,10 +3,8 @@ package org.universe.testcfx;
 import org.apache.cxf.interceptor.LoggingInInterceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
-import org.universe.cfx.MessageInfo;
-import org.universe.cfx.TransferInterceptor;
-
-import java.util.TimeZone;
+import org.universe.cxf.MessageInfo;
+import org.universe.cxf.TransferInterceptor;
 
 public class ClientSide {
 

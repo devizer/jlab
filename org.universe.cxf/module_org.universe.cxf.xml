@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.cxf" default="compile.module.org.universe.cxf">
+  <dirname property="module.org.universe.cxf.basedir" file="${ant.file.module_org.universe.cxf}"/>
+  
+  <property name="module.jdk.home.org.universe.cxf" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.cxf" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.cxf" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.cxf" value="${compiler.args}"/>
+  
+  <property name="org.universe.cxf.output.dir" value="${module.org.universe.cxf.basedir}/../out/production/org.universe.cxf"/>
+  <property name="org.universe.cxf.testoutput.dir" value="${module.org.universe.cxf.basedir}/../out/test/org.universe.cxf"/>
+  
+  <path id="org.universe.cxf.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.cxf.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.cxf}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.runtime.production.module.classpath">
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.cxf}"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.runtime.module.classpath">
+    <pathelement location="${org.universe.cxf.testoutput.dir}"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.cxf">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.cxf">
+    <patternset refid="excluded.from.module.org.universe.cxf"/>
+  </patternset>
+  
+  <path id="org.universe.cxf.module.sourcepath">
+    <dirset dir="${module.org.universe.cxf.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.cxf" depends="compile.module.org.universe.cxf.production,compile.module.org.universe.cxf.tests" description="Compile module org.universe.cxf"/>
+  
+  <target name="compile.module.org.universe.cxf.production" depends="register.custom.compilers" description="Compile module org.universe.cxf; production classes">
+    <mkdir dir="${org.universe.cxf.output.dir}"/>
+    <javac2 destdir="${org.universe.cxf.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.cxf}/javac">
+      <compilerarg line="${compiler.args.org.universe.cxf}"/>
+      <bootclasspath refid="org.universe.cxf.module.bootclasspath"/>
+      <classpath refid="org.universe.cxf.module.production.classpath"/>
+      <src refid="org.universe.cxf.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.cxf"/>
+    </javac2>
+    
+    <copy todir="${org.universe.cxf.output.dir}">
+      <fileset dir="${module.org.universe.cxf.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.cxf.tests" depends="register.custom.compilers,compile.module.org.universe.cxf.production" description="compile module org.universe.cxf; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.cxf" description="cleanup module">
+    <delete dir="${org.universe.cxf.output.dir}"/>
+    <delete dir="${org.universe.cxf.testoutput.dir}"/>
+  </target>
+</project>

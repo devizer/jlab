@@ -1,4 +1,4 @@
-package org.universe.cfx;
+package org.universe.cxf;
 
 import org.apache.cxf.message.Message;
 import org.apache.cxf.service.model.BindingOperationInfo;

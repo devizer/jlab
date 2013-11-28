@@ -1,19 +1,10 @@
 package org.universe.testcfx;
 
 
-import org.apache.cxf.interceptor.LoggingInInterceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
-import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
-import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.runner.JUnitCore;
-import org.universe.cfx.TransferInterceptor.MessageHook;
-import org.universe.cfx.MessageInfo;
-import org.universe.cfx.TransferInterceptor;
 
 import java.io.InputStream;
-import java.util.Properties;
-import java.util.TimeZone;
 
 // http://cxf.apache.org/docs/a-simple-jax-ws-service.html
 public class Main {
