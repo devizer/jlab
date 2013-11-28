@@ -4,11 +4,13 @@ jlab
 extentions, demos, tests and stress
 
 org.universe
-=
+===
 
-JAXBSerializer
-jcl
+JAXBSerializer, SimpleIntegrity
 Parallel.for
 Lazy<T> with ThreadSafetyMode
-ReleableThreadLocal
-LightSysInfo without external dependencies
+ReleableThreadLocal<T>
+
+LightSysInfo
+ ==
+no external dependencies
