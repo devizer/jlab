@@ -28,4 +28,4 @@ byte[] parse(byte[] message) {
 
 SimpleSysInfo, ConnectionMetadataReader
 ===
-we need to know human readable database structure and environment on proudction
+we need to know human readable database structure and environment on production
