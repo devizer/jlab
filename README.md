@@ -2,7 +2,7 @@ jlab
 ====
 extentions, demos, tests and stress
 
-jcl
+*jcl* extensions
 ===
 - [x] Parallel.for
 - [x] Lazy<T>
