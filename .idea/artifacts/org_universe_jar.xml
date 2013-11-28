@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="org.universe:jar">
+    <output-path>$PROJECT_DIR$/out/org.universe</output-path>
+    <root id="root">
+      <element id="archive" name="org.universe.jar">
+        <element id="module-output" name="org.universe" />
+      </element>
+      <element id="library" level="project" name="commons-dbcp:commons-dbcp:1.4" />
+      <element id="library" level="project" name="commons-dbutils:commons-dbutils:1.5" />
+      <element id="library" level="project" name="commons-io:commons-io:2.4" />
+    </root>
+  </artifact>
+</component>

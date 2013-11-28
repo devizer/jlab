@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-dbutils:commons-dbutils:1.5" type="repository">
+    <properties maven-id="commons-dbutils:commons-dbutils:1.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-latest/commons-dbutils-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-latest/commons-dbutils-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-latest/commons-dbutils-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

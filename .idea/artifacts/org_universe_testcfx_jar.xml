@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="org.universe.testcfx:jar">
+    <output-path>$PROJECT_DIR$/out/org.universe.testcfx</output-path>
+    <root id="root">
+      <element id="archive" name="org.universe.testcfx.jar">
+        <element id="module-output" name="org.universe.testcfx" />
+      </element>
+      <element id="library" level="project" name="org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7" />
+      <element id="library" level="project" name="org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.testcfx/testcfx" />
+      <element id="library" level="project" name="log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="junit-4.11" />
+    </root>
+  </artifact>
+</component>

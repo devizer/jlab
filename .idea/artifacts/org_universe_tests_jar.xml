@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="org.universe.tests:jar">
+    <output-path>$PROJECT_DIR$/out/org.universe.tests</output-path>
+    <root id="root">
+      <element id="archive" name="org.universe.tests.jar">
+        <element id="module-output" name="org.universe.test" />
+        <element id="library" level="project" name="junit-4.11" />
+      </element>
+      <element id="artifact" artifact-name="org.universe:jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/profile" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/test" />
+      <element id="library" level="project" name="commons-io:commons-io:2.4" />
+    </root>
+  </artifact>
+</component>

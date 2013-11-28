@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="org.universe.rabbitstress:jar">
+    <output-path>$PROJECT_DIR$/out/org.universe.rabbitstress</output-path>
+    <root id="root">
+      <element id="archive" name="org.universe.rabbitstress.jar">
+        <element id="module-output" name="org.universe.rabbitstress" />
+      </element>
+      <element id="library" level="project" name="rabbitmq-client" />
+      <element id="artifact" artifact-name="org.universe:jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.rabbitstress/run" />
+      <element id="library" level="project" name="junit-4.11" />
+    </root>
+  </artifact>
+</component>

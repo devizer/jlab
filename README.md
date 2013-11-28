@@ -9,10 +9,17 @@ extentions, demos, tests and stress
 - [x] ReliableThreadLocal
 
 
+
+
+
 JAXBSerializer, SimpleItegrity
 ===
-we need to store **long living** POJO in blobs and queues with *versioning* and integrity check:
-```
+we need to store a **long living** POJO in blobs and queues with *versioning* and integrity check:
+
+
+
+
+```java
 private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
 ...
 byte[] serialize(MyVo1 myVo) {
@@ -32,6 +39,8 @@ we need to know **production environment** on (OS, Processor, Memory, Disks) in 
 ConnectionMetadataReader
 ===
 we need to know human readable **database structure** on production in human readable form
+
+
 
 
 samples:

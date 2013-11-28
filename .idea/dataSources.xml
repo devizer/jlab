@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3275920064">
+    <data-source source="LOCAL" name="SimpleQueue" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="cf844592-95ef-4411-ad17-4d9f193ce9fa">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:$USER_HOME$/SumpleQueue2</jdbc-url>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/libs/hsqldb-2.2.9/hsqldb-2.2.9.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/libs/hsqldb-2.2.9/hsqldb-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="SqLite SimpleQueue" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="b76e60ac-de65-4f0f-bc5c-61404ab6d6e1">
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/.tmp/queue</jdbc-url>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/libs/sqlite-3.7.2/sqlite-jdbc-3.7.2.jar!/</url>
+        </library>
+        <library>
+          <url>jar://$PROJECT_DIR$/libs/sqlite-3.7.2/sqlite-jdbc-3.7.2-javadoc.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="MySql Queue" product="MySQL" version="5.5.34-0ubuntu0.12.10.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )" uuid="2225df19-5602-41ec-ad20-df68965c5f8b">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/sandbox</jdbc-url>
+      <user-name>sandbox</user-name>
+      <user-password>dfd9dfcbdfc4dfcedfc8dfc5dfd2</user-password>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/libs/mysql-5.1.27/mysql-connector-java-5.1.27.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

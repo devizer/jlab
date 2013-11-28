@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact name="all">
+    <output-path>$PROJECT_DIR$/out/all</output-path>
+    <root id="root">
+      <element id="archive" name="work.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/all/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="all" />
+      </element>
+      <element id="library" level="project" name="rabbitmq-client" />
+      <element id="artifact" artifact-name="org.universe:jar" />
+      <element id="artifact" artifact-name="org.universe.rabbitstress:jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.rabbitstress/run" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/profile" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/test" />
+      <element id="artifact" artifact-name="org.universe.tests:jar" />
+      <element id="artifact" artifact-name="org.universe.testcfx:jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/all/test-build.sh" />
+      <element id="library" level="project" name="junit-4.11" />
+      <element id="file-copy" path="$PROJECT_DIR$/all/pre-ubuntu" />
+      <element id="file-copy" path="$PROJECT_DIR$/all/ins-rabbit" />
+      <element id="file-copy" path="$PROJECT_DIR$/all/ins-jdk" />
+      <element id="file-copy" path="$PROJECT_DIR$/org.universe.rabbitstress/testmq" />
+      <element id="file-copy" path="$PROJECT_DIR$/all/win-fast-tests.cmd" />
+      <element id="artifact" artifact-name="org.universe.cxf:jar" />
+    </root>
+  </artifact>
+</component>

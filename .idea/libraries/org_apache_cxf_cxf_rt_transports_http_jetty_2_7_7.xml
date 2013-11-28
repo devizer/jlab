@@ -1,0 +1,70 @@
+<component name="libraryTable">
+  <library name="org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7" type="repository">
+    <properties maven-id="org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.compendium-4.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-server-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-continuation-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-http-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-io-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-util-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jetty-security-8.1.12.v20130726-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/slf4j-api-1.7.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-servlet_3.0_spec-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

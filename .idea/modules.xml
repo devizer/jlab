@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/all/all.iml" filepath="$PROJECT_DIR$/all/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe/org.universe.iml" filepath="$PROJECT_DIR$/org.universe/org.universe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.cxf/org.universe.cxf.iml" filepath="$PROJECT_DIR$/org.universe.cxf/org.universe.cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.queue/org.universe.queue.iml" filepath="$PROJECT_DIR$/org.universe.queue/org.universe.queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.queue.test/org.universe.queue.test.iml" filepath="$PROJECT_DIR$/org.universe.queue.test/org.universe.queue.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.rabbitstress/org.universe.rabbitstress.iml" filepath="$PROJECT_DIR$/org.universe.rabbitstress/org.universe.rabbitstress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.test/org.universe.test.iml" filepath="$PROJECT_DIR$/org.universe.test/org.universe.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.universe.testcfx/org.universe.testcfx.iml" filepath="$PROJECT_DIR$/org.universe.testcfx/org.universe.testcfx.iml" />
+    </modules>
+  </component>
+</project>
+
