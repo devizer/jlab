@@ -12,12 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385522293642" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385621241204" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385621251746" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -325,7 +326,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.7347611">
+            <state line="45" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.3789127">
               <folding />
             </state>
           </provider>
@@ -334,7 +335,7 @@
       <file leaf-file-name="LightSysInfo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="470" selection-end="688" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="689" selection-end="883" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2325,7 +2326,11 @@
       <created>1385621243027</created>
       <updated>1385621243027</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="README.md">
+      <created>1385621254724</created>
+      <updated>1385621254724</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2547,6 +2552,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="689" selection-end="883" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="56" selection-start="846" selection-end="894" vertical-scroll-proportion="0.0">
@@ -2556,16 +2568,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="470" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.7347611">
+        <state line="45" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.3789127">
           <folding />
         </state>
       </provider>

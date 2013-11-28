@@ -45,6 +45,30 @@ Family: Mac OS X, x86_64
   Java: Java HotSpot(TM) 64-Bit Server VM, ver 1.7.0_45 by Oracle Corporation
 Memory: 2 048 MB
 ```
+```
+Family: Windows, amd64
+   CPU: Intel(R) Core(TM)2 Duo CPU P8400 @ 2.26GHz, L2 Cache 3072 KB, 2 Cores
+    OS: Microsoft(R) Windows(R) XP Professional x64 Edition, Service Pack 2
+  Java: Java HotSpot(TM) 64-Bit Server VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 511 MB
+  Soft: IE 8.00.6001.18702 (longhorn_ie8_rtm(wmbla).090308-0338)
+        MSI 4.5.6002.22487
+```
+```
+Family: Linux, arm
+   CPU: ARMv7 Processor rev 0 (v7l)
+    OS: Fedora 19 (Schrödinger’s Cat)
+  Java: Java HotSpot(TM) Client VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 1,004 MB
+```
+```
+Family: Linux, x86
+   CPU: Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz, Cache 20480 KB
+    OS: SUSE Linux Enterprise Server 11 (i586)
+  Java: IBM J9 VM, ver 1.7.0 by IBM Corporation
+Memory: 641 MB
+```
+
 
 
 
