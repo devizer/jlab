@@ -1,0 +1,223 @@
+Buildfile: /home/vlad/test.tmp/javalab/build.xml
+BUILD SUCCESSFUL
+Total time: 1 minute 41 seconds
+
+JUnit version 4.11
+.....AsData: 656 bytes, AsString: 673 bytes, AsFormattedString: 897 bytes
+MyVo1
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <MyDate>2014-01-21T00:00:00-05:00</MyDate>
+    <MyDay>2014-01-11</MyDay>
+    <MySpecialDays>
+        <Day>2014-01-01</Day>
+        <Day>2013-12-22</Day>
+    </MySpecialDays>
+    <MyWorstDays>2013-12-12 2013-12-02 2013-11-22</MyWorstDays>
+    <Files>
+        <File name="MyDocument.rtf">
+            <Content>AQIDBAU=</Content>
+        </File>
+        <File name="MyPicture.jpg">
+            <Content>BQQDAgE=</Content>
+        </File>
+        <SecuredFile name="Passwords.txt">
+            <Content>CQgHBgUFBAMDIA==</Content>
+            <Roles>
+                <Role>Admin</Role>
+                <Role>Power User</Role>
+            </Roles>
+        </SecuredFile>
+    </Files>
+</MyValue>
+
+MyVol2
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19" newInt3A="0">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <NewInt3>0</NewInt3>
+</MyValue>
+
+.Bye! Java ver is 1.7.0_45 by Oracle Corporation, OS: Linux ver 3.9.5-301.fc19.armv7hl
+.MyVo1 MARSHALLER to byte[]: 1 2 6 
+
+MyVo1 MARSHALLER to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 366.3   | 2.730    | 12.0     | 4395  | 100% | none
+2  | 609.3   | 1.641    | 12.0     | 7312  | 100% | none
+6  | 766.1   | 1.305    | 12.1     | 9193  | 100% | none
+
+.MyVo1 PARSE xml from byte[]: 1 2 6 
+
+MyVo1 PARSE xml from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 137.5   | 7.273    | 12.0     | 1650  | 100% | none
+2  | 266.3   | 3.756    | 12.0     | 3195  | 100% | none
+6  | 266.9   | 3.746    | 12.1     | 3203  | 100% | none
+
+.MyVo1 UNMARSHALLER from byte[]: 1 2 6 
+
+MyVo1 UNMARSHALLER from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 266.4   | 3.754    | 12.0     | 3197  | 100% | none
+2  | 408.1   | 2.450    | 12.0     | 4897  | 100% | none
+6  | 414.2   | 2.414    | 12.0     | 4970  | 100% | none
+
+.MARSHAL Simplest to byte[]: 1 2 6 
+
+MARSHAL Simplest to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4852.8  | 0.206    | 12.0     | 58233 | 100% | none
+2  | 4735.3  | 0.211    | 12.0     | 56823 | 100% | none
+6  | 4552.6  | 0.220    | 12.0     | 54631 | 100% | none
+
+.UNMARSHAL Simplest from byte[]: 1 2 6 
+
+UNMARSHAL Simplest from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2318.8  | 0.431    | 12.0     | 27826 | 100% | none
+2  | 2304.8  | 0.434    | 12.0     | 27657 | 100% | none
+6  | 2243.3  | 0.446    | 12.1     | 26919 | 100% | none
+
+
+Time: 190.996
+
+OK (11 tests)
+
+JUnit version 4.11
+.New Test's Address: http://localhost:32851/helloWorld
+Address: http://localhost:58279/helloWorld
+Server returned !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.New Test's Address: http://localhost:39947/helloWorld
+Looking formward about max supported header size
+SUPPORTED header size: 5889
+.New Test's Address: http://localhost:38806/helloWorld
+Measure: Create Client Factory: 1 2 4 8 12 16 
+
+Measure: Create Client Factory
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2801.7  | 0.357    | 18.0     | 50431 | 100% | none
+2  | 2784.5  | 0.359    | 18.0     | 50121 | 100% | none
+4  | 2684.2  | 0.373    | 18.0     | 48316 | 100% | none
+8  | 2605.7  | 0.384    | 18.1     | 46902 | 100% | none
+12 | 2676.8  | 0.374    | 18.1     | 48183 | 100% | none
+16 | 2575.6  | 0.388    | 18.1     | 46360 | 100% | none
+
+.New Test's Address: http://localhost:38958/helloWorld
+Measure: Create Proxy and Say Hi: 1 2 4 8 12 16 
+
+Measure: Create Proxy and Say Hi
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2.3     | 428.571  | 18.1     | 42    | 100% | none
+2  | 2.6     | 382.979  | 18.6     | 47    | 100% | none
+4  | 2.9     | 346.154  | 19.2     | 52    | 100% | none
+8  | 3.1     | 327.273  | 20.8     | 55    | 100% | none
+12 | 3.2     | 310.345  | 22.4     | 58    | 100% | none
+16 | 3.4     | 295.082  | 24.6     | 61    | 100% | none
+
+.New Test's Address: http://localhost:42108/helloWorld
+Measure: Say Hi using ThreadLocal proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using ThreadLocal proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 14.3    | 70.039   | 18.1     | 257   | 100% | none
+2  | 15.9    | 62.718   | 18.1     | 287   | 100% | none
+4  | 15.6    | 64.286   | 18.2     | 280   | 100% | none
+8  | 13.9    | 71.713   | 18.4     | 251   | 100% | none
+12 | 11.9    | 84.112   | 18.6     | 214   | 100% | none
+16 | 12.8    | 78.261   | 18.7     | 230   | 100% | none
+
+.New Test's Address: http://localhost:41144/helloWorld
+Measure: Say Hi using Single Proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 19.2    | 52.023   | 18.0     | 346   | 100% | none
+2  | 21.2    | 47.244   | 18.1     | 381   | 100% | none
+4  | 20.4    | 49.046   | 18.4     | 367   | 100% | none
+8  | 19.4    | 51.429   | 18.4     | 350   | 100% | none
+12 | 20.2    | 49.451   | 18.5     | 364   | 100% | none
+16 | 18.9    | 52.786   | 18.6     | 341   | 100% | none
+
+.New Test's Address: http://localhost:43407/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 14.7    | 68.182   | 18.0     | 264   | 100% | none
+2  | 17.8    | 56.075   | 18.0     | 321   | 100% | none
+4  | 17.4    | 57.508   | 18.2     | 313   | 100% | none
+8  | 15.1    | 66.421   | 18.3     | 271   | 100% | none
+12 | 13.4    | 74.689   | 18.8     | 241   | 100% | none
+16 | 11.2    | 89.109   | 18.7     | 202   | 100% | none
+
+.New Test's Address: http://localhost:46894/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 18.6    | 53.731   | 18.1     | 335   | 100% | none
+2  | 19.7    | 50.704   | 18.1     | 355   | 100% | none
+4  | 19.5    | 51.282   | 18.1     | 351   | 100% | none
+8  | 20.2    | 49.451   | 18.3     | 364   | 100% | none
+12 | 19.1    | 52.478   | 18.7     | 343   | 100% | none
+16 | 20.1    | 49.861   | 18.6     | 361   | 100% | none
+
+.New Test's Address: http://localhost:38809/helloWorld
+Measure: Create 100500 Hosts: 1 2 4 8 12 16 
+
+Measure: Create 100500 Hosts
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4.3     | 230.769  | 30.2     | 130   | 100% | none
+2  | 4.2     | 240.000  | 30.2     | 125   | 100% | none
+4  | 4.2     | 236.220  | 30.6     | 127   | 100% | none
+8  | 3.8     | 265.487  | 31.1     | 113   | 100% | none
+12 | 3.8     | 260.870  | 31.2     | 115   | 100% | none
+16 | 3.7     | 272.727  | 31.7     | 110   | 100% | none
+
+Total hosts was published: 723
+Destroyed 723 hosts in 20.578 secs
+
+Time: 921.909
+
+OK (9 tests)
+
+JUnit version 4.11
+.New 'TestMQ-1-Wed Nov 13 14:21:44 EST 2013' queue created in 02.324 secs
+Clean queue (1 messages) in 02.218 sec
+.New 'TestMQ-2-Wed Nov 13 14:21:44 EST 2013' queue created in 00.098 secs
+Measure: Produce Many Messages: {1} {2} {4} {8} {12} {16} 
+
+Measure: Produce Many Messages
+#  | RUN/sec | mSec/run  | Duration | Total | OK   | Fail
+-- | ------- | --------  | -------- | ----- | --   | ----
+1  | 1016.1  | 0.984     | 64.2     | 60965 | 100% | none
+2  | 0.0     | 30000.000 | 63.4     | 2     | 100% | none
+4  | 832.3   | 1.202     | 60.1     | 49936 | 100% | none
+8  | 0.1     | 7500.000  | 68.7     | 8     | 100% | none
+12 | 729.4   | 1.371     | 60.1     | 43764 | 100% | none
+16 | 56.1    | 17.820    | 60.2     | 3367  | 100% | none
+
+Clean queue (1859 messages) in 13.238 sec
+
+Time: 395.731
+
+OK (2 tests)
+

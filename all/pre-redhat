@@ -1,0 +1,2 @@
+#abot vnc: http://rpms4u.blogspot.ru/2011/05/configure-tigervnc-server-in-rhel6.html
+sudo yum install tigervnc-server* -y

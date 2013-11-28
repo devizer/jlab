@@ -1,0 +1,48 @@
+Требования:
+1. асинхронная обработка тяжелых алгоритмов
+2. тяжелые считаем и создание сообщения и обработка сообщения
+3. созданием занимается publisher, обработкой - consumer
+4. idempotent паблишер и консьюмер должны работают на 1 или нескольких неотличимых интсансах. неотличимый, значит дополнительная настройка инстансов не обязательна и допускается клонирование одного экземпляра приложения.
+5. обработка зависит от ненадежного стороннего ресурса. должна быть поддердка прогрессивнго таймаута
+6. очередь должна быть персистентной. при рестарте приложения или OS необработанные сообщения возобновляют обработку.
+7. каждое сообщение может иметь уникальный. ключ уникальности определен и определяется природой.
+8. Простота в установке для пользователя. midleware всегда имеет свою базу, задания в очереди могут храниться в своей БД
+
+
+
+пример паблишер
+run(UUID id1, String id2, int id3)
+{
+    uniqueKey = id1 + ":" + id2 + ":" + id3;
+    if (queue.getMessageStatus("alert", uniqueKey) != 0)
+        break;
+
+    byte[] message = expensiveOperation();
+    if (!queue.publish("alert", uniqueKey, message))
+    {
+        log("already in progress/done")
+    }
+}
+
+пример подписчика сообщений в очереди "alert"
+onDelivery(Message message)
+{
+    try {
+        needSkip =
+            (Now - message.getCreatedAt) > 10_hours
+            || message.getHandlersCount > 42;
+        if (!needSkip)
+        {
+            expensive_Operations_with_External_Occasionally_Connected_Resources(message);
+        }
+
+        queue.ack("alert", message.getId());
+    }
+    catch(ExternalResourceIsUnavailable)
+    {
+        // отложить обработку на 20 секунд, если первый отказ, 40 сек, 60 сек и т.д. последующие
+        queue.postpone(message.getId(), Now.AddSeconds(20 * message.getHandlersCount()));
+    }
+}
+
+TODO: перевод часов на 1 час назад отложит обработку не на 20 секунд, а на 1 час и 20 секунд?

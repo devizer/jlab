@@ -1,0 +1,623 @@
+Time Zones
+HH:mm  | Delta     | ID                               | Name      | Long Name
+-----  | -----     | --                               | ----      | ---------
+-12:00 | -43200000 | Etc/GMT+12                       | GMT-12:00 | GMT-12:00
+-11:00 | -39600000 | Etc/GMT+11                       | GMT-11:00 | GMT-11:00
+-11:00 | -39600000 | Pacific/Midway                   | SDT       | Samoa Daylight Time
+-11:00 | -39600000 | Pacific/Niue                     | NUST      | Niue Summer Time
+-11:00 | -39600000 | Pacific/Pago_Pago                | SDT       | Samoa Daylight Time
+-11:00 | -39600000 | Pacific/Samoa                    | SDT       | Samoa Daylight Time
+-11:00 | -39600000 | US/Samoa                         | SDT       | Samoa Daylight Time
+-10:00 | -36000000 | America/Adak                     | HADT      | Hawaii-Aleutian Daylight Time
+-10:00 | -36000000 | America/Atka                     | HADT      | Hawaii-Aleutian Daylight Time
+-10:00 | -36000000 | Etc/GMT+10                       | GMT-10:00 | GMT-10:00
+-10:00 | -36000000 | HST                              | HDT       | Hawaii Daylight Time
+-10:00 | -36000000 | Pacific/Honolulu                 | HDT       | Hawaii Daylight Time
+-10:00 | -36000000 | Pacific/Johnston                 | HDT       | Hawaii Daylight Time
+-10:00 | -36000000 | Pacific/Rarotonga                | CKHST     | Cook Is. Summer Time
+-10:00 | -36000000 | Pacific/Tahiti                   | TAHST     | Tahiti Summer Time
+-10:00 | -36000000 | SystemV/HST10                    | HDT       | Hawaii Daylight Time
+-10:00 | -36000000 | US/Aleutian                      | HADT      | Hawaii-Aleutian Daylight Time
+-10:00 | -36000000 | US/Hawaii                        | HDT       | Hawaii Daylight Time
+-09:30 | -34200000 | Pacific/Marquesas                | MARST     | Marquesas Summer Time
+-09:00 | -32400000 | AST                              | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | America/Anchorage                | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | America/Juneau                   | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | America/Nome                     | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | America/Sitka                    | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | America/Yakutat                  | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | Etc/GMT+9                        | GMT-09:00 | GMT-09:00
+-09:00 | -32400000 | Pacific/Gambier                  | GAMST     | Gambier Summer Time
+-09:00 | -32400000 | SystemV/YST9                     | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | SystemV/YST9YDT                  | AKDT      | Alaska Daylight Time
+-09:00 | -32400000 | US/Alaska                        | AKDT      | Alaska Daylight Time
+-08:00 | -28800000 | America/Dawson                   | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Ensenada                 | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Los_Angeles              | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Metlakatla               | MeDT      | Metlakatla Daylight Time
+-08:00 | -28800000 | America/Santa_Isabel             | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Tijuana                  | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Vancouver                | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | America/Whitehorse               | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | Canada/Pacific                   | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | Canada/Yukon                     | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | Etc/GMT+8                        | GMT-08:00 | GMT-08:00
+-08:00 | -28800000 | Mexico/BajaNorte                 | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | PST                              | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | PST8PDT                          | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | Pacific/Pitcairn                 | PDT       | Pitcairn Daylight Time
+-08:00 | -28800000 | SystemV/PST8                     | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | SystemV/PST8PDT                  | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | US/Pacific                       | PDT       | Pacific Daylight Time
+-08:00 | -28800000 | US/Pacific-New                   | PDT       | Pacific Daylight Time
+-07:00 | -25200000 | America/Boise                    | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Cambridge_Bay            | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Chihuahua                | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Creston                  | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Dawson_Creek             | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Denver                   | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Edmonton                 | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Hermosillo               | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Inuvik                   | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Mazatlan                 | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Ojinaga                  | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Phoenix                  | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Shiprock                 | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | America/Yellowknife              | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | Canada/Mountain                  | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | Etc/GMT+7                        | GMT-07:00 | GMT-07:00
+-07:00 | -25200000 | MST                              | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | MST7MDT                          | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | Mexico/BajaSur                   | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | Navajo                           | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | PNT                              | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | SystemV/MST7                     | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | SystemV/MST7MDT                  | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | US/Arizona                       | MDT       | Mountain Daylight Time
+-07:00 | -25200000 | US/Mountain                      | MDT       | Mountain Daylight Time
+-06:00 | -21600000 | America/Bahia_Banderas           | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Belize                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Cancun                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Chicago                  | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Costa_Rica               | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/El_Salvador              | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Guatemala                | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Indiana/Knox             | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Indiana/Tell_City        | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Knox_IN                  | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Managua                  | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Matamoros                | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Menominee                | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Merida                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Mexico_City              | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Monterrey                | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/North_Dakota/Beulah      | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/North_Dakota/Center      | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/North_Dakota/New_Salem   | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Rainy_River              | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Rankin_Inlet             | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Regina                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Resolute                 | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Swift_Current            | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Tegucigalpa              | CDT       | Central Daylight Time
+-06:00 | -21600000 | America/Winnipeg                 | CDT       | Central Daylight Time
+-06:00 | -21600000 | CST                              | CDT       | Central Daylight Time
+-06:00 | -21600000 | CST6CDT                          | CDT       | Central Daylight Time
+-06:00 | -21600000 | Canada/Central                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | Canada/East-Saskatchewan         | CDT       | Central Daylight Time
+-06:00 | -21600000 | Canada/Saskatchewan              | CDT       | Central Daylight Time
+-06:00 | -21600000 | Chile/EasterIsland               | EASST     | Easter Is. Summer Time
+-06:00 | -21600000 | Etc/GMT+6                        | GMT-06:00 | GMT-06:00
+-06:00 | -21600000 | Mexico/General                   | CDT       | Central Daylight Time
+-06:00 | -21600000 | Pacific/Easter                   | EASST     | Easter Is. Summer Time
+-06:00 | -21600000 | Pacific/Galapagos                | GALST     | Galapagos Summer Time
+-06:00 | -21600000 | SystemV/CST6                     | CDT       | Central Daylight Time
+-06:00 | -21600000 | SystemV/CST6CDT                  | CDT       | Central Daylight Time
+-06:00 | -21600000 | US/Central                       | CDT       | Central Daylight Time
+-06:00 | -21600000 | US/Indiana-Starke                | CDT       | Central Daylight Time
+-05:00 | -18000000 | America/Atikokan                 | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Bogota                   | COST      | Colombia Summer Time
+-05:00 | -18000000 | America/Cayman                   | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Coral_Harbour            | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Detroit                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Fort_Wayne               | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Grand_Turk               | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Guayaquil                | ECST      | Ecuador Summer Time
+-05:00 | -18000000 | America/Havana                   | CDT       | Cuba Daylight Time
+-05:00 | -18000000 | America/Indiana/Indianapolis     | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indiana/Marengo          | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indiana/Petersburg       | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indiana/Vevay            | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indiana/Vincennes        | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indiana/Winamac          | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Indianapolis             | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Iqaluit                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Jamaica                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Kentucky/Louisville      | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Kentucky/Monticello      | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Lima                     | PEST      | Peru Summer Time
+-05:00 | -18000000 | America/Louisville               | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Montreal                 | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Nassau                   | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/New_York                 | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Nipigon                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Panama                   | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Pangnirtung              | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Port-au-Prince           | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Thunder_Bay              | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | America/Toronto                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | Canada/Eastern                   | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | Cuba                             | CDT       | Cuba Daylight Time
+-05:00 | -18000000 | EST                              | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | EST5EDT                          | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | Etc/GMT+5                        | GMT-05:00 | GMT-05:00
+-05:00 | -18000000 | IET                              | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | Jamaica                          | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | SystemV/EST5                     | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | SystemV/EST5EDT                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | US/East-Indiana                  | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | US/Eastern                       | EDT       | Eastern Daylight Time
+-05:00 | -18000000 | US/Michigan                      | EDT       | Eastern Daylight Time
+-04:30 | -16200000 | America/Caracas                  | VEST      | Venezuela Summer Time
+-04:00 | -14400000 | America/Anguilla                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Antigua                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Argentina/San_Luis       | WARST     | Western Argentine Summer Time
+-04:00 | -14400000 | America/Aruba                    | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Asuncion                 | PYST      | Paraguay Summer Time
+-04:00 | -14400000 | America/Barbados                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Blanc-Sablon             | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Boa_Vista                | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Campo_Grande             | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Cuiaba                   | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Curacao                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Dominica                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Eirunepe                 | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Glace_Bay                | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Goose_Bay                | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Grenada                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Guadeloupe               | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Guyana                   | GYST      | Guyana Summer Time
+-04:00 | -14400000 | America/Halifax                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Kralendijk               | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/La_Paz                   | BOST      | Bolivia Summer Time
+-04:00 | -14400000 | America/Lower_Princes            | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Manaus                   | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Marigot                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Martinique               | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Moncton                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Montserrat               | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Port_of_Spain            | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Porto_Acre               | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Porto_Velho              | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Puerto_Rico              | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Rio_Branco               | AMST      | Amazon Summer Time
+-04:00 | -14400000 | America/Santiago                 | CLST      | Chile Summer Time
+-04:00 | -14400000 | America/Santo_Domingo            | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/St_Barthelemy            | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/St_Kitts                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/St_Lucia                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/St_Thomas                | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/St_Vincent               | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Thule                    | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Tortola                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | America/Virgin                   | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | Antarctica/Palmer                | CLST      | Chile Summer Time
+-04:00 | -14400000 | Atlantic/Bermuda                 | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | Brazil/Acre                      | AMST      | Amazon Summer Time
+-04:00 | -14400000 | Brazil/West                      | AMST      | Amazon Summer Time
+-04:00 | -14400000 | Canada/Atlantic                  | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | Chile/Continental                | CLST      | Chile Summer Time
+-04:00 | -14400000 | Etc/GMT+4                        | GMT-04:00 | GMT-04:00
+-04:00 | -14400000 | PRT                              | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | SystemV/AST4                     | ADT       | Atlantic Daylight Time
+-04:00 | -14400000 | SystemV/AST4ADT                  | ADT       | Atlantic Daylight Time
+-03:30 | -12600000 | America/St_Johns                 | NDT       | Newfoundland Daylight Time
+-03:30 | -12600000 | CNT                              | NDT       | Newfoundland Daylight Time
+-03:30 | -12600000 | Canada/Newfoundland              | NDT       | Newfoundland Daylight Time
+-03:00 | -10800000 | AGT                              | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Araguaina                | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Argentina/Buenos_Aires   | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Catamarca      | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/ComodRivadavia | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Cordoba        | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Jujuy          | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/La_Rioja       | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Mendoza        | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Rio_Gallegos   | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Salta          | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/San_Juan       | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Tucuman        | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Argentina/Ushuaia        | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Bahia                    | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Belem                    | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Buenos_Aires             | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Catamarca                | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Cayenne                  | GFST      | French Guiana Summer Time
+-03:00 | -10800000 | America/Cordoba                  | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Fortaleza                | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Godthab                  | WGST      | Western Greenland Summer Time
+-03:00 | -10800000 | America/Jujuy                    | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Maceio                   | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Mendoza                  | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Miquelon                 | PMDT      | Pierre & Miquelon Daylight Time
+-03:00 | -10800000 | America/Montevideo               | UYST      | Uruguay Summer Time
+-03:00 | -10800000 | America/Paramaribo               | SRST      | Suriname Summer Time
+-03:00 | -10800000 | America/Recife                   | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Rosario                  | ARST      | Argentine Summer Time
+-03:00 | -10800000 | America/Santarem                 | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | America/Sao_Paulo                | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | Antarctica/Rothera               | ROTST     | Rothera Summer Time
+-03:00 | -10800000 | Atlantic/Stanley                 | FKST      | Falkland Is. Summer Time
+-03:00 | -10800000 | BET                              | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | Brazil/East                      | BRST      | Brasilia Summer Time
+-03:00 | -10800000 | Etc/GMT+3                        | GMT-03:00 | GMT-03:00
+-02:00 | -7200000  | America/Noronha                  | FNST      | Fernando de Noronha Summer Time
+-02:00 | -7200000  | Atlantic/South_Georgia           | GDT       | South Georgia Daylight Time
+-02:00 | -7200000  | Brazil/DeNoronha                 | FNST      | Fernando de Noronha Summer Time
+-02:00 | -7200000  | Etc/GMT+2                        | GMT-02:00 | GMT-02:00
+-01:00 | -3600000  | America/Scoresbysund             | EGST      | Eastern Greenland Summer Time
+-01:00 | -3600000  | Atlantic/Azores                  | AZOST     | Azores Summer Time
+-01:00 | -3600000  | Atlantic/Cape_Verde              | CVST      | Cape Verde Summer Time
+-01:00 | -3600000  | Etc/GMT+1                        | GMT-01:00 | GMT-01:00
+0      | 0         | Africa/Abidjan                   | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Accra                     | GHST      | Ghana Summer Time
+0      | 0         | Africa/Bamako                    | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Banjul                    | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Bissau                    | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Casablanca                | WEST      | Western European Summer Time
+0      | 0         | Africa/Conakry                   | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Dakar                     | GMT       | Greenwich Mean Time
+0      | 0         | Africa/El_Aaiun                  | WEST      | Western European Summer Time
+0      | 0         | Africa/Freetown                  | SLST      | Sierra Leone Summer Time
+0      | 0         | Africa/Lome                      | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Monrovia                  | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Nouakchott                | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Ouagadougou               | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Sao_Tome                  | GMT       | Greenwich Mean Time
+0      | 0         | Africa/Timbuktu                  | GMT       | Greenwich Mean Time
+0      | 0         | America/Danmarkshavn             | GMT       | Greenwich Mean Time
+0      | 0         | Atlantic/Canary                  | WEST      | Western European Summer Time
+0      | 0         | Atlantic/Faeroe                  | WEST      | Western European Summer Time
+0      | 0         | Atlantic/Faroe                   | WEST      | Western European Summer Time
+0      | 0         | Atlantic/Madeira                 | WEST      | Western European Summer Time
+0      | 0         | Atlantic/Reykjavik               | GMT       | Greenwich Mean Time
+0      | 0         | Atlantic/St_Helena               | GMT       | Greenwich Mean Time
+0      | 0         | Eire                             | IST       | Irish Summer Time
+0      | 0         | Etc/GMT                          | GMT+00:00 | GMT+00:00
+0      | 0         | Etc/GMT+0                        | GMT+00:00 | GMT+00:00
+0      | 0         | Etc/GMT-0                        | GMT+00:00 | GMT+00:00
+0      | 0         | Etc/GMT0                         | GMT+00:00 | GMT+00:00
+0      | 0         | Etc/Greenwich                    | GMT       | Greenwich Mean Time
+0      | 0         | Etc/UCT                          | UTC       | Coordinated Universal Time
+0      | 0         | Etc/UTC                          | UTC       | Coordinated Universal Time
+0      | 0         | Etc/Universal                    | UTC       | Coordinated Universal Time
+0      | 0         | Etc/Zulu                         | UTC       | Coordinated Universal Time
+0      | 0         | Europe/Belfast                   | BST       | British Summer Time
+0      | 0         | Europe/Dublin                    | IST       | Irish Summer Time
+0      | 0         | Europe/Guernsey                  | BST       | British Summer Time
+0      | 0         | Europe/Isle_of_Man               | BST       | British Summer Time
+0      | 0         | Europe/Jersey                    | BST       | British Summer Time
+0      | 0         | Europe/Lisbon                    | WEST      | Western European Summer Time
+0      | 0         | Europe/London                    | BST       | British Summer Time
+0      | 0         | GB                               | BST       | British Summer Time
+0      | 0         | GB-Eire                          | BST       | British Summer Time
+0      | 0         | GMT                              | GMT       | Greenwich Mean Time
+0      | 0         | GMT0                             | GMT+00:00 | GMT+00:00
+0      | 0         | Greenwich                        | GMT       | Greenwich Mean Time
+0      | 0         | Iceland                          | GMT       | Greenwich Mean Time
+0      | 0         | Portugal                         | WEST      | Western European Summer Time
+0      | 0         | UCT                              | UTC       | Coordinated Universal Time
+0      | 0         | UTC                              | UTC       | Coordinated Universal Time
+0      | 0         | Universal                        | UTC       | Coordinated Universal Time
+0      | 0         | WET                              | WEST      | Western European Summer Time
+0      | 0         | Zulu                             | UTC       | Coordinated Universal Time
++01:00 | 3600000   | Africa/Algiers                   | CEST      | Central European Summer Time
++01:00 | 3600000   | Africa/Bangui                    | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Brazzaville               | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Ceuta                     | CEST      | Central European Summer Time
++01:00 | 3600000   | Africa/Douala                    | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Kinshasa                  | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Lagos                     | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Libreville                | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Luanda                    | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Malabo                    | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Ndjamena                  | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Niamey                    | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Porto-Novo                | WAST      | Western African Summer Time
++01:00 | 3600000   | Africa/Tripoli                   | CEST      | Central European Summer Time
++01:00 | 3600000   | Africa/Tunis                     | CEST      | Central European Summer Time
++01:00 | 3600000   | Africa/Windhoek                  | WAST      | Western African Summer Time
++01:00 | 3600000   | Arctic/Longyearbyen              | CEST      | Central European Summer Time
++01:00 | 3600000   | Atlantic/Jan_Mayen               | CEST      | Central European Summer Time
++01:00 | 3600000   | CET                              | CEST      | Central European Summer Time
++01:00 | 3600000   | ECT                              | CEST      | Central European Summer Time
++01:00 | 3600000   | Etc/GMT-1                        | GMT+01:00 | GMT+01:00
++01:00 | 3600000   | Europe/Amsterdam                 | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Andorra                   | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Belgrade                  | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Berlin                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Bratislava                | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Brussels                  | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Budapest                  | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Busingen                  | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Copenhagen                | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Gibraltar                 | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Ljubljana                 | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Luxembourg                | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Madrid                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Malta                     | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Monaco                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Oslo                      | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Paris                     | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Podgorica                 | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Prague                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Rome                      | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/San_Marino                | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Sarajevo                  | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Skopje                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Stockholm                 | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Tirane                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Vaduz                     | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Vatican                   | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Vienna                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Warsaw                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Zagreb                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Europe/Zurich                    | CEST      | Central European Summer Time
++01:00 | 3600000   | Libya                            | CEST      | Central European Summer Time
++01:00 | 3600000   | MET                              | MEST      | Middle Europe Summer Time
++01:00 | 3600000   | Poland                           | CEST      | Central European Summer Time
++02:00 | 7200000   | ART                              | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Africa/Blantyre                  | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Bujumbura                 | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Cairo                     | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Africa/Gaborone                  | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Harare                    | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Johannesburg              | SAST      | South Africa Summer Time
++02:00 | 7200000   | Africa/Kigali                    | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Lubumbashi                | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Lusaka                    | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Maputo                    | CAST      | Central African Summer Time
++02:00 | 7200000   | Africa/Maseru                    | SAST      | South Africa Summer Time
++02:00 | 7200000   | Africa/Mbabane                   | SAST      | South Africa Summer Time
++02:00 | 7200000   | Asia/Amman                       | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Beirut                      | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Damascus                    | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Gaza                        | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Hebron                      | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Istanbul                    | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Jerusalem                   | IDT       | Israel Daylight Time
++02:00 | 7200000   | Asia/Nicosia                     | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Asia/Tel_Aviv                    | IDT       | Israel Daylight Time
++02:00 | 7200000   | CAT                              | CAST      | Central African Summer Time
++02:00 | 7200000   | EET                              | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Egypt                            | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Etc/GMT-2                        | GMT+02:00 | GMT+02:00
++02:00 | 7200000   | Europe/Athens                    | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Bucharest                 | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Chisinau                  | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Helsinki                  | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Istanbul                  | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Kiev                      | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Mariehamn                 | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Nicosia                   | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Riga                      | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Simferopol                | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Sofia                     | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Tallinn                   | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Tiraspol                  | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Uzhgorod                  | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Vilnius                   | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Europe/Zaporozhye                | EEST      | Eastern European Summer Time
++02:00 | 7200000   | Israel                           | IDT       | Israel Daylight Time
++02:00 | 7200000   | Turkey                           | EEST      | Eastern European Summer Time
++03:00 | 10800000  | Africa/Addis_Ababa               | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Asmara                    | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Asmera                    | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Dar_es_Salaam             | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Djibouti                  | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Juba                      | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Kampala                   | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Khartoum                  | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Mogadishu                 | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Africa/Nairobi                   | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Antarctica/Syowa                 | SYOST     | Syowa Summer Time
++03:00 | 10800000  | Asia/Aden                        | ADT       | Arabia Daylight Time
++03:00 | 10800000  | Asia/Baghdad                     | ADT       | Arabia Daylight Time
++03:00 | 10800000  | Asia/Bahrain                     | ADT       | Arabia Daylight Time
++03:00 | 10800000  | Asia/Kuwait                      | ADT       | Arabia Daylight Time
++03:00 | 10800000  | Asia/Qatar                       | ADT       | Arabia Daylight Time
++03:00 | 10800000  | Asia/Riyadh                      | ADT       | Arabia Daylight Time
++03:00 | 10800000  | EAT                              | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Etc/GMT-3                        | GMT+03:00 | GMT+03:00
++03:00 | 10800000  | Europe/Kaliningrad               | FEST      | Further-eastern European Summer Time
++03:00 | 10800000  | Europe/Minsk                     | FEST      | Further-eastern European Summer Time
++03:00 | 10800000  | Indian/Antananarivo              | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Indian/Comoro                    | EAST      | Eastern African Summer Time
++03:00 | 10800000  | Indian/Mayotte                   | EAST      | Eastern African Summer Time
++03:07 | 11224000  | Asia/Riyadh87                    | GMT+03:07 | GMT+03:07
++03:07 | 11224000  | Asia/Riyadh88                    | GMT+03:07 | GMT+03:07
++03:07 | 11224000  | Asia/Riyadh89                    | GMT+03:07 | GMT+03:07
++03:07 | 11224000  | Mideast/Riyadh87                 | GMT+03:07 | GMT+03:07
++03:07 | 11224000  | Mideast/Riyadh88                 | GMT+03:07 | GMT+03:07
++03:07 | 11224000  | Mideast/Riyadh89                 | GMT+03:07 | GMT+03:07
++03:30 | 12600000  | Asia/Tehran                      | IRDT      | Iran Daylight Time
++03:30 | 12600000  | Iran                             | IRDT      | Iran Daylight Time
++04:00 | 14400000  | Asia/Baku                        | AZST      | Azerbaijan Summer Time
++04:00 | 14400000  | Asia/Dubai                       | GDT       | Gulf Daylight Time
++04:00 | 14400000  | Asia/Muscat                      | GDT       | Gulf Daylight Time
++04:00 | 14400000  | Asia/Tbilisi                     | GEST      | Georgia Summer Time
++04:00 | 14400000  | Asia/Yerevan                     | AMST      | Armenia Summer Time
++04:00 | 14400000  | Etc/GMT-4                        | GMT+04:00 | GMT+04:00
++04:00 | 14400000  | Europe/Moscow                    | MSD       | Moscow Daylight Time
++04:00 | 14400000  | Europe/Samara                    | SAMST     | Samara Summer Time
++04:00 | 14400000  | Europe/Volgograd                 | VOLST     | Volgograd Summer Time
++04:00 | 14400000  | Indian/Mahe                      | SCST      | Seychelles Summer Time
++04:00 | 14400000  | Indian/Mauritius                 | MUST      | Mauritius Summer Time
++04:00 | 14400000  | Indian/Reunion                   | REST      | Reunion Summer Time
++04:00 | 14400000  | NET                              | AMST      | Armenia Summer Time
++04:00 | 14400000  | W-SU                             | MSD       | Moscow Daylight Time
++04:30 | 16200000  | Asia/Kabul                       | AFST      | Afghanistan Summer Time
++05:00 | 18000000  | Antarctica/Mawson                | MAWST     | Mawson Summer Time
++05:00 | 18000000  | Asia/Aqtau                       | AQTST     | Aqtau Summer Time
++05:00 | 18000000  | Asia/Aqtobe                      | AQTST     | Aqtobe Summer Time
++05:00 | 18000000  | Asia/Ashgabat                    | TMST      | Turkmenistan Summer Time
++05:00 | 18000000  | Asia/Ashkhabad                   | TMST      | Turkmenistan Summer Time
++05:00 | 18000000  | Asia/Dushanbe                    | TJST      | Tajikistan Summer Time
++05:00 | 18000000  | Asia/Karachi                     | PKST      | Pakistan Summer Time
++05:00 | 18000000  | Asia/Oral                        | ORAST     | Oral Summer Time
++05:00 | 18000000  | Asia/Samarkand                   | UZST      | Uzbekistan Summer Time
++05:00 | 18000000  | Asia/Tashkent                    | UZST      | Uzbekistan Summer Time
++05:00 | 18000000  | Etc/GMT-5                        | GMT+05:00 | GMT+05:00
++05:00 | 18000000  | Indian/Kerguelen                 | TFST      | French Southern & Antarctic Lands Summer Time
++05:00 | 18000000  | Indian/Maldives                  | MVST      | Maldives Summer Time
++05:00 | 18000000  | PLT                              | PKST      | Pakistan Summer Time
++05:30 | 19800000  | Asia/Calcutta                    | IDT       | India Daylight Time
++05:30 | 19800000  | Asia/Colombo                     | IDT       | India Daylight Time
++05:30 | 19800000  | Asia/Kolkata                     | IDT       | India Daylight Time
++05:30 | 19800000  | IST                              | IDT       | India Daylight Time
++05:45 | 20700000  | Asia/Kathmandu                   | NPST      | Nepal Summer Time
++05:45 | 20700000  | Asia/Katmandu                    | NPST      | Nepal Summer Time
++06:00 | 21600000  | Antarctica/Vostok                | VOSST     | Vostok Summer Time
++06:00 | 21600000  | Asia/Almaty                      | ALMST     | Alma-Ata Summer Time
++06:00 | 21600000  | Asia/Bishkek                     | KGST      | Kirgizstan Summer Time
++06:00 | 21600000  | Asia/Dacca                       | BDST      | Bangladesh Summer Time
++06:00 | 21600000  | Asia/Dhaka                       | BDST      | Bangladesh Summer Time
++06:00 | 21600000  | Asia/Qyzylorda                   | QYZST     | Qyzylorda Summer Time
++06:00 | 21600000  | Asia/Thimbu                      | BTST      | Bhutan Summer Time
++06:00 | 21600000  | Asia/Thimphu                     | BTST      | Bhutan Summer Time
++06:00 | 21600000  | Asia/Yekaterinburg               | YEKST     | Yekaterinburg Summer Time
++06:00 | 21600000  | BST                              | BDST      | Bangladesh Summer Time
++06:00 | 21600000  | Etc/GMT-6                        | GMT+06:00 | GMT+06:00
++06:00 | 21600000  | Indian/Chagos                    | IOST      | Indian Ocean Territory Summer Time
++06:30 | 23400000  | Asia/Rangoon                     | MMST      | Myanmar Summer Time
++06:30 | 23400000  | Indian/Cocos                     | CCST      | Cocos Islands Summer Time
++07:00 | 25200000  | Antarctica/Davis                 | DAVST     | Davis Summer Time
++07:00 | 25200000  | Asia/Bangkok                     | ICST      | Indochina Summer Time
++07:00 | 25200000  | Asia/Ho_Chi_Minh                 | ICST      | Indochina Summer Time
++07:00 | 25200000  | Asia/Hovd                        | HOVST     | Hovd Summer Time
++07:00 | 25200000  | Asia/Jakarta                     | WIST      | West Indonesia Summer Time
++07:00 | 25200000  | Asia/Novokuznetsk                | NOVST     | Novosibirsk Summer Time
++07:00 | 25200000  | Asia/Novosibirsk                 | NOVST     | Novosibirsk Summer Time
++07:00 | 25200000  | Asia/Omsk                        | OMSST     | Omsk Summer Time
++07:00 | 25200000  | Asia/Phnom_Penh                  | ICST      | Indochina Summer Time
++07:00 | 25200000  | Asia/Pontianak                   | WIST      | West Indonesia Summer Time
++07:00 | 25200000  | Asia/Saigon                      | ICST      | Indochina Summer Time
++07:00 | 25200000  | Asia/Vientiane                   | ICST      | Indochina Summer Time
++07:00 | 25200000  | Etc/GMT-7                        | GMT+07:00 | GMT+07:00
++07:00 | 25200000  | Indian/Christmas                 | CXST      | Christmas Island Summer Time
++07:00 | 25200000  | VST                              | ICST      | Indochina Summer Time
++08:00 | 28800000  | Antarctica/Casey                 | WST       | Western Summer Time (Australia)
++08:00 | 28800000  | Asia/Brunei                      | BNST      | Brunei Summer Time
++08:00 | 28800000  | Asia/Choibalsan                  | CHOST     | Choibalsan Summer Time
++08:00 | 28800000  | Asia/Chongqing                   | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Chungking                   | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Harbin                      | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Hong_Kong                   | HKST      | Hong Kong Summer Time
++08:00 | 28800000  | Asia/Kashgar                     | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Krasnoyarsk                 | KRAST     | Krasnoyarsk Summer Time
++08:00 | 28800000  | Asia/Kuala_Lumpur                | MYST      | Malaysia Summer Time
++08:00 | 28800000  | Asia/Kuching                     | MYST      | Malaysia Summer Time
++08:00 | 28800000  | Asia/Macao                       | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Macau                       | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Makassar                    | CIST      | Central Indonesia Summer Time
++08:00 | 28800000  | Asia/Manila                      | PHST      | Philippines Summer Time
++08:00 | 28800000  | Asia/Shanghai                    | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Singapore                   | SGST      | Singapore Summer Time
++08:00 | 28800000  | Asia/Taipei                      | CDT       | China Daylight Time
++08:00 | 28800000  | Asia/Ujung_Pandang               | CIST      | Central Indonesia Summer Time
++08:00 | 28800000  | Asia/Ulaanbaatar                 | ULAST     | Ulaanbaatar Summer Time
++08:00 | 28800000  | Asia/Ulan_Bator                  | ULAST     | Ulaanbaatar Summer Time
++08:00 | 28800000  | Asia/Urumqi                      | CDT       | China Daylight Time
++08:00 | 28800000  | Australia/Perth                  | WST       | Western Summer Time (Australia)
++08:00 | 28800000  | Australia/West                   | WST       | Western Summer Time (Australia)
++08:00 | 28800000  | CTT                              | CDT       | China Daylight Time
++08:00 | 28800000  | Etc/GMT-8                        | GMT+08:00 | GMT+08:00
++08:00 | 28800000  | Hongkong                         | HKST      | Hong Kong Summer Time
++08:00 | 28800000  | PRC                              | CDT       | China Daylight Time
++08:00 | 28800000  | Singapore                        | SGST      | Singapore Summer Time
++08:45 | 31500000  | Australia/Eucla                  | CWST      | Central Western Summer Time (Australia)
++09:00 | 32400000  | Asia/Dili                        | TLST      | Timor-Leste Summer Time
++09:00 | 32400000  | Asia/Irkutsk                     | IRKST     | Irkutsk Summer Time
++09:00 | 32400000  | Asia/Jayapura                    | EIST      | East Indonesia Summer Time
++09:00 | 32400000  | Asia/Pyongyang                   | KDT       | Korea Daylight Time
++09:00 | 32400000  | Asia/Seoul                       | KDT       | Korea Daylight Time
++09:00 | 32400000  | Asia/Tokyo                       | JDT       | Japan Daylight Time
++09:00 | 32400000  | Etc/GMT-9                        | GMT+09:00 | GMT+09:00
++09:00 | 32400000  | JST                              | JDT       | Japan Daylight Time
++09:00 | 32400000  | Japan                            | JDT       | Japan Daylight Time
++09:00 | 32400000  | Pacific/Palau                    | PWST      | Palau Summer Time
++09:00 | 32400000  | ROK                              | KDT       | Korea Daylight Time
++09:30 | 34200000  | ACT                              | CST       | Central Summer Time (Northern Territory)
++09:30 | 34200000  | Australia/Adelaide               | CST       | Central Summer Time (South Australia)
++09:30 | 34200000  | Australia/Broken_Hill            | CST       | Central Summer Time (South Australia/New South Wales)
++09:30 | 34200000  | Australia/Darwin                 | CST       | Central Summer Time (Northern Territory)
++09:30 | 34200000  | Australia/North                  | CST       | Central Summer Time (Northern Territory)
++09:30 | 34200000  | Australia/South                  | CST       | Central Summer Time (South Australia)
++09:30 | 34200000  | Australia/Yancowinna             | CST       | Central Summer Time (South Australia/New South Wales)
++10:00 | 36000000  | AET                              | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Antarctica/DumontDUrville        | DDUST     | Dumont-d'Urville Summer Time
++10:00 | 36000000  | Asia/Khandyga                    | YAKST     | Yakutsk Summer Time
++10:00 | 36000000  | Asia/Yakutsk                     | YAKST     | Yakutsk Summer Time
++10:00 | 36000000  | Australia/ACT                    | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Australia/Brisbane               | EST       | Eastern Summer Time (Queensland)
++10:00 | 36000000  | Australia/Canberra               | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Australia/Currie                 | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Australia/Hobart                 | EST       | Eastern Summer Time (Tasmania)
++10:00 | 36000000  | Australia/Lindeman               | EST       | Eastern Summer Time (Queensland)
++10:00 | 36000000  | Australia/Melbourne              | EST       | Eastern Summer Time (Victoria)
++10:00 | 36000000  | Australia/NSW                    | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Australia/Queensland             | EST       | Eastern Summer Time (Queensland)
++10:00 | 36000000  | Australia/Sydney                 | EST       | Eastern Summer Time (New South Wales)
++10:00 | 36000000  | Australia/Tasmania               | EST       | Eastern Summer Time (Tasmania)
++10:00 | 36000000  | Australia/Victoria               | EST       | Eastern Summer Time (Victoria)
++10:00 | 36000000  | Etc/GMT-10                       | GMT+10:00 | GMT+10:00
++10:00 | 36000000  | Pacific/Chuuk                    | CHUST     | Chuuk Summer Time
++10:00 | 36000000  | Pacific/Guam                     | ChDT      | Chamorro Daylight Time
++10:00 | 36000000  | Pacific/Port_Moresby             | PGST      | Papua New Guinea Summer Time
++10:00 | 36000000  | Pacific/Saipan                   | ChDT      | Chamorro Daylight Time
++10:00 | 36000000  | Pacific/Truk                     | CHUST     | Chuuk Summer Time
++10:00 | 36000000  | Pacific/Yap                      | CHUST     | Chuuk Summer Time
++10:30 | 37800000  | Australia/LHI                    | LHST      | Lord Howe Summer Time
++10:30 | 37800000  | Australia/Lord_Howe              | LHST      | Lord Howe Summer Time
++11:00 | 39600000  | Antarctica/Macquarie             | MIST      | Macquarie Island Summer Time
++11:00 | 39600000  | Asia/Sakhalin                    | SAKST     | Sakhalin Summer Time
++11:00 | 39600000  | Asia/Ust-Nera                    | VLAST     | Vladivostok Summer Time
++11:00 | 39600000  | Asia/Vladivostok                 | VLAST     | Vladivostok Summer Time
++11:00 | 39600000  | Etc/GMT-11                       | GMT+11:00 | GMT+11:00
++11:00 | 39600000  | Pacific/Efate                    | VUST      | Vanuatu Summer Time
++11:00 | 39600000  | Pacific/Guadalcanal              | SBST      | Solomon Is. Summer Time
++11:00 | 39600000  | Pacific/Kosrae                   | KOSST     | Kosrae Summer Time
++11:00 | 39600000  | Pacific/Noumea                   | NCST      | New Caledonia Summer Time
++11:00 | 39600000  | Pacific/Pohnpei                  | PONST     | Pohnpei Summer Time
++11:00 | 39600000  | Pacific/Ponape                   | PONST     | Pohnpei Summer Time
++11:00 | 39600000  | SST                              | SBST      | Solomon Is. Summer Time
++11:30 | 41400000  | Pacific/Norfolk                  | NFST      | Norfolk Summer Time
++12:00 | 43200000  | Antarctica/McMurdo               | NZDT      | New Zealand Daylight Time
++12:00 | 43200000  | Antarctica/South_Pole            | NZDT      | New Zealand Daylight Time
++12:00 | 43200000  | Asia/Anadyr                      | ANAST     | Anadyr Summer Time
++12:00 | 43200000  | Asia/Kamchatka                   | PETST     | Petropavlovsk-Kamchatski Summer Time
++12:00 | 43200000  | Asia/Magadan                     | MAGST     | Magadan Summer Time
++12:00 | 43200000  | Etc/GMT-12                       | GMT+12:00 | GMT+12:00
++12:00 | 43200000  | Kwajalein                        | MHST      | Marshall Islands Summer Time
++12:00 | 43200000  | NST                              | NZDT      | New Zealand Daylight Time
++12:00 | 43200000  | NZ                               | NZDT      | New Zealand Daylight Time
++12:00 | 43200000  | Pacific/Auckland                 | NZDT      | New Zealand Daylight Time
++12:00 | 43200000  | Pacific/Fiji                     | FJST      | Fiji Summer Time
++12:00 | 43200000  | Pacific/Funafuti                 | TVST      | Tuvalu Summer Time
++12:00 | 43200000  | Pacific/Kwajalein                | MHST      | Marshall Islands Summer Time
++12:00 | 43200000  | Pacific/Majuro                   | MHST      | Marshall Islands Summer Time
++12:00 | 43200000  | Pacific/Nauru                    | NRST      | Nauru Summer Time
++12:00 | 43200000  | Pacific/Tarawa                   | GILST     | Gilbert Is. Summer Time
++12:00 | 43200000  | Pacific/Wake                     | WAKST     | Wake Summer Time
++12:00 | 43200000  | Pacific/Wallis                   | WFST      | Wallis & Futuna Summer Time
++12:45 | 45900000  | NZ-CHAT                          | CHADT     | Chatham Daylight Time
++12:45 | 45900000  | Pacific/Chatham                  | CHADT     | Chatham Daylight Time
++13:00 | 46800000  | Etc/GMT-13                       | GMT+13:00 | GMT+13:00
++13:00 | 46800000  | MIT                              | WSDT      | West Samoa Daylight Time
++13:00 | 46800000  | Pacific/Apia                     | WSDT      | West Samoa Daylight Time
++13:00 | 46800000  | Pacific/Enderbury                | PHOST     | Phoenix Is. Summer Time
++13:00 | 46800000  | Pacific/Fakaofo                  | TKST      | Tokelau Summer Time
++13:00 | 46800000  | Pacific/Tongatapu                | TOST      | Tonga Summer Time
++14:00 | 50400000  | Etc/GMT-14                       | GMT+14:00 | GMT+14:00
++14:00 | 50400000  | Pacific/Kiritimati               | LINST     | Line Is. Summer Time
+

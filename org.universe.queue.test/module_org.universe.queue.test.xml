@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.queue.test" default="compile.module.org.universe.queue.test">
+  <dirname property="module.org.universe.queue.test.basedir" file="${ant.file.module_org.universe.queue.test}"/>
+  
+  <property name="module.jdk.home.org.universe.queue.test" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.queue.test" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.queue.test" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.queue.test" value="${compiler.args}"/>
+  
+  <property name="org.universe.queue.test.output.dir" value="${module.org.universe.queue.test.basedir}/../out/production/org.universe.queue.test"/>
+  <property name="org.universe.queue.test.testoutput.dir" value="${module.org.universe.queue.test.basedir}/../out/test/org.universe.queue.test"/>
+  
+  <path id="org.universe.queue.test.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.queue.test.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.queue.test}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.sqlite-3.7.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.derby-10.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+  </path>
+  
+  <path id="org.universe.queue.test.runtime.production.module.classpath">
+    <pathelement location="${org.universe.queue.test.output.dir}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.sqlite-3.7.classpath"/>
+    <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
+    <path refid="library.derby-10.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+  </path>
+  
+  <path id="org.universe.queue.test.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.queue.test}"/>
+    <pathelement location="${org.universe.queue.test.output.dir}"/>
+    <pathelement location="${org.universe.queue.testoutput.dir}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.sqlite-3.7.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.derby-10.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+  </path>
+  
+  <path id="org.universe.queue.test.runtime.module.classpath">
+    <pathelement location="${org.universe.queue.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.queue.test.output.dir}"/>
+    <pathelement location="${org.universe.queue.testoutput.dir}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.sqlite-3.7.classpath"/>
+    <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
+    <path refid="library.derby-10.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.queue.test">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.queue.test">
+    <patternset refid="excluded.from.module.org.universe.queue.test"/>
+  </patternset>
+  
+  <path id="org.universe.queue.test.module.sourcepath">
+    <dirset dir="${module.org.universe.queue.test.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.queue.test" depends="compile.module.org.universe.queue.test.production,compile.module.org.universe.queue.test.tests" description="Compile module org.universe.queue.test"/>
+  
+  <target name="compile.module.org.universe.queue.test.production" depends="register.custom.compilers,compile.module.org.universe.queue,compile.module.org.universe" description="Compile module org.universe.queue.test; production classes">
+    <mkdir dir="${org.universe.queue.test.output.dir}"/>
+    <javac2 destdir="${org.universe.queue.test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.queue.test}/javac">
+      <compilerarg line="${compiler.args.org.universe.queue.test}"/>
+      <bootclasspath refid="org.universe.queue.test.module.bootclasspath"/>
+      <classpath refid="org.universe.queue.test.module.production.classpath"/>
+      <src refid="org.universe.queue.test.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.queue.test"/>
+    </javac2>
+    
+    <copy todir="${org.universe.queue.test.output.dir}">
+      <fileset dir="${module.org.universe.queue.test.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.queue.test.tests" depends="register.custom.compilers,compile.module.org.universe.queue.test.production" description="compile module org.universe.queue.test; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.queue.test" description="cleanup module">
+    <delete dir="${org.universe.queue.test.output.dir}"/>
+    <delete dir="${org.universe.queue.test.testoutput.dir}"/>
+  </target>
+</project>

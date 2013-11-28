@@ -1,0 +1,55 @@
+#/bin/bash
+TARGET=/usr/jdk
+arch=$(uname -m)
+echo Architecture: $arch
+if [ "$arch" == "x86_64" ]; then
+  file=jdk-7u45-linux-x64.tar.gz
+elif [[ $arch == arm* ]]; then
+  echo Platform is ARM
+  isHard=$(readelf -h /bin/sh | grep 'hard-float')
+  if [ "$isHard" == "" ]; then
+    echo ARM is SOFT float
+    file=jdk-7u45-linux-arm-vfp-sflt.tar.gz
+  else
+    echo ARM is HARD float
+    file=jdk-7u45-linux-arm-vfp-hflt.tar.gz
+  fi
+else
+  file=jdk-7u45-linux-i586.tar.gz
+fi
+abspath=otn-pub/java/jdk/7u45-b18/$file
+cookie=gpw_e24=http%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fjavase%2Fdownloads%2Fjdk7-downloads-1880260.html
+echo cookie is $cookie
+rm -f $file
+url=http://download.oracle.com/$abspath
+wget --no-cookies --no-check-certificate --header "Cookie: $cookie" $url -O $file
+
+rm -rf temp
+mkdir -p temp
+tar -xf $file -C ./temp/
+cd temp
+prev=$(ls -d jdk*)
+if [ "$prev" == "" ]; then
+  echo Loading of $url failed. Check internet connection and try again.
+  cd ..
+else
+  sudo rm -rf $TARGET
+  sudo mv "$prev" $TARGET
+  cd ..
+  rm -rf temp
+  echo COPY TO $TARGET DONE
+  IDEA_JDK=$TARGET; export IDEA_JDK
+  JDK_HOME=$TARGET; export JDK_HOME
+  JAVA_HOME=$TARGET; export JAVA_HOME
+  PATH="$TARGET/bin:$PATH"; export PATH
+
+  cat << _MYENV_ >> ~/.bashrc
+# Oracle JKD by $file
+IDEA_JDK=$TARGET; export IDEA_JDK
+JDK_HOME=$TARGET; export JDK_HOME
+JAVA_HOME=$TARGET; export JAVA_HOME
+PATH="$TARGET/bin:\$PATH"; export PATH
+_MYENV_
+
+  java -version
+fi

@@ -1,0 +1,6 @@
+point=/r
+mkdir -p $point
+chmod 777 $point
+sudo mount tmpfs /r -t tmpfs -o size=6200M
+chown ubuntu:ubuntu $point
+df -H | grep $point

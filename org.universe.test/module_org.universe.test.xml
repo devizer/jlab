@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.test" default="compile.module.org.universe.test">
+  <dirname property="module.org.universe.test.basedir" file="${ant.file.module_org.universe.test}"/>
+  
+  <property name="module.jdk.home.org.universe.test" value="${jdk.home.1.7}"/>
+  <property name="module.jdk.bin.org.universe.test" value="${jdk.bin.1.7}"/>
+  <property name="module.jdk.classpath.org.universe.test" value="jdk.classpath.1.7"/>
+  
+  <property name="compiler.args.org.universe.test" value="${compiler.args}"/>
+  
+  <property name="org.universe.test.output.dir" value="${module.org.universe.test.basedir}/../out/production/org.universe.test"/>
+  <property name="org.universe.test.testoutput.dir" value="${module.org.universe.test.basedir}/../out/test/org.universe.test"/>
+  
+  <path id="org.universe.test.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.test.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.test}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.test.runtime.production.module.classpath">
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+  </path>
+  
+  <path id="org.universe.test.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.test}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.test.runtime.module.classpath">
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.test">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.test">
+    <patternset refid="excluded.from.module.org.universe.test"/>
+  </patternset>
+  
+  <path id="org.universe.test.module.sourcepath">
+    <dirset dir="${module.org.universe.test.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.test" depends="compile.module.org.universe.test.production,compile.module.org.universe.test.tests" description="Compile module org.universe.test"/>
+  
+  <target name="compile.module.org.universe.test.production" depends="register.custom.compilers,compile.module.org.universe" description="Compile module org.universe.test; production classes">
+    <mkdir dir="${org.universe.test.output.dir}"/>
+    <javac2 destdir="${org.universe.test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.test}/javac">
+      <compilerarg line="${compiler.args.org.universe.test}"/>
+      <bootclasspath refid="org.universe.test.module.bootclasspath"/>
+      <classpath refid="org.universe.test.module.production.classpath"/>
+      <src refid="org.universe.test.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.test"/>
+    </javac2>
+    
+    <copy todir="${org.universe.test.output.dir}">
+      <fileset dir="${module.org.universe.test.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.test.tests" depends="register.custom.compilers,compile.module.org.universe.test.production" description="compile module org.universe.test; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.test" description="cleanup module">
+    <delete dir="${org.universe.test.output.dir}"/>
+    <delete dir="${org.universe.test.testoutput.dir}"/>
+  </target>
+</project>

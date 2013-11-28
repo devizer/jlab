@@ -1,0 +1,13 @@
+#!/bin/bash
+cd ./LXDE/boot
+
+# -nographic -net nic -net user
+qemu-system-arm -machine vexpress-a9 -m 1024 -sdl -display sdl -ctrl-grab -net nic -net user \
+ -vnc 0.0.0.0:1 \
+ -append "console=ttyAMA0,115200n8 rw root=/dev/mmcblk0p3 rootwait physmap.enabled=0" \
+ -kernel vmlinuz-3.9.5-301.fc19.armv7hl \
+ -initrd initramfs-3.9.5-301.fc19.armv7hl.img \
+ -sd ~/arm/Fedora-LXDE-armhfp-19-1-sda.raw 
+
+#vmlinuz-3.9.5-301.fc19.armv7hl
+# vmlinuz-3.9.5-301.fc19.armv7hl

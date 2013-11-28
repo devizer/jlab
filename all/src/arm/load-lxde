@@ -1,0 +1,11 @@
+#!/bin/bash
+TYPE=LXDE
+# options include KDE, LXDE, XFCE, SoaS, Mate and Minimal
+wget http://download.fedoraproject.org/pub/fedora-secondary/releases/19/Images/armhfp/Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+
+unxz Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+
+mkdir -p $TYPE
+virt-copy-out -a Fedora-$TYPE-armhfp-19-1-sda.raw /boot ./$TYPE
+ls -l ./$TYPE/boot
+

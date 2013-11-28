@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# skip openjdk-7-jdk ?
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install gnome-core lxde visualvm \
+  lxpanel lxterminal lxlauncher \
+  subversion git \
+  gnome-system-monitor gnome-tweak-tool libgnomevfs2-extra gnome-commander gedit \
+  vnc4server
+
+# MYSQL with password=root
+echo mysql-server-5.5 mysql-server/root_password password root | sudo debconf-set-selections
+echo mysql-server-5.5 mysql-server/root_password_again password root | sudo debconf-set-selections
+sudo apt-get -y install mysql-server mysql-client mysql-workbench
+
+# Fresh RABBIT MQ SERVER
+wget http://www.rabbitmq.com/releases/rabbitmq-server/v3.2.1/rabbitmq-server_3.2.1-1_all.deb
+sudo dpkg -i rabbitmq-server_3.2.1-1_all.deb
+sudo apt-get -y -f install
+sudo rabbitmqctl set_vm_memory_high_watermark 0.1
+sudo rabbitmq-plugins enable rabbitmq_management
+# gnome-open "http://localhost:15672/" &
+
+# REMOTE DESKTOP via 5901 port
+RESOLUTION=1580x1024
+echo ENTER REMOTE DESKTOP PASSWSORD
+vncserver -geometry $RESOLUTION -depth 24 :1
+
+tempdir=`mktemp -d`
+cat << _RC_LOCAL_ > "$tempdir/rc.local"
+#!/bin/sh -e
+su -l ubuntu -c "vncserver -geometry $RESOLUTION -depth 24 :1"
+su -l ubuntu -c "gnome-session --display=:1 --failsafe"
+exit 0
+_RC_LOCAL_
+sudo cp "$tempdir/rc.local" /etc/rc.local
+sudo chmod 755 /etc/rc.local
+printf "\n/etc/rc.local\n-------------\n"
+cat /etc/rc.local
+
+mkdir -p ~/.vnc
+cat << _XSTARTUP_ > ~/.vnc/xstartup
+#!/bin/sh
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+x-window-manager &
+lxterminal &
+lxpanel &
+gnome-commander &
+# lxlauncher &"
+_XSTARTUP_
+chmod 755 ~/.vnc/xstartup
+printf "\n~/.vnc/xstartup\n---------------------\n"
+cat ~/.vnc/xstartup
+
+

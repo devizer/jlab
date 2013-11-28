@@ -1,0 +1,155 @@
+Locales
+As Is    | Tag7  | Language | Country | Var | Display Name                             | Display Name (English)           | Display Name (Native)            | Country | ISO3 Country | ISO3 Lang |
+-----    | ----  | -------- | ------- | --- | ------------                             | ----------------------           | ---------------------            | ------- | ------------ | --------- | --
+ar       | ar    | ar       |         |     | арабский                                 | Arabic                           | العربية                          |         |              | ara       |
+ar_AE    | ar-AE | ar       | AE      |     | арабский (Объединенные Арабские Эмираты) | Arabic (United Arab Emirates)    | العربية (الإمارات)               | AE      | ARE          | ara       |
+ar_BH    | ar-BH | ar       | BH      |     | арабский (Бахрейн)                       | Arabic (Bahrain)                 | العربية (البحرين)                | BH      | BHR          | ara       |
+ar_DZ    | ar-DZ | ar       | DZ      |     | арабский (Алжир)                         | Arabic (Algeria)                 | العربية (الجزائر)                | DZ      | DZA          | ara       |
+ar_EG    | ar-EG | ar       | EG      |     | арабский (Египт)                         | Arabic (Egypt)                   | العربية (مصر)                    | EG      | EGY          | ara       |
+ar_IQ    | ar-IQ | ar       | IQ      |     | арабский (Ирак)                          | Arabic (Iraq)                    | العربية (العراق)                 | IQ      | IRQ          | ara       |
+ar_JO    | ar-JO | ar       | JO      |     | арабский (Иордания)                      | Arabic (Jordan)                  | العربية (الأردن)                 | JO      | JOR          | ara       |
+ar_KW    | ar-KW | ar       | KW      |     | арабский (Кувейт)                        | Arabic (Kuwait)                  | العربية (الكويت)                 | KW      | KWT          | ara       |
+ar_LB    | ar-LB | ar       | LB      |     | арабский (Ливан)                         | Arabic (Lebanon)                 | العربية (لبنان)                  | LB      | LBN          | ara       |
+ar_LY    | ar-LY | ar       | LY      |     | арабский (Ливия)                         | Arabic (Libya)                   | العربية (ليبيا)                  | LY      | LBY          | ara       |
+ar_MA    | ar-MA | ar       | MA      |     | арабский (Марокко)                       | Arabic (Morocco)                 | العربية (المغرب)                 | MA      | MAR          | ara       |
+ar_OM    | ar-OM | ar       | OM      |     | арабский (Оман)                          | Arabic (Oman)                    | العربية (سلطنة عمان)             | OM      | OMN          | ara       |
+ar_QA    | ar-QA | ar       | QA      |     | арабский (Катар)                         | Arabic (Qatar)                   | العربية (قطر)                    | QA      | QAT          | ara       |
+ar_SA    | ar-SA | ar       | SA      |     | арабский (Саудовская Аравия)             | Arabic (Saudi Arabia)            | العربية (السعودية)               | SA      | SAU          | ara       |
+ar_SD    | ar-SD | ar       | SD      |     | арабский (Судан)                         | Arabic (Sudan)                   | العربية (السودان)                | SD      | SDN          | ara       |
+ar_SY    | ar-SY | ar       | SY      |     | арабский (Сирия)                         | Arabic (Syria)                   | العربية (سوريا)                  | SY      | SYR          | ara       |
+ar_TN    | ar-TN | ar       | TN      |     | арабский (Тунис)                         | Arabic (Tunisia)                 | العربية (تونس)                   | TN      | TUN          | ara       |
+ar_YE    | ar-YE | ar       | YE      |     | арабский (Йемен)                         | Arabic (Yemen)                   | العربية (اليمن)                  | YE      | YEM          | ara       |
+be       | be    | be       |         |     | белорусский                              | Belarusian                       | беларускі                        |         |              | bel       |
+be_BY    | be-BY | be       | BY      |     | белорусский (Беларусь)                   | Belarusian (Belarus)             | беларускі (Беларусь)             | BY      | BLR          | bel       |
+bg       | bg    | bg       |         |     | болгарский                               | Bulgarian                        | български                        |         |              | bul       |
+bg_BG    | bg-BG | bg       | BG      |     | болгарский (Болгария)                    | Bulgarian (Bulgaria)             | български (България)             | BG      | BGR          | bul       |
+ca       | ca    | ca       |         |     | каталанский                              | Catalan                          | català                           |         |              | cat       |
+ca_ES    | ca-ES | ca       | ES      |     | каталанский (Испания)                    | Catalan (Spain)                  | català (Espanya)                 | ES      | ESP          | cat       |
+cs       | cs    | cs       |         |     | чешский                                  | Czech                            | čeština                          |         |              | ces       |
+cs_CZ    | cs-CZ | cs       | CZ      |     | чешский (Чехия)                          | Czech (Czech Republic)           | čeština (Česká republika)        | CZ      | CZE          | ces       |
+da       | da    | da       |         |     | датский                                  | Danish                           | Dansk                            |         |              | dan       |
+da_DK    | da-DK | da       | DK      |     | датский (Дания)                          | Danish (Denmark)                 | Dansk (Danmark)                  | DK      | DNK          | dan       |
+de       | de    | de       |         |     | немецкий                                 | German                           | Deutsch                          |         |              | deu       |
+de_AT    | de-AT | de       | AT      |     | немецкий (Австрия)                       | German (Austria)                 | Deutsch (Österreich)             | AT      | AUT          | deu       |
+de_CH    | de-CH | de       | CH      |     | немецкий (Швейцария)                     | German (Switzerland)             | Deutsch (Schweiz)                | CH      | CHE          | deu       |
+de_DE    | de-DE | de       | DE      |     | немецкий (Германия)                      | German (Germany)                 | Deutsch (Deutschland)            | DE      | DEU          | deu       |
+de_LU    | de-LU | de       | LU      |     | немецкий (Люксембург)                    | German (Luxembourg)              | Deutsch (Luxemburg)              | LU      | LUX          | deu       |
+el       | el    | el       |         |     | греческий                                | Greek                            | Ελληνικά                         |         |              | ell       |
+el_CY    | el-CY | el       | CY      |     | греческий (Кипр)                         | Greek (Cyprus)                   | Ελληνικά (Κύπρος)                | CY      | CYP          | ell       |
+el_GR    | el-GR | el       | GR      |     | греческий (Греция)                       | Greek (Greece)                   | Ελληνικά (Ελλάδα)                | GR      | GRC          | ell       |
+en       | en    | en       |         |     | английский                               | English                          | English                          |         |              | eng       |
+en_AU    | en-AU | en       | AU      |     | английский (Австралия)                   | English (Australia)              | English (Australia)              | AU      | AUS          | eng       |
+en_CA    | en-CA | en       | CA      |     | английский (Канада)                      | English (Canada)                 | English (Canada)                 | CA      | CAN          | eng       |
+en_GB    | en-GB | en       | GB      |     | английский (Соединенное Королевство)     | English (United Kingdom)         | English (United Kingdom)         | GB      | GBR          | eng       |
+en_IE    | en-IE | en       | IE      |     | английский (Ирландия)                    | English (Ireland)                | English (Ireland)                | IE      | IRL          | eng       |
+en_IN    | en-IN | en       | IN      |     | английский (Индия)                       | English (India)                  | English (India)                  | IN      | IND          | eng       |
+en_MT    | en-MT | en       | MT      |     | английский (Мальта)                      | English (Malta)                  | English (Malta)                  | MT      | MLT          | eng       |
+en_NZ    | en-NZ | en       | NZ      |     | английский (Новая Зеландия)              | English (New Zealand)            | English (New Zealand)            | NZ      | NZL          | eng       |
+en_PH    | en-PH | en       | PH      |     | английский (Филиппины)                   | English (Philippines)            | English (Philippines)            | PH      | PHL          | eng       |
+en_SG    | en-SG | en       | SG      |     | английский (Сингапур)                    | English (Singapore)              | English (Singapore)              | SG      | SGP          | eng       |
+en_US    | en-US | en       | US      |     | английский (Соединенные Штаты)           | English (United States)          | English (United States)          | US      | USA          | eng       |
+en_ZA    | en-ZA | en       | ZA      |     | английский (Южная Африка)                | English (South Africa)           | English (South Africa)           | ZA      | ZAF          | eng       |
+es       | es    | es       |         |     | испанский                                | Spanish                          | español                          |         |              | spa       |
+es_AR    | es-AR | es       | AR      |     | испанский (Аргентина)                    | Spanish (Argentina)              | español (Argentina)              | AR      | ARG          | spa       |
+es_BO    | es-BO | es       | BO      |     | испанский (Боливия)                      | Spanish (Bolivia)                | español (Bolivia)                | BO      | BOL          | spa       |
+es_CL    | es-CL | es       | CL      |     | испанский (Чили)                         | Spanish (Chile)                  | español (Chile)                  | CL      | CHL          | spa       |
+es_CO    | es-CO | es       | CO      |     | испанский (Колумбия)                     | Spanish (Colombia)               | español (Colombia)               | CO      | COL          | spa       |
+es_CR    | es-CR | es       | CR      |     | испанский (Коста-Рика)                   | Spanish (Costa Rica)             | español (Costa Rica)             | CR      | CRI          | spa       |
+es_DO    | es-DO | es       | DO      |     | испанский (Доминиканская Республика)     | Spanish (Dominican Republic)     | español (República Dominicana)   | DO      | DOM          | spa       |
+es_EC    | es-EC | es       | EC      |     | испанский (Эквадор)                      | Spanish (Ecuador)                | español (Ecuador)                | EC      | ECU          | spa       |
+es_ES    | es-ES | es       | ES      |     | испанский (Испания)                      | Spanish (Spain)                  | español (España)                 | ES      | ESP          | spa       |
+es_GT    | es-GT | es       | GT      |     | испанский (Гватемала)                    | Spanish (Guatemala)              | español (Guatemala)              | GT      | GTM          | spa       |
+es_HN    | es-HN | es       | HN      |     | испанский (Гондурас)                     | Spanish (Honduras)               | español (Honduras)               | HN      | HND          | spa       |
+es_MX    | es-MX | es       | MX      |     | испанский (Мексика)                      | Spanish (Mexico)                 | español (México)                 | MX      | MEX          | spa       |
+es_NI    | es-NI | es       | NI      |     | испанский (Никарагуа)                    | Spanish (Nicaragua)              | español (Nicaragua)              | NI      | NIC          | spa       |
+es_PA    | es-PA | es       | PA      |     | испанский (Панама)                       | Spanish (Panama)                 | español (Panamá)                 | PA      | PAN          | spa       |
+es_PE    | es-PE | es       | PE      |     | испанский (Перу)                         | Spanish (Peru)                   | español (Perú)                   | PE      | PER          | spa       |
+es_PR    | es-PR | es       | PR      |     | испанский (Пуэрто-Рико)                  | Spanish (Puerto Rico)            | español (Puerto Rico)            | PR      | PRI          | spa       |
+es_PY    | es-PY | es       | PY      |     | испанский (Парагвай)                     | Spanish (Paraguay)               | español (Paraguay)               | PY      | PRY          | spa       |
+es_SV    | es-SV | es       | SV      |     | испанский (Сальвадор)                    | Spanish (El Salvador)            | español (El Salvador)            | SV      | SLV          | spa       |
+es_US    | es-US | es       | US      |     | испанский (Соединенные Штаты)            | Spanish (United States)          | español (Estados Unidos)         | US      | USA          | spa       |
+es_UY    | es-UY | es       | UY      |     | испанский (Уругвай)                      | Spanish (Uruguay)                | español (Uruguay)                | UY      | URY          | spa       |
+es_VE    | es-VE | es       | VE      |     | испанский (Венесуэла)                    | Spanish (Venezuela)              | español (Venezuela)              | VE      | VEN          | spa       |
+et       | et    | et       |         |     | эстонский                                | Estonian                         | Eesti                            |         |              | est       |
+et_EE    | et-EE | et       | EE      |     | эстонский (Эстония)                      | Estonian (Estonia)               | Eesti (Eesti)                    | EE      | EST          | est       |
+fi       | fi    | fi       |         |     | финский                                  | Finnish                          | suomi                            |         |              | fin       |
+fi_FI    | fi-FI | fi       | FI      |     | финский (Финляндия)                      | Finnish (Finland)                | suomi (Suomi)                    | FI      | FIN          | fin       |
+fr       | fr    | fr       |         |     | французкий                               | French                           | français                         |         |              | fra       |
+fr_BE    | fr-BE | fr       | BE      |     | французкий (Бельгия)                     | French (Belgium)                 | français (Belgique)              | BE      | BEL          | fra       |
+fr_CA    | fr-CA | fr       | CA      |     | французкий (Канада)                      | French (Canada)                  | français (Canada)                | CA      | CAN          | fra       |
+fr_CH    | fr-CH | fr       | CH      |     | французкий (Швейцария)                   | French (Switzerland)             | français (Suisse)                | CH      | CHE          | fra       |
+fr_FR    | fr-FR | fr       | FR      |     | французкий (Франция)                     | French (France)                  | français (France)                | FR      | FRA          | fra       |
+fr_LU    | fr-LU | fr       | LU      |     | французкий (Люксембург)                  | French (Luxembourg)              | français (Luxembourg)            | LU      | LUX          | fra       |
+ga       | ga    | ga       |         |     | ирландский                               | Irish                            | Gaeilge                          |         |              | gle       |
+ga_IE    | ga-IE | ga       | IE      |     | ирландский (Ирландия)                    | Irish (Ireland)                  | Gaeilge (Éire)                   | IE      | IRL          | gle       |
+hi_IN    | hi-IN | hi       | IN      |     | хинди (Индия)                            | Hindi (India)                    | हिंदी (भारत)                     | IN      | IND          | hin       |
+hr       | hr    | hr       |         |     | хорватский                               | Croatian                         | hrvatski                         |         |              | hrv       |
+hr_HR    | hr-HR | hr       | HR      |     | хорватский (Хорватия)                    | Croatian (Croatia)               | hrvatski (Hrvatska)              | HR      | HRV          | hrv       |
+hu       | hu    | hu       |         |     | венгерский                               | Hungarian                        | magyar                           |         |              | hun       |
+hu_HU    | hu-HU | hu       | HU      |     | венгерский (Венгрия)                     | Hungarian (Hungary)              | magyar (Magyarország)            | HU      | HUN          | hun       |
+in       | in    | in       |         |     | индонезийский                            | Indonesian                       | Bahasa Indonesia                 |         |              | ind       |
+in_ID    | in-ID | in       | ID      |     | индонезийский (Индонезия)                | Indonesian (Indonesia)           | Bahasa Indonesia (Indonesia)     | ID      | IDN          | ind       |
+is       | is    | is       |         |     | исландский                               | Icelandic                        | íslenska                         |         |              | isl       |
+is_IS    | is-IS | is       | IS      |     | исландский (Исландия)                    | Icelandic (Iceland)              | íslenska (Ísland)                | IS      | ISL          | isl       |
+it       | it    | it       |         |     | итальянский                              | Italian                          | italiano                         |         |              | ita       |
+it_CH    | it-CH | it       | CH      |     | итальянский (Швейцария)                  | Italian (Switzerland)            | italiano (Svizzera)              | CH      | CHE          | ita       |
+it_IT    | it-IT | it       | IT      |     | итальянский (Италия)                     | Italian (Italy)                  | italiano (Italia)                | IT      | ITA          | ita       |
+iw       | iw    | iw       |         |     | древнееврейский                          | Hebrew                           | עברית                            |         |              | heb       |
+iw_IL    | iw-IL | iw       | IL      |     | древнееврейский (Израиль)                | Hebrew (Israel)                  | עברית (ישראל)                    | IL      | ISR          | heb       |
+ja       | ja    | ja       |         |     | японский                                 | Japanese                         | 日本語                              |         |              | jpn       |
+ja_JP    | ja-JP | ja       | JP      |     | японский (Япония)                        | Japanese (Japan)                 | 日本語 (日本)                         | JP      | JPN          | jpn       |
+ja_JP_JP | ja-JP | ja       | JP      | JP  | японский (Япония,JP)                     | Japanese (Japan,JP)              | 日本語 (日本,JP)                      | JP      | JPN          | jpn       | JP
+ko       | ko    | ko       |         |     | корейский                                | Korean                           | 한국어                              |         |              | kor       |
+ko_KR    | ko-KR | ko       | KR      |     | корейский (Южная Корея)                  | Korean (South Korea)             | 한국어 (대한민국)                       | KR      | KOR          | kor       |
+lt       | lt    | lt       |         |     | литовский                                | Lithuanian                       | Lietuvių                         |         |              | lit       |
+lt_LT    | lt-LT | lt       | LT      |     | литовский (Литва)                        | Lithuanian (Lithuania)           | Lietuvių (Lietuva)               | LT      | LTU          | lit       |
+lv       | lv    | lv       |         |     | латвийский                               | Latvian                          | Latviešu                         |         |              | lav       |
+lv_LV    | lv-LV | lv       | LV      |     | латвийский (Латвия)                      | Latvian (Latvia)                 | Latviešu (Latvija)               | LV      | LVA          | lav       |
+mk       | mk    | mk       |         |     | македонский                              | Macedonian                       | македонски                       |         |              | mkd       |
+mk_MK    | mk-MK | mk       | MK      |     | македонский (Македония)                  | Macedonian (Macedonia)           | македонски (Македонија)          | MK      | MKD          | mkd       |
+ms       | ms    | ms       |         |     | малайский                                | Malay                            | Bahasa Melayu                    |         |              | msa       |
+ms_MY    | ms-MY | ms       | MY      |     | малайский (Малайзия)                     | Malay (Malaysia)                 | Bahasa Melayu (Malaysia)         | MY      | MYS          | msa       |
+mt       | mt    | mt       |         |     | мальтийский                              | Maltese                          | Malti                            |         |              | mlt       |
+mt_MT    | mt-MT | mt       | MT      |     | мальтийский (Мальта)                     | Maltese (Malta)                  | Malti (Malta)                    | MT      | MLT          | mlt       |
+nl       | nl    | nl       |         |     | нидерландский                            | Dutch                            | Nederlands                       |         |              | nld       |
+nl_BE    | nl-BE | nl       | BE      |     | нидерландский (Бельгия)                  | Dutch (Belgium)                  | Nederlands (België)              | BE      | BEL          | nld       |
+nl_NL    | nl-NL | nl       | NL      |     | нидерландский (Нидерланды)               | Dutch (Netherlands)              | Nederlands (Nederland)           | NL      | NLD          | nld       |
+no       | no    | no       |         |     | норвежский                               | Norwegian                        | norsk                            |         |              | nor       |
+no_NO    | no-NO | no       | NO      |     | норвежский (Норвегия)                    | Norwegian (Norway)               | norsk (Norge)                    | NO      | NOR          | nor       |
+no_NO_NY | no-NO | no       | NO      | NY  | норвежский (Норвегия,Nynorsk)            | Norwegian (Norway,Nynorsk)       | norsk (Norge,nynorsk)            | NO      | NOR          | nor       | Nynorsk
+pl       | pl    | pl       |         |     | польский                                 | Polish                           | polski                           |         |              | pol       |
+pl_PL    | pl-PL | pl       | PL      |     | польский (Польша)                        | Polish (Poland)                  | polski (Polska)                  | PL      | POL          | pol       |
+pt       | pt    | pt       |         |     | португальский                            | Portuguese                       | português                        |         |              | por       |
+pt_BR    | pt-BR | pt       | BR      |     | португальский (Бразилия)                 | Portuguese (Brazil)              | português (Brasil)               | BR      | BRA          | por       |
+pt_PT    | pt-PT | pt       | PT      |     | португальский (Португалия)               | Portuguese (Portugal)            | português (Portugal)             | PT      | PRT          | por       |
+ro       | ro    | ro       |         |     | румынский                                | Romanian                         | română                           |         |              | ron       |
+ro_RO    | ro-RO | ro       | RO      |     | румынский (Румыния)                      | Romanian (Romania)               | română (România)                 | RO      | ROU          | ron       |
+ru       | ru    | ru       |         |     | русский                                  | Russian                          | русский                          |         |              | rus       |
+ru_RU    | ru-RU | ru       | RU      |     | русский (Россия)                         | Russian (Russia)                 | русский (Россия)                 | RU      | RUS          | rus       |
+sk       | sk    | sk       |         |     | словацкий                                | Slovak                           | Slovenčina                       |         |              | slk       |
+sk_SK    | sk-SK | sk       | SK      |     | словацкий (Словакия)                     | Slovak (Slovakia)                | Slovenčina (Slovenská republika) | SK      | SVK          | slk       |
+sl       | sl    | sl       |         |     | словенский                               | Slovenian                        | Slovenščina                      |         |              | slv       |
+sl_SI    | sl-SI | sl       | SI      |     | словенский (Словения)                    | Slovenian (Slovenia)             | Slovenščina (Slovenija)          | SI      | SVN          | slv       |
+sq       | sq    | sq       |         |     | албанский                                | Albanian                         | shqipe                           |         |              | sqi       |
+sq_AL    | sq-AL | sq       | AL      |     | албанский (Албания)                      | Albanian (Albania)               | shqipe (Shqipëria)               | AL      | ALB          | sqi       |
+sr       | sr    | sr       |         |     | сербский                                 | Serbian                          | Српски                           |         |              | srp       |
+sr_BA    | sr-BA | sr       | BA      |     | сербский (Босния и Герцеговина)          | Serbian (Bosnia and Herzegovina) | Српски (Босна и Херцеговина)     | BA      | BIH          | srp       |
+sr_CS    | sr-CS | sr       | CS      |     | сербский (Serbia and Montenegro)         | Serbian (Serbia and Montenegro)  | Српски (Србија и Црна Гора)      | CS      | SCG          | srp       |
+sr_ME    | sr-ME | sr       | ME      |     | сербский (Montenegro)                    | Serbian (Montenegro)             | Српски (Montenegro)              | ME      | MNE          | srp       |
+sr_RS    | sr-RS | sr       | RS      |     | сербский (Serbia)                        | Serbian (Serbia)                 | Српски (Serbia)                  | RS      | SRB          | srp       |
+sv       | sv    | sv       |         |     | шведский                                 | Swedish                          | svenska                          |         |              | swe       |
+sv_SE    | sv-SE | sv       | SE      |     | шведский (Швеция)                        | Swedish (Sweden)                 | svenska (Sverige)                | SE      | SWE          | swe       |
+th       | th    | th       |         |     | тайский                                  | Thai                             | ไทย                              |         |              | tha       |
+th_TH    | th-TH | th       | TH      |     | тайский (Таиланд)                        | Thai (Thailand)                  | ไทย (ประเทศไทย)                  | TH      | THA          | tha       |
+th_TH_TH | th-TH | th       | TH      | TH  | тайский (Таиланд,TH)                     | Thai (Thailand,TH)               | ไทย (ประเทศไทย,TH)               | TH      | THA          | tha       | TH
+tr       | tr    | tr       |         |     | турецкий                                 | Turkish                          | Türkçe                           |         |              | tur       |
+tr_TR    | tr-TR | tr       | TR      |     | турецкий (Турция)                        | Turkish (Turkey)                 | Türkçe (Türkiye)                 | TR      | TUR          | tur       |
+uk       | uk    | uk       |         |     | украинский                               | Ukrainian                        | українська                       |         |              | ukr       |
+uk_UA    | uk-UA | uk       | UA      |     | украинский (Украина)                     | Ukrainian (Ukraine)              | українська (Україна)             | UA      | UKR          | ukr       |
+vi       | vi    | vi       |         |     | вьетнамский                              | Vietnamese                       | Tiếng Việt                       |         |              | vie       |
+vi_VN    | vi-VN | vi       | VN      |     | вьетнамский (Вьетнам)                    | Vietnamese (Vietnam)             | Tiếng Việt (Việt Nam)            | VN      | VNM          | vie       |
+zh       | zh    | zh       |         |     | китайский                                | Chinese                          | 中文                              |         |              | zho       |
+zh_CN    | zh-CN | zh       | CN      |     | китайский (Китай)                        | Chinese (China)                  | 中文 (中国)                         | CN      | CHN          | zho       |
+zh_HK    | zh-HK | zh       | HK      |     | китайский (Гонконг)                      | Chinese (Hong Kong)              | 中文 (香港)                         | HK      | HKG          | zho       |
+zh_SG    | zh-SG | zh       | SG      |     | китайский (Сингапур)                     | Chinese (Singapore)              | 中文 (新加坡)                        | SG     | SGP          | zho       |
+zh_TW    | zh-TW | zh       | TW      |     | китайский (Тайвань)                      | Chinese (Taiwan)                 | 中文 (台灣)                         | TW      | TWN          | zho       |

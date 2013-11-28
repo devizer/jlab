@@ -1,0 +1,17 @@
+#!/bin/bash
+TYPE=Minimal
+if [ ! -f $TYPE/.done ]; then
+  mkdir -p $TYPE
+  # options include KDE, LXDE, XFCE, SoaS, Mate and Minimal
+  wget http://download.fedoraproject.org/pub/fedora-secondary/releases/19/Images/armhfp/Fedora-$TYPE-armhfp-19-1-sda.raw.xz -O ./$TYPE/Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+  cd $TYPE
+  unxz Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+  sudo virt-copy-out -a Fedora-$TYPE-armhfp-19-1-sda.raw /boot .
+  sudo chown lulu:lulu boot/*
+  ls -l boot
+  if [ -f vmlinuz-3.9.5-301.fc19.armv7hl ]; then
+    touch .done
+    echo DONE. start with 'bash go-min'
+  fi
+fi
+

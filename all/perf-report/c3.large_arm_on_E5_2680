@@ -1,0 +1,985 @@
+A    javalab/svnignore.sh
+A    javalab/org.universe.test
+A    javalab/org.universe.test/test
+A    javalab/org.universe.test/profile
+A    javalab/org.universe.test/org.universe.test.iml
+A    javalab/org.universe.test/src
+A    javalab/org.universe.test/src/META-INF
+A    javalab/org.universe.test/src/META-INF/MANIFEST.MF
+A    javalab/org.universe.test/src/org
+A    javalab/org.universe.test/src/org/universe
+A    javalab/org.universe.test/src/org/universe/tests
+A    javalab/org.universe.test/src/org/universe/tests/Locales.txt
+A    javalab/org.universe.test/src/org/universe/tests/compression
+A    javalab/org.universe.test/src/org/universe/tests/compression/CicledTextInputstream.java
+A    javalab/org.universe.test/src/org/universe/tests/compression/GZip_Perfomance.java
+A    javalab/org.universe.test/src/org/universe/tests/compression/OutputStreamWithCounter.java
+A    javalab/org.universe.test/src/org/universe/tests/compression/ZeroOutputStream.java
+A    javalab/org.universe.test/src/org/universe/tests/TimeZonesMain.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/SimplestVo.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/ProfilerMain.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/MyVo1.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/ObjectIO_Perfomance.java
+A    javalab/org.universe.test/src/org/universe/tests/jaxb/VoEnv.java
+A    javalab/org.universe.test/src/org/universe/tests/LocalesMain.java
+A    javalab/org.universe.test/src/org/universe/tests/security
+A    javalab/org.universe.test/src/org/universe/tests/security/SimpleTest.java
+A    javalab/org.universe.test/src/org/universe/tests/TimeZones.txt
+A    javalab/org.universe.test/module_org.universe.test.xml
+A    javalab/org.universe.test/module_org.universe.tests.xml
+A    javalab/org.universe.testcfx
+A    javalab/org.universe.testcfx/testcfx
+A    javalab/org.universe.testcfx/org.universe.testcfx.iml
+A    javalab/org.universe.testcfx/src
+A    javalab/org.universe.testcfx/src/META-INF
+A    javalab/org.universe.testcfx/src/META-INF/MANIFEST.MF
+A    javalab/org.universe.testcfx/src/META-INF/log4j.properties
+A    javalab/org.universe.testcfx/src/org
+A    javalab/org.universe.testcfx/src/org/universe
+A    javalab/org.universe.testcfx/src/org/universe/cfx
+A    javalab/org.universe.testcfx/src/org/universe/cfx/MessageInfo.java
+A    javalab/org.universe.testcfx/src/org/universe/cfx/TransferInterceptor.java
+A    javalab/org.universe.testcfx/src/org/universe/cfx/StreamInterceptor.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/TestCxf.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/ClientSide.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/todo.txt
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/Main.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/TestCxfMain.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/HelloWorld.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/ServerSide.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/HelloWorldImpl.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/MyContextOnServer.java
+A    javalab/org.universe.testcfx/src/org/universe/testcfx/User.java
+A    javalab/org.universe.testcfx/src/org/universe/log4j.properties
+A    javalab/org.universe.testcfx/src/org/universe/cfxex
+A    javalab/org.universe.testcfx/src/log4j.properties
+A    javalab/org.universe.testcfx/module_org.universe.testcfx.xml
+A    javalab/org.universe
+A    javalab/org.universe/org.universe.iml
+A    javalab/org.universe/src
+A    javalab/org.universe/src/META-INF
+A    javalab/org.universe/src/META-INF/MANIFEST.MF
+A    javalab/org.universe/src/org
+A    javalab/org.universe/src/org/universe
+A    javalab/org.universe/src/org/universe/sql
+A    javalab/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java
+A    javalab/org.universe/src/org/universe/sql/SqlCodeReader.java
+A    javalab/org.universe/src/org/universe/DateCalc.java
+A    javalab/org.universe/src/org/universe/jaxb
+A    javalab/org.universe/src/org/universe/jaxb/JAXBUtils.java
+A    javalab/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java
+A    javalab/org.universe/src/org/universe/jaxb/BinarySerializer.java
+A    javalab/org.universe/src/org/universe/security
+A    javalab/org.universe/src/org/universe/security/ParseReport.java
+A    javalab/org.universe/src/org/universe/security/SimpleIntegrity.java
+A    javalab/org.universe/src/org/universe/security/StoreReport.java
+A    javalab/org.universe/src/org/universe/jcl
+A    javalab/org.universe/src/org/universe/jcl/Lazy.java
+A    javalab/org.universe/src/org/universe/jcl/ReliableThreadLocal.java
+A    javalab/org.universe/src/org/universe/jcl/Stress.java
+A    javalab/org.universe/src/org/universe/jcl/NamedThreadFactory.java
+A    javalab/org.universe/src/org/universe/jcl/AggregateException.java
+A    javalab/org.universe/src/org/universe/jcl/Parallel.java
+A    javalab/org.universe/src/org/universe/jcl/ParallelSample.java
+A    javalab/org.universe/src/org/universe/ConsoleTable.java
+A    javalab/org.universe/module_org.universe.xml
+A    javalab/all
+A    javalab/all/arm
+A    javalab/all/arm/load
+A    javalab/all/pre-fedora
+A    javalab/all/test-build.sh
+A    javalab/all/src
+A    javalab/all/src/arm
+A    javalab/all/src/arm/go-lxde
+A    javalab/all/src/arm/load-min
+A    javalab/all/src/arm/go-min
+A    javalab/all/src/arm/load-lxde
+A    javalab/all/src/META-INF
+A    javalab/all/src/META-INF/MANIFEST.MF
+A    javalab/all/src/samples.txt
+A    javalab/all/src/ec2arm
+A    javalab/all/src/ec2arm/load-min
+A    javalab/all/src/ec2arm/rd
+A    javalab/all/src/ec2arm/go-min
+A    javalab/all/src/vmware_9_0_2_on_ubuntu_13_10
+A    javalab/all/src/vmware_9_0_2_on_ubuntu_13_10/patch.sh
+A    javalab/all/all.iml
+A    javalab/all/i
+A    javalab/all/ins-rabbit
+A    javalab/all/pre-redhat
+A    javalab/all/deploy
+A    javalab/all/os info
+A    javalab/all/ins-jdk
+A    javalab/all/run-fedora
+A    javalab/all/backup
+A    javalab/all/perf-report
+A    javalab/all/perf-report/m2.xlarge(arm)
+A    javalab/all/perf-report/tmp
+A    javalab/all/perf-report/m3.2xlarge(arm)
+A    javalab/all/perf-report/p8400(i686)
+A    javalab/all/pre-ubuntu
+A    javalab/all/ins-idea-c
+A    javalab/all/module_all.xml
+A    javalab/all/config-ec2
+A    javalab/svnignore.txt
+A    javalab/libs
+A    javalab/libs/log4j
+A    javalab/libs/log4j/log4j-1.2.17-sources.jar
+A    javalab/libs/log4j/log4j-1.2.17-javadoc.jar
+A    javalab/libs/log4j/slf4j-log4j12-1.7.5.jar
+A    javalab/libs/log4j/slf4j-log4j12-1.7.5-sources.jar
+A    javalab/libs/log4j/jul-to-slf4j-1.7.5.jar
+A    javalab/libs/log4j/javaee-api-5.0-2.jar
+A    javalab/libs/log4j/jul-to-slf4j-1.7.5-sources.jar
+A    javalab/libs/log4j/javaee-api-5.0-2-sources.jar
+A    javalab/libs/log4j/log4j-1.2.17.jar
+A    javalab/libs/cfx
+A    javalab/libs/cfx/slf4j-api-1.7.5-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-sources.jar
+A    javalab/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-ws-policy-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-core-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-bindings-soap-2.7.7-javadoc.jar
+A    javalab/libs/cfx/wsdl4j-1.6.3-javadoc.jar
+A    javalab/libs/cfx/slf4j-api-1.7.5-sources.jar
+A    javalab/libs/cfx/cxf-rt-ws-addr-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar
+A    javalab/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-sources.jar
+A    javalab/libs/cfx/cxf-rt-ws-policy-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-io-8.1.12.v20130726.jar
+A    javalab/libs/cfx/jetty-security-8.1.12.v20130726.jar
+A    javalab/libs/cfx/cxf-rt-core-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-continuation-8.1.12.v20130726.jar
+A    javalab/libs/cfx/jetty-server-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/stax2-api-3.1.1-sources.jar
+A    javalab/libs/cfx/cxf-rt-bindings-soap-2.7.7-sources.jar
+A    javalab/libs/cfx/woodstox-core-asl-4.2.0.jar
+A    javalab/libs/cfx/jetty-http-8.1.12.v20130726.jar
+A    javalab/libs/cfx/org.osgi.compendium-4.2.0-javadoc.jar
+A    javalab/libs/cfx/jaxb-impl-2.2.6-javadoc.jar
+A    javalab/libs/cfx/wsdl4j-1.6.3-sources.jar
+A    javalab/libs/cfx/cxf-rt-ws-addr-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-util-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/xml-resolver-1.2.jar
+A    javalab/libs/cfx/jetty-server-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar
+A    javalab/libs/cfx/xmlschema-core-2.0.3.jar
+A    javalab/libs/cfx/cxf-api-2.7.7-javadoc.jar
+A    javalab/libs/cfx/org.osgi.compendium-4.2.0-sources.jar
+A    javalab/libs/cfx/jaxb-impl-2.2.6-sources.jar
+A    javalab/libs/cfx/jetty-util-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/org.osgi.core-4.2.0.jar
+A    javalab/libs/cfx/neethi-3.0.2-javadoc.jar
+A    javalab/libs/cfx/cxf-api-2.7.7-sources.jar
+A    javalab/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar
+A    javalab/libs/cfx/neethi-3.0.2-sources.jar
+A    javalab/libs/cfx/geronimo-servlet_3.0_spec-1.0-javadoc.jar
+A    javalab/libs/cfx/slf4j-api-1.7.5.jar
+A    javalab/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar
+A    javalab/libs/cfx/cxf-rt-ws-policy-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-core-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-javadoc.jar
+A    javalab/libs/cfx/stax2-api-3.1.1.jar
+A    javalab/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar
+A    javalab/libs/cfx/geronimo-servlet_3.0_spec-1.0-sources.jar
+A    javalab/libs/cfx/wsdl4j-1.6.3.jar
+A    javalab/libs/cfx/cxf-rt-bindings-xml-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-ws-addr-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-server-8.1.12.v20130726.jar
+A    javalab/libs/cfx/org.osgi.compendium-4.2.0.jar
+A    javalab/libs/cfx/cxf-rt-frontend-simple-2.7.7-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-bindings-xml-2.7.7-sources.jar
+A    javalab/libs/cfx/jaxb-impl-2.2.6.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-io-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/jetty-security-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/jetty-util-8.1.12.v20130726.jar
+A    javalab/libs/cfx/jetty-continuation-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/woodstox-core-asl-4.2.0-javadoc.jar
+A    javalab/libs/cfx/jetty-http-8.1.12.v20130726-javadoc.jar
+A    javalab/libs/cfx/cxf-api-2.7.7.jar
+A    javalab/libs/cfx/cxf-rt-frontend-simple-2.7.7-sources.jar
+A    javalab/libs/cfx/jetty-security-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/jetty-io-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/jetty-continuation-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-javadoc.jar
+A    javalab/libs/cfx/woodstox-core-asl-4.2.0-sources.jar
+A    javalab/libs/cfx/neethi-3.0.2.jar
+A    javalab/libs/cfx/xmlschema-core-2.0.3-javadoc.jar
+A    javalab/libs/cfx/jetty-http-8.1.12.v20130726-sources.jar
+A    javalab/libs/cfx/xml-resolver-1.2-sources.jar
+A    javalab/libs/cfx/asm-3.3.1.jar
+A    javalab/libs/cfx/org.osgi.core-4.2.0-javadoc.jar
+A    javalab/libs/cfx/cxf-rt-transports-http-jetty-2.7.7-sources.jar
+A    javalab/libs/cfx/xmlschema-core-2.0.3-sources.jar
+A    javalab/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar
+A    javalab/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-javadoc.jar
+A    javalab/libs/cfx/org.osgi.core-4.2.0-sources.jar
+A    javalab/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar
+A    javalab/libs/rabbitmq-client.jar
+A    javalab/libs/commons-dbutils-latest
+A    javalab/libs/commons-dbutils-latest/commons-dbutils-1.5-javadoc.jar
+A    javalab/libs/commons-dbutils-latest/commons-dbutils-1.5.jar
+A    javalab/libs/commons-dbutils-latest/commons-dbutils-1.5-sources.jar
+A    javalab/libs/commons-dpcp-latest
+A    javalab/libs/commons-dpcp-latest/commons-pool-1.5.4.jar
+A    javalab/libs/commons-dpcp-latest/commons-dbcp-1.4-javadoc.jar
+A    javalab/libs/commons-dpcp-latest/commons-pool-1.5.4-sources.jar
+A    javalab/libs/commons-dpcp-latest/commons-pool-1.5.4-javadoc.jar
+A    javalab/libs/commons-dpcp-latest/commons-dbcp-1.4.jar
+A    javalab/libs/commons-dpcp-latest/commons-dbcp-1.4-sources.jar
+A    javalab/libs/libs.iml
+A    javalab/libs/commons-cli-latest
+A    javalab/libs/commons-cli-latest/commons-cli-1.2.jar
+A    javalab/libs/commons-cli-latest/commons-cli-1.2-sources.jar
+A    javalab/libs/commons-cli-latest/commons-cli-1.2-javadoc.jar
+A    javalab/libs/commons-io-latest
+A    javalab/libs/commons-io-latest/commons-io-2.4-javadoc.jar
+A    javalab/libs/commons-io-latest/commons-io-2.4.jar
+A    javalab/libs/commons-io-latest/commons-io-2.4-sources.jar
+A    javalab/libs/junit-4.11
+A    javalab/libs/junit-4.11/junit-4.11.jar
+A    javalab/libs/junit-4.11/hamcrest-core-1.3.jar
+A    javalab/libs/junit-4.11/junit-4.11-sources.jar
+A    javalab/libs/junit-4.11/hamcrest-core-1.3-sources.jar
+A    javalab/libs/junit-4.11/junit-4.11-javadoc.jar
+A    javalab/libs/junit-4.11/hamcrest-core-1.3-javadoc.jar
+A    javalab/libs/module_libs.xml
+A    javalab/build.properties
+A    javalab/log4j.properties
+A    javalab/org.universe.rabbitstress
+A    javalab/org.universe.rabbitstress/module_org.universe.rabbitstress.xml
+A    javalab/org.universe.rabbitstress/run
+A    javalab/org.universe.rabbitstress/src
+A    javalab/org.universe.rabbitstress/src/META-INF
+A    javalab/org.universe.rabbitstress/src/META-INF/MANIFEST.MF
+A    javalab/org.universe.rabbitstress/src/org
+A    javalab/org.universe.rabbitstress/src/org/universe
+A    javalab/org.universe.rabbitstress/src/org/universe/rabbitstress
+A    javalab/org.universe.rabbitstress/src/org/universe/rabbitstress/Main.java
+A    javalab/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java
+A    javalab/org.universe.rabbitstress/org.universe.rabbitstress.iml
+A    javalab/org.universe.rabbitstress/testmq
+A    javalab/all-modules
+A    javalab/all-modules/META-INF
+A    javalab/all-modules/META-INF/MANIFEST.MF
+A    javalab/build.xml
+Checked out revision 187.
+Buildfile: /home/vlad/test.tmp/javalab/build.xml
+
+init:
+
+clean.module.libs:
+
+clean.module.org.universe:
+
+clean.module.org.universe.test:
+
+clean.module.org.universe.rabbitstress:
+
+clean.module.org.universe.testcfx:
+
+clean.module.all:
+
+clean.artifact.all:
+
+clean.artifact.org.universe.rabbitstress:jar:
+
+clean.artifact.org.universe.testcfx:jar:
+
+clean.artifact.org.universe.tests:jar:
+
+clean.artifact.org.universe:jar:
+
+clean:
+
+register.custom.compilers:
+
+compile.module.libs.production:
+
+compile.module.libs.tests:
+
+compile.module.libs:
+
+compile.module.org.universe.production:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/production/org.universe
+   [javac2] /home/vlad/test.tmp/javalab/org.universe/module_org.universe.xml:68: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+   [javac2] Compiling 17 source files to /home/vlad/test.tmp/javalab/out/production/org.universe
+   [javac2] Note: Some input files use unchecked or unsafe operations.
+   [javac2] Note: Recompile with -Xlint:unchecked for details.
+   [javac2] Added @NotNull assertions to 0 files
+
+compile.module.org.universe.tests:
+
+compile.module.org.universe:
+
+compile.module.org.universe.test.production:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/production/org.universe.test
+   [javac2] /home/vlad/test.tmp/javalab/org.universe.test/module_org.universe.test.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+   [javac2] Compiling 16 source files to /home/vlad/test.tmp/javalab/out/production/org.universe.test
+   [javac2] Added @NotNull assertions to 0 files
+
+compile.module.org.universe.test.tests:
+
+compile.module.org.universe.test:
+
+compile.module.org.universe.rabbitstress.production:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/production/org.universe.rabbitstress
+   [javac2] /home/vlad/test.tmp/javalab/org.universe.rabbitstress/module_org.universe.rabbitstress.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+   [javac2] Compiling 2 source files to /home/vlad/test.tmp/javalab/out/production/org.universe.rabbitstress
+   [javac2] Added @NotNull assertions to 0 files
+
+compile.module.org.universe.rabbitstress.tests:
+
+compile.module.org.universe.rabbitstress:
+
+compile.module.org.universe.testcfx.production:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/production/org.universe.testcfx
+   [javac2] /home/vlad/test.tmp/javalab/org.universe.testcfx/module_org.universe.testcfx.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+   [javac2] Compiling 12 source files to /home/vlad/test.tmp/javalab/out/production/org.universe.testcfx
+   [javac2] Note: Some input files use unchecked or unsafe operations.
+   [javac2] Note: Recompile with -Xlint:unchecked for details.
+   [javac2] Added @NotNull assertions to 0 files
+
+compile.module.org.universe.testcfx.tests:
+
+compile.module.org.universe.testcfx:
+
+compile.module.all.production:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/production/all
+   [javac2] /home/vlad/test.tmp/javalab/all/module_all.xml:86: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+   [javac2] Added @NotNull assertions to 0 files
+
+compile.module.all.tests:
+
+compile.module.all:
+
+build.modules:
+
+init.artifacts:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/__artifacts_temp
+
+artifact.org.universe:jar:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/org.universe
+      [jar] Building jar: /home/vlad/test.tmp/javalab/__artifacts_temp/org.universe.jar
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe
+
+artifact.org.universe.rabbitstress:jar:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+      [jar] Building jar: /home/vlad/test.tmp/javalab/__artifacts_temp/org.universe.rabbitstress.jar
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 5 files to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.rabbitstress
+
+artifact.org.universe.tests:jar:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/org.universe.tests
+      [jar] Building jar: /home/vlad/test.tmp/javalab/__artifacts_temp/org.universe.tests.jar
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.tests
+     [copy] Copying 5 files to /home/vlad/test.tmp/javalab/out/org.universe.tests
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.tests
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.tests
+
+artifact.org.universe.testcfx:jar:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+      [jar] Building jar: /home/vlad/test.tmp/javalab/__artifacts_temp/org.universe.testcfx.jar
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/org.universe.testcfx
+
+artifact.all:
+    [mkdir] Created dir: /home/vlad/test.tmp/javalab/out/all
+      [jar] Building jar: /home/vlad/test.tmp/javalab/__artifacts_temp/work.jar
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 5 files to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 8 files to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 36 files to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+     [copy] Copying 1 file to /home/vlad/test.tmp/javalab/out/all
+
+build.all.artifacts:
+   [delete] Deleting directory /home/vlad/test.tmp/javalab/__artifacts_temp
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 1 minute 46 seconds
+JUnit version 4.11
+.Measure GZIP TEXT (builtin) perfomance: 1 16 64 1024 8192 131072 
+Buffer | Duration | Input, KB | GZipped, Kb | Ratio | KB/s         
+------ | -------- | --------- | ----------- | ----- | ----         
+1      | 04.024   | 28,513    | 182         | 0.64% | 7,085.0 KB/s 
+16     | 04.001   | 38,758    | 234         | 0.60% | 9,687.6 KB/s 
+64     | 04.001   | 38,625    | 234         | 0.61% | 9,654.9 KB/s 
+1024   | 04.000   | 40,742    | 234         | 0.57% | 10,185.3 KB/s
+8192   | 04.003   | 43,319    | 260         | 0.60% | 10,821.3 KB/s
+131072 | 04.005   | 38,206    | 234         | 0.61% | 9,539.6 KB/s 
+
+
+.Measure GZIP RANDOM (builtin) perfomance: 1 16 64 1024 8192 131072 
+Buffer | Duration | Input, KB | GZipped, Kb | Ratio   | KB/s        
+------ | -------- | --------- | ----------- | -----   | ----        
+1      | 04.050   | 290       | 288         | 99.38%  | 71.6 KB/s   
+16     | 04.008   | 2,275     | 2,274       | 99.94%  | 567.6 KB/s  
+64     | 04.001   | 5,684     | 5,684       | 100.01% | 1,420.5 KB/s
+1024   | 04.000   | 7,713     | 7,702       | 99.85%  | 1,928.1 KB/s
+8192   | 04.002   | 10,625    | 10,616      | 99.91%  | 2,655.2 KB/s
+131072 | 04.025   | 10,753    | 10,744      | 99.92%  | 2,671.5 KB/s
+
+
+..MD2 digest(2 byte): 1 2 6 
+
+MD2 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2010.0  | 0.498    | 0.1      | 201   | 100% | none
+2  | 3950.0  | 0.253    | 0.1      | 395   | 100% | none
+6  | 3960.0  | 0.253    | 0.2      | 396   | 100% | none
+
+MD2 CLONED digest(2 bytes): 1 2 6 
+
+MD2 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3450.0  | 0.290    | 0.1      | 345   | 100% | none
+2  | 4930.0  | 0.203    | 0.1      | 493   | 100% | none
+6  | 8700.0  | 0.115    | 0.2      | 870   | 100% | none
+
+MD2 digest(100000 byte): 1 2 6 
+
+MD2 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10.0    | 100.000  | 0.2      | 1     | 100% | none
+2  | 20.0    | 50.000   | 0.3      | 2     | 100% | none
+6  | 60.0    | 16.667   | 0.9      | 6     | 100% | none
+
+MD2 CLONED digest(100000 bytes): 1 2 6 
+
+MD2 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10.0    | 100.000  | 0.2      | 1     | 100% | none
+2  | 20.0    | 50.000   | 0.3      | 2     | 100% | none
+6  | 60.0    | 16.667   | 2.2      | 6     | 100% | none
+
+MD5 digest(2 byte): 1 2 6 
+
+MD5 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2920.0  | 0.342    | 0.1      | 292   | 100% | none
+2  | 2220.0  | 0.450    | 0.1      | 222   | 100% | none
+6  | 3700.0  | 0.270    | 0.2      | 370   | 100% | none
+
+MD5 CLONED digest(2 bytes): 1 2 6 
+
+MD5 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3820.0  | 0.262    | 0.1      | 382   | 100% | none
+2  | 4950.0  | 0.202    | 0.1      | 495   | 100% | none
+6  | 9780.0  | 0.102    | 0.2      | 978   | 100% | none
+
+MD5 digest(100000 byte): 1 2 6 
+
+MD5 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 340.0   | 2.941    | 0.1      | 34    | 100% | none
+2  | 400.0   | 2.500    | 0.1      | 40    | 100% | none
+6  | 550.0   | 1.818    | 0.2      | 55    | 100% | none
+
+MD5 CLONED digest(100000 bytes): 1 2 6 
+
+MD5 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 250.0   | 4.000    | 0.1      | 25    | 100% | none
+2  | 450.0   | 2.222    | 0.1      | 45    | 100% | none
+6  | 580.0   | 1.724    | 0.2      | 58    | 100% | none
+
+SHA digest(2 byte): 1 2 6 
+
+SHA digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 6730.0  | 0.149    | 0.1      | 673   | 100% | none
+2  | 8640.0  | 0.116    | 0.1      | 864   | 100% | none
+6  | 16910.0 | 0.059    | 0.2      | 1691  | 100% | none
+
+SHA CLONED digest(2 bytes): 1 2 6 
+
+SHA CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 13560.0 | 0.074    | 0.1      | 1356  | 100% | none
+2  | 15820.0 | 0.063    | 0.1      | 1582  | 100% | none
+6  | 24840.0 | 0.040    | 0.2      | 2484  | 100% | none
+
+SHA digest(100000 byte): 1 2 6 
+
+SHA digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 110.0   | 9.091    | 0.1      | 11    | 100% | none
+2  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+6  | 170.0   | 5.882    | 0.2      | 17    | 100% | none
+
+SHA CLONED digest(100000 bytes): 1 2 6 
+
+SHA CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 70.0    | 14.286   | 0.1      | 7     | 100% | none
+2  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+6  | 180.0   | 5.556    | 0.2      | 18    | 100% | none
+
+SHA-1 digest(2 byte): 1 2 6 
+
+SHA-1 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10740.0 | 0.093    | 0.1      | 1074  | 100% | none
+2  | 13430.0 | 0.074    | 0.1      | 1343  | 100% | none
+6  | 16880.0 | 0.059    | 0.2      | 1688  | 100% | none
+
+SHA-1 CLONED digest(2 bytes): 1 2 6 
+
+SHA-1 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 17580.0 | 0.057    | 0.1      | 1758  | 100% | none
+2  | 15660.0 | 0.064    | 0.1      | 1566  | 100% | none
+6  | 24910.0 | 0.040    | 0.2      | 2491  | 100% | none
+
+SHA-1 digest(100000 byte): 1 2 6 
+
+SHA-1 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+2  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+6  | 170.0   | 5.882    | 0.2      | 17    | 100% | none
+
+SHA-1 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-1 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 110.0   | 9.091    | 0.1      | 11    | 100% | none
+2  | 130.0   | 7.692    | 0.1      | 13    | 100% | none
+6  | 160.0   | 6.250    | 0.2      | 16    | 100% | none
+
+SHA-256 digest(2 byte): 1 2 6 
+
+SHA-256 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 6410.0  | 0.156    | 0.1      | 641   | 100% | none
+2  | 9250.0  | 0.108    | 0.1      | 925   | 100% | none
+6  | 16180.0 | 0.062    | 0.2      | 1618  | 100% | none
+
+SHA-256 CLONED digest(2 bytes): 1 2 6 
+
+SHA-256 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 13990.0 | 0.071    | 0.1      | 1399  | 100% | none
+2  | 15390.0 | 0.065    | 0.1      | 1539  | 100% | none
+6  | 23900.0 | 0.042    | 0.2      | 2390  | 100% | none
+
+SHA-256 digest(100000 byte): 1 2 6 
+
+SHA-256 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 110.0   | 9.091    | 0.1      | 11    | 100% | none
+2  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+6  | 170.0   | 5.882    | 0.2      | 17    | 100% | none
+
+SHA-256 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-256 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 110.0   | 9.091    | 0.1      | 11    | 100% | none
+2  | 120.0   | 8.333    | 0.1      | 12    | 100% | none
+6  | 160.0   | 6.250    | 0.2      | 16    | 100% | none
+
+SHA-384 digest(2 byte): 1 2 6 
+
+SHA-384 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4110.0  | 0.243    | 0.1      | 411   | 100% | none
+2  | 7890.0  | 0.127    | 0.1      | 789   | 100% | none
+6  | 8530.0  | 0.117    | 0.2      | 853   | 100% | none
+
+SHA-384 CLONED digest(2 bytes): 1 2 6 
+
+SHA-384 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10360.0 | 0.097    | 0.1      | 1036  | 100% | none
+2  | 10850.0 | 0.092    | 0.1      | 1085  | 100% | none
+6  | 10410.0 | 0.096    | 0.1      | 1041  | 100% | none
+
+SHA-384 digest(100000 byte): 1 2 6 
+
+SHA-384 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 50.0    | 20.000   | 0.2      | 5     | 100% | none
+2  | 60.0    | 16.667   | 0.1      | 6     | 100% | none
+6  | 100.0   | 10.000   | 0.2      | 10    | 100% | none
+
+SHA-384 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-384 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 50.0    | 20.000   | 0.1      | 5     | 100% | none
+2  | 60.0    | 16.667   | 0.2      | 6     | 100% | none
+6  | 90.0    | 11.111   | 0.2      | 9     | 100% | none
+
+SHA-512 digest(2 byte): 1 2 6 
+
+SHA-512 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 9560.0  | 0.105    | 0.1      | 956   | 100% | none
+2  | 9630.0  | 0.104    | 0.1      | 963   | 100% | none
+6  | 11250.0 | 0.089    | 0.2      | 1125  | 100% | none
+
+SHA-512 CLONED digest(2 bytes): 1 2 6 
+
+SHA-512 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 11300.0 | 0.088    | 0.1      | 1130  | 100% | none
+2  | 11810.0 | 0.085    | 0.1      | 1181  | 100% | none
+6  | 8880.0  | 0.113    | 0.2      | 888   | 100% | none
+
+SHA-512 digest(100000 byte): 1 2 6 
+
+SHA-512 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 60.0    | 16.667   | 0.1      | 6     | 100% | none
+2  | 60.0    | 16.667   | 0.1      | 6     | 100% | none
+6  | 80.0    | 12.500   | 0.2      | 8     | 100% | none
+
+SHA-512 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-512 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 60.0    | 16.667   | 0.1      | 6     | 100% | none
+2  | 60.0    | 16.667   | 0.1      | 6     | 100% | none
+6  | 100.0   | 10.000   | 0.2      | 10    | 100% | none
+
+.....AsData: 656 bytes, AsString: 673 bytes, AsFormattedString: 897 bytes
+MyVo1
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <MyDate>2014-01-21T00:00:00-05:00</MyDate>
+    <MyDay>2014-01-11</MyDay>
+    <MySpecialDays>
+        <Day>2014-01-01</Day>
+        <Day>2013-12-22</Day>
+    </MySpecialDays>
+    <MyWorstDays>2013-12-12 2013-12-02 2013-11-22</MyWorstDays>
+    <Files>
+        <File name="MyDocument.rtf">
+            <Content>AQIDBAU=</Content>
+        </File>
+        <File name="MyPicture.jpg">
+            <Content>BQQDAgE=</Content>
+        </File>
+        <SecuredFile name="Passwords.txt">
+            <Content>CQgHBgUFBAMDIA==</Content>
+            <Roles>
+                <Role>Admin</Role>
+                <Role>Power User</Role>
+            </Roles>
+        </SecuredFile>
+    </Files>
+</MyValue>
+
+MyVol2
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19" newInt3A="0">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <NewInt3>0</NewInt3>
+</MyValue>
+
+.Bye! Java ver is 1.7.0_45 by Oracle Corporation, OS: Linux ver 3.9.5-301.fc19.armv7hl
+.MyVo1 MARSHALLER to byte[]: 1 2 6 
+
+MyVo1 MARSHALLER to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 434.3   | 2.303    | 12.0     | 5211  | 100% | none
+2  | 750.8   | 1.332    | 12.0     | 9009  | 100% | none
+6  | 859.8   | 1.163    | 12.0     | 10317 | 100% | none
+
+.MyVo1 PARSE xml from byte[]: 1 2 6 
+
+MyVo1 PARSE xml from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 144.4   | 6.924    | 12.0     | 1733  | 100% | none
+2  | 300.5   | 3.328    | 12.0     | 3606  | 100% | none
+6  | 287.9   | 3.473    | 12.1     | 3455  | 100% | none
+
+.MyVo1 UNMARSHALLER from byte[]: 1 2 6 
+
+MyVo1 UNMARSHALLER from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 291.9   | 3.426    | 12.0     | 3503  | 100% | none
+2  | 446.3   | 2.240    | 12.0     | 5356  | 100% | none
+6  | 443.0   | 2.257    | 12.1     | 5316  | 100% | none
+
+.MARSHAL Simplest to byte[]: 1 2 6 
+
+MARSHAL Simplest to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 5420.3  | 0.184    | 12.0     | 65043 | 100% | none
+2  | 5169.3  | 0.193    | 12.0     | 62031 | 100% | none
+6  | 5056.5  | 0.198    | 12.0     | 60678 | 100% | none
+
+.UNMARSHAL Simplest from byte[]: 1 2 6 
+
+UNMARSHAL Simplest from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2727.8  | 0.367    | 12.0     | 32733 | 100% | none
+2  | 2695.3  | 0.371    | 12.2     | 32343 | 100% | none
+6  | 2690.9  | 0.372    | 12.1     | 32291 | 100% | none
+
+.MyVo1 as Written Object: 1348 bytes
+.WRITE MyVo1 to byte[] using ObjectOutputStream: 1 2 6 
+
+WRITE MyVo1 to byte[] using ObjectOutputStream
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 771.8   | 1.296    | 12.0     | 9262  | 100% | none
+2  | 801.5   | 1.248    | 12.0     | 9618  | 100% | none
+6  | 818.5   | 1.222    | 12.1     | 9822  | 100% | none
+
+.MyVo1 as Written Object: 1348 bytes
+READ MyVo1 from byte[] using ObjectInputStream: 1 2 6 
+
+READ MyVo1 from byte[] using ObjectInputStream
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 209.2   | 4.781    | 12.0     | 2510  | 100% | none
+2  | 289.3   | 3.457    | 12.0     | 3471  | 100% | none
+6  | 284.7   | 3.513    | 12.1     | 3416  | 100% | none
+
+
+Time: 333.51
+
+OK (18 tests)
+
+JUnit version 4.11
+.New Test's Address: http://localhost:56180/helloWorld
+Address: http://localhost:42353/helloWorld
+Server returned !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.New Test's Address: http://localhost:59732/helloWorld
+Looking formward about max supported header size
+SUPPORTED header size: 5889
+.New Test's Address: http://localhost:45955/helloWorld
+Measure: Create Client Factory: 1 2 4 8 12 16 
+
+Measure: Create Client Factory
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3225.7  | 0.310    | 18.0     | 58063 | 100% | none
+2  | 3095.6  | 0.323    | 18.0     | 55720 | 100% | none
+4  | 3099.4  | 0.323    | 18.0     | 55790 | 100% | none
+8  | 2916.6  | 0.343    | 18.1     | 52498 | 100% | none
+12 | 2912.7  | 0.343    | 18.1     | 52428 | 100% | none
+16 | 2908.3  | 0.344    | 18.1     | 52350 | 100% | none
+
+.New Test's Address: http://localhost:51783/helloWorld
+Measure: Create Proxy and Say Hi: 1 2 4 8 12 16 
+
+Measure: Create Proxy and Say Hi
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2.6     | 382.979  | 18.2     | 47    | 100% | none
+2  | 2.9     | 346.154  | 18.5     | 52    | 100% | none
+4  | 3.0     | 333.333  | 19.3     | 54    | 100% | none
+8  | 3.2     | 315.789  | 20.6     | 57    | 100% | none
+12 | 3.3     | 305.085  | 22.3     | 59    | 100% | none
+16 | 3.4     | 290.323  | 24.4     | 62    | 100% | none
+
+.New Test's Address: http://localhost:42403/helloWorld
+Measure: Say Hi using ThreadLocal proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using ThreadLocal proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 14.5    | 68.966   | 18.0     | 261   | 100% | none
+2  | 15.5    | 64.516   | 18.0     | 279   | 100% | none
+4  | 15.8    | 63.158   | 18.2     | 285   | 100% | none
+8  | 13.9    | 71.713   | 18.4     | 251   | 100% | none
+12 | 13.4    | 74.380   | 18.5     | 242   | 100% | none
+16 | 12.6    | 79.295   | 18.7     | 227   | 100% | none
+
+.New Test's Address: http://localhost:53729/helloWorld
+Measure: Say Hi using Single Proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 20.2    | 49.451   | 18.0     | 364   | 100% | none
+2  | 20.8    | 48.000   | 18.0     | 375   | 100% | none
+4  | 20.9    | 47.745   | 18.2     | 377   | 100% | none
+8  | 19.6    | 51.136   | 18.3     | 352   | 100% | none
+12 | 19.6    | 50.992   | 18.4     | 353   | 100% | none
+16 | 19.4    | 51.576   | 18.7     | 349   | 100% | none
+
+.New Test's Address: http://localhost:56583/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail |     
+-- | ------- | -------- | -------- | ----- | --   | ---- | --  
+1  | 15.5    | 64.516   | 18.5     | 279   | 100% | none | 434 
+2  | 18.1    | 55.385   | 18.9     | 325   | 100% | none | 810 
+4  | 18.4    | 54.217   | 19.8     | 332   | 100% | none | 1568
+8  | 18.2    | 54.878   | 21.7     | 328   | 100% | none | 2905
+12 | 17.4    | 57.325   | 23.7     | 314   | 100% | none | 4447
+16 | 17.7    | 56.604   | 25.5     | 318   | 100% | none | 5773
+
+.New Test's Address: http://localhost:35976/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 18.4    | 54.217   | 18.1     | 332   | 100% | none
+2  | 18.9    | 52.941   | 18.1     | 340   | 100% | none
+4  | 18.9    | 52.786   | 18.1     | 341   | 100% | none
+8  | 18.9    | 52.786   | 18.3     | 341   | 100% | none
+12 | 18.6    | 53.892   | 18.5     | 334   | 100% | none
+16 | 17.9    | 55.728   | 18.7     | 323   | 100% | none
+
+.New Test's Address: http://localhost:39003/helloWorld
+Measure: Create 100500 Hosts: 1 2 4 8 12 16 
+
+Measure: Create 100500 Hosts
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4.6     | 218.978  | 30.1     | 137   | 100% | none
+2  | 4.4     | 229.008  | 30.3     | 131   | 100% | none
+4  | 4.3     | 230.769  | 30.3     | 130   | 100% | none
+8  | 3.8     | 260.870  | 31.0     | 115   | 100% | none
+12 | 4.0     | 250.000  | 31.4     | 120   | 100% | none
+16 | 3.7     | 267.857  | 31.4     | 112   | 100% | none
+
+Total hosts was published: 748
+Destroyed 748 hosts in 21.150 secs
+
+Time: 935.842
+
+OK (9 tests)
+
+JUnit version 4.11
+.New 'TestMQ-1 (Fri Nov 15 22:31:46 EST 2013)' queue created in 02.190 secs
+Purge queue (1 messages) in 00.123 sec
+.New 'TestMQ-2 (Fri Nov 15 22:31:46 EST 2013)' queue created in 00.102 secs
+Measure: Produce Many Messages: {1} {2} {4} {8} {12} {16} 
+
+Measure: Produce Many Messages
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail |      
+-- | ------- | -------- | -------- | ----- | --   | ---- | --   
+1  | 1072.1  | 0.933    | 63.4     | 64329 | 100% | none | 7    
+2  | 838.7   | 1.192    | 120.4    | 50324 | 100% | none | 60258
+4  | 804.0   | 1.244    | 122.3    | 48241 | 100% | none | 62066
+8  | 765.8   | 1.306    | 121.9    | 45949 | 100% | none | 61368
+12 | 754.1   | 1.326    | 117.9    | 45248 | 100% | none | 56969
+16 | 849.5   | 1.177    | 107.4    | 50969 | 100% | none | 46772
+
+Purge queue (266057 messages) in 01:24.854 sec
+
+Time: 741.497
+
+OK (2 tests)
+

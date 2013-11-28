@@ -1,0 +1,2 @@
+Посичтать трафик на клиенте и сервере.
+Добавить measure в TestTransferInspector

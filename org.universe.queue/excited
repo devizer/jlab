@@ -1,0 +1,1 @@
+Exception in thread "main" java.sql.SQLException: SQLite supports only TRANSACTION_SERIALIZABLE and TRANSACTION_READ_UNCOMMITTED

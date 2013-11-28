@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.queue" default="compile.module.org.universe.queue">
+  <dirname property="module.org.universe.queue.basedir" file="${ant.file.module_org.universe.queue}"/>
+  
+  <property name="module.jdk.home.org.universe.queue" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.queue" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.queue" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.queue" value="${compiler.args}"/>
+  
+  <property name="org.universe.queue.output.dir" value="${module.org.universe.queue.basedir}/../out/production/org.universe.queue"/>
+  <property name="org.universe.queue.testoutput.dir" value="${module.org.universe.queue.basedir}/../out/test/org.universe.queue"/>
+  
+  <path id="org.universe.queue.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.queue.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.queue}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.output.dir}"/>
+  </path>
+  
+  <path id="org.universe.queue.runtime.production.module.classpath">
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.queue.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.queue}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+  </path>
+  
+  <path id="org.universe.queue.runtime.module.classpath">
+    <pathelement location="${org.universe.queue.testoutput.dir}"/>
+    <pathelement location="${org.universe.queue.output.dir}"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.queue">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.queue">
+    <patternset refid="excluded.from.module.org.universe.queue"/>
+  </patternset>
+  
+  <path id="org.universe.queue.module.sourcepath">
+    <dirset dir="${module.org.universe.queue.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.queue" depends="compile.module.org.universe.queue.production,compile.module.org.universe.queue.tests" description="Compile module org.universe.queue"/>
+  
+  <target name="compile.module.org.universe.queue.production" depends="register.custom.compilers,compile.module.org.universe" description="Compile module org.universe.queue; production classes">
+    <mkdir dir="${org.universe.queue.output.dir}"/>
+    <javac2 destdir="${org.universe.queue.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.queue}/javac">
+      <compilerarg line="${compiler.args.org.universe.queue}"/>
+      <bootclasspath refid="org.universe.queue.module.bootclasspath"/>
+      <classpath refid="org.universe.queue.module.production.classpath"/>
+      <src refid="org.universe.queue.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.queue"/>
+    </javac2>
+    
+    <copy todir="${org.universe.queue.output.dir}">
+      <fileset dir="${module.org.universe.queue.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.queue.tests" depends="register.custom.compilers,compile.module.org.universe.queue.production" description="compile module org.universe.queue; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.queue" description="cleanup module">
+    <delete dir="${org.universe.queue.output.dir}"/>
+    <delete dir="${org.universe.queue.testoutput.dir}"/>
+  </target>
+</project>

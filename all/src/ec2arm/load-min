@@ -1,0 +1,21 @@
+#!/bin/bash
+sudo apt-get -y install qemu guestfish qemu-system
+
+TYPE=Minimal
+if [ ! -f $TYPE/.done ]; then
+  cd /r
+  mkdir -p $TYPE
+  # options include KDE, LXDE, XFCE, SoaS, Mate and Minimal
+  wget http://download.fedoraproject.org/pub/fedora-secondary/releases/19/Images/armhfp/Fedora-$TYPE-armhfp-19-1-sda.raw.xz -O ./Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+  cd $TYPE
+  unxz Fedora-$TYPE-armhfp-19-1-sda.raw.xz
+  wget --verbose https://www.dropbox.com/s/50d30d0fx01c2vc/boot.tar.gz -O boot.tar.gz
+  tar -xf boot.tar.gz
+  rm boot.tar.gz
+  ls -l boot
+  if [ -f vmlinuz-3.9.5-301.fc19.armv7hl ]; then
+    touch .done
+    echo DONE. start with 'bash go-min'
+  fi
+fi
+

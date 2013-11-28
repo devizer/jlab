@@ -1,0 +1,20 @@
+sudo apt-get install qemu guestfish qemu-system p7zip-full -y
+
+echo
+size=1M
+point=/r
+echo INSTALL RAMDISK of size $size to [$point]
+sudo mkdir -p $point
+sudo chmod 777 $point
+sudo mount tmpfs /r -t tmpfs -o size=$size
+sudo chown ubuntu:ubuntu $point
+sudo chown ubuntu:ubuntu /mnt
+df -H | grep $point
+
+echo
+
+wget https://www.dropbox.com/s/8h9h9o3c9v7uhij/fedora.7z -O fedora.7z
+7z x -o/mnt fedora.7z
+rm fedora.7z
+cd /mnt
+bash go-min

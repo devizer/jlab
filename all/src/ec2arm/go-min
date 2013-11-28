@@ -1,0 +1,11 @@
+#!/bin/bash
+# sudo apt-get install libguestfs-tools qemu guestfish qemu-system
+
+cd /r/Minimal/boot
+
+qemu-system-arm -machine vexpress-a9 -m 1024 -nographic -ctrl-grab -net nic -net user \
+ -append "console=ttyAMA0,115200n8 rw root=/dev/mmcblk0p3 rootwait physmap.enabled=0" \
+ -kernel vmlinuz-3.9.5-301.fc19.armv7hl \
+ -initrd initramfs-3.9.5-301.fc19.armv7hl.img \
+ -sd ../Fedora-Minimal-armhfp-19-1-sda.raw
+

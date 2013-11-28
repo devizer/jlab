@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.rabbitstress" default="compile.module.org.universe.rabbitstress">
+  <dirname property="module.org.universe.rabbitstress.basedir" file="${ant.file.module_org.universe.rabbitstress}"/>
+  
+  <property name="module.jdk.home.org.universe.rabbitstress" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.rabbitstress" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.rabbitstress" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.rabbitstress" value="${compiler.args}"/>
+  
+  <property name="org.universe.rabbitstress.output.dir" value="${module.org.universe.rabbitstress.basedir}/../out/production/org.universe.rabbitstress"/>
+  <property name="org.universe.rabbitstress.testoutput.dir" value="${module.org.universe.rabbitstress.basedir}/../out/test/org.universe.rabbitstress"/>
+  
+  <path id="org.universe.rabbitstress.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.rabbitstress.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.rabbitstress}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+  </path>
+  
+  <path id="org.universe.rabbitstress.runtime.production.module.classpath">
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.rabbitstress.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.rabbitstress}"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+  </path>
+  
+  <path id="org.universe.rabbitstress.runtime.module.classpath">
+    <pathelement location="${org.universe.rabbitstress.testoutput.dir}"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.rabbitstress">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.rabbitstress">
+    <patternset refid="excluded.from.module.org.universe.rabbitstress"/>
+  </patternset>
+  
+  <path id="org.universe.rabbitstress.module.sourcepath">
+    <dirset dir="${module.org.universe.rabbitstress.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.rabbitstress" depends="compile.module.org.universe.rabbitstress.production,compile.module.org.universe.rabbitstress.tests" description="Compile module org.universe.rabbitstress"/>
+  
+  <target name="compile.module.org.universe.rabbitstress.production" depends="register.custom.compilers,compile.module.org.universe.test" description="Compile module org.universe.rabbitstress; production classes">
+    <mkdir dir="${org.universe.rabbitstress.output.dir}"/>
+    <javac2 destdir="${org.universe.rabbitstress.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.rabbitstress}/javac">
+      <compilerarg line="${compiler.args.org.universe.rabbitstress}"/>
+      <bootclasspath refid="org.universe.rabbitstress.module.bootclasspath"/>
+      <classpath refid="org.universe.rabbitstress.module.production.classpath"/>
+      <src refid="org.universe.rabbitstress.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.rabbitstress"/>
+    </javac2>
+    
+    <copy todir="${org.universe.rabbitstress.output.dir}">
+      <fileset dir="${module.org.universe.rabbitstress.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.rabbitstress.tests" depends="register.custom.compilers,compile.module.org.universe.rabbitstress.production" description="compile module org.universe.rabbitstress; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.rabbitstress" description="cleanup module">
+    <delete dir="${org.universe.rabbitstress.output.dir}"/>
+    <delete dir="${org.universe.rabbitstress.testoutput.dir}"/>
+  </target>
+</project>

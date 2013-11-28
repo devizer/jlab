@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_all" default="compile.module.all">
+  <dirname property="module.all.basedir" file="${ant.file.module_all}"/>
+  
+  <property name="module.jdk.home.all" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.all" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.all" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.all" value="${compiler.args}"/>
+  
+  <property name="all.output.dir" value="${module.all.basedir}/../out/production/all"/>
+  <property name="all.testoutput.dir" value="${module.all.basedir}/../out/test/all"/>
+  
+  <path id="all.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="all.module.production.classpath">
+    <path refid="${module.jdk.classpath.all}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+  </path>
+  
+  <path id="all.runtime.production.module.classpath">
+    <pathelement location="${all.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+  </path>
+  
+  <path id="all.module.classpath">
+    <path refid="${module.jdk.classpath.all}"/>
+    <pathelement location="${all.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <pathelement location="${org.universe.rabbitstress.testoutput.dir}"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+  </path>
+  
+  <path id="all.runtime.module.classpath">
+    <pathelement location="${all.testoutput.dir}"/>
+    <pathelement location="${all.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <pathelement location="${org.universe.rabbitstress.testoutput.dir}"/>
+    <pathelement location="${org.universe.rabbitstress.output.dir}"/>
+    <path refid="library.rabbitmq-client.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.all">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.all">
+    <patternset refid="excluded.from.module.all"/>
+  </patternset>
+  
+  <path id="all.module.sourcepath">
+    <dirset dir="${module.all.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.all" depends="compile.module.all.production,compile.module.all.tests" description="Compile module all"/>
+  
+  <target name="compile.module.all.production" depends="register.custom.compilers,compile.module.org.universe,compile.module.org.universe.rabbitstress,compile.module.org.universe.test" description="Compile module all; production classes">
+    <mkdir dir="${all.output.dir}"/>
+    <javac2 destdir="${all.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.all}/javac">
+      <compilerarg line="${compiler.args.all}"/>
+      <bootclasspath refid="all.module.bootclasspath"/>
+      <classpath refid="all.module.production.classpath"/>
+      <src refid="all.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.all"/>
+    </javac2>
+    
+    <copy todir="${all.output.dir}">
+      <fileset dir="${module.all.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.all.tests" depends="register.custom.compilers,compile.module.all.production" description="compile module all; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.all" description="cleanup module">
+    <delete dir="${all.output.dir}"/>
+    <delete dir="${all.testoutput.dir}"/>
+  </target>
+</project>

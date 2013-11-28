@@ -1,0 +1,27 @@
+pass=pass
+
+# if [[ "$(ps -f -U rabbitmq -u rabbitmq | grep rabbitmq | grep inet_gethost)" == "" ]]; then
+if [[ "$(ps -f -U rabbitmq -u rabbitmq | grep rabbitmq.*inet_gethost)" == "" ]]; then
+    echo $pass | sudo -S echo starting rabbitmq-server using sudo
+    bash -c "echo $pass | sudo -S rabbitmq-server &"
+fi
+echo start mysqld and memcached
+echo $pass | sudo -S systemctl start mysqld.service memcached.service
+
+# sudo systemctl is-enabled memcached.service
+# sudo systemctl enable memcached.service
+
+echo
+echo "MYSQL VERSION"
+mysql -u root -p'root' -e "SHOW VARIABLES LIKE '%version%';"
+echo "MYSQL ENVIRONMENT"
+mysql -u root -p'root' -e "SHOW VARIABLES WHERE Variable_Name IN ('max_allowed_packet', 'storage_engine', 'system_time_zone', 'version', 'unique_checks', 'have_innodb', 'character_set_server');"
+
+
+echo
+echo "MEMCACHED VERSION"
+echo stats | nc 127.0.0.1 11211 | grep version
+
+echo
+echo "RABBITMQ_SERVER VERSION"
+echo $pass | sudo -S sudo rabbitmqctl status | grep "{rabbit,"

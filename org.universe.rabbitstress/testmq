@@ -1,0 +1,7 @@
+#!/bin/bash
+TEST_LINGERING=1
+arch=$(uname -m)
+if [[ $arch == arm* ]]; then
+  export TEST_LINGERING=6
+fi
+java -cp ./*: org.junit.runner.JUnitCore org.universe.rabbitstress.TestMQ

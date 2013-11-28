@@ -1,0 +1,18 @@
+#!/bin/bash
+sudo yum install ant subversion mysql-server rabbitmq-server p7zip memcached * -y
+bash ins-jdk
+bash ins-idea-c
+
+echo pass | sudo -S systemctl start mysqld.service
+echo pass | sudo -S mysqladmin -u root password root
+
+svn checkout https://sandbox.repositoryhosting.com/svn/sandbox_sandbox/javalab/all
+
+echo pass | sudo -S bash -c "rabbitmq-server &"
+echo pass | sudo -S service memcached start
+echo pass | sudo -S systemctl start mysqld.service
+echo pass | sudo -S mysqladmin -u root password root
+
+mysql -u root -p'root' -e "SHOW VARIABLES LIKE \"%version%\";"
+echo stats | nc 127.0.0.1 11211 | grep version
+sudo rabbitmqctl status | grep "{rabbit,"

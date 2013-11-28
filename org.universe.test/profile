@@ -1,0 +1,1 @@
+java -cp ./*: org.universe.tests.jaxb.ProfilerMain

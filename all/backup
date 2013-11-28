@@ -1,0 +1,16 @@
+DIR=~/backup/javalab
+FILE=$( date '+%Y-%m-%d_%H-%M-%S' )
+FILE=$DIR/work-$FILE.tar.gz
+echo Backup ~/work to $FILE
+mkdir -p $DIR
+GZIP=9
+tar -czf $FILE ~/work
+ls -1tr $DIR | head -n -10 | while read f; do
+  echo Remove old backup: "$f"
+  rm -f "$DIR/$f"
+done
+
+COP=/mnt/hgfs/Shared/backup/javalab
+echo Copy backup to share $COP
+mkdir -p $COP
+cp $FILE $COP

@@ -1,0 +1,161 @@
+Locales
+Tag                               | Display Name                           | Country | ISO3 Country | ISO3 Lang |       |
+---                               | ------------                           | ------- | ------------ | --------- | --    | --
+ar                                | Arabic                                 |         |              | ara       |       |
+ar-AE                             | Arabic (United Arab Emirates)          | AE      | ARE          | ara       |       |
+ar-BH                             | Arabic (Bahrain)                       | BH      | BHR          | ara       |       |
+ar-DZ                             | Arabic (Algeria)                       | DZ      | DZA          | ara       |       |
+ar-EG                             | Arabic (Egypt)                         | EG      | EGY          | ara       |       |
+ar-IQ                             | Arabic (Iraq)                          | IQ      | IRQ          | ara       |       |
+ar-JO                             | Arabic (Jordan)                        | JO      | JOR          | ara       |       |
+ar-KW                             | Arabic (Kuwait)                        | KW      | KWT          | ara       |       |
+ar-LB                             | Arabic (Lebanon)                       | LB      | LBN          | ara       |       |
+ar-LY                             | Arabic (Libya)                         | LY      | LBY          | ara       |       |
+ar-MA                             | Arabic (Morocco)                       | MA      | MAR          | ara       |       |
+ar-OM                             | Arabic (Oman)                          | OM      | OMN          | ara       |       |
+ar-QA                             | Arabic (Qatar)                         | QA      | QAT          | ara       |       |
+ar-SA                             | Arabic (Saudi Arabia)                  | SA      | SAU          | ara       |       |
+ar-SD                             | Arabic (Sudan)                         | SD      | SDN          | ara       |       |
+ar-SY                             | Arabic (Syria)                         | SY      | SYR          | ara       |       |
+ar-TN                             | Arabic (Tunisia)                       | TN      | TUN          | ara       |       |
+ar-YE                             | Arabic (Yemen)                         | YE      | YEM          | ara       |       |
+be                                | Belarusian                             |         |              | bel       |       |
+be-BY                             | Belarusian (Belarus)                   | BY      | BLR          | bel       |       |
+bg                                | Bulgarian                              |         |              | bul       |       |
+bg-BG                             | Bulgarian (Bulgaria)                   | BG      | BGR          | bul       |       |
+ca                                | Catalan                                |         |              | cat       |       |
+ca-ES                             | Catalan (Spain)                        | ES      | ESP          | cat       |       |
+cs                                | Czech                                  |         |              | ces       |       |
+cs-CZ                             | Czech (Czech Republic)                 | CZ      | CZE          | ces       |       |
+da                                | Danish                                 |         |              | dan       |       |
+da-DK                             | Danish (Denmark)                       | DK      | DNK          | dan       |       |
+de                                | German                                 |         |              | deu       |       |
+de-AT                             | German (Austria)                       | AT      | AUT          | deu       |       |
+de-CH                             | German (Switzerland)                   | CH      | CHE          | deu       |       |
+de-DE                             | German (Germany)                       | DE      | DEU          | deu       |       |
+de-LU                             | German (Luxembourg)                    | LU      | LUX          | deu       |       |
+el                                | Greek                                  |         |              | ell       |       |
+el-CY                             | Greek (Cyprus)                         | CY      | CYP          | ell       |       |
+el-GR                             | Greek (Greece)                         | GR      | GRC          | ell       |       |
+en                                | English                                |         |              | eng       |       |
+en-AU                             | English (Australia)                    | AU      | AUS          | eng       |       |
+en-CA                             | English (Canada)                       | CA      | CAN          | eng       |       |
+en-GB                             | English (United Kingdom)               | GB      | GBR          | eng       |       |
+en-IE                             | English (Ireland)                      | IE      | IRL          | eng       |       |
+en-IN                             | English (India)                        | IN      | IND          | eng       |       |
+en-MT                             | English (Malta)                        | MT      | MLT          | eng       |       |
+en-NZ                             | English (New Zealand)                  | NZ      | NZL          | eng       |       |
+en-PH                             | English (Philippines)                  | PH      | PHL          | eng       |       |
+en-SG                             | English (Singapore)                    | SG      | SGP          | eng       |       |
+en-US                             | English (United States)                | US      | USA          | eng       |       |
+en-ZA                             | English (South Africa)                 | ZA      | ZAF          | eng       |       |
+es                                | Spanish                                |         |              | spa       |       |
+es-AR                             | Spanish (Argentina)                    | AR      | ARG          | spa       |       |
+es-BO                             | Spanish (Bolivia)                      | BO      | BOL          | spa       |       |
+es-CL                             | Spanish (Chile)                        | CL      | CHL          | spa       |       |
+es-CO                             | Spanish (Colombia)                     | CO      | COL          | spa       |       |
+es-CR                             | Spanish (Costa Rica)                   | CR      | CRI          | spa       |       |
+es-DO                             | Spanish (Dominican Republic)           | DO      | DOM          | spa       |       |
+es-EC                             | Spanish (Ecuador)                      | EC      | ECU          | spa       |       |
+es-ES                             | Spanish (Spain)                        | ES      | ESP          | spa       |       |
+es-GT                             | Spanish (Guatemala)                    | GT      | GTM          | spa       |       |
+es-HN                             | Spanish (Honduras)                     | HN      | HND          | spa       |       |
+es-MX                             | Spanish (Mexico)                       | MX      | MEX          | spa       |       |
+es-NI                             | Spanish (Nicaragua)                    | NI      | NIC          | spa       |       |
+es-PA                             | Spanish (Panama)                       | PA      | PAN          | spa       |       |
+es-PE                             | Spanish (Peru)                         | PE      | PER          | spa       |       |
+es-PR                             | Spanish (Puerto Rico)                  | PR      | PRI          | spa       |       |
+es-PY                             | Spanish (Paraguay)                     | PY      | PRY          | spa       |       |
+es-SV                             | Spanish (El Salvador)                  | SV      | SLV          | spa       |       |
+es-US                             | Spanish (United States)                | US      | USA          | spa       |       |
+es-UY                             | Spanish (Uruguay)                      | UY      | URY          | spa       |       |
+es-VE                             | Spanish (Venezuela)                    | VE      | VEN          | spa       |       |
+et                                | Estonian                               |         |              | est       |       |
+et-EE                             | Estonian (Estonia)                     | EE      | EST          | est       |       |
+fi                                | Finnish                                |         |              | fin       |       |
+fi-FI                             | Finnish (Finland)                      | FI      | FIN          | fin       |       |
+fr                                | French                                 |         |              | fra       |       |
+fr-BE                             | French (Belgium)                       | BE      | BEL          | fra       |       |
+fr-CA                             | French (Canada)                        | CA      | CAN          | fra       |       |
+fr-CH                             | French (Switzerland)                   | CH      | CHE          | fra       |       |
+fr-FR                             | French (France)                        | FR      | FRA          | fra       |       |
+fr-LU                             | French (Luxembourg)                    | LU      | LUX          | fra       |       |
+ga                                | Irish                                  |         |              | gle       |       |
+ga-IE                             | Irish (Ireland)                        | IE      | IRL          | gle       |       |
+he                                | Hebrew                                 |         |              | heb       |       |
+he-IL                             | Hebrew (Israel)                        | IL      | ISR          | heb       |       |
+hi-IN                             | Hindi (India)                          | IN      | IND          | hin       |       |
+hr                                | Croatian                               |         |              | hrv       |       |
+hr-HR                             | Croatian (Croatia)                     | HR      | HRV          | hrv       |       |
+hu                                | Hungarian                              |         |              | hun       |       |
+hu-HU                             | Hungarian (Hungary)                    | HU      | HUN          | hun       |       |
+id                                | Indonesian                             |         |              | ind       |       |
+id-ID                             | Indonesian (Indonesia)                 | ID      | IDN          | ind       |       |
+is                                | Icelandic                              |         |              | isl       |       |
+is-IS                             | Icelandic (Iceland)                    | IS      | ISL          | isl       |       |
+it                                | Italian                                |         |              | ita       |       |
+it-CH                             | Italian (Switzerland)                  | CH      | CHE          | ita       |       |
+it-IT                             | Italian (Italy)                        | IT      | ITA          | ita       |       |
+ja                                | Japanese                               |         |              | jpn       |       |
+ja-JP                             | Japanese (Japan)                       | JP      | JPN          | jpn       |       |
+ja-JP-u-ca-japanese-x-lvariant-JP | Japanese (Japan,JP)                    | JP      | JPN          | jpn       |       | JP
+ko                                | Korean                                 |         |              | kor       |       |
+ko-KR                             | Korean (South Korea)                   | KR      | KOR          | kor       |       |
+lt                                | Lithuanian                             |         |              | lit       |       |
+lt-LT                             | Lithuanian (Lithuania)                 | LT      | LTU          | lit       |       |
+lv                                | Latvian                                |         |              | lav       |       |
+lv-LV                             | Latvian (Latvia)                       | LV      | LVA          | lav       |       |
+mk                                | Macedonian                             |         |              | mkd       |       |
+mk-MK                             | Macedonian (Macedonia)                 | MK      | MKD          | mkd       |       |
+ms                                | Malay                                  |         |              | msa       |       |
+ms-MY                             | Malay (Malaysia)                       | MY      | MYS          | msa       |       |
+mt                                | Maltese                                |         |              | mlt       |       |
+mt-MT                             | Maltese (Malta)                        | MT      | MLT          | mlt       |       |
+nl                                | Dutch                                  |         |              | nld       |       |
+nl-BE                             | Dutch (Belgium)                        | BE      | BEL          | nld       |       |
+nl-NL                             | Dutch (Netherlands)                    | NL      | NLD          | nld       |       |
+nn-NO                             | Norwegian (Norway,Nynorsk)             | NO      | NOR          | nor       |       | Nynorsk
+no                                | Norwegian                              |         |              | nor       |       |
+no-NO                             | Norwegian (Norway)                     | NO      | NOR          | nor       |       |
+pl                                | Polish                                 |         |              | pol       |       |
+pl-PL                             | Polish (Poland)                        | PL      | POL          | pol       |       |
+pt                                | Portuguese                             |         |              | por       |       |
+pt-BR                             | Portuguese (Brazil)                    | BR      | BRA          | por       |       |
+pt-PT                             | Portuguese (Portugal)                  | PT      | PRT          | por       |       |
+ro                                | Romanian                               |         |              | ron       |       |
+ro-RO                             | Romanian (Romania)                     | RO      | ROU          | ron       |       |
+ru                                | Russian                                |         |              | rus       |       |
+ru-RU                             | Russian (Russia)                       | RU      | RUS          | rus       |       |
+sk                                | Slovak                                 |         |              | slk       |       |
+sk-SK                             | Slovak (Slovakia)                      | SK      | SVK          | slk       |       |
+sl                                | Slovenian                              |         |              | slv       |       |
+sl-SI                             | Slovenian (Slovenia)                   | SI      | SVN          | slv       |       |
+sq                                | Albanian                               |         |              | sqi       |       |
+sq-AL                             | Albanian (Albania)                     | AL      | ALB          | sqi       |       |
+sr                                | Serbian                                |         |              | srp       |       |
+sr-BA                             | Serbian (Bosnia and Herzegovina)       | BA      | BIH          | srp       |       |
+sr-CS                             | Serbian (Serbia and Montenegro)        | CS      | :(           | srp       |       |
+sr-Latn                           | Serbian (Latin)                        |         |              | srp       | Latin |
+sr-Latn-BA                        | Serbian (Latin,Bosnia and Herzegovina) | BA      | BIH          | srp       | Latin |
+sr-Latn-ME                        | Serbian (Latin,Montenegro)             | ME      | MNE          | srp       | Latin |
+sr-Latn-RS                        | Serbian (Latin,Serbia)                 | RS      | SRB          | srp       | Latin |
+sr-ME                             | Serbian (Montenegro)                   | ME      | MNE          | srp       |       |
+sr-RS                             | Serbian (Serbia)                       | RS      | SRB          | srp       |       |
+sv                                | Swedish                                |         |              | swe       |       |
+sv-SE                             | Swedish (Sweden)                       | SE      | SWE          | swe       |       |
+th                                | Thai                                   |         |              | tha       |       |
+th-TH                             | Thai (Thailand)                        | TH      | THA          | tha       |       |
+th-TH-u-nu-thai-x-lvariant-TH     | Thai (Thailand,TH)                     | TH      | THA          | tha       |       | TH
+tr                                | Turkish                                |         |              | tur       |       |
+tr-TR                             | Turkish (Turkey)                       | TR      | TUR          | tur       |       |
+uk                                | Ukrainian                              |         |              | ukr       |       |
+uk-UA                             | Ukrainian (Ukraine)                    | UA      | UKR          | ukr       |       |
+vi                                | Vietnamese                             |         |              | vie       |       |
+vi-VN                             | Vietnamese (Vietnam)                   | VN      | VNM          | vie       |       |
+zh                                | Chinese                                |         |              | zho       |       |
+zh-CN                             | Chinese (China)                        | CN      | CHN          | zho       |       |
+zh-HK                             | Chinese (Hong Kong)                    | HK      | HKG          | zho       |       |
+zh-SG                             | Chinese (Singapore)                    | SG      | SGP          | zho       |       |
+zh-TW                             | Chinese (Taiwan)                       | TW      | TWN          | zho       |       |
+
+

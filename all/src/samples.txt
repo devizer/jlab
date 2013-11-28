@@ -1,0 +1,14 @@
+FEDORA 19 arm
+
+readelf -h /bin/sh | grep 'hard-float'
+Flags:                             0x5000402, has entry point, Version5 EABI, hard-float ABI
+
+uname -a
+Linux localhost 3.9.5-301.fc19.armv7hl #1 SMP Wed Jun 12 14:56:17 UTC 2013 armv7l armv7l armv7l GNU/Linux
+
+cat /proc/*version
+Linux version 3.9.5-301.fc19.armv7hl (mockbuild@arm01-builder16.arm.fedoraproject.org) (gcc version 4.8.1 20130603 (Red Hat 4.8.1-1) (GCC) ) #1 SMP Wed Jun 12 14:56:17 UTC 2013
+
+uname -m
+armv7l
+

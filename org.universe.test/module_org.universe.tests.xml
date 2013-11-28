@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.tests" default="compile.module.org.universe.tests">
+  <dirname property="module.org.universe.tests.basedir" file="${ant.file.module_org.universe.tests}"/>
+  
+  <property name="module.jdk.home.org.universe.tests" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.tests" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.tests" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.tests" value="${compiler.args}"/>
+  
+  <property name="org.universe.tests.output.dir" value="org.universe.test/../out/production/org.universe.tests"/>
+  <property name="org.universe.tests.testoutput.dir" value="org.universe.test/../out/test/org.universe.tests"/>
+  
+  <path id="org.universe.tests.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.tests.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.tests}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-latest.classpath"/>
+  </path>
+  
+  <path id="org.universe.tests.runtime.production.module.classpath">
+    <pathelement location="${org.universe.tests.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-latest.classpath"/>
+  </path>
+  
+  <path id="org.universe.tests.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.tests}"/>
+    <pathelement location="${org.universe.tests.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-latest.classpath"/>
+  </path>
+  
+  <path id="org.universe.tests.runtime.module.classpath">
+    <pathelement location="${org.universe.tests.testoutput.dir}"/>
+    <pathelement location="${org.universe.tests.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.junit-latest.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.tests">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.tests">
+    <patternset refid="excluded.from.module.org.universe.tests"/>
+  </patternset>
+  
+  <path id="org.universe.tests.module.sourcepath">
+    <dirset dir="org.universe.test">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.tests" depends="compile.module.org.universe.tests.production,compile.module.org.universe.tests.tests" description="Compile module org.universe.tests"/>
+  
+  <target name="compile.module.org.universe.tests.production" depends="register.custom.compilers,compile.module.org.universe" description="Compile module org.universe.tests; production classes">
+    <mkdir dir="${org.universe.tests.output.dir}"/>
+    <javac2 destdir="${org.universe.tests.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.tests}/javac">
+      <compilerarg line="${compiler.args.org.universe.tests}"/>
+      <bootclasspath refid="org.universe.tests.module.bootclasspath"/>
+      <classpath refid="org.universe.tests.module.production.classpath"/>
+      <src refid="org.universe.tests.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.tests"/>
+    </javac2>
+    
+    <copy todir="${org.universe.tests.output.dir}">
+      <fileset dir="org.universe.test/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.tests.tests" depends="register.custom.compilers,compile.module.org.universe.tests.production" description="compile module org.universe.tests; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.tests" description="cleanup module">
+    <delete dir="${org.universe.tests.output.dir}"/>
+    <delete dir="${org.universe.tests.testoutput.dir}"/>
+  </target>
+</project>

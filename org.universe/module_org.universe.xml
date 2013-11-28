@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe" default="compile.module.org.universe">
+  <dirname property="module.org.universe.basedir" file="${ant.file.module_org.universe}"/>
+  
+  <property name="module.jdk.home.org.universe" value="${jdk.home.1.7}"/>
+  <property name="module.jdk.bin.org.universe" value="${jdk.bin.1.7}"/>
+  <property name="module.jdk.classpath.org.universe" value="jdk.classpath.1.7"/>
+  
+  <property name="compiler.args.org.universe" value="${compiler.args}"/>
+  
+  <property name="org.universe.output.dir" value="${module.org.universe.basedir}/../out/production/org.universe"/>
+  <property name="org.universe.testoutput.dir" value="${module.org.universe.basedir}/../out/test/org.universe"/>
+  
+  <path id="org.universe.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.runtime.production.module.classpath">
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  <path id="org.universe.runtime.module.classpath">
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe">
+    <patternset refid="excluded.from.module.org.universe"/>
+  </patternset>
+  
+  <path id="org.universe.module.sourcepath">
+    <dirset dir="${module.org.universe.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe" depends="compile.module.org.universe.production,compile.module.org.universe.tests" description="Compile module org.universe"/>
+  
+  <target name="compile.module.org.universe.production" depends="register.custom.compilers" description="Compile module org.universe; production classes">
+    <mkdir dir="${org.universe.output.dir}"/>
+    <javac2 destdir="${org.universe.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe}/javac">
+      <compilerarg line="${compiler.args.org.universe}"/>
+      <bootclasspath refid="org.universe.module.bootclasspath"/>
+      <classpath refid="org.universe.module.production.classpath"/>
+      <src refid="org.universe.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe"/>
+    </javac2>
+    
+    <copy todir="${org.universe.output.dir}">
+      <fileset dir="${module.org.universe.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.tests" depends="register.custom.compilers,compile.module.org.universe.production" description="compile module org.universe; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe" description="cleanup module">
+    <delete dir="${org.universe.output.dir}"/>
+    <delete dir="${org.universe.testoutput.dir}"/>
+  </target>
+</project>

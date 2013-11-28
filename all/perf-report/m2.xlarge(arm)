@@ -1,0 +1,475 @@
+Checked out revision 152.
+Buildfile: /home/vlad/test.tmp/javalab/build.xml
+BUILD SUCCESSFUL
+Total time: 2 minutes 17 seconds
+JUnit version 4.11
+..MD2 digest(2 byte): 1 2 6 
+
+MD2 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 670.0   | 1.493    | 0.1      | 67    | 100% | none
+2  | 2200.0  | 0.455    | 0.1      | 220   | 100% | none
+6  | 760.0   | 1.316    | 0.2      | 76    | 100% | none
+
+MD2 CLONED digest(2 bytes): 1 2 6 
+
+MD2 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3760.0  | 0.266    | 0.1      | 376   | 100% | none
+2  | 1810.0  | 0.552    | 0.1      | 181   | 100% | none
+6  | 4300.0  | 0.233    | 0.3      | 430   | 100% | none
+
+MD2 digest(100000 byte): 1 2 6 
+
+MD2 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10.0    | 100.000  | 0.2      | 1     | 100% | none
+2  | 20.0    | 50.000   | 2.3      | 2     | 100% | none
+6  | 60.0    | 16.667   | 1.7      | 6     | 100% | none
+
+MD2 CLONED digest(100000 bytes): 1 2 6 
+
+MD2 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 10.0    | 100.000  | 0.2      | 1     | 100% | none
+2  | 20.0    | 50.000   | 0.4      | 2     | 100% | none
+6  | 60.0    | 16.667   | 1.3      | 6     | 100% | none
+
+MD5 digest(2 byte): 1 2 6 
+
+MD5 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 1260.0  | 0.794    | 0.1      | 126   | 100% | none
+2  | 2870.0  | 0.348    | 0.1      | 287   | 100% | none
+6  | 3340.0  | 0.299    | 0.2      | 334   | 100% | none
+
+MD5 CLONED digest(2 bytes): 1 2 6 
+
+MD5 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3310.0  | 0.302    | 0.1      | 331   | 100% | none
+2  | 2670.0  | 0.375    | 0.1      | 267   | 100% | none
+6  | 6460.0  | 0.155    | 0.2      | 646   | 100% | none
+
+MD5 digest(100000 byte): 1 2 6 
+
+MD5 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 310.0   | 3.226    | 0.1      | 31    | 100% | none
+2  | 250.0   | 4.000    | 0.1      | 25    | 100% | none
+6  | 330.0   | 3.030    | 0.3      | 33    | 100% | none
+
+MD5 CLONED digest(100000 bytes): 1 2 6 
+
+MD5 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 90.0    | 11.111   | 0.2      | 9     | 100% | none
+2  | 120.0   | 8.333    | 0.2      | 12    | 100% | none
+6  | 220.0   | 4.545    | 0.4      | 22    | 100% | none
+
+SHA digest(2 byte): 1 2 6 
+
+SHA digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 510.0   | 1.961    | 0.1      | 51    | 100% | none
+2  | 1330.0  | 0.752    | 0.1      | 133   | 100% | none
+6  | 2170.0  | 0.461    | 0.2      | 217   | 100% | none
+
+SHA CLONED digest(2 bytes): 1 2 6 
+
+SHA CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2620.0  | 0.382    | 0.2      | 262   | 100% | none
+2  | 2990.0  | 0.334    | 0.2      | 299   | 100% | none
+6  | 7260.0  | 0.138    | 0.3      | 726   | 100% | none
+
+SHA digest(100000 byte): 1 2 6 
+
+SHA digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 20.0    | 50.000   | 0.2      | 2     | 100% | none
+2  | 30.0    | 33.333   | 0.2      | 3     | 100% | none
+6  | 60.0    | 16.667   | 0.3      | 6     | 100% | none
+
+SHA CLONED digest(100000 bytes): 1 2 6 
+
+SHA CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 50.0    | 20.000   | 0.1      | 5     | 100% | none
+2  | 50.0    | 20.000   | 0.2      | 5     | 100% | none
+6  | 90.0    | 11.111   | 0.4      | 9     | 100% | none
+
+SHA-1 digest(2 byte): 1 2 6 
+
+SHA-1 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3030.0  | 0.330    | 0.1      | 303   | 100% | none
+2  | 5060.0  | 0.198    | 0.1      | 506   | 100% | none
+6  | 6570.0  | 0.152    | 0.3      | 657   | 100% | none
+
+SHA-1 CLONED digest(2 bytes): 1 2 6 
+
+SHA-1 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3020.0  | 0.331    | 0.1      | 302   | 100% | none
+2  | 3670.0  | 0.272    | 0.1      | 367   | 100% | none
+6  | 2630.0  | 0.380    | 0.2      | 263   | 100% | none
+
+SHA-1 digest(100000 byte): 1 2 6 
+
+SHA-1 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 40.0    | 25.000   | 0.1      | 4     | 100% | none
+2  | 60.0    | 16.667   | 0.2      | 6     | 100% | none
+6  | 80.0    | 12.500   | 0.3      | 8     | 100% | none
+
+SHA-1 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-1 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 40.0    | 25.000   | 0.1      | 4     | 100% | none
+2  | 60.0    | 16.667   | 0.2      | 6     | 100% | none
+6  | 90.0    | 11.111   | 0.3      | 9     | 100% | none
+
+SHA-256 digest(2 byte): 1 2 6 
+
+SHA-256 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 1220.0  | 0.820    | 0.1      | 122   | 100% | none
+2  | 3780.0  | 0.265    | 0.1      | 378   | 100% | none
+6  | 5290.0  | 0.189    | 0.2      | 529   | 100% | none
+
+SHA-256 CLONED digest(2 bytes): 1 2 6 
+
+SHA-256 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4090.0  | 0.244    | 0.2      | 409   | 100% | none
+2  | 4460.0  | 0.224    | 0.1      | 446   | 100% | none
+6  | 7550.0  | 0.132    | 0.2      | 755   | 100% | none
+
+SHA-256 digest(100000 byte): 1 2 6 
+
+SHA-256 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 40.0    | 25.000   | 0.2      | 4     | 100% | none
+2  | 40.0    | 25.000   | 0.2      | 4     | 100% | none
+6  | 70.0    | 14.286   | 0.3      | 7     | 100% | none
+
+SHA-256 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-256 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 30.0    | 33.333   | 0.1      | 3     | 100% | none
+2  | 40.0    | 25.000   | 0.2      | 4     | 100% | none
+6  | 60.0    | 16.667   | 0.3      | 6     | 100% | none
+
+SHA-384 digest(2 byte): 1 2 6 
+
+SHA-384 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 160.0   | 6.250    | 0.2      | 16    | 100% | none
+2  | 1050.0  | 0.952    | 0.2      | 105   | 100% | none
+6  | 2900.0  | 0.345    | 0.3      | 290   | 100% | none
+
+SHA-384 CLONED digest(2 bytes): 1 2 6 
+
+SHA-384 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 1950.0  | 0.513    | 0.1      | 195   | 100% | none
+2  | 3590.0  | 0.279    | 0.1      | 359   | 100% | none
+6  | 5100.0  | 0.196    | 0.2      | 510   | 100% | none
+
+SHA-384 digest(100000 byte): 1 2 6 
+
+SHA-384 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 20.0    | 50.000   | 0.1      | 2     | 100% | none
+2  | 20.0    | 50.000   | 0.1      | 2     | 100% | none
+6  | 60.0    | 16.667   | 0.4      | 6     | 100% | none
+
+SHA-384 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-384 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 20.0    | 50.000   | 0.1      | 2     | 100% | none
+2  | 20.0    | 50.000   | 0.1      | 2     | 100% | none
+6  | 60.0    | 16.667   | 0.4      | 6     | 100% | none
+
+SHA-512 digest(2 byte): 1 2 6 
+
+SHA-512 digest(2 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3290.0  | 0.304    | 0.1      | 329   | 100% | none
+2  | 6480.0  | 0.154    | 0.1      | 648   | 100% | none
+6  | 7880.0  | 0.127    | 0.2      | 788   | 100% | none
+
+SHA-512 CLONED digest(2 bytes): 1 2 6 
+
+SHA-512 CLONED digest(2 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 6220.0  | 0.161    | 0.1      | 622   | 100% | none
+2  | 8720.0  | 0.115    | 0.1      | 872   | 100% | none
+6  | 12940.0 | 0.077    | 0.2      | 1294  | 100% | none
+
+SHA-512 digest(100000 byte): 1 2 6 
+
+SHA-512 digest(100000 byte)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 40.0    | 25.000   | 0.1      | 4     | 100% | none
+2  | 50.0    | 20.000   | 0.1      | 5     | 100% | none
+6  | 60.0    | 16.667   | 0.2      | 6     | 100% | none
+
+SHA-512 CLONED digest(100000 bytes): 1 2 6 
+
+SHA-512 CLONED digest(100000 bytes)
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 40.0    | 25.000   | 0.1      | 4     | 100% | none
+2  | 50.0    | 20.000   | 0.1      | 5     | 100% | none
+6  | 60.0    | 16.667   | 0.2      | 6     | 100% | none
+
+.....AsData: 656 bytes, AsString: 673 bytes, AsFormattedString: 897 bytes
+MyVo1
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <MyDate>2014-01-21T00:00:00-05:00</MyDate>
+    <MyDay>2014-01-11</MyDay>
+    <MySpecialDays>
+        <Day>2014-01-01</Day>
+        <Day>2013-12-22</Day>
+    </MySpecialDays>
+    <MyWorstDays>2013-12-12 2013-12-02 2013-11-22</MyWorstDays>
+    <Files>
+        <File name="MyDocument.rtf">
+            <Content>AQIDBAU=</Content>
+        </File>
+        <File name="MyPicture.jpg">
+            <Content>BQQDAgE=</Content>
+        </File>
+        <SecuredFile name="Passwords.txt">
+            <Content>CQgHBgUFBAMDIA==</Content>
+            <Roles>
+                <Role>Admin</Role>
+                <Role>Power User</Role>
+            </Roles>
+        </SecuredFile>
+    </Files>
+</MyValue>
+
+MyVol2
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyValue myInt2="24" myString2="Ih!" myDecimal2="987654321.19" newInt3A="0">
+    <MyInt>42</MyInt>
+    <MyString>Hi!</MyString>
+    <MyDecimal>100.5</MyDecimal>
+    <NewInt3>0</NewInt3>
+</MyValue>
+
+.Bye! Java ver is 1.7.0_45 by Oracle Corporation, OS: Linux ver 3.9.5-301.fc19.armv7hl
+.MyVo1 MARSHALLER to byte[]: 1 2 6 
+
+MyVo1 MARSHALLER to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 325.0   | 3.077    | 12.0     | 3900  | 100% | none
+2  | 643.9   | 1.553    | 12.0     | 7727  | 100% | none
+6  | 595.9   | 1.678    | 12.1     | 7151  | 100% | none
+
+.MyVo1 PARSE xml from byte[]: 1 2 6 
+
+MyVo1 PARSE xml from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 110.8   | 9.023    | 12.0     | 1330  | 100% | none
+2  | 182.1   | 5.492    | 12.0     | 2185  | 100% | none
+6  | 211.8   | 4.721    | 12.0     | 2542  | 100% | none
+
+.MyVo1 UNMARSHALLER from byte[]: 1 2 6 
+
+MyVo1 UNMARSHALLER from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 161.3   | 6.198    | 12.0     | 1936  | 100% | none
+2  | 318.8   | 3.137    | 12.0     | 3825  | 100% | none
+6  | 342.7   | 2.918    | 12.1     | 4112  | 100% | none
+
+.MARSHAL Simplest to byte[]: 1 2 6 
+
+MARSHAL Simplest to byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 4049.2  | 0.247    | 12.0     | 48590 | 100% | none
+2  | 3893.4  | 0.257    | 12.0     | 46721 | 100% | none
+6  | 3669.0  | 0.273    | 12.1     | 44028 | 100% | none
+
+.UNMARSHAL Simplest from byte[]: 1 2 6 
+
+UNMARSHAL Simplest from byte[]
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 1846.9  | 0.541    | 12.1     | 22163 | 100% | none
+2  | 1912.9  | 0.523    | 12.0     | 22955 | 100% | none
+6  | 1976.8  | 0.506    | 12.1     | 23722 | 100% | none
+
+
+Time: 220.753
+
+OK (13 tests)
+
+JUnit version 4.11
+.New Test's Address: http://localhost:51274/helloWorld
+Address: http://localhost:36652/helloWorld
+Server returned !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.New Test's Address: http://localhost:41849/helloWorld
+Looking formward about max supported header size
+SUPPORTED header size: 5889
+.New Test's Address: http://localhost:57162/helloWorld
+Measure: Create Client Factory: 1 2 4 8 12 16 
+
+Measure: Create Client Factory
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 2269.2  | 0.441    | 18.0     | 40846 | 100% | none
+2  | 2352.8  | 0.425    | 18.0     | 42350 | 100% | none
+4  | 2245.3  | 0.445    | 18.0     | 40416 | 100% | none
+8  | 2133.4  | 0.469    | 18.1     | 38402 | 100% | none
+12 | 2131.8  | 0.469    | 18.1     | 38372 | 100% | none
+16 | 2001.6  | 0.500    | 18.1     | 36028 | 100% | none
+
+.New Test's Address: http://localhost:51980/helloWorld
+Measure: Create Proxy and Say Hi: 1 2 4 8 12 16 
+
+Measure: Create Proxy and Say Hi
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 1.9     | 514.286  | 18.4     | 35    | 100% | none
+2  | 2.3     | 439.024  | 18.7     | 41    | 100% | none
+4  | 2.2     | 461.538  | 19.5     | 39    | 100% | none
+8  | 2.6     | 382.979  | 21.3     | 47    | 100% | none
+12 | 2.7     | 367.347  | 23.5     | 49    | 100% | none
+16 | 2.9     | 339.623  | 25.8     | 53    | 100% | none
+
+.New Test's Address: http://localhost:48109/helloWorld
+Measure: Say Hi using ThreadLocal proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using ThreadLocal proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 11.7    | 85.714   | 18.2     | 210   | 100% | none
+2  | 11.4    | 87.379   | 18.2     | 206   | 100% | none
+4  | 12.0    | 83.333   | 18.2     | 216   | 100% | none
+8  | 10.4    | 96.257   | 18.4     | 187   | 100% | none
+12 | 9.6     | 104.651  | 18.7     | 172   | 100% | none
+16 | 7.5     | 133.333  | 18.8     | 135   | 100% | none
+
+.New Test's Address: http://localhost:33937/helloWorld
+Measure: Say Hi using Single Proxy: 1 2 4 8 12 16 
+
+Measure: Say Hi using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 12.9    | 77.586   | 18.0     | 232   | 100% | none
+2  | 14.1    | 70.866   | 18.0     | 254   | 100% | none
+4  | 15.6    | 64.286   | 18.2     | 280   | 100% | none
+8  | 17.1    | 58.632   | 18.4     | 307   | 100% | none
+12 | 17.0    | 58.824   | 18.6     | 306   | 100% | none
+16 | 16.1    | 62.069   | 18.7     | 290   | 100% | none
+
+.New Test's Address: http://localhost:44890/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using ThreadLocal Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 11.4    | 87.805   | 18.0     | 205   | 100% | none
+2  | 14.3    | 70.039   | 18.1     | 257   | 100% | none
+4  | 13.7    | 73.171   | 18.2     | 246   | 100% | none
+8  | 11.4    | 87.379   | 18.3     | 206   | 100% | none
+12 | 8.7     | 115.385  | 18.6     | 156   | 100% | none
+16 | 8.3     | 120.805  | 18.8     | 149   | 100% | none
+
+.New Test's Address: http://localhost:41293/helloWorld
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy: 1 2 4 8 12 16 
+
+Measure: MyVo1 Marshal+Unmarshal using Single Proxy
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 14.7    | 67.925   | 18.0     | 265   | 100% | none
+2  | 15.5    | 64.516   | 18.1     | 279   | 100% | none
+4  | 15.8    | 63.380   | 18.2     | 284   | 100% | none
+8  | 14.8    | 67.669   | 18.5     | 266   | 100% | none
+12 | 13.9    | 72.000   | 18.7     | 250   | 100% | none
+16 | 14.8    | 67.669   | 19.5     | 266   | 100% | none
+
+.New Test's Address: http://localhost:40712/helloWorld
+Measure: Create 100500 Hosts: 1 2 4 8 12 16 
+
+Measure: Create 100500 Hosts
+#  | RUN/sec | mSec/run | Duration | Total | OK   | Fail
+-- | ------- | -------- | -------- | ----- | --   | ----
+1  | 3.3     | 306.122  | 30.2     | 98    | 100% | none
+2  | 3.5     | 283.019  | 30.3     | 106   | 100% | none
+4  | 3.1     | 326.087  | 30.4     | 92    | 100% | none
+8  | 3.2     | 315.789  | 31.7     | 95    | 100% | none
+12 | 3.0     | 337.079  | 31.5     | 89    | 100% | none
+16 | 3.0     | 333.333  | 32.2     | 90    | 100% | none
+
+Total hosts was published: 573
+Destroyed 573 hosts in 16.973 secs
+
+Time: 936.507
+
+OK (9 tests)
+
+JUnit version 4.11
+.New 'TestMQ-1 (Thu Nov 14 14:04:17 EST 2013)' queue created in 03.475 secs
+Purge queue (1 messages) in 00.188 sec
+.New 'TestMQ-2 (Thu Nov 14 14:04:17 EST 2013)' queue created in 00.146 secs
+Measure: Produce Many Messages: {1} {2} {4} {8} {12} {16} 
+
+Measure: Produce Many Messages
+#  | RUN/sec | mSec/run  | Duration | Total | OK   | Fail
+-- | ------- | --------  | -------- | ----- | --   | ----
+1  | 811.4   | 1.232     | 60.8     | 48684 | 100% | none
+2  | 0.0     | 30000.000 | 64.4     | 2     | 100% | none
+4  | 592.5   | 1.688     | 60.1     | 35548 | 100% | none
+8  | 0.1     | 7500.000  | 64.6     | 8     | 100% | none
+12 | 583.5   | 1.714     | 60.2     | 35009 | 100% | none
+16 | 204.6   | 4.887     | 60.2     | 12278 | 100% | none
+
+Purge queue (120821 messages) in 01:03.444 sec
+
+Time: 438.915
+
+OK (2 tests)
+
