@@ -17,8 +17,6 @@ JAXBSerializer, SimpleItegrity
 we need to store a **long living** POJO in blobs and queues with *versioning* and integrity check:
 
 
-
-
 ```java
 static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBSerializer<MyVo1>(MyVo1.class);
 ...
@@ -32,9 +30,23 @@ MyVo1 parse(byte[] message) {
 }
 ```
 
-SimpleSysInfo
+LightSystemInfo
 ===
-we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form
+we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form.
+Class supports Windows, Linux (arm, x86, x64), MAC OS X without external JNI dependencies.
+
+```java
+System.out.print(new LightSystemInfo());
+```
+```
+Family: Mac OS X, x86_64
+   CPU: Intel(R) Core(TM)2 Duo CPU P8400 @ 2.26GHz, Cache 3072 Kb, 2 cores
+    OS: Mac OS X, 10.9
+  Java: Java HotSpot(TM) 64-Bit Server VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 2 048 MB
+```
+
+
 
 ConnectionMetadataReader
 ===

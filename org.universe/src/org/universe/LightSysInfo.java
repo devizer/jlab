@@ -125,6 +125,11 @@ java.vendor:Oracle Corporation
         );
     }
 
+    @Override
+    public String toString() {
+        return getHumanReadableString();
+    }
+
     public String getHumanReadableString()
     {
         String ls = System6.lineSeparator();

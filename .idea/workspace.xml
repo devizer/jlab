@@ -12,43 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/all.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_cli_commons_cli_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_commons_dbutils_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/derby_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_5_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_frontend_jaxws_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_cxf_cxf_rt_transports_http_jetty_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_rabbitstress_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_testcfx_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_tests_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rabbitmq_client.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385522293642" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385620126110" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385620509258" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -109,7 +80,7 @@
     <file path="/ObjectStreamPerfomace.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384413317895" ignored="false" />
     <file path="/BinarySerializer.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384411570549" ignored="false" />
     <file path="/MyVo1.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384412059352" ignored="false" />
-    <file path="/a.dummy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385440868039" ignored="false" />
+    <file path="/a.dummy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385620982277" ignored="false" />
     <file path="/pre-ubuntu" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384448970096" ignored="false" />
     <file path="/run-servers" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384458352025" ignored="false" />
     <file path="/run-fedora" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384555635640" ignored="false" />
@@ -127,7 +98,7 @@
     <file path="/index.jsp" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384576810555" ignored="false" />
     <file path="$USER_HOME$/temp2/.idea/misc.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384576832543" ignored="false" />
     <file path="/SysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384639386543" ignored="false" />
-    <file path="/LightSysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385177699019" ignored="false" />
+    <file path="/LightSysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385621067753" ignored="false" />
     <file path="/Test_LightSystemInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384995291138" ignored="false" />
     <file path="/Ref.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384729970937" ignored="false" />
     <file path="/MapEntryStreamIterator.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384730683282" ignored="false" />
@@ -162,7 +133,7 @@
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385521195431" ignored="false" />
-    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385620266074" ignored="false" />
+    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385621187062" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,33 +315,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleIntegrity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/security/SimpleIntegrity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="36" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/backup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ins-idea-c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/ins-idea-c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessageInfo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/MessageInfo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -383,7 +327,45 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.4784">
+            <state line="42" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.7347611">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightSysInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="470" selection-end="688" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_LightSystemInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="56" selection-start="846" selection-end="894" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="org.universe.sysinfo.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.sysinfo/org.universe.sysinfo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.sysinfo/src/org/universe/sysinfo/SysInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="10" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -416,15 +398,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.testcfx/src/org/universe/cfx/StreamInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="26" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TransferInterceptor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/TransferInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -452,7 +425,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/all/ins-rabbit" />
         <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-derby.ddl" />
@@ -467,6 +439,7 @@
         <option value="$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/MessageInfo.java" />
         <option value="$PROJECT_DIR$/all/test-build.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -2342,17 +2315,25 @@
       <created>1385620131688</created>
       <updated>1385620131688</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="README.md + idea project structure">
+      <created>1385620372567</created>
+      <updated>1385620372567</updated>
+    </task>
+    <task id="LOCAL-00159" summary="README.md + idea project structure">
+      <created>1385620513769</created>
+      <updated>1385620513769</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3451923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3451923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20649967" sideWeight="0.6604514" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4644231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2364,11 +2345,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40096155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25488874" sideWeight="0.6548077" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25488874" sideWeight="0.6548077" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2508429" sideWeight="0.6721154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36412677" sideWeight="0.6548077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29681647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
@@ -2421,7 +2402,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md + idea project structure" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -2435,7 +2416,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="LightSysInfo on Mac" />
     <MESSAGE value="LightSysInfo on Mac - proc" />
     <MESSAGE value="LightSysInfo" />
     <MESSAGE value="Memory" />
@@ -2460,6 +2440,7 @@
     <MESSAGE value="cxf extentions" />
     <MESSAGE value="libs" />
     <MESSAGE value="README.md" />
+    <MESSAGE value="README.md + idea project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2473,34 +2454,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/ConsoleTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="12" selection-start="3142" selection-end="3142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/QueueStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
@@ -2578,9 +2531,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.sysinfo/org.universe.sysinfo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.sysinfo/src/org/universe/sysinfo/SysInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="846" selection-end="894" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="470" selection-end="688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.4784">
+        <state line="42" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.7347611">
           <folding />
         </state>
       </provider>
