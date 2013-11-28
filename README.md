@@ -92,7 +92,7 @@ logger.log(ConnectionMetaDataReader.Build(connection));
 */
 
 CREATE TABLE SimpleQueue (
-  Id VARCHAR(25) Not Null,
+  Id VARCHAR(26) Not Null,
   OptionalKey VARCHAR(1024),
   QueueName VARCHAR(255) Not Null,
   Message LONGBLOB Not Null,
