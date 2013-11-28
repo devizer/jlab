@@ -11,14 +11,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="README.md">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/arm/tmp1" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/arm/tmp1" afterPath="$PROJECT_DIR$/all/arm/tmp1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385622978490" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385623237483" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628730442" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -134,6 +134,7 @@
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385521195431" ignored="false" />
     <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385623190132" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
+    <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +336,7 @@
       <file leaf-file-name="tmp1" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/arm/tmp1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -424,7 +425,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-derby.ddl" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-mssql.ddl" />
@@ -440,6 +440,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/all/arm/tmp1" />
       </list>
     </option>
   </component>
@@ -2360,7 +2361,11 @@
       <created>1385623223571</created>
       <updated>1385623223571</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="tmp1">
+      <created>1385628734021</created>
+      <updated>1385628734022</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2439,7 +2444,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="tmp1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -2453,7 +2458,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="LightSysInfo on Mac - proc" />
     <MESSAGE value="LightSysInfo" />
     <MESSAGE value="Memory" />
     <MESSAGE value="Windows Info" />
@@ -2478,6 +2482,7 @@
     <MESSAGE value="libs" />
     <MESSAGE value="README.md + idea project structure" />
     <MESSAGE value="README.md" />
+    <MESSAGE value="tmp1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2600,7 +2605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/arm/tmp1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
