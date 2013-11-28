@@ -1,12 +1,12 @@
 jlab
 ====
-extentions, demos, tests and stress
+extentions, demos, tests and stress. details at my blog are labeled with [blog](http://http://devizer.blogspot.ru/search/label/Java)
 
 *jcl* extensions
 ===
 - [x] Parallel.for
 - [x] Lazy<T>
-- [x] ReliableThreadLocal
+- [x] ReliableThreadLocal<T>
 
 
 
@@ -74,13 +74,14 @@ Memory: 641 MB
 
 ConnectionMetadataReader
 ===
-we need to know human readable **database structure** on production in human readable form
+we need to know human readable **database structure** on production in human readable form.
+Tested against mysql, ms sql server, sqlite, derby
 
 
 
 
 samples:
-- [x] @mentions, #refs, [links](http://google.com), **formatting**, and <del>tags</del> supported
+- [x] @mentions, #refs, [blog](http://google.com), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
