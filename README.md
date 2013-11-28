@@ -1,6 +1,6 @@
 jlab
 ====
-extentions, demos, tests and stress. details at my blog are labeled with [blog](http://http://devizer.blogspot.ru/search/label/Java)
+extentions, demos, tests and stress. details at my blog are labeled with [Java](http://devizer.blogspot.com/search/label/Java) tag.
 
 *jcl* extensions
 ===
@@ -32,7 +32,7 @@ MyVo1 parse(byte[] message) {
 
 LightSystemInfo
 ===
-we need to know **production environment** on (OS, Processor, Memory, Disks) in human readable form.
+we need to know **production environment** (OS, Processor, Memory, <del>Disks</del>, <del>Video adapter</del>) in human readable form.
 Class supports Windows, Linux (arm, x86, x64), MAC OS X without external JNI dependencies.
 
 ```java
