@@ -131,49 +131,49 @@
   </path>
   
   <path id="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath">
-    <pathelement location="${basedir}/libs/cfx/asm-3.3.1.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-api-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-ws-addr-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-ws-policy-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar"/>
-    <pathelement location="${basedir}/libs/cfx/neethi-3.0.2.jar"/>
-    <pathelement location="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/stax2-api-3.1.1.jar"/>
-    <pathelement location="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/wsdl4j-1.6.3.jar"/>
-    <pathelement location="${basedir}/libs/cfx/xml-resolver-1.2.jar"/>
-    <pathelement location="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/asm-3.3.1.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/neethi-3.0.2.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/xml-resolver-1.2.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar"/>
   </path>
   
   <path id="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath">
-    <pathelement location="${basedir}/libs/cfx/cxf-api-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar"/>
-    <pathelement location="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <pathelement location="${basedir}/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-continuation-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-http-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-io-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-security-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-server-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/jetty-util-8.1.12.v20130726.jar"/>
-    <pathelement location="${basedir}/libs/cfx/org.osgi.compendium-4.2.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/slf4j-api-1.7.5.jar"/>
-    <pathelement location="${basedir}/libs/cfx/stax2-api-3.1.1.jar"/>
-    <pathelement location="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar"/>
-    <pathelement location="${basedir}/libs/cfx/wsdl4j-1.6.3.jar"/>
-    <pathelement location="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/slf4j-api-1.7.5.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar"/>
+    <pathelement location="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar"/>
   </path>
   
   <path id="library.rabbitmq-client.classpath">
@@ -319,46 +319,6 @@
       <zipfileset dir="${org.universe.cxf.output.dir}"/>
     </jar>
     <copy file="${temp.jar.path.org.universe.cxf.jar}" tofile="${artifact.output.org.universe.cxf:jar}/org.universe.cxf.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-jetty-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.core-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.compendium-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.compendium-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-api-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/woodstox-core-asl-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/stax2-api-3.1.1.jar"/>
-    <copy file="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/xmlschema-core-2.0.3.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <copy file="${basedir}/libs/cfx/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/wsdl4j-1.6.3.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-core-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf:jar}/jaxb-impl-2.2.6.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-server-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-server-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-continuation-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-continuation-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-http-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-http-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-io-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-io-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-util-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-util-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-security-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-security-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/slf4j-api-1.7.5.jar" tofile="${artifact.output.org.universe.cxf:jar}/slf4j-api-1.7.5.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-servlet_3.0_spec-1.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-frontend-jaxws-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.core-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-core-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-api-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/woodstox-core-asl-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/stax2-api-3.1.1.jar"/>
-    <copy file="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/xmlschema-core-2.0.3.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <copy file="${basedir}/libs/cfx/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/wsdl4j-1.6.3.jar"/>
-    <copy file="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf:jar}/jaxb-impl-2.2.6.jar"/>
-    <copy file="${basedir}/libs/cfx/xml-resolver-1.2.jar" tofile="${artifact.output.org.universe.cxf:jar}/xml-resolver-1.2.jar"/>
-    <copy file="${basedir}/libs/cfx/asm-3.3.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/asm-3.3.1.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-bindings-soap-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-databinding-jaxb-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-bindings-xml-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-frontend-simple-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-ws-addr-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-ws-addr-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-ws-policy-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-ws-policy-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/neethi-3.0.2.jar" tofile="${artifact.output.org.universe.cxf:jar}/neethi-3.0.2.jar"/>
   </target>
   
   <target name="artifact.org.universe.rabbitstress:jar" depends="init.artifacts, compile.module.org.universe.rabbitstress, artifact.org.universe:jar" description="Build &#39;org.universe.rabbitstress:jar&#39; artifact">
@@ -386,46 +346,6 @@
       <zipfileset dir="${org.universe.testcfx.output.dir}"/>
     </jar>
     <copy file="${temp.jar.path.org.universe.testcfx.jar}" tofile="${artifact.output.org.universe.testcfx:jar}/org.universe.testcfx.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-jetty-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-transports-http-jetty-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/org.osgi.core-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.compendium-4.2.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/org.osgi.compendium-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-api-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/woodstox-core-asl-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.testcfx:jar}/stax2-api-3.1.1.jar"/>
-    <copy file="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.testcfx:jar}/xmlschema-core-2.0.3.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.testcfx:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <copy file="${basedir}/libs/cfx/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.testcfx:jar}/wsdl4j-1.6.3.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-transports-http-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-core-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jaxb-impl-2.2.6.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-server-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-server-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-continuation-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-continuation-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-http-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-http-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-io-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-io-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-util-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-util-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/jetty-security-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jetty-security-8.1.12.v20130726.jar"/>
-    <copy file="${basedir}/libs/cfx/slf4j-api-1.7.5.jar" tofile="${artifact.output.org.universe.testcfx:jar}/slf4j-api-1.7.5.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-servlet_3.0_spec-1.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/geronimo-servlet_3.0_spec-1.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-frontend-jaxws-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/org.osgi.core-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-core-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-api-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.testcfx:jar}/woodstox-core-asl-4.2.0.jar"/>
-    <copy file="${basedir}/libs/cfx/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.testcfx:jar}/stax2-api-3.1.1.jar"/>
-    <copy file="${basedir}/libs/cfx/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.testcfx:jar}/xmlschema-core-2.0.3.jar"/>
-    <copy file="${basedir}/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.testcfx:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-    <copy file="${basedir}/libs/cfx/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.testcfx:jar}/wsdl4j-1.6.3.jar"/>
-    <copy file="${basedir}/libs/cfx/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jaxb-impl-2.2.6.jar"/>
-    <copy file="${basedir}/libs/cfx/xml-resolver-1.2.jar" tofile="${artifact.output.org.universe.testcfx:jar}/xml-resolver-1.2.jar"/>
-    <copy file="${basedir}/libs/cfx/asm-3.3.1.jar" tofile="${artifact.output.org.universe.testcfx:jar}/asm-3.3.1.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-bindings-soap-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-databinding-jaxb-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-bindings-xml-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-frontend-simple-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-transports-http-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-ws-addr-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-ws-addr-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/cxf-rt-ws-policy-2.7.7.jar" tofile="${artifact.output.org.universe.testcfx:jar}/cxf-rt-ws-policy-2.7.7.jar"/>
-    <copy file="${basedir}/libs/cfx/neethi-3.0.2.jar" tofile="${artifact.output.org.universe.testcfx:jar}/neethi-3.0.2.jar"/>
     <copy file="${basedir}/org.universe.testcfx/testcfx" tofile="${artifact.output.org.universe.testcfx:jar}/testcfx"/>
     <copy file="${basedir}/libs/log4j/log4j-1.2.17.jar" tofile="${artifact.output.org.universe.testcfx:jar}/log4j-1.2.17.jar"/>
     <copy file="${basedir}/libs/log4j/javaee-api-5.0-2.jar" tofile="${artifact.output.org.universe.testcfx:jar}/javaee-api-5.0-2.jar"/>

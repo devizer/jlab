@@ -17,19 +17,17 @@
   
   <path id="org.universe.testcfx.module.production.classpath">
     <path refid="${module.jdk.classpath.org.universe.testcfx}"/>
-    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
-    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.log4j:log4j:1.2.17.classpath"/>
     <pathelement location="${org.universe.test.output.dir}"/>
     <path refid="library.junit-4.11.classpath"/>
     <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
   </path>
   
   <path id="org.universe.testcfx.runtime.production.module.classpath">
     <pathelement location="${org.universe.testcfx.output.dir}"/>
-    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
-    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
     <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
@@ -38,13 +36,13 @@
     <pathelement location="${org.universe.test.output.dir}"/>
     <path refid="library.junit-4.11.classpath"/>
     <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
   </path>
   
   <path id="org.universe.testcfx.module.classpath">
     <path refid="${module.jdk.classpath.org.universe.testcfx}"/>
     <pathelement location="${org.universe.testcfx.output.dir}"/>
-    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
-    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
     <pathelement location="${org.universe.testoutput.dir}"/>
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.log4j:log4j:1.2.17.classpath"/>
@@ -53,13 +51,13 @@
     <path refid="library.junit-4.11.classpath"/>
     <pathelement location="${org.universe.cxf.testoutput.dir}"/>
     <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
   </path>
   
   <path id="org.universe.testcfx.runtime.module.classpath">
     <pathelement location="${org.universe.testcfx.testoutput.dir}"/>
     <pathelement location="${org.universe.testcfx.output.dir}"/>
-    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
-    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
     <pathelement location="${org.universe.testoutput.dir}"/>
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
@@ -71,6 +69,8 @@
     <path refid="library.junit-4.11.classpath"/>
     <pathelement location="${org.universe.cxf.testoutput.dir}"/>
     <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
   </path>
   
   
