@@ -75,7 +75,39 @@ Memory: 641 MB
 ConnectionMetadataReader
 ===
 we need to know human readable **database structure** on production in human readable form.
-Tested against mysql, ms sql server, sqlite, derby
+Tested against mysql, ms sql server, sqlite, derby.
+Supports Table columns, primary keys, foreign keys and indexes.
+ConnectionMetadataReader however isnt sql code generator,
+just db structure visualizer for production environment:
+
+```java
+logger.log(ConnectionMetaDataReader.Build(connection));
+```
+```sql
+/*
+  DB-Product 'MySQL' Ver '5.5.34-0ubuntu0.13.10.1'
+  JDBC '4.4'
+  Driver 'MySQL Connector Java' Ver 'mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )'
+  Url: jdbc:mysql://127.0.0.1/sandbox
+*/
+
+CREATE TABLE SimpleQueue (
+  Id VARCHAR(25) Not Null,
+  OptionalKey VARCHAR(1024),
+  QueueName VARCHAR(255) Not Null,
+  Message LONGBLOB Not Null,
+  CreatedAt DATETIME Not Null,
+  ModifiedAt DATETIME Not Null,
+  AckDate DATETIME,
+  HandlersCount INT Not Null,
+  DeliveryDate DATETIME,
+  Locked BIT Not Null,
+  Constraint PK_SimpleQueue PRIMARY KEY On (Id)
+);
+Create UNIQUE Index PRIMARY On SimpleQueue(Id);
+Create Index IX_SimpleQueue_Delivery On SimpleQueue(QueueName, ModifiedAt);
+Create Index IX_SimpleQueue_Key On SimpleQueue(OptionalKey);
+```
 
 
 
