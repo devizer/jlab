@@ -1,25 +1,27 @@
 jlab
 ====
-
 extentions, demos, tests and stress
 
-org.universe
+JAXBSerializer, SimpleItegrity
 ===
-
-
 ```
 private static final JAXBSerializer<MyVo1> MyVoConverter = new JAXBUtils<MyVo1>(MyVo1.class);
 ...
-    MyVo1 myVo = ...
-    byte[] message = MyVoConverter.ToData(myVo);
-
+byte[] serialize(MyVo1 myVo) {
+  byte[] message = MyVoConverter.ToData(myVo);
+  return SimpleIntegrity.Store(message, SimpleIntegrity.Alg.md5);
+}
+...
+byte[] serialize(byte[] message) {
+  return MyVoConverter.Parse(SimpleIntegrity.Parse(message).getData());
+}
 ```
 
-JAXBSerializer, SimpleIntegrity
+jcl
 Parallel.for
-Lazy<T> with ThreadSafetyMode
-ReleableThreadLocal<T>
+Lazy<T>
+ReliableThreadLocal
 
-LightSysInfo
- ==
-no external dependencies
+SimpleSysInfo, ConnectionMetadataReader
+===
+we need human readable database structure and environment on proudction
