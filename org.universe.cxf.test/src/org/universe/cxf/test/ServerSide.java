@@ -1,4 +1,4 @@
-package org.universe.testcfx;
+package org.universe.cxf.test;
 
 import org.apache.cxf.interceptor.LoggingInInterceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;

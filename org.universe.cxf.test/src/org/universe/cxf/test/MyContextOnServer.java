@@ -1,4 +1,4 @@
-package org.universe.testcfx;
+package org.universe.cxf.test;
 
 class MyContextOnServer
 {

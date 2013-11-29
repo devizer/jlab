@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.universe.testcfx;
+package org.universe.cxf.test;
 
 import org.universe.tests.jaxb.MyVo1;
 

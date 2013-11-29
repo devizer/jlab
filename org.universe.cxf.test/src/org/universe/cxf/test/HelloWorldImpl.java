@@ -1,4 +1,4 @@
-package org.universe.testcfx;
+package org.universe.cxf.test;
 
 import org.universe.tests.jaxb.MyVo1;
 import org.universe.tests.jaxb.VoEnv;
@@ -7,7 +7,7 @@ import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebService(endpointInterface = "org.universe.testcfx.HelloWorld",
+@WebService(endpointInterface = "org.universe.cxf.test.HelloWorld",
         serviceName = "HelloWorld")
 public class HelloWorldImpl implements HelloWorld {
 
