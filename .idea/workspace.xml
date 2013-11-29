@@ -14,21 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="fixed Test_SimpleQueue">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/all/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.queue/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.rabbitstress/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.rabbitstress/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.test/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Parallel.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Parallel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/new-tag" afterPath="$PROJECT_DIR$/all/build/new-tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/update-version.xml" afterPath="$PROJECT_DIR$/all/build/update-version.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,7 +140,7 @@
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
     <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
-    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741702817" ignored="false" />
+    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385742242125" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +379,7 @@
       <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.90939045">
+            <state line="26" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.71393037">
               <folding />
             </state>
           </provider>
@@ -469,8 +455,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="60" />
     <option name="y" value="-8" />
-    <option name="width" value="1541" />
-    <option name="height" value="1209" />
+    <option name="width" value="1221" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2899,13 +2885,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
+    <frame x="60" y="-8" width="1221" height="1004" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4292566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20649967" sideWeight="0.6604514" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4644231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2921,7 +2907,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22754896" sideWeight="0.65543795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29026702" sideWeight="0.5707434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
@@ -3133,7 +3119,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.90939045">
+        <state line="26" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.71393037">
           <folding />
         </state>
       </provider>

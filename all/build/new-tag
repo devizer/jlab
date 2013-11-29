@@ -17,8 +17,10 @@ find ../.. -name MANIFEST.MF | while read f; do
   ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
   cat $f
 done
-
 rm tmp.log
 
 cd ../..
-git commit -m "autocommit by build server"
+git commit -a -m "autocommit by build server, $version.$build"
+git push
+git tag $version.$build
+git push --tags
