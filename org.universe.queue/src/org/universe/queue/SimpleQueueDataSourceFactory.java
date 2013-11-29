@@ -12,8 +12,8 @@ import java.util.concurrent.Callable;
 
 public class SimpleQueueDataSourceFactory implements Callable<DataSource> {
 
-    String driverClass;
-    String url;
+    public final String driverClass;
+    public final String url;
     String user;
     String password = null;
     private PoolableConnectionFactory factory;

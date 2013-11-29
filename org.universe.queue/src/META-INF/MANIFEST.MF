@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: commons-dbutils-1.5.jar commons-dbcp-1.4.jar commons-pool-
+ 1.5.4.jar commons-io-2.4.jar
+

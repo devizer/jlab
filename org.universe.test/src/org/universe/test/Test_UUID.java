@@ -1,4 +1,4 @@
-package org.universe.tests;
+package org.universe.test;
 
 import org.junit.Assert;
 import org.junit.Test;

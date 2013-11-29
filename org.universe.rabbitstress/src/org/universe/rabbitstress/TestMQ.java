@@ -10,7 +10,7 @@ import org.universe.DateCalc;
 import org.universe.System6;
 import org.universe.jcl.ReliableThreadLocal;
 import org.universe.jcl.Stress;
-import org.universe.tests.TestEnv;
+import org.universe.test.TestEnv;
 
 import java.io.IOException;
 import java.util.*;
@@ -50,7 +50,7 @@ public class TestMQ {
         keepAliveQueue();
     }
 
-    // Keep autodelete queue alive until end of tests
+    // Keep autodelete queue alive until end of test
     private void keepAliveQueue() throws IOException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(ConnectionString);

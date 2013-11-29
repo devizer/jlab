@@ -1,10 +1,8 @@
-package org.universe.tests;
+package org.universe.test;
 
 import org.universe.ConsoleTable;
 import org.universe.DateCalc;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class TimeZonesMain

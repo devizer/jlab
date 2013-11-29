@@ -1,4 +1,4 @@
-package org.universe.tests.jaxb;
+package org.universe.test.jaxb;
 
 import org.junit.*;
 import org.universe.System6;

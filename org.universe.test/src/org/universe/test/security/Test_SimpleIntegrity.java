@@ -1,4 +1,4 @@
-package org.universe.tests.security;
+package org.universe.test.security;
 
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
@@ -10,12 +10,10 @@ import org.universe.jcl.Stress;
 import org.universe.security.ParseReport;
 import org.universe.security.SimpleIntegrity;
 import org.universe.security.StoreReport;
-import org.universe.tests.TestEnv;
+import org.universe.test.TestEnv;
 
-import javax.swing.text.NumberFormatter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

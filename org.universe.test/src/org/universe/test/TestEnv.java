@@ -1,6 +1,15 @@
-package org.universe.tests;
+package org.universe.test;
 
 public class TestEnv {
+
+    public enum Scope
+    {
+        // SKIP USAGE of MYSQL, SQL Server & RabbitMQ Server
+        BUILD,
+
+        // Default, SKIP USE of MYSQL, SQL Server & RabbitMQ Server
+        DEPLOY,
+    }
 
     public static int scaleDuration(int milliSecs)
     {
@@ -17,6 +26,12 @@ public class TestEnv {
         {
             return 1f;
         }
+    }
+
+    public static Scope getScope()
+    {
+        String raw = System.getenv("TEST_SCOPE");
+        return "BUILD".equals(raw) ? Scope.BUILD : Scope.DEPLOY;
     }
 
 }

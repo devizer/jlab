@@ -20,10 +20,39 @@ public class SqlCodeReader
     // Read sql batch and split by /*EXEC*/ separator
     public static List<String> SplitSqlResources(String path) throws IOException
     {
-        InputStream inp1 = SqlCodeReader.class.getResourceAsStream(path);
-        if (inp1 == null)
-            throw new IOException("Embedded resource " + path + " is expected");
+        InputStream inp1 = null;
+        try
+        {
+            inp1 = SqlCodeReader.class.getResourceAsStream(path);
+            if (inp1 == null)
+                throw new IOException("Embedded resource " + path + " is expected");
 
+            return processSqlCode(inp1);
+        }
+        finally {
+            if (inp1 != null)
+                inp1.close();
+        }
+    }
+
+    public static List<String> SplitSqlResources(ClassLoader loader, String path) throws IOException
+    {
+        InputStream inp1 = null;
+        try
+        {
+            inp1 = loader.getResourceAsStream(path);
+            if (inp1 == null)
+                throw new IOException("Embedded resource " + path + " is expected");
+
+            return processSqlCode(inp1);
+        }
+        finally {
+            if (inp1 != null)
+                inp1.close();
+        }
+    }
+
+    private static List<String> processSqlCode(InputStream inp1) throws IOException {
         List<String> ret = new ArrayList<String>();
         LineIterator iter = IOUtils.lineIterator(inp1, "utf-8");
         StringWriter buffer = new StringWriter();

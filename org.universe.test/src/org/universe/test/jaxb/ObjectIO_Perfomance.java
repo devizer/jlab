@@ -1,4 +1,4 @@
-package org.universe.tests.jaxb;
+package org.universe.test.jaxb;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
@@ -7,14 +7,11 @@ import org.universe.ConsoleTable;
 import org.universe.System6;
 import org.universe.jaxb.BinarySerializer;
 import org.universe.jcl.Stress;
-import org.universe.tests.TestEnv;
+import org.universe.test.TestEnv;
 
-import javax.xml.bind.JAXBException;
-import javax.xml.stream.XMLStreamException;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.List;
 

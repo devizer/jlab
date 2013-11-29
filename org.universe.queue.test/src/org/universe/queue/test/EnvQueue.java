@@ -18,7 +18,7 @@ public class EnvQueue {
     private static String derbyMemId = "jdbc:derby:memory:" + UUID.randomUUID();
 
     public static Callable<DataSource> createDataSource() throws Exception {
-        return mysql();
+        return derbyDisk();
     }
 
     static SimpleQueueDataSourceFactory derbyMemory() throws Exception {
@@ -29,7 +29,7 @@ public class EnvQueue {
                 ));
     }
 
-    static SimpleQueueDataSourceFactory derbyDisk() throws Exception {
+    public static SimpleQueueDataSourceFactory derbyDisk() throws Exception {
         return CheckSchema("derby",
                 new SimpleQueueDataSourceFactory(
                 "org.apache.derby.jdbc.EmbeddedDriver",
@@ -80,7 +80,7 @@ public class EnvQueue {
         {
             ConnectionMetaDataReader rdr = ConnectionMetaDataReader.Build(connection2);
             System.out.println(rdr);
-            System.out.println(rdr.getInternalLog());
+            // System.out.println(rdr.getInternalLog());
         }
 /*
         {
@@ -91,11 +91,11 @@ public class EnvQueue {
         return f;
     }
 
-    static Callable<DataSource> msSql() throws Exception {
+    static SimpleQueueDataSourceFactory msSql() throws Exception {
         return  CheckSchema("mssql",
                 new SimpleQueueDataSourceFactory(
                         "com.microsoft.sqlserver.jdbc.SQLServerDriver",
-                        "jdbc:sqlserver://192.168.1.52\\SQL2008R2;databaseName=sandbox;integratedSecurity=false;",
+                        "jdbc:sqlserver://192.168.1.88\\SQL2008R2;databaseName=sandbox;integratedSecurity=false;",
                         "sa",
                         "`1qazxsw2"
                 ));

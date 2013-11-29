@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: hamcrest-core-1.3.jar hamcrest-core-1.3-sources.jar junit-
+ 4.11.jar junit-4.11-sources.jar hamcrest-core-1.3-javadoc.jar junit-4
+ .11-javadoc.jar commons-dbcp-1.4.jar commons-pool-1.5.4.jar sqljdbc4.
+ jar commons-io-2.4.jar commons-dbutils-1.5.jar mysql-connector-java-5
+ .1.27.jar sqlite-jdbc-3.7.2.jar sqlite-jdbc-3.7.2-javadoc.jar derby.j
+ ar
+Main-Class: 
+

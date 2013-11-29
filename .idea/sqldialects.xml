@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-mysql.ddl" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" dialect="Derby" />
+    <file url="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl" dialect="MySQL" />
   </component>
 </project>
 

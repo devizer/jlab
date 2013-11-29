@@ -5,6 +5,8 @@
       <artifact name="all" />
       <artifact name="org.universe.cxf.test:jar" />
       <artifact name="org.universe.cxf:jar" />
+      <artifact name="org.universe.queue.test:jar" />
+      <artifact name="org.universe.queue:jar" />
       <artifact name="org.universe.rabbitstress:jar" />
       <artifact name="org.universe.test:jar" />
       <artifact name="org.universe:jar" />
@@ -12,12 +14,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe.queue/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/OnBuildTestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/OnBuildTestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ideabuild.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ideabuild.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_queue_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_queue_test_jar.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-derby.ddl" afterPath="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-mssql.ddl" afterPath="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-mysql.ddl" afterPath="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Locales-1.6.txt" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/Locales-1.6.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Locales.txt" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/Locales.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/LocalesMain.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/LocalesMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TestEnv.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestEnv.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/Test_LightSystemInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/Test_UUID.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TestsMain.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestsMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZomes-1.6.txt" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TimeZomes-1.6.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZones.txt" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TimeZones.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZonesMain.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TimeZonesMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/compression/CicledTextInputstream.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/compression/CicledTextInputstream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/compression/GZip_Perfomance.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/compression/GZip_Perfomance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/compression/OutputStreamWithCounter.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/compression/OutputStreamWithCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/compression/ZeroOutputStream.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/compression/ZeroOutputStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo1.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/MyVo1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/MyVo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/ObjectIO_Perfomance.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/ObjectIO_Perfomance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/ProfilerMain.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/ProfilerMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/SimplestVo.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/SimplestVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/TestJAXB_Integrity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/TestJAXB_Perfomance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/VoEnv.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/VoEnv.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/test/security/Test_SimpleIntegrity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorldImpl.java" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorldImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueUtils.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/TestCxf.java" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/TestCxf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" afterPath="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/all.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/all.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/module_org.universe.queue.test.xml" afterPath="$PROJECT_DIR$/org.universe.queue.test/module_org.universe.queue.test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/module_org.universe.tests.xml" afterPath="$PROJECT_DIR$/org.universe.test/module_org.universe.tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/org.universe.queue.test.iml" afterPath="$PROJECT_DIR$/org.universe.queue.test/org.universe.queue.test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/profile" afterPath="$PROJECT_DIR$/org.universe.test/profile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/test" afterPath="$PROJECT_DIR$/org.universe.test/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/win-fast-tests.cmd" afterPath="$PROJECT_DIR$/all/win-fast-tests.cmd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385693393194" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694492417" ignored="false" />
+    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385708333084" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385716093757" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -73,7 +130,7 @@
     <file path="/pre-fedora" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384457488160" ignored="false" />
     <file path="/SimpleIntegrity.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384392869986" ignored="false" />
     <file path="/SimpleTest.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384996233529" ignored="false" />
-    <file path="/TestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384644397751" ignored="false" />
+    <file path="/TestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701002883" ignored="false" />
     <file path="/ParseReport.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384389112089" ignored="false" />
     <file path="/ObjectStreamPerfomace.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384413317895" ignored="false" />
     <file path="/BinarySerializer.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384411570549" ignored="false" />
@@ -103,24 +160,24 @@
     <file path="/WindowsSystemInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384751789825" ignored="false" />
     <file path="/InternalWindowsInfoScript.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384731914186" ignored="false" />
     <file path="/servers.command" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384827429674" ignored="false" />
-    <file path="/TestEnv.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384995676635" ignored="false" />
+    <file path="/TestEnv.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385703837922" ignored="false" />
     <file path="/win-fast-tests.cmd" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689079752" ignored="false" />
     <file path="/System6.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385521889274" ignored="false" />
-    <file path="/SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385615118173" ignored="false" />
+    <file path="/SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713161140" ignored="false" />
     <file path="/Message.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385206201753" ignored="false" />
     <file path="/Storage.sql" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385273372960" ignored="false" />
     <file path="/SimpleQueue" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385192922481" ignored="false" />
     <file path="/a.sql" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385187930326" ignored="false" />
     <file path="/SimpleQueueProperties.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385188753262" ignored="false" />
-    <file path="/SimpleQueueDataSourceFactory.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385284145409" ignored="false" />
+    <file path="/SimpleQueueDataSourceFactory.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713831204" ignored="false" />
     <file path="/TestSimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385203236426" ignored="false" />
-    <file path="/EnvQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385441016904" ignored="false" />
-    <file path="/SqlCodeReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385202927420" ignored="false" />
-    <file path="/Test_SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385373272863" ignored="false" />
+    <file path="/EnvQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713736810" ignored="false" />
+    <file path="/SqlCodeReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385712899855" ignored="false" />
+    <file path="/Test_SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713841281" ignored="false" />
     <file path="/Purge_Smelling_Message_Sample.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385225610401" ignored="false" />
     <file path="/MillionsMessages.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385373266004" ignored="false" />
     <file path="/SimpleQueue-mysql.ddl" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385274582212" ignored="false" />
-    <file path="/SimpleQueueUtils.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385347003208" ignored="false" />
+    <file path="/SimpleQueueUtils.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385704818908" ignored="false" />
     <file path="/SimpleQueue-derby.ddl" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385274653078" ignored="false" />
     <file path="/Derby queue" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385339276135" ignored="false" />
     <file path="/SimpleQueue-mssql.ddl" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385378972404" ignored="false" />
@@ -136,6 +193,8 @@
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <file path="/testcxf" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689185983" ignored="false" />
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
+    <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385715446288" ignored="false" />
+    <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,91 +375,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestJAXB_Integrity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java">
+      <file leaf-file-name="Test_SimpleQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+            <state line="0" column="8" selection-start="8" selection-end="31" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAXBSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
+      <file leaf-file-name="SimpleQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+            <state line="280" column="0" selection-start="10158" selection-end="10158" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1385713241402" expanded="true" signature="10088:10249" placeholder="{...}" />
+                <marker date="1385713241402" expanded="true" signature="10338:10725" placeholder="{...}" />
+                <marker date="1385713241402" expanded="true" signature="10613:10719" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleQueueUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="24" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System6.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
+      <file leaf-file-name="SimpleQueue-derby.ddl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="49" selection-start="1462" selection-end="1486" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pre-ubuntu" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/pre-ubuntu">
+      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="9" selection-start="317" selection-end="317" vertical-scroll-proportion="0.22091782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pre-redhat" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/pre-redhat">
+      <file leaf-file-name="SimpleQueue-mssql.ddl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="5" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pre-fedora" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/pre-fedora">
+      <file leaf-file-name="SimpleQueue-mysql.ddl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+            <state line="5" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_UUID.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java">
+      <file leaf-file-name="EnvQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="73" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67954546">
+            <state line="97" column="108" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJAXB_Perfomance.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java">
+      <file leaf-file-name="SimpleQueueDataSourceFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeZonesMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZonesMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalesMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/LocalesMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0">
+            <state line="15" column="17" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -424,22 +478,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/all/test-build.sh" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/testcfx/MyContextOnServer.java" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/StreamInterceptor.java" />
-        <option value="$PROJECT_DIR$/all/win-fast-tests.cmd" />
-        <option value="$PROJECT_DIR$/all/perf-report/c3.large_arm_on_E5_2680" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/testcxf" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/sample/StreamInterceptor.java" />
-        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java" />
-        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBUtils.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
         <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/test/jaxb/ObjectIO_Perfomance.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestSuite.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/test/OnBuildTestSuite.java" />
+        <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/OnBuildTestSuite.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestEnv.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueUtils.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
+        <option value="$PROJECT_DIR$/build.xml" />
       </list>
     </option>
   </component>
@@ -495,13 +549,15 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -509,6 +565,86 @@
               <option name="myItemId" value="work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -534,7 +670,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,7 +696,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -574,7 +726,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -596,7 +756,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -639,6 +807,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -688,6 +864,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -698,6 +886,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="org.universe.cxf.test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -727,6 +1001,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -745,6 +1023,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -771,6 +1053,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -810,6 +1096,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cxf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -829,6 +1123,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -858,8 +1224,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -876,16 +1240,16 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs/cxf-rt-2.7.7/" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="project.structure.side.proportion" value="0.36153162" />
+    <property name="options.lastSelected" value="project.propCompiler" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="project.structure.side.proportion" value="0.36153162" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="95" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
     <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="64" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -899,9 +1263,9 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue-mysql.ddl" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideabuild" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -917,8 +1281,8 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -933,20 +1297,21 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.universe.queue" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test" />
-      <recent name="$PROJECT_DIR$/all/perf-report" />
-      <recent name="$PROJECT_DIR$/org.universe.testcfx/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.universe.test" />
       <recent name="org.universe.cxf.sample" />
       <recent name="org.universe.io" />
       <recent name="org.universe.jcl" />
       <recent name="org.universe.tests" />
-      <recent name="org.universe.testcfx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/org.universe.queue/src/resources" />
+      <recent name="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test" />
+      <recent name="$PROJECT_DIR$/all/perf-report" />
+      <recent name="$PROJECT_DIR$/org.universe.testcfx/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.universe tests (JUnit)">
+  <component name="RunManager" selected="JUnit.org.universe.queue.test">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -959,6 +1324,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -987,19 +1365,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1086,7 +1451,7 @@
     </configuration>
     <configuration default="false" name="TimeZonesMain" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="org.universe.tests.TimeZonesMain" />
+      <option name="MAIN_CLASS_NAME" value="org.universe.test.TimeZonesMain" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1095,7 +1460,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="servlet1" />
+      <module name="org.universe.test" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -1103,7 +1468,7 @@
     </configuration>
     <configuration default="false" name="LocalesMain" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="org.universe.tests.LocalesMain" />
+      <option name="MAIN_CLASS_NAME" value="org.universe.test.LocalesMain" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1154,7 +1519,7 @@
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="org.universe.tests" />
+      <option name="PACKAGE_NAME" value="org.universe.test" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -1277,8 +1642,8 @@
       <module name="org.universe.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="org.universe.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.universe.tests.Test_UUID" />
+      <option name="PACKAGE_NAME" value="org.universe.test" />
+      <option name="MAIN_CLASS_NAME" value="org.universe.test.Test_UUID" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2060,12 +2425,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20649967" sideWeight="0.6604514" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4644231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2074,20 +2438,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967659" sideWeight="0.42497483" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22276741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4004796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25488874" sideWeight="0.70384616" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3713707" sideWeight="0.5091434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4908566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3713707" sideWeight="0.51010585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48989412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.400385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2186,114 +2551,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo1.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/test/Test_UUID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="462" selection-end="476" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZomes-1.6.txt">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestEnv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="0" selection-start="64109" selection-end="64109" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TestsMain.java">
+    <entry file="jar:///usr/jdk/jre/lib/rt.jar!/javax/activation/DataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/guide.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/excited">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3537" selection-end="3537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZonesMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/LocalesMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/pre-ubuntu">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/pre-redhat">
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="280" column="0" selection-start="10158" selection-end="10158" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1385713241402" expanded="true" signature="10088:10249" placeholder="{...}" />
+            <marker date="1385713241402" expanded="true" signature="10338:10725" placeholder="{...}" />
+            <marker date="1385713241402" expanded="true" signature="10613:10719" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/pre-fedora">
+    <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+        <state line="97" column="108" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="49" selection-start="1462" selection-end="1486" vertical-scroll-proportion="0.0">
+        <state line="32" column="24" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="73" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67954546">
+        <state line="5" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="317" selection-end="317" vertical-scroll-proportion="0.22091782">
           <folding />
         </state>
       </provider>
@@ -2304,7 +2662,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>org.universe:jar</last-edited>
+          <last-edited>org.universe.queue:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2353,11 +2711,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>all</last-edited>
+          <last-edited>org.universe.queue</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.36153162" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -2,9 +2,9 @@
 
 Create Table SimpleQueue(
   Id varchar(26) not null,
-  OptionalKey varchar(1024),
-  QueueName varchar(255) not null,
-  Message longblob not null,
+  OptionalKey nvarchar(880),
+  QueueName nvarchar(880) not null,
+  Message image not null,
   CreatedAt DateTime Not Null,
   ModifiedAt DateTime Not Null,
   AckDate DateTime,

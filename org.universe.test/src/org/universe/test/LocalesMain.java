@@ -1,4 +1,4 @@
-package org.universe.tests;
+package org.universe.test;
 
 import org.universe.ConsoleTable;
 import org.universe.System6;

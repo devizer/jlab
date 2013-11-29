@@ -13,6 +13,7 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
       <entry name="*?.class" />
+      <entry name="*?.ddl" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">

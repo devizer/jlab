@@ -18,7 +18,7 @@
  */
 package org.universe.cxf.test;
 
-import org.universe.tests.jaxb.MyVo1;
+import org.universe.test.jaxb.MyVo1;
 
 import java.util.List;
 

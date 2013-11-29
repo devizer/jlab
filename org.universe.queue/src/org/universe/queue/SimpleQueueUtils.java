@@ -21,7 +21,19 @@ public class SimpleQueueUtils {
 
     // TODO: Another compliant universal way
     public static void SimpleCheckSchema(Connection con, String dialect) throws SQLException, IOException {
-        List<String> list = SqlCodeReader.SplitSqlResources("/org/universe/queue/SimpleQueue-" + getKnownDialect(dialect) + ".ddl");
+/*
+        List<String> list =
+                SqlCodeReader.SplitSqlResources(
+                SimpleQueue.class.getClassLoader(),
+                "/resources/SimpleQueue-" + getKnownDialect(dialect) + ".ddl"
+        );
+*/
+        List<String> list =
+                SqlCodeReader.SplitSqlResources(
+                        "/resources/SimpleQueue-" + getKnownDialect(dialect) + ".ddl"
+                );
+
+
         for(String sql : list)
         {
             Statement stmt = con.createStatement();
@@ -43,11 +55,8 @@ public class SimpleQueueUtils {
     static String getKnownDialect(String arg)
     {
         Comparator<String> c = String.CASE_INSENSITIVE_ORDER;
-        if (c.compare("mysql", arg) == 0 || c.compare("sqlite", arg) == 0)
+        if (c.compare("sqlite", arg) == 0)
             return "mysql";
-
-        else if (c.compare("derby", arg) == 0)
-            return "derby";
 
         return arg;
     }

@@ -12,9 +12,9 @@ import org.universe.System6;
 import org.universe.cxf.MessageInfo;
 import org.universe.cxf.TransferInterceptor;
 import org.universe.jcl.Stress;
-import org.universe.tests.TestEnv;
-import org.universe.tests.jaxb.MyVo1;
-import org.universe.tests.jaxb.VoEnv;
+import org.universe.test.TestEnv;
+import org.universe.test.jaxb.MyVo1;
+import org.universe.test.jaxb.VoEnv;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;

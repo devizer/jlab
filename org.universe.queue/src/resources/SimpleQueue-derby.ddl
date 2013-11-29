@@ -3,7 +3,7 @@
 Create Table SimpleQueue(
   Id varchar(26) not null,
   OptionalKey varchar(1024),
-  QueueName varchar(255) not null,
+  QueueName varchar(1024) not null,
   Message blob not null,
   CreatedAt TIMESTAMP Not Null,
   ModifiedAt TIMESTAMP Not Null,

@@ -1,4 +1,4 @@
-package org.universe.tests.compression;
+package org.universe.test.compression;
 
 import org.junit.After;
 import org.junit.FixMethodOrder;
@@ -7,7 +7,7 @@ import org.junit.runners.MethodSorters;
 import org.universe.ConsoleTable;
 import org.universe.DateCalc;
 import org.universe.System6;
-import org.universe.tests.TestEnv;
+import org.universe.test.TestEnv;
 
 import java.io.BufferedOutputStream;
 import java.io.OutputStream;

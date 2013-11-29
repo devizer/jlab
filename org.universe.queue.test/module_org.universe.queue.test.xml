@@ -26,6 +26,7 @@
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.derby-10.classpath"/>
     <path refid="library.sqljdbc4.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
   </path>
   
   <path id="org.universe.queue.test.runtime.production.module.classpath">
@@ -40,6 +41,7 @@
     <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
     <path refid="library.derby-10.classpath"/>
     <path refid="library.sqljdbc4.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
   </path>
   
   <path id="org.universe.queue.test.module.classpath">
@@ -56,6 +58,8 @@
     <pathelement location="${org.universe.output.dir}"/>
     <path refid="library.derby-10.classpath"/>
     <path refid="library.sqljdbc4.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
   </path>
   
   <path id="org.universe.queue.test.runtime.module.classpath">
@@ -73,6 +77,8 @@
     <path refid="library.mysql:mysql-connector-java:5.1.27.classpath"/>
     <path refid="library.derby-10.classpath"/>
     <path refid="library.sqljdbc4.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
   </path>
   
   
@@ -93,7 +99,7 @@
   
   <target name="compile.module.org.universe.queue.test" depends="compile.module.org.universe.queue.test.production,compile.module.org.universe.queue.test.tests" description="Compile module org.universe.queue.test"/>
   
-  <target name="compile.module.org.universe.queue.test.production" depends="register.custom.compilers,compile.module.org.universe.queue,compile.module.org.universe" description="Compile module org.universe.queue.test; production classes">
+  <target name="compile.module.org.universe.queue.test.production" depends="register.custom.compilers,compile.module.org.universe.queue,compile.module.org.universe,compile.module.org.universe.test" description="Compile module org.universe.queue.test; production classes">
     <mkdir dir="${org.universe.queue.test.output.dir}"/>
     <javac2 destdir="${org.universe.queue.test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.queue.test}/javac">
       <compilerarg line="${compiler.args.org.universe.queue.test}"/>

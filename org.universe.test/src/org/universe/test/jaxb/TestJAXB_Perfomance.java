@@ -1,4 +1,4 @@
-package org.universe.tests.jaxb;
+package org.universe.test.jaxb;
 
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
@@ -8,7 +8,7 @@ import org.universe.ConsoleTable;
 import org.universe.System6;
 import org.universe.jaxb.JAXBSerializer;
 import org.universe.jcl.Stress;
-import org.universe.tests.TestEnv;
+import org.universe.test.TestEnv;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;

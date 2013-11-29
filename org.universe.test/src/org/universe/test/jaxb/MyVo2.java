@@ -1,4 +1,4 @@
-package org.universe.tests.jaxb;
+package org.universe.test.jaxb;
 
 import javax.xml.bind.annotation.*;
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package org.universe.tests.compression;
+package org.universe.test.compression;
 
 import java.io.IOException;
 import java.io.OutputStream;

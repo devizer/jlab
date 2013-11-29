@@ -1,7 +1,7 @@
 package org.universe.cxf.test;
 
-import org.universe.tests.jaxb.MyVo1;
-import org.universe.tests.jaxb.VoEnv;
+import org.universe.test.jaxb.MyVo1;
+import org.universe.test.jaxb.VoEnv;
 
 import javax.jws.WebService;
 import java.util.ArrayList;

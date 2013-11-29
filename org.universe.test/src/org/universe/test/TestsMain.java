@@ -1,7 +1,6 @@
-package org.universe.tests;
+package org.universe.test;
 
 import org.junit.runner.JUnitCore;
-import org.universe.tests.jaxb.TestSuite;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +13,7 @@ public class TestsMain {
 
     public static void main(String... args)
     {
-        JUnitCore.runClasses(TestSuite.class);
+        JUnitCore.runClasses(OnBuildTestSuite.class);
     }
 
 

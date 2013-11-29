@@ -24,6 +24,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/all/win-fast-tests.cmd" />
       <element id="artifact" artifact-name="org.universe.cxf:jar" />
       <element id="artifact" artifact-name="org.universe.cxf.test:jar" />
+      <element id="artifact" artifact-name="org.universe.queue.test:jar" />
     </root>
   </artifact>
 </component>

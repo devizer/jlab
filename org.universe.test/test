@@ -4,4 +4,4 @@ arch=$(uname -m)
 if [[ $arch == arm* ]]; then
   export TEST_LINGERING=6
 fi
-java -cp ./*: org.junit.runner.JUnitCore org.universe.tests.jaxb.TestSuite
+java -cp ./*: org.junit.runner.JUnitCore org.universe.test.OnBuildTestSuite

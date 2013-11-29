@@ -276,6 +276,11 @@ public class SimpleQueue {
         // qr.update(sql, idMessage);
     }
 
+    public void deleteQueue(String queueName) throws Exception {
+        String sql = "Delete From SimpleQueue Where QueueName = ?";
+        JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, queueName);
+    }
+
     public void purgeOldMessages(String queueName, long secondsOfGap) throws Exception {
         String sql = "Delete From SimpleQueue Where (QueueName = ?) And (CreatedAt < ?)";
         Timestamp edge = new Timestamp(new Date().getTime() - secondsOfGap*1000L);

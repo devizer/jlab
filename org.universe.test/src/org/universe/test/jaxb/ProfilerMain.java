@@ -1,6 +1,7 @@
-package org.universe.tests.jaxb;
+package org.universe.test.jaxb;
 
 import org.junit.runner.JUnitCore;
+import org.universe.test.OnBuildTestSuite;
 
 public class ProfilerMain {
 
@@ -8,6 +9,6 @@ public class ProfilerMain {
     {
         System.out.println("Press a key to start");
         System.console().readLine();
-        JUnitCore.runClasses(TestSuite.class);
+        JUnitCore.runClasses(OnBuildTestSuite.class);
     }
 }
