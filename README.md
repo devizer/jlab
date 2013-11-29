@@ -1,9 +1,9 @@
 jlab
-====
+----
 extentions, demos, tests and stress. details at my blog are labeled with [Java](http://devizer.blogspot.com/search/label/Java) tag.
 
-*jcl* extensions
-===
+jcl extensions
+----
 - [x] Parallel.for
 - [x] Lazy<T>
 - [x] ReliableThreadLocal<T>
@@ -13,7 +13,7 @@ extentions, demos, tests and stress. details at my blog are labeled with [Java](
 
 
 JAXBSerializer, SimpleItegrity
-===
+----
 we need to store a **long living** POJO in blobs and queues with *versioning* and integrity check:
 
 
@@ -31,7 +31,7 @@ MyVo1 parse(byte[] message) {
 ```
 
 LightSystemInfo
-===
+----
 we need to know **production environment** (OS, Processor, Memory, <del>Disks</del>, <del>Video adapter</del>) in human readable form.
 Class supports Windows, Linux (arm, x86, x64), MAC OS X without external JNI dependencies.
 
@@ -73,7 +73,7 @@ Memory: 641 MB
 
 
 ConnectionMetadataReader
-===
+----
 we need to know human readable **database structure** on production in human readable form.
 Tested against mysql, ms sql server, sqlite, derby.
 Supports Table columns, primary keys, foreign keys and indexes.
@@ -112,8 +112,3 @@ Create Index IX_SimpleQueue_Key On SimpleQueue(OptionalKey);
 
 
 
-samples:
-- [x] @mentions, #refs, [blog](http://google.com), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
