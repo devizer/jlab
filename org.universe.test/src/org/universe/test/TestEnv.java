@@ -31,7 +31,7 @@ public class TestEnv {
     public static Scope getScope()
     {
         String raw = System.getenv("TEST_SCOPE");
-        return "BUILD".equals(raw) ? Scope.BUILD : Scope.DEPLOY;
+        return "BUILD".equalsIgnoreCase(raw) ? Scope.BUILD : Scope.DEPLOY;
     }
 
 }

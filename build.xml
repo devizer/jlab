@@ -5,28 +5,33 @@
         <ant antfile="ideabuild.xml" />
     </target>
 
-    <target name="test-build" depends="">
-        <property name="test-scope" value="BUILD"/>
-        <property name="duration" value="0.01" />
-        <antcall target="test-method" />
-    </target>
-
-    <target name="test-on-deployment" depends="build">
-        <property name="test-scope" value="DEPLOY"/>
-        <property name="duration" value="0.01" />
-        <antcall target="test-method" />
-    </target>
-
-    <target name="test-method" description="useless on Windows and MAC OS X without ANT">
+    <target name="full-test" depends="">
         <java   dir="out/all"
                 fork="true"
                 failonerror="true"
-                maxmemory="128m"
+                maxmemory="384m"
                 classname="org.junit.runner.JUnitCore"
                 classpath="./out/all/*">
 
-            <env key="TEST_SCOPE" value="${test-scope}" />
-            <env key="TEST_LINGERING" value="${duration}" />
+            <env key="TEST_SCOPE" value="DEPLOY" />
+            <env key="TEST_LINGERING" value="0.01" />
+            <arg value="org.universe.test.OnBuildTestSuite"/>
+            <arg value="org.universe.cxf.test.OnBuildTestSuite"/>
+            <arg value="org.universe.queue.test.Test_SimpleQueue"/>
+            <arg value="org.universe.rabbitstress.TestMQ"/>
+        </java>
+    </target>
+
+    <target name="test" description="useless on Windows and MAC OS X without ANT">
+        <java   dir="out/all"
+                fork="true"
+                failonerror="true"
+                maxmemory="384m"
+                classname="org.junit.runner.JUnitCore"
+                classpath="./out/all/*">
+
+            <env key="TEST_SCOPE" value="BUILD" />
+            <env key="TEST_LINGERING" value="0.01" />
             <arg value="org.universe.test.OnBuildTestSuite"/>
             <arg value="org.universe.cxf.test.OnBuildTestSuite"/>
             <arg value="org.universe.queue.test.Test_SimpleQueue"/>
@@ -34,5 +39,5 @@
         </java>
     </target>
 
-    <target name="all" depends="build, test-build" description="build all"/>
+    <target name="all" depends="build, test" description="build all"/>
 </project>

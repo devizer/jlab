@@ -2,6 +2,7 @@ package org.universe.queue.test;
 
 import org.junit.*;
 import org.junit.runners.MethodSorters;
+import org.universe.jcl.Lazy;
 import org.universe.queue.Message;
 import org.universe.queue.SimpleQueue;
 import org.universe.queue.SimpleQueueDataSourceFactory;
@@ -21,20 +22,25 @@ public class Test_SimpleQueue {
     static AtomicInteger counter = new AtomicInteger();
     private String queueName;
 
-    List<SimpleQueueDataSourceFactory> getDbList() throws Exception {
-        ArrayList<SimpleQueueDataSourceFactory> ret = new ArrayList<SimpleQueueDataSourceFactory>();
-        ret.add(EnvQueue.derbyDisk());
-        ret.add(EnvQueue.sqliteDisk());
-        // ret.add(EnvQueue.sqliteMem());
-        ret.add(EnvQueue.derbyMemory());
-        if (TestEnv.getScope() == TestEnv.Scope.DEPLOY)
-        {
-            ret.add(EnvQueue.msSql());
-            ret.add(EnvQueue.mysql());
-        }
+    static Lazy<List<SimpleQueueDataSourceFactory>> DbList =
+            new Lazy<List<SimpleQueueDataSourceFactory>>(Lazy.Mode.ExecutionAndPublication) {
+                @Override
+                protected List<SimpleQueueDataSourceFactory> initialValue() throws Exception {
+                    ArrayList<SimpleQueueDataSourceFactory> ret = new ArrayList<SimpleQueueDataSourceFactory>();
+                    ret.add(EnvQueue.derbyDisk());
+                    ret.add(EnvQueue.sqliteDisk());
+                    // ret.add(EnvQueue.sqliteMem());
+                    ret.add(EnvQueue.derbyMemory());
+                    if (TestEnv.getScope() == TestEnv.Scope.DEPLOY)
+                    {
+                        ret.add(EnvQueue.msSql());
+                        ret.add(EnvQueue.mysql());
+                    }
 
-        return ret;
-    }
+                    return ret;
+
+                }
+            };
 
     @Before
     public void before() throws Exception {
@@ -51,9 +57,9 @@ public class Test_SimpleQueue {
 
     @Test
     public void _2_Non_Existed_Message_Is_Absent_All_DBs() throws Exception {
-        for(SimpleQueueDataSourceFactory ds : getDbList())
+        for(SimpleQueueDataSourceFactory ds : DbList.get())
         {
-            System.out.println(ds.url);
+            System.out.println("Test message status only on " + ds.url);
             queue = new SimpleQueue(ds);
             queue.deleteQueue(queueName);
             Message.Status status = queue.getMessageStatus("no such message");
@@ -65,10 +71,10 @@ public class Test_SimpleQueue {
     @Test
     public void _3_Publish_Ack_() throws Exception {
 
-        for(Callable<DataSource> ds : getDbList())
+        for(SimpleQueueDataSourceFactory ds : DbList.get())
         {
-            System.out.println(ds);
-            queue = new SimpleQueue(EnvQueue.createDataSource());
+            System.out.println("Test messages lifecycle on " + ds.url);
+            queue = new SimpleQueue(ds);
             List<Integer> messageSizes = Arrays.asList(0, 1, 16, 55, 1024, 1000000, 10 * 1024 * 1024);
             System.out.print("Message Size: ");
 
