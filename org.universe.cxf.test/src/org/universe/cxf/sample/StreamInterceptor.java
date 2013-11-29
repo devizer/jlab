@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package org.universe.cxf;
+package org.universe.cxf.sample;
 
 import java.io.IOException;
 import java.io.InputStream;
