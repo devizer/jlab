@@ -29,10 +29,7 @@ package org.universe.jcl;
 
 import java.util.*;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -76,14 +73,14 @@ public class Parallel {
 
     public static <S extends T, T> void For(
             int numThreads,
-            NamedThreadFactory threadFactory,
+            ThreadFactory threadFactory,
             final Iterable<S> elements,
             final Operation<T> operation,
             Integer wait,
             TimeUnit waitUnit) {
 
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(numThreads, numThreads,
-                0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+                0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>(), threadFactory);
 
         final ThreadSafeIterator<S> itr = new ThreadSafeIterator<S>(elements.iterator());
         final List<Exception> exceptions = Collections.synchronizedList(new ArrayList<Exception>());

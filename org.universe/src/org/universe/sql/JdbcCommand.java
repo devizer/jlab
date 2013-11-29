@@ -2,6 +2,7 @@ package org.universe.sql;
 
 import java.sql.*;
 
+// Apache DB Utils работает по
 public class JdbcCommand {
 
     // На MS SQL Server клиенте криво метаданные читаются.
@@ -50,7 +51,7 @@ public class JdbcCommand {
         if (ret == null || ret instanceof String)
             return (String) ret;
 
-        throw new ClassCastException("String returned value is expected by sql query. But query returns " + ret.getClass().getName());
+        throw new ClassCastException("Return value is not a String. Query returns " + ret.getClass().getName());
     }
 
     // MS SQL криво meta-данные читаются.

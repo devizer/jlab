@@ -18,16 +18,20 @@ public class ReliableThreadLocal<T> {
         }
         else
         {
+/*
             try
             {
+*/
                 T initValue = this.initialValue();
                 state.set(createSuccessState(initValue));
                 return initValue;
+/*
             }
             catch(Exception ex)
             {
                 throw ex;
             }
+*/
         }
     }
 

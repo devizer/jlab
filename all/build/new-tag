@@ -1,0 +1,24 @@
+#!/bin/bash
+
+mkdir -p ~/.build
+buildref=~/.build/jlab.build
+build=$(cat $buildref)
+build=$(($build+1))
+echo $build > $buildref
+echo build: $build
+
+timestamp=$( date '+%Y-%m-%d-%H-%M-%S' )
+
+version=$(cat ~/.build/jlab.ver)
+echo VERSION: $version BUILD: $build
+
+find ../.. -name MANIFEST.MF | while read f; do
+  echo MANIFEST: $f
+  ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
+  cat $f
+done
+
+rm tmp.log
+
+cd ../..
+git commit -m "autocommit by build server"

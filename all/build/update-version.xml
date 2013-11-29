@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="update-version" default='update-version'>
+
+    <target name="update-version">
+        <manifest file="${arg-file}" mode="update">
+            <attribute name="Specification-Version" value="${version}"/>
+            <attribute name="Specification-Vendor" value="devizer, aka Vladimir Goyda"/>
+            <attribute name="Implementation-Title" value="jlab"/>
+            <attribute name="Implementation-Version" value="${version} ${timestamp}"/>
+            <attribute name="Implementation-Vendor" value="http://devizer.blogspot.ru"/>
+            <attribute name="X-Build-Timestamp" value="${timestamp}"/>
+        </manifest>
+    </target>
+
+</project>

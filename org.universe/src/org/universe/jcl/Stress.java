@@ -99,7 +99,6 @@ public class Stress {
 
                 started.countDown(); // good start
                 ready.await();
-
                 long startAt = System.nanoTime();
                 long upTo = startAt + milliSeconds * 1000000L;
                 do {
@@ -113,8 +112,10 @@ public class Stress {
                         {
                             Log.log(Level.SEVERE, "Stress operation failed", ex);
                         }
+
                     totalCount.getAndAdd(stride);
                 } while(System.nanoTime() < upTo);
+                long realMilliSeconds = System.nanoTime() - startAt;
             }
         });
 
