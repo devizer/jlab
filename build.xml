@@ -35,7 +35,6 @@
             <arg value="org.universe.test.OnBuildTestSuite"/>
             <arg value="org.universe.cxf.test.OnBuildTestSuite"/>
             <arg value="org.universe.queue.test.Test_SimpleQueue"/>
-            <!--<arg value="org.universe.rabbitstress.TestMQ"/>-->
         </java>
     </target>
 

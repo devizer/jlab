@@ -1,10 +1,11 @@
-DIR=~/backup/javalab
+source=~/jlab
+DIR=~/backup/jlab
 FILE=$( date '+%Y-%m-%d_%H-%M-%S' )
 FILE=$DIR/work-$FILE.tar.gz
-echo Backup ~/work to $FILE
+echo Backup $source to $FILE
 mkdir -p $DIR
 GZIP=9
-tar -czf $FILE ~/work
+tar -czf $FILE $source
 ls -1tr $DIR | head -n -10 | while read f; do
   echo Remove old backup: "$f"
   rm -f "$DIR/$f"

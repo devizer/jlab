@@ -95,9 +95,9 @@ public class EnvQueue {
         return  CheckSchema("mssql",
                 new SimpleQueueDataSourceFactory(
                         "com.microsoft.sqlserver.jdbc.SQLServerDriver",
-                        "jdbc:sqlserver://192.168.1.88\\SQL2008R2;databaseName=sandbox;integratedSecurity=false;",
-                        "sa",
-                        "`1qazxsw2"
+                        "jdbc:sqlserver://192.168.1.36\\SQLEXPRESS;databaseName=sandbox;integratedSecurity=false;",
+                        "sandbox",
+                        "sandbox"
                 ));
     }
 

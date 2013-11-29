@@ -31,7 +31,7 @@ public class SimpleQueue {
     }
 
 
-    Dialect getDialect() throws Exception {
+    public Dialect getDialect() throws Exception {
         if (_dialect == null)
             synchronized (SyncDialect) {
                 if (_dialect == null)

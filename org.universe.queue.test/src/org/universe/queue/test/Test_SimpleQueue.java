@@ -2,6 +2,8 @@ package org.universe.queue.test;
 
 import org.junit.*;
 import org.junit.runners.MethodSorters;
+import org.universe.ConsoleTable;
+import org.universe.DateCalc;
 import org.universe.jcl.Lazy;
 import org.universe.queue.Message;
 import org.universe.queue.SimpleQueue;
@@ -71,6 +73,7 @@ public class Test_SimpleQueue {
     @Test
     public void _3_Publish_Ack_() throws Exception {
 
+        ConsoleTable report = new ConsoleTable("Size", "DB", "Status", "Publish", "Status", "Delivery", "Ack");
         for(SimpleQueueDataSourceFactory ds : DbList.get())
         {
             System.out.println("Test messages lifecycle on " + ds.url);
@@ -85,11 +88,20 @@ public class Test_SimpleQueue {
                 byte[] expectedData = new byte[sz];
                 rnd.nextBytes(expectedData);
 
-                // PUBLISH
-                queue.publish(queueName, key, expectedData);
+                long timeZeroStatus = System.nanoTime();
+                queue.getMessageStatus(UUID.randomUUID().toString());
+                timeZeroStatus = System.nanoTime() - timeZeroStatus;
 
+                // PUBLISH
+                long timePublish = System.nanoTime();
+                queue.publish(queueName, key, expectedData);
+                timePublish = System.nanoTime() - timePublish;
+
+                long timeStatus = System.nanoTime();
                 {
                     Message.Status status = queue.getMessageStatus(key);
+                    timeStatus = System.nanoTime() - timeStatus;
+
                     Assert.assertNotNull("After ack status is present", status);
                     Assert.assertNull("After publish AckDate is null", status.getAckDate());
                     Assert.assertTrue("After publish message is Unlocked", !status.isLocked());
@@ -97,7 +109,9 @@ public class Test_SimpleQueue {
 
 
                 // DELIVERY
+                long timeDelivery = System.nanoTime();
                 Message msg = queue.nextDelivery(queueName);
+                timeDelivery = System.nanoTime() - timeDelivery;
 
                 Assert.assertNotNull(msg);
                 Assert.assertArrayEquals(expectedData, msg.getMessage());
@@ -112,7 +126,9 @@ public class Test_SimpleQueue {
 
 
                 // ACK
+                long timeAck = System.nanoTime();
                 queue.ack(queueName, msg.getId());
+                timeAck = System.nanoTime() - timeAck;
 
                 {
                     Message.Status status = queue.getMessageStatus(key);
@@ -121,11 +137,21 @@ public class Test_SimpleQueue {
                     Assert.assertTrue("After ack message is Unlocked", !status.isLocked());
                 }
 
-
+                report
+                        .put(sz)
+                        .put(queue.getDialect())
+                        .put(DateCalc.NanosecToString(timeZeroStatus))
+                        .put(DateCalc.NanosecToString(timePublish))
+                        .put(DateCalc.NanosecToString(timeStatus))
+                        .put(DateCalc.NanosecToString(timeDelivery))
+                        .put(DateCalc.NanosecToString(timeAck))
+                        .newRow();
             }
 
             System.out.println();
         }
+
+        System.out.println(report);
 
     }
 
