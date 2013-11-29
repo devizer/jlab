@@ -2,21 +2,19 @@ package org.universe.tests.jaxb;
 
 import org.junit.Assert;
 import org.universe.DateCalc;
-import org.universe.jaxb.JAXBUtils;
+import org.universe.jaxb.JAXBSerializer;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Date;
-import java.util.List;
 
 import static org.junit.Assert.assertArrayEquals;
 
 public class VoEnv {
 
-    public static final JAXBUtils<MyVo1> Ver1Converter = new JAXBUtils<MyVo1>(MyVo1.class);
-    static final JAXBUtils<MyVo2> Ver2Converter = new JAXBUtils<MyVo2>(MyVo2.class);
+    public static final JAXBSerializer<MyVo1> Ver1Converter = new JAXBSerializer<MyVo1>(MyVo1.class);
+    static final JAXBSerializer<MyVo2> Ver2Converter = new JAXBSerializer<MyVo2>(MyVo2.class);
 
     public static MyVo1 createVO1()
     {

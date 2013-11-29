@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class SimpleTest {
+public class Test_SimpleIntegrity {
 
     @Test
     public void Is_IntegrityCorrect()

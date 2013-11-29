@@ -12,13 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="fix typo">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/StreamInterceptor.java" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/sample/StreamInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/SimpleTest.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBUtils.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/VoEnv.java" afterPath="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/VoEnv.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385690941366" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385690750655" ignored="false" />
+    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385693393194" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385693393194" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -79,7 +85,7 @@
     <file path="/ObjectStreamPerfomace.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384413317895" ignored="false" />
     <file path="/BinarySerializer.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384411570549" ignored="false" />
     <file path="/MyVo1.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384412059352" ignored="false" />
-    <file path="/a.dummy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689102738" ignored="false" />
+    <file path="/a.dummy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694272747" ignored="false" />
     <file path="/pre-ubuntu" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384448970096" ignored="false" />
     <file path="/run-servers" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384458352025" ignored="false" />
     <file path="/run-fedora" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384555635640" ignored="false" />
@@ -131,7 +137,7 @@
     <file path="/QueueStatistic.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385384954553" ignored="false" />
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
-    <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385521195431" ignored="false" />
+    <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694420222" ignored="false" />
     <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385623190132" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
@@ -164,6 +170,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -307,7 +314,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -317,35 +323,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StreamInterceptor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/sample/StreamInterceptor.java">
+      <file leaf-file-name="TestJAXB_Integrity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="16" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.14712153">
+            <state line="22" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCxf.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/TestCxf.java">
+      <file leaf-file-name="JAXBSerializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
+            <state line="21" column="17" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/MessageInfo.java">
+      <file leaf-file-name="System6.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+            <state line="51" column="49" selection-start="1462" selection-end="1486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF">
+      <file leaf-file-name="pre-ubuntu" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/all/pre-ubuntu">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -353,44 +359,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/TransferInterceptor.java">
+      <file leaf-file-name="pre-redhat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/all/pre-redhat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="win-fast-tests.cmd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/win-fast-tests.cmd">
+      <file leaf-file-name="pre-fedora" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/all/pre-fedora">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="107" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="c3.large_arm_on_E5_2680" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/perf-report/c3.large_arm_on_E5_2680">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF">
+      <file leaf-file-name="Test_UUID.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
+            <state line="17" column="73" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67954546">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java">
+      <file leaf-file-name="TestJAXB_Perfomance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="20" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+            <state line="26" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeZonesMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZonesMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="20" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalesMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/LocalesMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -414,12 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
-        <option value="$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/MessageInfo.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
-        <option value="$PROJECT_DIR$/all/arm/tmp1" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/all/test-build.sh" />
         <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/testcfx/MyContextOnServer.java" />
@@ -430,6 +441,12 @@
         <option value="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" />
         <option value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/sample/StreamInterceptor.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo2.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBUtils.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
+        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java" />
       </list>
     </option>
   </component>
@@ -492,7 +509,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -652,6 +668,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -822,6 +866,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,16 +883,16 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs/cxf-rt-2.7.7/" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs/cxf-rt-2.7.7/" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.lastSelected" value="settings.github" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.36153162" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="95" />
-    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="64" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -879,8 +924,8 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -908,7 +953,7 @@
       <recent name="org.universe.testcfx" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.org.universe.testcfx (JUnit)">
+  <component name="RunManager" selected="JUnit.universe tests (JUnit)">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -921,19 +966,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -962,6 +994,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2009,7 +2054,11 @@
       <created>1385690485090</created>
       <updated>1385690485090</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="fix typo">
+      <created>1385691034809</created>
+      <updated>1385691034809</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2019,6 +2068,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20649967" sideWeight="0.6604514" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4644231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2027,21 +2077,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967659" sideWeight="0.42497483" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22276741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40096155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4004796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25488874" sideWeight="0.70384616" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4194201" sideWeight="0.5990385" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36826923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3713707" sideWeight="0.5091434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4908566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3451923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2140,107 +2189,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/all/run-fedora">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/MyVo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/ServerSide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+        <state line="18" column="37" selection-start="462" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/Parallel.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZomes-1.6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/test-build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/MyContextOnServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="622" column="0" selection-start="64109" selection-end="64109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/TestCxf.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TestsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/perf-report/c3.large_arm_on_E5_2680">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/security/Test_SimpleIntegrity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="3537" selection-end="3537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/arm/tmp1">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/testcxf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
+        <state line="10" column="18" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_LightSystemInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+        <state line="54" column="0" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/TransferInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/TimeZonesMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+        <state line="22" column="20" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/org/universe/cxf/MessageInfo.java">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/LocalesMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+        <state line="59" column="0" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Perfomance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/jaxb/TestJAXB_Integrity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all/pre-ubuntu">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/win-fast-tests.cmd">
+    <entry file="file://$PROJECT_DIR$/all/pre-redhat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="107" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/sample/StreamInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/all/pre-fedora">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.14712153">
+        <state line="18" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="49" selection-start="1462" selection-end="1486" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.test/src/org/universe/tests/Test_UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="73" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67954546">
           <folding />
         </state>
       </provider>

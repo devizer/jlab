@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 /**
  * Its a 'slightly' modified version of MoVo1
  */
-@XmlRootElement(name = "MyValue")
+@XmlRootElement(name = MyVo1.RootName)
 public class MyVo2 {
 
     public int MyInt;

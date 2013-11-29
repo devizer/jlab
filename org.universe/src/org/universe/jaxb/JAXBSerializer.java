@@ -13,7 +13,7 @@ import java.io.StringWriter;
 // @ThreadSafe
 // Three classes should be cached:
 // JAXBContext, XMLInputFactory, XMLOutputFactory
-public class JAXBUtils<T> {
+public class JAXBSerializer<T> {
 
     public final Class Class;
     private JAXBContext Context;
@@ -35,7 +35,7 @@ public class JAXBUtils<T> {
         }
     };
 
-    public JAXBUtils(java.lang.Class aClass) {
+    public JAXBSerializer(java.lang.Class aClass) {
         Class = aClass;
     }
 

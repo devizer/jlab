@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.universe.ConsoleTable;
 import org.universe.System6;
-import org.universe.jaxb.JAXBUtils;
+import org.universe.jaxb.JAXBSerializer;
 import org.universe.jcl.Stress;
 import org.universe.tests.TestEnv;
 import org.w3c.dom.Document;
@@ -26,7 +26,7 @@ import java.util.List;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestJAXB_Perfomance {
 
-    static JAXBUtils<SimplestVo> SimplestConverter = new JAXBUtils<SimplestVo>(SimplestVo.class);
+    static JAXBSerializer<SimplestVo> SimplestConverter = new JAXBSerializer<SimplestVo>(SimplestVo.class);
 
     @Test
     public void MyVo1_MARSHALLER_To_Data() throws Exception
