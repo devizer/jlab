@@ -8,8 +8,8 @@
   
   <property name="compiler.args.org.universe.testcfx" value="${compiler.args}"/>
   
-  <property name="org.universe.testcfx.output.dir" value="${module.org.universe.testcfx.basedir}/../out/production/org.universe.testcfx"/>
-  <property name="org.universe.testcfx.testoutput.dir" value="${module.org.universe.testcfx.basedir}/../out/test/org.universe.testcfx"/>
+  <property name="org.universe.testcfx.output.dir" value="org.universe.cxf.test/../out/production/org.universe.testcfx"/>
+  <property name="org.universe.testcfx.testoutput.dir" value="org.universe.cxf.test/../out/test/org.universe.testcfx"/>
   
   <path id="org.universe.testcfx.module.bootclasspath">
     <!-- Paths to be included in compilation bootclasspath -->
@@ -83,7 +83,7 @@
   </patternset>
   
   <path id="org.universe.testcfx.module.sourcepath">
-    <dirset dir="${module.org.universe.testcfx.basedir}">
+    <dirset dir="org.universe.cxf.test">
       <include name="src"/>
     </dirset>
   </path>
@@ -102,7 +102,7 @@
     </javac2>
     
     <copy todir="${org.universe.testcfx.output.dir}">
-      <fileset dir="${module.org.universe.testcfx.basedir}/src">
+      <fileset dir="org.universe.cxf.test/src">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
       </fileset>
