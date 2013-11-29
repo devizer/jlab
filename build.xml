@@ -228,29 +228,33 @@
     <!-- Perform any build initialization in this target -->
   </target>
   
-  <target name="clean" depends="clean.module.libs, clean.module.org.universe, clean.module.org.universe.cxf, clean.module.org.universe.queue, clean.module.org.universe.test, clean.module.org.universe.cxf.test, clean.module.org.universe.queue.test, clean.module.org.universe.rabbitstress, clean.module.all, clean.artifact.all, clean.artifact.org.universe.cxf:jar, clean.artifact.org.universe.rabbitstress:jar, clean.artifact.org.universe.testcfx:jar, clean.artifact.org.universe.tests:jar, clean.artifact.org.universe:jar" description="cleanup all"/>
+  <target name="clean" depends="clean.module.libs, clean.module.org.universe, clean.module.org.universe.cxf, clean.module.org.universe.queue, clean.module.org.universe.test, clean.module.org.universe.cxf.test, clean.module.org.universe.queue.test, clean.module.org.universe.rabbitstress, clean.module.all, clean.artifact.all, clean.artifact.org.universe.cxf.test:jar, clean.artifact.org.universe.cxf:jar, clean.artifact.org.universe.rabbitstress:jar, clean.artifact.org.universe.test:jar, clean.artifact.org.universe:jar" description="cleanup all"/>
   
   <target name="build.modules" depends="init, clean, compile.module.libs, compile.module.org.universe, compile.module.org.universe.cxf, compile.module.org.universe.queue, compile.module.org.universe.test, compile.module.org.universe.cxf.test, compile.module.org.universe.queue.test, compile.module.org.universe.rabbitstress, compile.module.all" description="build all modules"/>
   
   <target name="init.artifacts">
     <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
     <property name="artifact.output.all" value="${basedir}/out/all"/>
+    <property name="artifact.output.org.universe.cxf.test:jar" value="${basedir}/out/artifacts/org_universe_cxf_test_jar"/>
     <property name="artifact.output.org.universe.cxf:jar" value="${basedir}/out/artifacts/org_universe_cxf_jar"/>
     <property name="artifact.output.org.universe.rabbitstress:jar" value="${basedir}/out/org.universe.rabbitstress"/>
-    <property name="artifact.output.org.universe.testcfx:jar" value="${basedir}/out/org.universe.testcfx"/>
-    <property name="artifact.output.org.universe.tests:jar" value="${basedir}/out/org.universe.tests"/>
+    <property name="artifact.output.org.universe.test:jar" value="${basedir}/out/org.universe.test"/>
     <property name="artifact.output.org.universe:jar" value="${basedir}/out/org.universe"/>
     <mkdir dir="${artifacts.temp.dir}"/>
     <property name="temp.jar.path.work.jar" value="${artifacts.temp.dir}/work.jar"/>
+    <property name="temp.jar.path.org.universe.cxf.test.jar" value="${artifacts.temp.dir}/org.universe.cxf.test.jar"/>
     <property name="temp.jar.path.org.universe.cxf.jar" value="${artifacts.temp.dir}/org.universe.cxf.jar"/>
     <property name="temp.jar.path.org.universe.rabbitstress.jar" value="${artifacts.temp.dir}/org.universe.rabbitstress.jar"/>
-    <property name="temp.jar.path.org.universe.testcfx.jar" value="${artifacts.temp.dir}/org.universe.testcfx.jar"/>
     <property name="temp.jar.path.org.universe.tests.jar" value="${artifacts.temp.dir}/org.universe.tests.jar"/>
     <property name="temp.jar.path.org.universe.jar" value="${artifacts.temp.dir}/org.universe.jar"/>
   </target>
   
   <target name="clean.artifact.all" description="clean all artifact output">
     <delete dir="${artifact.output.all}"/>
+  </target>
+  
+  <target name="clean.artifact.org.universe.cxf.test:jar" description="clean org.universe.cxf.test:jar artifact output">
+    <delete dir="${artifact.output.org.universe.cxf.test:jar}"/>
   </target>
   
   <target name="clean.artifact.org.universe.cxf:jar" description="clean org.universe.cxf:jar artifact output">
@@ -261,19 +265,15 @@
     <delete dir="${artifact.output.org.universe.rabbitstress:jar}"/>
   </target>
   
-  <target name="clean.artifact.org.universe.testcfx:jar" description="clean org.universe.testcfx:jar artifact output">
-    <delete dir="${artifact.output.org.universe.testcfx:jar}"/>
-  </target>
-  
-  <target name="clean.artifact.org.universe.tests:jar" description="clean org.universe.tests:jar artifact output">
-    <delete dir="${artifact.output.org.universe.tests:jar}"/>
+  <target name="clean.artifact.org.universe.test:jar" description="clean org.universe.test:jar artifact output">
+    <delete dir="${artifact.output.org.universe.test:jar}"/>
   </target>
   
   <target name="clean.artifact.org.universe:jar" description="clean org.universe:jar artifact output">
     <delete dir="${artifact.output.org.universe:jar}"/>
   </target>
   
-  <target name="artifact.all" depends="init.artifacts, compile.module.all, artifact.org.universe:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.tests:jar, artifact.org.universe.testcfx:jar, artifact.org.universe.cxf:jar" description="Build &#39;all&#39; artifact">
+  <target name="artifact.all" depends="init.artifacts, compile.module.all, artifact.org.universe:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.test:jar, artifact.org.universe.cxf:jar" description="Build &#39;all&#39; artifact">
     <mkdir dir="${artifact.output.all}"/>
     <jar destfile="${temp.jar.path.work.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
       <zipfileset file="${basedir}/all/src/META-INF/MANIFEST.MF" prefix="META-INF"/>
@@ -291,10 +291,7 @@
     <copy file="${basedir}/org.universe.test/profile" tofile="${artifact.output.all}/profile"/>
     <copy file="${basedir}/org.universe.test/test" tofile="${artifact.output.all}/test"/>
     <copy todir="${artifact.output.all}">
-      <fileset dir="${artifact.output.org.universe.tests:jar}"/>
-    </copy>
-    <copy todir="${artifact.output.all}">
-      <fileset dir="${artifact.output.org.universe.testcfx:jar}"/>
+      <fileset dir="${artifact.output.org.universe.test:jar}"/>
     </copy>
     <copy file="${basedir}/all/test-build.sh" tofile="${artifact.output.all}/test-build.sh"/>
     <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3.jar" tofile="${artifact.output.all}/hamcrest-core-1.3.jar"/>
@@ -313,12 +310,120 @@
     </copy>
   </target>
   
+  <target name="artifact.org.universe.cxf.test:jar" depends="init.artifacts, compile.module.org.universe.cxf.test, compile.module.org.universe, compile.module.org.universe.test, compile.module.org.universe.cxf, artifact.org.universe.cxf:jar" description="Build &#39;org.universe.cxf.test:jar&#39; artifact">
+    <mkdir dir="${artifact.output.org.universe.cxf.test:jar}"/>
+    <jar destfile="${temp.jar.path.org.universe.cxf.test.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${org.universe.cxf.test.output.dir}"/>
+      <zipfileset dir="${org.universe.output.dir}"/>
+      <zipfileset dir="${org.universe.test.output.dir}"/>
+      <zipfileset dir="${org.universe.cxf.output.dir}"/>
+    </jar>
+    <copy file="${temp.jar.path.org.universe.cxf.test.jar}" tofile="${artifact.output.org.universe.cxf.test:jar}/org.universe.cxf.test.jar"/>
+    <copy file="${basedir}/libs/log4j/log4j-1.2.17.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/log4j-1.2.17.jar"/>
+    <copy file="${basedir}/libs/log4j/javaee-api-5.0-2.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/javaee-api-5.0-2.jar"/>
+    <copy file="${basedir}/libs/log4j/slf4j-log4j12-1.7.5.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/slf4j-log4j12-1.7.5.jar"/>
+    <copy file="${basedir}/libs/log4j/jul-to-slf4j-1.7.5.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jul-to-slf4j-1.7.5.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-transports-http-jetty-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/org.osgi.core-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/org.osgi.compendium-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-api-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/woodstox-core-asl-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/stax2-api-3.1.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/xmlschema-core-2.0.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/wsdl4j-1.6.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-transports-http-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-core-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jaxb-impl-2.2.6.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-server-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-continuation-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-http-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-io-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-util-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jetty-security-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/slf4j-api-1.7.5.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/slf4j-api-1.7.5.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/geronimo-servlet_3.0_spec-1.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-frontend-jaxws-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/org.osgi.core-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-core-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-api-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/woodstox-core-asl-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/stax2-api-3.1.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/xmlschema-core-2.0.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/wsdl4j-1.6.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/jaxb-impl-2.2.6.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xml-resolver-1.2.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/xml-resolver-1.2.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/asm-3.3.1.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/asm-3.3.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-bindings-soap-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-databinding-jaxb-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-bindings-xml-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-frontend-simple-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-transports-http-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-ws-addr-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/cxf-rt-ws-policy-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/neethi-3.0.2.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/neethi-3.0.2.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/hamcrest-core-1.3.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3-sources.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/hamcrest-core-1.3-sources.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/junit-4.11.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/junit-4.11.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/junit-4.11-sources.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/junit-4.11-sources.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3-javadoc.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/hamcrest-core-1.3-javadoc.jar"/>
+    <copy file="${basedir}/libs/junit-4.11/junit-4.11-javadoc.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/junit-4.11-javadoc.jar"/>
+    <copy file="${basedir}/libs/commons-dbutils-latest/commons-dbutils-1.5.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/commons-dbutils-1.5.jar"/>
+    <copy file="${basedir}/libs/commons-io-latest/commons-io-2.4.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/commons-io-2.4.jar"/>
+    <copy file="${basedir}/libs/commons-dpcp-latest/commons-dbcp-1.4.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/commons-dbcp-1.4.jar"/>
+    <copy file="${basedir}/libs/commons-dpcp-latest/commons-pool-1.5.4.jar" tofile="${artifact.output.org.universe.cxf.test:jar}/commons-pool-1.5.4.jar"/>
+    <copy todir="${artifact.output.org.universe.cxf.test:jar}">
+      <fileset dir="${artifact.output.org.universe.cxf:jar}"/>
+    </copy>
+  </target>
+  
   <target name="artifact.org.universe.cxf:jar" depends="init.artifacts, compile.module.org.universe.cxf" description="Build &#39;org.universe.cxf:jar&#39; artifact">
     <mkdir dir="${artifact.output.org.universe.cxf:jar}"/>
     <jar destfile="${temp.jar.path.org.universe.cxf.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
       <zipfileset dir="${org.universe.cxf.output.dir}"/>
     </jar>
     <copy file="${temp.jar.path.org.universe.cxf.jar}" tofile="${artifact.output.org.universe.cxf:jar}/org.universe.cxf.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-jaxws-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-frontend-jaxws-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.core-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-core-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-api-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/woodstox-core-asl-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/stax2-api-3.1.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/xmlschema-core-2.0.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/wsdl4j-1.6.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf:jar}/jaxb-impl-2.2.6.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xml-resolver-1.2.jar" tofile="${artifact.output.org.universe.cxf:jar}/xml-resolver-1.2.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/asm-3.3.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/asm-3.3.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-soap-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-bindings-soap-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-databinding-jaxb-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-databinding-jaxb-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-bindings-xml-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-bindings-xml-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-frontend-simple-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-frontend-simple-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-addr-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-ws-addr-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-ws-policy-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-ws-policy-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/neethi-3.0.2.jar" tofile="${artifact.output.org.universe.cxf:jar}/neethi-3.0.2.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-jetty-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-jetty-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.core-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.core-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/org.osgi.compendium-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/org.osgi.compendium-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-api-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-api-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/woodstox-core-asl-4.2.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/woodstox-core-asl-4.2.0.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/stax2-api-3.1.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/stax2-api-3.1.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/xmlschema-core-2.0.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/xmlschema-core-2.0.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-javamail_1.4_spec-1.7.1.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/wsdl4j-1.6.3.jar" tofile="${artifact.output.org.universe.cxf:jar}/wsdl4j-1.6.3.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-transports-http-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-transports-http-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/cxf-rt-core-2.7.7.jar" tofile="${artifact.output.org.universe.cxf:jar}/cxf-rt-core-2.7.7.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jaxb-impl-2.2.6.jar" tofile="${artifact.output.org.universe.cxf:jar}/jaxb-impl-2.2.6.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-server-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-server-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-continuation-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-continuation-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-http-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-http-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-io-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-io-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-util-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-util-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/jetty-security-8.1.12.v20130726.jar" tofile="${artifact.output.org.universe.cxf:jar}/jetty-security-8.1.12.v20130726.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/slf4j-api-1.7.5.jar" tofile="${artifact.output.org.universe.cxf:jar}/slf4j-api-1.7.5.jar"/>
+    <copy file="${basedir}/libs/cxf-rt-2.7.7/geronimo-servlet_3.0_spec-1.0.jar" tofile="${artifact.output.org.universe.cxf:jar}/geronimo-servlet_3.0_spec-1.0.jar"/>
   </target>
   
   <target name="artifact.org.universe.rabbitstress:jar" depends="init.artifacts, compile.module.org.universe.rabbitstress, artifact.org.universe:jar" description="Build &#39;org.universe.rabbitstress:jar&#39; artifact">
@@ -340,27 +445,8 @@
     <copy file="${basedir}/libs/junit-4.11/junit-4.11-javadoc.jar" tofile="${artifact.output.org.universe.rabbitstress:jar}/junit-4.11-javadoc.jar"/>
   </target>
   
-  <target name="artifact.org.universe.testcfx:jar" depends="init.artifacts, compile.module.org.universe.cxf.test" description="Build &#39;org.universe.testcfx:jar&#39; artifact">
-    <mkdir dir="${artifact.output.org.universe.testcfx:jar}"/>
-    <jar destfile="${temp.jar.path.org.universe.testcfx.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
-      <zipfileset dir="${org.universe.cxf.test.output.dir}"/>
-    </jar>
-    <copy file="${temp.jar.path.org.universe.testcfx.jar}" tofile="${artifact.output.org.universe.testcfx:jar}/org.universe.testcfx.jar"/>
-    <copy file="${basedir}/org.universe.cxf.test/testcxf" tofile="${artifact.output.org.universe.testcfx:jar}/testcxf"/>
-    <copy file="${basedir}/libs/log4j/log4j-1.2.17.jar" tofile="${artifact.output.org.universe.testcfx:jar}/log4j-1.2.17.jar"/>
-    <copy file="${basedir}/libs/log4j/javaee-api-5.0-2.jar" tofile="${artifact.output.org.universe.testcfx:jar}/javaee-api-5.0-2.jar"/>
-    <copy file="${basedir}/libs/log4j/slf4j-log4j12-1.7.5.jar" tofile="${artifact.output.org.universe.testcfx:jar}/slf4j-log4j12-1.7.5.jar"/>
-    <copy file="${basedir}/libs/log4j/jul-to-slf4j-1.7.5.jar" tofile="${artifact.output.org.universe.testcfx:jar}/jul-to-slf4j-1.7.5.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3.jar" tofile="${artifact.output.org.universe.testcfx:jar}/hamcrest-core-1.3.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3-sources.jar" tofile="${artifact.output.org.universe.testcfx:jar}/hamcrest-core-1.3-sources.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/junit-4.11.jar" tofile="${artifact.output.org.universe.testcfx:jar}/junit-4.11.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/junit-4.11-sources.jar" tofile="${artifact.output.org.universe.testcfx:jar}/junit-4.11-sources.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/hamcrest-core-1.3-javadoc.jar" tofile="${artifact.output.org.universe.testcfx:jar}/hamcrest-core-1.3-javadoc.jar"/>
-    <copy file="${basedir}/libs/junit-4.11/junit-4.11-javadoc.jar" tofile="${artifact.output.org.universe.testcfx:jar}/junit-4.11-javadoc.jar"/>
-  </target>
-  
-  <target name="artifact.org.universe.tests:jar" depends="init.artifacts, compile.module.org.universe.test, artifact.org.universe:jar" description="Build &#39;org.universe.tests:jar&#39; artifact">
-    <mkdir dir="${artifact.output.org.universe.tests:jar}"/>
+  <target name="artifact.org.universe.test:jar" depends="init.artifacts, compile.module.org.universe.test, artifact.org.universe:jar" description="Build &#39;org.universe.test:jar&#39; artifact">
+    <mkdir dir="${artifact.output.org.universe.test:jar}"/>
     <jar destfile="${temp.jar.path.org.universe.tests.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
       <zipfileset dir="${org.universe.test.output.dir}"/>
       <zipfileset file="${basedir}/libs/junit-4.11/hamcrest-core-1.3.jar"/>
@@ -370,13 +456,13 @@
       <zipfileset file="${basedir}/libs/junit-4.11/hamcrest-core-1.3-javadoc.jar"/>
       <zipfileset file="${basedir}/libs/junit-4.11/junit-4.11-javadoc.jar"/>
     </jar>
-    <copy file="${temp.jar.path.org.universe.tests.jar}" tofile="${artifact.output.org.universe.tests:jar}/org.universe.tests.jar"/>
-    <copy todir="${artifact.output.org.universe.tests:jar}">
+    <copy file="${temp.jar.path.org.universe.tests.jar}" tofile="${artifact.output.org.universe.test:jar}/org.universe.tests.jar"/>
+    <copy todir="${artifact.output.org.universe.test:jar}">
       <fileset dir="${artifact.output.org.universe:jar}"/>
     </copy>
-    <copy file="${basedir}/org.universe.test/profile" tofile="${artifact.output.org.universe.tests:jar}/profile"/>
-    <copy file="${basedir}/org.universe.test/test" tofile="${artifact.output.org.universe.tests:jar}/test"/>
-    <copy file="${basedir}/libs/commons-io-latest/commons-io-2.4.jar" tofile="${artifact.output.org.universe.tests:jar}/commons-io-2.4.jar"/>
+    <copy file="${basedir}/org.universe.test/profile" tofile="${artifact.output.org.universe.test:jar}/profile"/>
+    <copy file="${basedir}/org.universe.test/test" tofile="${artifact.output.org.universe.test:jar}/test"/>
+    <copy file="${basedir}/libs/commons-io-latest/commons-io-2.4.jar" tofile="${artifact.output.org.universe.test:jar}/commons-io-2.4.jar"/>
   </target>
   
   <target name="artifact.org.universe:jar" depends="init.artifacts, compile.module.org.universe" description="Build &#39;org.universe:jar&#39; artifact">
@@ -391,7 +477,7 @@
     <copy file="${basedir}/libs/commons-io-latest/commons-io-2.4.jar" tofile="${artifact.output.org.universe:jar}/commons-io-2.4.jar"/>
   </target>
   
-  <target name="build.all.artifacts" depends="artifact.all, artifact.org.universe.cxf:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.testcfx:jar, artifact.org.universe.tests:jar, artifact.org.universe:jar" description="Build all artifacts">
+  <target name="build.all.artifacts" depends="artifact.all, artifact.org.universe.cxf.test:jar, artifact.org.universe.cxf:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.test:jar, artifact.org.universe:jar" description="Build all artifacts">
     
     <!-- Delete temporary files -->
     <delete dir="${artifacts.temp.dir}"/>

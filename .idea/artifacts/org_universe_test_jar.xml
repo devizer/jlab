@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact name="org.universe.tests:jar">
-    <output-path>$PROJECT_DIR$/out/org.universe.tests</output-path>
+  <artifact name="org.universe.test:jar">
+    <output-path>$PROJECT_DIR$/out/org.universe.test</output-path>
     <root id="root">
       <element id="archive" name="org.universe.tests.jar">
         <element id="module-output" name="org.universe.test" />

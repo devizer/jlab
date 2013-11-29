@@ -12,19 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe.cxf.test/module_org.universe.cxf.test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/org.universe.cxf.test/module_org.universe.testcfx.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/HelloWorld.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_cxf_test_jar.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/org_universe_testcfx_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/org_universe_tests_jar.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/org_universe_tests_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/org_universe_test_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/org.universe.cxf/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/perf-report/c3.large_arm_on_E5_2680" afterPath="$PROJECT_DIR$/all/perf-report/c3.large_arm_on_E5_2680" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.cxf.test/testcxf" afterPath="$PROJECT_DIR$/org.universe.cxf.test/testcxf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385658943812" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689088674" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689290984" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -389,7 +389,7 @@
       <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+            <state line="22" column="29" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -824,7 +824,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="95" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="64" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1974,7 +1974,11 @@
       <created>1385689091932</created>
       <updated>1385689091932</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="fix typo">
+      <created>1385689298297</created>
+      <updated>1385689298297</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2199,7 +2203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+        <state line="22" column="29" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2221,7 +2225,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29411763" />
+                <option value="0.36153162" />
                 <option value="0.5" />
               </list>
             </option>
@@ -2266,7 +2270,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>org.universe.testcfx</last-edited>
+          <last-edited>all</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
