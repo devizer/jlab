@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact name="org.universe.cxf.test:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/org_universe_cxf_test_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/org.universe.cxf.test</output-path>
     <root id="root">
       <element id="archive" name="org.universe.cxf.test.jar">
         <element id="module-output" name="org.universe.cxf.test" />

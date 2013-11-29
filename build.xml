@@ -235,8 +235,8 @@
   <target name="init.artifacts">
     <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
     <property name="artifact.output.all" value="${basedir}/out/all"/>
-    <property name="artifact.output.org.universe.cxf.test:jar" value="${basedir}/out/artifacts/org_universe_cxf_test_jar"/>
-    <property name="artifact.output.org.universe.cxf:jar" value="${basedir}/out/artifacts/org_universe_cxf_jar"/>
+    <property name="artifact.output.org.universe.cxf.test:jar" value="${basedir}/out/org.universe.cxf.test"/>
+    <property name="artifact.output.org.universe.cxf:jar" value="${basedir}/out/org.universe.cxf"/>
     <property name="artifact.output.org.universe.rabbitstress:jar" value="${basedir}/out/org.universe.rabbitstress"/>
     <property name="artifact.output.org.universe.test:jar" value="${basedir}/out/org.universe.test"/>
     <property name="artifact.output.org.universe:jar" value="${basedir}/out/org.universe"/>
@@ -273,7 +273,7 @@
     <delete dir="${artifact.output.org.universe:jar}"/>
   </target>
   
-  <target name="artifact.all" depends="init.artifacts, compile.module.all, artifact.org.universe:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.test:jar, artifact.org.universe.cxf:jar" description="Build &#39;all&#39; artifact">
+  <target name="artifact.all" depends="init.artifacts, compile.module.all, artifact.org.universe:jar, artifact.org.universe.rabbitstress:jar, artifact.org.universe.test:jar, artifact.org.universe.cxf:jar, artifact.org.universe.cxf.test:jar" description="Build &#39;all&#39; artifact">
     <mkdir dir="${artifact.output.all}"/>
     <jar destfile="${temp.jar.path.work.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
       <zipfileset file="${basedir}/all/src/META-INF/MANIFEST.MF" prefix="META-INF"/>
@@ -307,6 +307,9 @@
     <copy file="${basedir}/all/win-fast-tests.cmd" tofile="${artifact.output.all}/win-fast-tests.cmd"/>
     <copy todir="${artifact.output.all}">
       <fileset dir="${artifact.output.org.universe.cxf:jar}"/>
+    </copy>
+    <copy todir="${artifact.output.all}">
+      <fileset dir="${artifact.output.org.universe.cxf.test:jar}"/>
     </copy>
   </target>
   

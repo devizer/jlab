@@ -14,8 +14,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/org.universe.rabbitstress/run" />
       <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/profile" />
       <element id="file-copy" path="$PROJECT_DIR$/org.universe.test/test" />
-      <element id="artifact" artifact-name="org.universe.tests:jar" />
-      <element id="artifact" artifact-name="org.universe.testcfx:jar" />
+      <element id="artifact" artifact-name="org.universe.test:jar" />
       <element id="file-copy" path="$PROJECT_DIR$/all/test-build.sh" />
       <element id="library" level="project" name="junit-4.11" />
       <element id="file-copy" path="$PROJECT_DIR$/all/pre-ubuntu" />
@@ -24,6 +23,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/org.universe.rabbitstress/testmq" />
       <element id="file-copy" path="$PROJECT_DIR$/all/win-fast-tests.cmd" />
       <element id="artifact" artifact-name="org.universe.cxf:jar" />
+      <element id="artifact" artifact-name="org.universe.cxf.test:jar" />
     </root>
   </artifact>
 </component>
