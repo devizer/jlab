@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_org.universe.cxf.test" default="compile.module.org.universe.cxf.test">
+  <dirname property="module.org.universe.cxf.test.basedir" file="${ant.file.module_org.universe.cxf.test}"/>
+  
+  <property name="module.jdk.home.org.universe.cxf.test" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.org.universe.cxf.test" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.org.universe.cxf.test" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.org.universe.cxf.test" value="${compiler.args}"/>
+  
+  <property name="org.universe.cxf.test.output.dir" value="${module.org.universe.cxf.test.basedir}/../out/production/org.universe.cxf.test"/>
+  <property name="org.universe.cxf.test.testoutput.dir" value="${module.org.universe.cxf.test.basedir}/../out/test/org.universe.cxf.test"/>
+  
+  <path id="org.universe.cxf.test.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="org.universe.cxf.test.module.production.classpath">
+    <path refid="${module.jdk.classpath.org.universe.cxf.test}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.log4j:log4j:1.2.17.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.test.runtime.production.module.classpath">
+    <pathelement location="${org.universe.cxf.test.output.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.log4j:log4j:1.2.17.classpath"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.test.module.classpath">
+    <path refid="${module.jdk.classpath.org.universe.cxf.test}"/>
+    <pathelement location="${org.universe.cxf.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.log4j:log4j:1.2.17.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.cxf.testoutput.dir}"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+  </path>
+  
+  <path id="org.universe.cxf.test.runtime.module.classpath">
+    <pathelement location="${org.universe.cxf.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.cxf.test.output.dir}"/>
+    <pathelement location="${org.universe.testoutput.dir}"/>
+    <pathelement location="${org.universe.output.dir}"/>
+    <path refid="library.commons-dbcp:commons-dbcp:1.4.classpath"/>
+    <path refid="library.commons-dbutils:commons-dbutils:1.5.classpath"/>
+    <path refid="library.commons-io:commons-io:2.4.classpath"/>
+    <path refid="library.log4j:log4j:1.2.17.classpath"/>
+    <pathelement location="${org.universe.test.testoutput.dir}"/>
+    <pathelement location="${org.universe.test.output.dir}"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <pathelement location="${org.universe.cxf.testoutput.dir}"/>
+    <pathelement location="${org.universe.cxf.output.dir}"/>
+    <path refid="library.org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7.classpath"/>
+    <path refid="library.org.apache.cxf:cxf-rt-transports-http-jetty:2.7.7.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.org.universe.cxf.test">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.org.universe.cxf.test">
+    <patternset refid="excluded.from.module.org.universe.cxf.test"/>
+  </patternset>
+  
+  <path id="org.universe.cxf.test.module.sourcepath">
+    <dirset dir="${module.org.universe.cxf.test.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.org.universe.cxf.test" depends="compile.module.org.universe.cxf.test.production,compile.module.org.universe.cxf.test.tests" description="Compile module org.universe.cxf.test"/>
+  
+  <target name="compile.module.org.universe.cxf.test.production" depends="register.custom.compilers,compile.module.org.universe,compile.module.org.universe.test,compile.module.org.universe.cxf" description="Compile module org.universe.cxf.test; production classes">
+    <mkdir dir="${org.universe.cxf.test.output.dir}"/>
+    <javac2 destdir="${org.universe.cxf.test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.org.universe.cxf.test}/javac">
+      <compilerarg line="${compiler.args.org.universe.cxf.test}"/>
+      <bootclasspath refid="org.universe.cxf.test.module.bootclasspath"/>
+      <classpath refid="org.universe.cxf.test.module.production.classpath"/>
+      <src refid="org.universe.cxf.test.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.org.universe.cxf.test"/>
+    </javac2>
+    
+    <copy todir="${org.universe.cxf.test.output.dir}">
+      <fileset dir="${module.org.universe.cxf.test.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.org.universe.cxf.test.tests" depends="register.custom.compilers,compile.module.org.universe.cxf.test.production" description="compile module org.universe.cxf.test; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.org.universe.cxf.test" description="cleanup module">
+    <delete dir="${org.universe.cxf.test.output.dir}"/>
+    <delete dir="${org.universe.cxf.test.testoutput.dir}"/>
+  </target>
+</project>

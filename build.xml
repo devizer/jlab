@@ -216,11 +216,11 @@
   
   <import file="${basedir}/org.universe.test/module_org.universe.test.xml"/>
   
+  <import file="${basedir}/org.universe.cxf.test/module_org.universe.cxf.test.xml"/>
+  
   <import file="${basedir}/org.universe.queue.test/module_org.universe.queue.test.xml"/>
   
   <import file="${basedir}/org.universe.rabbitstress/module_org.universe.rabbitstress.xml"/>
-  
-  <import file="${basedir}/org.universe.testcfx/module_org.universe.testcfx.xml"/>
   
   <import file="${basedir}/all/module_all.xml"/>
   
@@ -228,9 +228,9 @@
     <!-- Perform any build initialization in this target -->
   </target>
   
-  <target name="clean" depends="clean.module.libs, clean.module.org.universe, clean.module.org.universe.cxf, clean.module.org.universe.queue, clean.module.org.universe.test, clean.module.org.universe.queue.test, clean.module.org.universe.rabbitstress, clean.module.org.universe.testcfx, clean.module.all, clean.artifact.all, clean.artifact.org.universe.cxf:jar, clean.artifact.org.universe.rabbitstress:jar, clean.artifact.org.universe.testcfx:jar, clean.artifact.org.universe.tests:jar, clean.artifact.org.universe:jar" description="cleanup all"/>
+  <target name="clean" depends="clean.module.libs, clean.module.org.universe, clean.module.org.universe.cxf, clean.module.org.universe.queue, clean.module.org.universe.test, clean.module.org.universe.cxf.test, clean.module.org.universe.queue.test, clean.module.org.universe.rabbitstress, clean.module.all, clean.artifact.all, clean.artifact.org.universe.cxf:jar, clean.artifact.org.universe.rabbitstress:jar, clean.artifact.org.universe.testcfx:jar, clean.artifact.org.universe.tests:jar, clean.artifact.org.universe:jar" description="cleanup all"/>
   
-  <target name="build.modules" depends="init, clean, compile.module.libs, compile.module.org.universe, compile.module.org.universe.cxf, compile.module.org.universe.queue, compile.module.org.universe.test, compile.module.org.universe.queue.test, compile.module.org.universe.rabbitstress, compile.module.org.universe.testcfx, compile.module.all" description="build all modules"/>
+  <target name="build.modules" depends="init, clean, compile.module.libs, compile.module.org.universe, compile.module.org.universe.cxf, compile.module.org.universe.queue, compile.module.org.universe.test, compile.module.org.universe.cxf.test, compile.module.org.universe.queue.test, compile.module.org.universe.rabbitstress, compile.module.all" description="build all modules"/>
   
   <target name="init.artifacts">
     <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
@@ -340,13 +340,13 @@
     <copy file="${basedir}/libs/junit-4.11/junit-4.11-javadoc.jar" tofile="${artifact.output.org.universe.rabbitstress:jar}/junit-4.11-javadoc.jar"/>
   </target>
   
-  <target name="artifact.org.universe.testcfx:jar" depends="init.artifacts, compile.module.org.universe.testcfx" description="Build &#39;org.universe.testcfx:jar&#39; artifact">
+  <target name="artifact.org.universe.testcfx:jar" depends="init.artifacts, compile.module.org.universe.cxf.test" description="Build &#39;org.universe.testcfx:jar&#39; artifact">
     <mkdir dir="${artifact.output.org.universe.testcfx:jar}"/>
     <jar destfile="${temp.jar.path.org.universe.testcfx.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
-      <zipfileset dir="${org.universe.testcfx.output.dir}"/>
+      <zipfileset dir="${org.universe.cxf.test.output.dir}"/>
     </jar>
     <copy file="${temp.jar.path.org.universe.testcfx.jar}" tofile="${artifact.output.org.universe.testcfx:jar}/org.universe.testcfx.jar"/>
-    <copy file="${basedir}/org.universe.testcfx/testcfx" tofile="${artifact.output.org.universe.testcfx:jar}/testcfx"/>
+    <copy file="${basedir}/org.universe.cxf.test/testcxf" tofile="${artifact.output.org.universe.testcfx:jar}/testcxf"/>
     <copy file="${basedir}/libs/log4j/log4j-1.2.17.jar" tofile="${artifact.output.org.universe.testcfx:jar}/log4j-1.2.17.jar"/>
     <copy file="${basedir}/libs/log4j/javaee-api-5.0-2.jar" tofile="${artifact.output.org.universe.testcfx:jar}/javaee-api-5.0-2.jar"/>
     <copy file="${basedir}/libs/log4j/slf4j-log4j12-1.7.5.jar" tofile="${artifact.output.org.universe.testcfx:jar}/slf4j-log4j12-1.7.5.jar"/>

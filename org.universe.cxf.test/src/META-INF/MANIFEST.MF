@@ -15,5 +15,5 @@ Class-Path: cxf-rt-transports-http-jetty-2.7.7.jar org.osgi.core-4.2.0
  -databinding-jaxb-2.7.7.jar cxf-rt-bindings-xml-2.7.7.jar cxf-rt-fron
  tend-simple-2.7.7.jar cxf-rt-transports-http-2.7.7.jar cxf-rt-ws-addr
  -2.7.7.jar cxf-rt-ws-policy-2.7.7.jar neethi-3.0.2.jar
-Main-Class: org.universe.testcfx.Main
+Main-Class: org.universe.cxf.test.Main
 

@@ -25,7 +25,7 @@ import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-@WebService(targetNamespace = "My-First-Cfx-Service")
+@WebService(targetNamespace = "My-First-Cxf-Service")
 public interface HelloWorld {
 
     @WebMethod
