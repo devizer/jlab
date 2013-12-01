@@ -9,7 +9,7 @@ function setversion()
     echo WRITE $arg_version.$arg_build to MANIFEST.MF
     find $projecthome -name MANIFEST.MF | while read f; do
       echo MANIFEST: $f
-      ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
+      ant -f $projecthome/all/build/update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
       # cat $f
     done
     # rm tmp.log
