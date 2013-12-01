@@ -15,6 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/new-tag" afterPath="$PROJECT_DIR$/all/build/new-tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -370,7 +371,7 @@
       <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3480055">
+            <state line="10" column="24" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31636864">
               <folding />
             </state>
           </provider>
@@ -388,7 +389,7 @@
       <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2013,14 +2014,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3480055">
+        <state line="10" column="24" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31636864">
           <folding />
         </state>
       </provider>

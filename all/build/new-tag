@@ -32,9 +32,9 @@ echo VERSION: $version BUILD: $build
 setversion "$version" "$build"
 
 git commit -a -m "mark release, $version.$build"
-# git push
+git push
 git tag $version.$build
-# git push --tags
+git push --tags
 
 setversion "$version" "$build-SNAPSHOT"
 
