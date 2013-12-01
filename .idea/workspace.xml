@@ -13,10 +13,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/new-tag" afterPath="$PROJECT_DIR$/all/build/new-tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="" />
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385725070394" ignored="false" />
@@ -368,10 +365,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new-tag" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.9367263">
+            <state line="42" column="26" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -386,10 +383,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3108108">
               <folding />
             </state>
           </provider>
@@ -414,7 +411,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mysql.ddl" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
@@ -430,6 +426,7 @@
         <option value="$PROJECT_DIR$/all/build/update-version.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/all/build/new-tag" />
+        <option value="$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF" />
       </list>
     </option>
   </component>
@@ -514,6 +511,48 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1970,16 +2009,16 @@
         <state line="113" column="0" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.7347611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="42" column="26" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/build/new-tag">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.9367263">
+        <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3108108">
           <folding />
         </state>
       </provider>
