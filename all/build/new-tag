@@ -12,7 +12,7 @@ function setversion()
       ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
       # cat $f
     done
-    rm tmp.log
+    # rm tmp.log
 }
 
 
