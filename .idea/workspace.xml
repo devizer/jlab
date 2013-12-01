@@ -20,7 +20,7 @@
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385725070394" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385912905673" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385913290377" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -141,7 +141,7 @@
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
     <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
-    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385913278242" ignored="false" />
+    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385913743933" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,7 +344,7 @@
       <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
+            <state line="6" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -380,7 +380,7 @@
       <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="583" selection-end="583" vertical-scroll-proportion="0.3480055">
+            <state line="23" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.3480055">
               <folding />
             </state>
           </provider>
@@ -1933,7 +1933,11 @@
       <created>1385912907540</created>
       <updated>1385912907540</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="new-tag">
+      <created>1385913292359</created>
+      <updated>1385913292359</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2122,13 +2126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all/test-build.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="0" selection-end="162" vertical-scroll-proportion="0.0">
@@ -2150,6 +2147,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="35" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
@@ -2159,7 +2163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="583" selection-end="583" vertical-scroll-proportion="0.3480055">
+        <state line="23" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.3480055">
           <folding />
         </state>
       </provider>

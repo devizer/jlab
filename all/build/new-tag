@@ -21,7 +21,7 @@ mkdir -p $testhome
 cd $testhome
 git clone https://github.com/devizer/jlab.git
 cd jlab
-ant full-test
+ant build full-test
 [ $? -ne 0 ]; then
     echo "ALERT!!! ALERT!!! ALERT!!! SNAPSHOT FULL-TEST FAILS :("
     echo "BUILD ABORTED :("
