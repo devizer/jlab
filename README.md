@@ -8,7 +8,7 @@ I use 2 test scopes
 - Unit-tests (ant without parameters).
 - Integration tests (ant build full-test)
 
-I am using home build server. **Each release always fully tested using master snapshot before pushing release tag**. Master branch has **Major.Minor.Build-SNAPSHOT** version
+I am using home build server. Since 0.4.35 **each release always fully tested using master snapshot before pushing release tag**. Master branch has **Major.Minor.Build-SNAPSHOT** version
 Releases have tags alike **Major.Minor.Build** without 'SNAPSHOT' suffix. Each release is fully successfully tested with integration tests. I put small description on each [public release](https://github.com/devizer/jlab/releases)
 Home build server runs on Ubuntu 13.10 x64. Rarely I run all tests, including Integration tests, on
 - Fedora 19 (Schrödinger’s Cat) Arm7 hard float
