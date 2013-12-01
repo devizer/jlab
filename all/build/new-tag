@@ -23,10 +23,7 @@ git clone https://github.com/devizer/jlab.git
 cd jlab
 ant
 [ $? -ne 0 ]; then
-    echo "ALERT!!!"
-    echo "ALERT!!!"
-    echo "ALERT!!!"
-    echo "SNAPSHOT FULL-TEST FAILS :("
+    echo "ALERT!!! ALERT!!! ALERT!!! SNAPSHOT FULL-TEST FAILS :("
     echo "BUILD ABORTED :("
     exit;
 fi
