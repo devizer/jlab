@@ -1,12 +1,12 @@
 Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_45-b18 (Oracle Corporation)
-Implementation-Version: 0.4.34 2013-12-01-19-33-51
-Specification-Version: 0.4.34
+Implementation-Version: 0.4.35 2013-12-01-20-31-11
+Specification-Version: 0.4.35
 Specification-Vendor: devizer, aka Vladimir Goyda
 Implementation-Title: jlab
 Implementation-Vendor: http://devizer.blogspot.ru
-X-Build-Timestamp: 2013-12-01-19-33-51
+X-Build-Timestamp: 2013-12-01-20-31-11
 Class-Path: commons-dbutils-1.5.jar commons-dbcp-1.4.jar commons-pool-
  1.5.4.jar commons-io-2.4.jar
 
