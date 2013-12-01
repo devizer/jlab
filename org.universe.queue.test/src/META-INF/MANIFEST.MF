@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_45-b18 (Oracle Corporation)
 Main-Class: 
-Implementation-Version: 0.4.33 2013-12-01-19-10-58
-Specification-Version: 0.4.33
+Implementation-Version: 0.4.33-SNAPSHOT 2013-12-01-19-10-58
+Specification-Version: 0.4.33-SNAPSHOT
 Specification-Vendor: devizer, aka Vladimir Goyda
 Implementation-Title: jlab
 Implementation-Vendor: http://devizer.blogspot.ru
