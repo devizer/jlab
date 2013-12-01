@@ -1,6 +1,13 @@
 jlab
 ----
 extentions, demos, tests and stress. details at my blog are labeled with [Java](http://devizer.blogspot.com/search/label/Java) tag.
+I use 2 test scopes
+- Unit-tests (ant without parameters).
+- Integration tests (ant full-test)
+
+I am using home build server:
+- master branch has Major.Minor.Build-SNAPSHOT version
+- releases have tags: Major.Minor.Build without 'SNAPSHOT' suffix. Each release is fully successfully tested with integration tests
 
 jcl extensions
 ----
