@@ -1,0 +1,67 @@
+<component name="libraryTable">
+  <library name="org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7" type="repository">
+    <properties maven-id="org.apache.cxf:cxf-rt-frontend-jaxws:2.7.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xml-resolver-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/asm-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/neethi-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/neethi-3.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-jaxws-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/org.osgi.core-4.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-core-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-api-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/woodstox-core-asl-4.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/stax2-api-3.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xmlschema-core-2.0.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/geronimo-javamail_1.4_spec-1.7.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/wsdl4j-1.6.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/jaxb-impl-2.2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/xml-resolver-1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-soap-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-databinding-jaxb-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-bindings-xml-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-frontend-simple-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-transports-http-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-addr-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/cxf-rt-ws-policy-2.7.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cfx/neethi-3.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
