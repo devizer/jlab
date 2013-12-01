@@ -6,7 +6,7 @@ Sources and releases
 ----
 I use 2 test scopes
 - Unit-tests (ant without parameters).
-- Integration tests (ant full-test)
+- Integration tests (ant build full-test)
 
 I am using home build server. **Each release always fully tested using master snapshot before pushing release tag**. Master branch has Major.Minor.Build-SNAPSHOT version
 Releases have tags: Major.Minor.Build without 'SNAPSHOT' suffix. Each release is fully successfully tested with integration tests. I put small description on each [public release](https://github.com/devizer/jlab/releases)
