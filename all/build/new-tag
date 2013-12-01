@@ -1,26 +1,44 @@
 #!/bin/bash
+projecthome=~/jlab
+cd $projecthome
 
+function setversion()
+{
+    arg_version=$1
+    arg_build=$2
+    echo WRITE $arg_version.$arg_build to MANIFEST.MF
+    find $projecthome -name MANIFEST.MF | while read f; do
+      echo MANIFEST: $f
+      ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
+      cat $f
+    done
+    rm tmp.log
+}
+
+
+
+# INCREMENT BUILD
 mkdir -p ~/.build
 buildref=~/.build/jlab.build
 build=$(cat $buildref)
 build=$(($build+1))
 echo $build > $buildref
 echo build: $build
-
 timestamp=$( date '+%Y-%m-%d-%H-%M-%S' )
 
 version=$(cat ~/.build/jlab.ver)
 echo VERSION: $version BUILD: $build
 
-find ../.. -name MANIFEST.MF | while read f; do
-  echo MANIFEST: $f
-  ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
-  cat $f
-done
-rm tmp.log
+setversion "$version" "$build"
 
-cd ../..
-git commit -a -m "autocommit by build server, $version.$build"
-git push
+git commit -a -m "mark release, $version.$build"
+# git push
 git tag $version.$build
+# git push --tags
+
+setversion "$version" "$build-SNAPSHOT"
+
+git commit -a -m "unmark release, $version.$build"
+git push
 git push --tags
+

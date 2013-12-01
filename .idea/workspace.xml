@@ -13,7 +13,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/new-tag" afterPath="$PROJECT_DIR$/all/build/new-tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385725070394" ignored="false" />
@@ -138,7 +141,7 @@
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
     <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
-    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385742242125" ignored="false" />
+    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385909392106" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -368,7 +371,7 @@
       <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="52" selection-end="52" vertical-scroll-proportion="0.09491059">
+            <state line="44" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.9367263">
               <folding />
             </state>
           </provider>
@@ -425,8 +428,8 @@
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
         <option value="$PROJECT_DIR$/all/build/update-version.xml" />
-        <option value="$PROJECT_DIR$/all/build/new-tag" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/all/build/new-tag" />
       </list>
     </option>
   </component>
@@ -1976,7 +1979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="52" selection-end="52" vertical-scroll-proportion="0.09491059">
+        <state line="44" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.9367263">
           <folding />
         </state>
       </provider>
