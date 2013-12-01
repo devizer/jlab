@@ -10,7 +10,7 @@ function setversion()
     find $projecthome -name MANIFEST.MF | while read f; do
       echo MANIFEST: $f
       ant -f update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
-      cat $f
+      # cat $f
     done
     rm tmp.log
 }
@@ -38,7 +38,7 @@ git tag $version.$build
 
 setversion "$version" "$build-SNAPSHOT"
 
-git commit -a -m "unmark release, $version.$build"
+git commit -a -m "mark snapshot, $version.$build-SNAPSHOT"
 git push
 git push --tags
 

@@ -13,7 +13,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/build/new-tag" afterPath="$PROJECT_DIR$/all/build/new-tag" />
+    </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385725070394" ignored="false" />
@@ -138,7 +140,7 @@
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
     <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
-    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385909392106" ignored="false" />
+    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385909839077" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -365,10 +367,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-tag" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="26" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.7469051">
               <folding />
             </state>
           </provider>
@@ -377,16 +379,16 @@
       <file leaf-file-name="update-version.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/build/update-version.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+            <state line="10" column="40" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3108108">
+            <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -425,8 +427,8 @@
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
         <option value="$PROJECT_DIR$/all/build/update-version.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/all/build/new-tag" />
         <option value="$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/all/build/new-tag" />
       </list>
     </option>
   </component>
@@ -1997,28 +1999,28 @@
         <state line="2" column="0" selection-start="32" selection-end="67" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/build/update-version.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="0" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.7347611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/build/new-tag">
+    <entry file="file://$PROJECT_DIR$/all/build/update-version.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+        <state line="10" column="40" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3108108">
+        <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all/build/new-tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.7469051">
           <folding />
         </state>
       </provider>
