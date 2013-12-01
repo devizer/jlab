@@ -141,7 +141,7 @@
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
     <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
-    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385909955707" ignored="false" />
+    <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385910617095" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -371,7 +371,7 @@
       <file leaf-file-name="new-tag" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/build/new-tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31636864">
+            <state line="30" column="20" selection-start="724" selection-end="724" vertical-scroll-proportion="0.4621733">
               <folding />
             </state>
           </provider>
@@ -2021,7 +2021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/build/new-tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31636864">
+        <state line="30" column="20" selection-start="724" selection-end="724" vertical-scroll-proportion="0.4621733">
           <folding />
         </state>
       </provider>

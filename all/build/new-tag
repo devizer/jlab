@@ -8,8 +8,8 @@ function setversion()
     arg_build=$2
     echo WRITE $arg_version.$arg_build to MANIFEST.MF
     find $projecthome -name MANIFEST.MF | while read f; do
-      echo MANIFEST: $f
-      ant -f $projecthome/all/build/update-version.xml -Darg-file=$f -Dversion=$version.$build -Dtimestamp=$timestamp>> tmp.log
+      echo "  MANIFEST: $f"
+      ant -f $projecthome/all/build/update-version.xml -Darg-file=$f -Dversion=$arg_version.$arg_build -Dtimestamp=$timestamp>> ~/.jlab-build.log
       # cat $f
     done
     # rm tmp.log
@@ -28,6 +28,7 @@ timestamp=$( date '+%Y-%m-%d-%H-%M-%S' )
 
 version=$(cat ~/.build/jlab.ver)
 echo VERSION: $version BUILD: $build
+rm ~/.jlab-build.log
 
 setversion "$version" "$build"
 
