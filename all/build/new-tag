@@ -1,6 +1,5 @@
 #!/bin/bash
 projecthome=~/jlab
-cd $projecthome
 
 function setversion()
 {
@@ -12,10 +11,30 @@ function setversion()
       ant -f $projecthome/all/build/update-version.xml -Darg-file=$f -Dversion=$arg_version.$arg_build -Dtimestamp=$timestamp>> ~/.jlab-build.log
       # cat $f
     done
-    # rm tmp.log
 }
 
+# TEST SNAPSHOT
+git push
+testhome=~/jlab-test-on-release.tmp
+rm -rf $testhome
+mkdir -p $testhome
+cd $testhome
+git clone https://github.com/devizer/jlab.git
+cd jlab
+ant
+[ $? -ne 0 ]; then
+    echo "ALERT!!!"
+    echo "ALERT!!!"
+    echo "ALERT!!!"
+    echo "SNAPSHOT FULL-TEST FAILS :("
+    echo "BUILD ABORTED :("
+    exit;
+fi
 
+
+
+
+cd $projecthome
 
 # INCREMENT BUILD
 mkdir -p ~/.build
