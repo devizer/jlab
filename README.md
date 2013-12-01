@@ -20,7 +20,7 @@ jcl extensions
 
 
 
-JAXBSerializer, SimpleItegrity
+JAXBSerializer, SimpleIntegrity
 ----
 we need to store a **long living** POJO in blobs and queues with *versioning* and integrity check:
 
