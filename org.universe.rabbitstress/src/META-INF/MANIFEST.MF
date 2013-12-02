@@ -2,11 +2,11 @@ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_45-b18 (Oracle Corporation)
 Main-Class: org.universe.rabbitstress.Main
-Implementation-Version: 0.4.37-SNAPSHOT 2013-12-02-10-37-17
-Specification-Version: 0.4.37-SNAPSHOT
+Implementation-Version: 0.4.38 2013-12-02-15-02-15
+Specification-Version: 0.4.38
 Specification-Vendor: devizer, aka Vladimir Goyda
 Implementation-Title: jlab
 Implementation-Vendor: http://devizer.blogspot.ru
-X-Build-Timestamp: 2013-12-02-10-37-17
+X-Build-Timestamp: 2013-12-02-15-02-15
 Class-Path: rabbitmq-client.jar
 
