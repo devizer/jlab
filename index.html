@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jlab by devizer</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jlab</h1>
+        <p>extentions, usage demos, tests and stress.</p>
+
+        <p class="view"><a href="https://github.com/devizer/jlab">View the Project on GitHub <small>devizer/jlab</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/devizer/jlab/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/devizer/jlab/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/devizer/jlab">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a><a name="about"><img title="About JLAB" alt="About JLAB" src="https://github.com/devizer/jlab/raw/master/jlab-small.png" border="0" width="100px" height="60px"></a>
+</h2>
+
+<p>extentions, usage demos, tests and stress. details at my blog are labeled with <a href="http://devizer.blogspot.com/search/label/Java">Java</a> tag.</p>
+
+<h2>
+<a name="sources-and-releases" class="anchor" href="#sources-and-releases"><span class="octicon octicon-link"></span></a>Sources and releases</h2>
+
+<p>I use 2 test scopes</p>
+
+<ul>
+<li>Unit-tests (ant without parameters).</li>
+<li>Integration tests (ant build full-test)</li>
+</ul><p>I am using home build server. Since <code>0.4.35</code> each release always fully tested using master snapshot before pushing release tag. Master branch version has <strong>SNAPSHOT</strong> suffix. Release doesnt.
+I put small description on each <a href="https://github.com/devizer/jlab/releases">public release</a>.
+Home build server runs on Ubuntu 13.10 x64. Rarely I run all tests, including Integration tests, on</p>
+
+<ul>
+<li>Fedora 19 (Schrödinger’s Cat) Arm7 hard float</li>
+<li>MAC OS X 10.9</li>
+<li>Windows 7 x64</li>
+</ul><h2>
+<a name="jcl-extensions" class="anchor" href="#jcl-extensions"><span class="octicon octicon-link"></span></a>jcl extensions</h2>
+
+<ul>
+<li>[x] Parallel.for</li>
+<li>[x] Lazy</li>
+<li>[x] ReliableThreadLocal</li>
+</ul><h2>
+<a name="jaxbserializer-simpleintegrity" class="anchor" href="#jaxbserializer-simpleintegrity"><span class="octicon octicon-link"></span></a>JAXBSerializer, SimpleIntegrity</h2>
+
+<p>we need to store a <strong>long living</strong> POJO in blobs and queues with <em>versioning</em> and integrity check:</p>
+
+<div class="highlight highlight-java"><pre><span class="kd">static</span> <span class="kd">final</span> <span class="n">JAXBSerializer</span><span class="o">&lt;</span><span class="n">MyVo1</span><span class="o">&gt;</span> <span class="n">MyVoConverter</span> <span class="o">=</span> <span class="k">new</span> <span class="n">JAXBSerializer</span><span class="o">&lt;</span><span class="n">MyVo1</span><span class="o">&gt;(</span><span class="n">MyVo1</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+<span class="o">...</span>
+<span class="kt">byte</span><span class="o">[]</span> <span class="nf">serialize</span><span class="o">(</span><span class="n">MyVo1</span> <span class="n">myVo</span><span class="o">)</span> <span class="o">{</span>
+  <span class="kt">byte</span><span class="o">[]</span> <span class="n">message</span> <span class="o">=</span> <span class="n">MyVoConverter</span><span class="o">.</span><span class="na">ToData</span><span class="o">(</span><span class="n">myVo</span><span class="o">);</span>
+  <span class="k">return</span> <span class="n">SimpleIntegrity</span><span class="o">.</span><span class="na">Store</span><span class="o">(</span><span class="n">message</span><span class="o">,</span> <span class="n">SimpleIntegrity</span><span class="o">.</span><span class="na">Alg</span><span class="o">.</span><span class="na">md5</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="o">...</span>
+<span class="n">MyVo1</span> <span class="nf">parse</span><span class="o">(</span><span class="kt">byte</span><span class="o">[]</span> <span class="n">message</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">return</span> <span class="n">MyVoConverter</span><span class="o">.</span><span class="na">Parse</span><span class="o">(</span><span class="n">SimpleIntegrity</span><span class="o">.</span><span class="na">Parse</span><span class="o">(</span><span class="n">message</span><span class="o">).</span><span class="na">getData</span><span class="o">());</span>
+<span class="o">}</span>
+</pre></div>
+
+<h2>
+<a name="lightsysteminfo" class="anchor" href="#lightsysteminfo"><span class="octicon octicon-link"></span></a>LightSystemInfo</h2>
+
+<p>we need to know <strong>production environment</strong> (OS, Processor, Memory, <del>Disks</del>, <del>Video adapter</del>) in human readable form.
+Class supports Windows, Linux (arm, x86, x64), MAC OS X without external JNI dependencies.</p>
+
+<div class="highlight highlight-java"><pre><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="k">new</span> <span class="n">LightSystemInfo</span><span class="o">());</span>
+</pre></div>
+
+<pre><code>Family: Mac OS X, x86_64
+   CPU: Intel(R) Core(TM)2 Duo CPU P8400 @ 2.26GHz, Cache 3072 Kb, 2 cores
+    OS: Mac OS X, 10.9
+  Java: Java HotSpot(TM) 64-Bit Server VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 2 048 MB
+</code></pre>
+
+<pre><code>Family: Windows, amd64
+   CPU: Intel(R) Core(TM)2 Duo CPU P8400 @ 2.26GHz, L2 Cache 3072 KB, 2 Cores
+    OS: Microsoft(R) Windows(R) XP Professional x64 Edition, Service Pack 2
+  Java: Java HotSpot(TM) 64-Bit Server VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 511 MB
+  Soft: IE 8.00.6001.18702 (longhorn_ie8_rtm(wmbla).090308-0338)
+        MSI 4.5.6002.22487
+</code></pre>
+
+<pre><code>Family: Linux, arm
+   CPU: ARMv7 Processor rev 0 (v7l)
+    OS: Fedora 19 (Schrödinger’s Cat)
+  Java: Java HotSpot(TM) Client VM, ver 1.7.0_45 by Oracle Corporation
+Memory: 1,004 MB
+</code></pre>
+
+<pre><code>Family: Linux, x86
+   CPU: Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz, Cache 20480 KB
+    OS: SUSE Linux Enterprise Server 11 (i586)
+  Java: IBM J9 VM, ver 1.7.0 by IBM Corporation
+Memory: 641 MB
+</code></pre>
+
+<h2>
+<a name="connectionmetadatareader" class="anchor" href="#connectionmetadatareader"><span class="octicon octicon-link"></span></a>ConnectionMetadataReader</h2>
+
+<p>we need to know human readable <strong>database structure</strong> on production in human readable form.
+Tested against mysql, ms sql server, sqlite, derby.
+Supports Table columns, primary keys, foreign keys and indexes.
+ConnectionMetadataReader however isnt sql code generator,
+just db structure visualizer for production environment:</p>
+
+<div class="highlight highlight-java"><pre><span class="n">logger</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">ConnectionMetaDataReader</span><span class="o">.</span><span class="na">Build</span><span class="o">(</span><span class="n">connection</span><span class="o">));</span>
+</pre></div>
+
+<div class="highlight highlight-sql"><pre><span class="cm">/*</span>
+<span class="cm">  DB-Product 'MySQL' Ver '5.5.34-0ubuntu0.13.10.1'</span>
+<span class="cm">  JDBC '4.4'</span>
+<span class="cm">  Driver 'MySQL Connector Java' Ver 'mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )'</span>
+<span class="cm">  Url: jdbc:mysql://127.0.0.1/sandbox</span>
+<span class="cm">*/</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">SimpleQueue</span> <span class="p">(</span>
+  <span class="n">Id</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">26</span><span class="p">)</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">OptionalKey</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">1024</span><span class="p">),</span>
+  <span class="n">QueueName</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">Message</span> <span class="n">LONGBLOB</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">CreatedAt</span> <span class="n">DATETIME</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">ModifiedAt</span> <span class="n">DATETIME</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">AckDate</span> <span class="n">DATETIME</span><span class="p">,</span>
+  <span class="n">HandlersCount</span> <span class="nb">INT</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="n">DeliveryDate</span> <span class="n">DATETIME</span><span class="p">,</span>
+  <span class="n">Locked</span> <span class="nb">BIT</span> <span class="k">Not</span> <span class="k">Null</span><span class="p">,</span>
+  <span class="k">Constraint</span> <span class="n">PK_SimpleQueue</span> <span class="k">PRIMARY</span> <span class="k">KEY</span> <span class="k">On</span> <span class="p">(</span><span class="n">Id</span><span class="p">)</span>
+<span class="p">);</span>
+<span class="k">Create</span> <span class="k">UNIQUE</span> <span class="k">Index</span> <span class="k">PRIMARY</span> <span class="k">On</span> <span class="n">SimpleQueue</span><span class="p">(</span><span class="n">Id</span><span class="p">);</span>
+<span class="k">Create</span> <span class="k">Index</span> <span class="n">IX_SimpleQueue_Delivery</span> <span class="k">On</span> <span class="n">SimpleQueue</span><span class="p">(</span><span class="n">QueueName</span><span class="p">,</span> <span class="n">ModifiedAt</span><span class="p">);</span>
+<span class="k">Create</span> <span class="k">Index</span> <span class="n">IX_SimpleQueue_Key</span> <span class="k">On</span> <span class="n">SimpleQueue</span><span class="p">(</span><span class="n">OptionalKey</span><span class="p">);</span>
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/devizer">devizer</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
