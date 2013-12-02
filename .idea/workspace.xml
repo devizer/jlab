@@ -14,15 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataAccess.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" afterPath="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385963743761" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385965778775" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -2876,7 +2873,11 @@
       <created>1385963754459</created>
       <updated>1385963754459</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="jcip annotations">
+      <created>1385965784734</created>
+      <updated>1385965784734</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="ToolWindowManager">
