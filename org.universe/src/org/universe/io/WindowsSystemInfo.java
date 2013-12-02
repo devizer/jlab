@@ -2,12 +2,14 @@ package org.universe.io;
 
 import org.universe.DateCalc;
 import org.universe.jcl.Lazy;
+import org.universe.jcl.apparency.ThreadSafe;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.util.*;
 
+@ThreadSafe
 public class WindowsSystemInfo {
 
     private Map<String, String> Strings = new HashMap<String, String>();

@@ -14,18 +14,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="new-tag">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/GuardedBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/Immutable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/package.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/BinarySerializer.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/BinarySerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Lazy.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Lazy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/io/WindowsSystemInfo.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/io/WindowsSystemInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/backup" afterPath="$PROJECT_DIR$/all/backup" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385725070394" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385916470769" ignored="false" />
+    <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
     <file path="/DateCalc.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385255094941" ignored="false" />
-    <file path="/DayOnlyAsStringAdapter.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384289451433" ignored="false" />
+    <file path="/DayOnlyAsStringAdapter.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385959954676" ignored="false" />
     <file path="/Main.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384203095151" ignored="false" />
     <file path="/HelloWorld.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383836141224" ignored="false" />
     <file path="/StreamInterceptor.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383619493407" ignored="false" />
@@ -44,7 +58,7 @@
     <file path="/LocalesMain.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385178507169" ignored="false" />
     <file path="/TestCxf.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384996969078" ignored="false" />
     <file path="/todo.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383718366402" ignored="false" />
-    <file path="/Stress.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385729681825" ignored="false" />
+    <file path="/Stress.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385959928093" ignored="false" />
     <file path="/log4j.properties" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383873754147" ignored="false" />
     <file path="/test-build.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383779881182" ignored="false" />
     <file path="/test-build.sh" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385659673359" ignored="false" />
@@ -54,7 +68,7 @@
     <file path="/JAXBUtils.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383835382114" ignored="false" />
     <file path="/TestJAXB_Integrity.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383836289040" ignored="false" />
     <file path="/VoEnv.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384288153590" ignored="false" />
-    <file path="/backup" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385527170184" ignored="false" />
+    <file path="/backup" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385917564334" ignored="false" />
     <file path="/pre-dev" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384047655432" ignored="false" />
     <file path="/config-ec2" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384381786897" ignored="false" />
     <file path="/ins-rabbit" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384031044357" ignored="false" />
@@ -66,8 +80,8 @@
     <file path="/test" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384154992554" ignored="false" />
     <file path="/TestMQ.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385089613350" ignored="false" />
     <file path="/ThreadLocalReliable.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384259159125" ignored="false" />
-    <file path="/ReliableThreadLocal.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384289436997" ignored="false" />
-    <file path="/Lazy.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384733301690" ignored="false" />
+    <file path="/ReliableThreadLocal.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385960463417" ignored="false" />
+    <file path="/Lazy.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385959832168" ignored="false" />
     <file path="/Parallel.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385728714534" ignored="false" />
     <file path="/AggregateException.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384569209412" ignored="false" />
     <file path="/go-min" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384357809087" ignored="false" />
@@ -117,7 +131,7 @@
     <file path="/SimpleQueueProperties.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385188753262" ignored="false" />
     <file path="/SimpleQueueDataSourceFactory.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713831204" ignored="false" />
     <file path="/TestSimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385203236426" ignored="false" />
-    <file path="/EnvQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385713736810" ignored="false" />
+    <file path="/EnvQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958774604" ignored="false" />
     <file path="/SqlCodeReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385712899855" ignored="false" />
     <file path="/Test_SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385726224375" ignored="false" />
     <file path="/Purge_Smelling_Message_Sample.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385225610401" ignored="false" />
@@ -134,15 +148,16 @@
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694420222" ignored="false" />
-    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385915567424" ignored="false" />
+    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385957781107" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <file path="/testcxf" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689185983" ignored="false" />
     <file path="/MANIFEST.MF" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689202454" ignored="false" />
-    <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385719311980" ignored="false" />
+    <file path="/build.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385957885710" ignored="false" />
     <file path="/OnBuildTestSuite.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385701071888" ignored="false" />
     <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385913743933" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
+    <file path="/ThreadSafe.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385952491803" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +232,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" line="85" class="org.universe.jcl.Stress$2" package="org.universe.jcl">
+      <breakpoint url="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" line="87" class="org.universe.jcl.Stress$2" package="org.universe.jcl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -274,8 +289,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -323,44 +338,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContextFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/ContextFinder.java">
+      <file leaf-file-name="ReliableThreadLocal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="362" column="32" selection-start="14357" selection-end="14357" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="Stress.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="21" column="4" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-build.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/test-build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="0" selection-end="162" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Package.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/jdk/src.zip!/java/lang/Package.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/all.iml">
+      <file leaf-file-name="JdbcCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -368,46 +365,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-tag" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/build/new-tag">
+      <file leaf-file-name="SqlCodeReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update-version.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all/build/update-version.xml">
+      <file leaf-file-name="ConnectionMetaDataReader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
+      <file leaf-file-name="System6.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+            <state line="14" column="14" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="LightSysInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="0" selection-end="3981" vertical-scroll-proportion="0.696011">
+            <state line="66" column="13" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAXBSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
+      <file leaf-file-name="ConsoleTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/ConsoleTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateCalc.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/DateCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ref.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/Ref.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -432,22 +447,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-mssql.ddl" />
-        <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
-        <option value="$PROJECT_DIR$/org.universe.test/src/org/universe/test/TestEnv.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Parallel.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
-        <option value="$PROJECT_DIR$/all/build/update-version.xml" />
-        <option value="$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/all/test-build.sh" />
         <option value="$PROJECT_DIR$/all/build/new-tag" />
+        <option value="$PROJECT_DIR$/all/backup" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/Immutable.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Lazy.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/BinarySerializer.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/io/WindowsSystemInfo.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
       </list>
     </option>
   </component>
@@ -455,10 +470,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="24" />
-    <option name="width" value="1219" />
-    <option name="height" value="971" />
+    <option name="x" value="60" />
+    <option name="y" value="-8" />
+    <option name="width" value="1541" />
+    <option name="height" value="1209" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -627,6 +642,286 @@
               <option name="myItemId" value="work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.queue.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe.cxf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -657,6 +952,88 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apparency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,6 +1077,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.universe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -711,6 +1114,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perf-report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +1168,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs/cxf-rt-2.7.7/" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
     <property name="project.structure.side.proportion" value="0.36153162" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -780,7 +1197,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="144" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="1027" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/org.universe/src" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
@@ -819,7 +1236,7 @@
       <recent name="$PROJECT_DIR$/org.universe.testcfx/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.universe tests (JUnit)">
+  <component name="RunManager" selected="JUnit.org.universe.queue.test">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1995,7 +2412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="24" width="1219" height="971" extended-state="0" />
+    <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2016,8 +2433,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17687662" sideWeight="0.65543795" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2775152" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2122,104 +2539,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/Unmarshaller.java">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="17" selection-start="16373" selection-end="16373" vertical-scroll-proportion="0.0" />
+        <state line="13" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#574#586#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/ParseConversionEvent.java">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" />
+        <state line="119" column="0" selection-start="3786" selection-end="3786" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#765#782#0" expanded="true" />
+            <element signature="e#1035#1053#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/JAXB.java">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/io/SimpleStreamIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="43" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/JAXBContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="636" column="31" selection-start="27703" selection-end="27703" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/jdk/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="715" column="16" selection-start="29311" selection-end="29311" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/jdk/src.zip!/java/lang/Package.java">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/io/InternalWindowsInfoScript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+        <state line="120" column="16" selection-start="6499" selection-end="6499" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/all.iml">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/AggregateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/jdk/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="16" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/DateCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/Ref.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="13" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/ConsoleTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/backup">
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="67" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/build/update-version.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/test-build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="0" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/jdk/src.zip!/javax/xml/bind/ContextFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="362" column="32" selection-start="14357" selection-end="14357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/build/new-tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="0" selection-end="3981" vertical-scroll-proportion="0.696011">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

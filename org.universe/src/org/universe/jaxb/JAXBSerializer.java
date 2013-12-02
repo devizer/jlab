@@ -1,5 +1,7 @@
 package org.universe.jaxb;
 
+import org.universe.jcl.apparency.ThreadSafe;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -10,7 +12,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
 
-// @ThreadSafe
+@ThreadSafe
 // Three classes should be cached:
 // JAXBContext, XMLInputFactory, XMLOutputFactory
 public class JAXBSerializer<T> {

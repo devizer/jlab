@@ -1,7 +1,8 @@
 source=~/jlab
 DIR=~/backup/jlab
-FILE=$( date '+%Y-%m-%d_%H-%M-%S' )
-FILE=$DIR/work-$FILE.tar.gz
+FILENAME=$( date '+%Y-%m-%d_%H-%M-%S' )
+FILENAME=work-$FILENAME.tar.gz
+FILE=$DIR/$FILENAME
 echo Backup $source to $FILE
 mkdir -p $DIR
 GZIP=9
@@ -15,3 +16,5 @@ COP=/mnt/hgfs/Shared/backup/javalab
 echo Copy backup to share $COP
 mkdir -p $COP
 cp $FILE $COP
+echo NEW Backup file:
+ls -l $COP/$FILENAME

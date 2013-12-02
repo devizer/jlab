@@ -10,6 +10,8 @@ import org.universe.sql.ConnectionMetaDataReader;
 import javax.sql.DataSource;
 import java.io.File;
 import java.sql.Connection;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.UUID;
 import java.util.concurrent.Callable;
 
@@ -22,6 +24,7 @@ public class EnvQueue {
     }
 
     static SimpleQueueDataSourceFactory derbyMemory() throws Exception {
+        logDerbyToTemp();
         return  CheckSchema("derby",
                 new SimpleQueueDataSourceFactory(
                         "org.apache.derby.jdbc.EmbeddedDriver",
@@ -30,6 +33,7 @@ public class EnvQueue {
     }
 
     public static SimpleQueueDataSourceFactory derbyDisk() throws Exception {
+        logDerbyToTemp();
         return CheckSchema("derby",
                 new SimpleQueueDataSourceFactory(
                 "org.apache.derby.jdbc.EmbeddedDriver",
@@ -99,6 +103,17 @@ public class EnvQueue {
                         "sandbox",
                         "sandbox"
                 ));
+    }
+
+    static void logDerbyToTemp()
+    {
+        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss.SSS");
+        String key = "derby.stream.error.file";
+        File file = new File(System.getProperty("java.io.tmpdir"),
+                "derby.tmp/log-" + f.format(new Date()) + ".txt");
+
+        file.getParentFile().mkdirs();
+        System.setProperty(key, file.getAbsolutePath());
     }
 
 }

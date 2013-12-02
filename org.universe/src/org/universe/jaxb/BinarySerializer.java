@@ -1,14 +1,11 @@
 package org.universe.jaxb;
 
+import org.universe.jcl.apparency.ThreadSafe;
+
 import java.io.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: lulu
- * Date: 11/14/13
- * Time: 10:40 AM
- * To change this template use File | Settings | File Templates.
- */
+
+@ThreadSafe
 public class BinarySerializer {
 
     public static byte[] Serialize(Object graph) throws IOException {

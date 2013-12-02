@@ -1,6 +1,7 @@
 package org.universe.jcl;
 
 import org.universe.ConsoleTable;
+import org.universe.jcl.apparency.ThreadSafe;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -10,6 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+@ThreadSafe
 public class Stress {
 
     // If Initializer fails, Stress will rethrow exception with details

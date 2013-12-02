@@ -1,5 +1,8 @@
 package org.universe.jcl;
 
+import org.universe.jcl.apparency.ThreadSafe;
+
+@ThreadSafe
 // initialValue() может бросать исключение, которое пробрасывается в get()
 // пока initialValue() падает, очередной get() вызывает снова initialValue()
 public class ReliableThreadLocal<T> {
@@ -18,20 +21,9 @@ public class ReliableThreadLocal<T> {
         }
         else
         {
-/*
-            try
-            {
-*/
-                T initValue = this.initialValue();
-                state.set(createSuccessState(initValue));
-                return initValue;
-/*
-            }
-            catch(Exception ex)
-            {
-                throw ex;
-            }
-*/
+            T initValue = this.initialValue();
+            state.set(createSuccessState(initValue));
+            return initValue;
         }
     }
 

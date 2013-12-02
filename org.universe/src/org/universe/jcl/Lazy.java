@@ -1,6 +1,17 @@
 package org.universe.jcl;
 
+import org.universe.jcl.apparency.GuardedBy;
+import org.universe.jcl.apparency.ThreadSafe;
+
+@ThreadSafe
 public abstract class Lazy<T> {
+
+    Object ExecutionAndPublicationSync = new Object();
+    Object PublicationSync = new Object();
+    Object BasicSync = new Object();
+
+    @GuardedBy("BasicSync")
+    LazyState UnsafeState = new LazyState();
 
     public enum Mode
     {
@@ -29,11 +40,10 @@ public abstract class Lazy<T> {
         this(Mode.None);
     }
 
-    Object ExecutionAndPublicationSync = new Object();
-    Object PublicationSync = new Object();
 
     protected abstract T initialValue() throws Exception;
 
+    @GuardedBy("None | PublicationSync | ExecutionAndPublicationSync")
     final public T get() throws Exception {
 
         LazyState prev = syncGetState();
@@ -109,8 +119,6 @@ public abstract class Lazy<T> {
         }
     }
 
-    Object BasicSync = new Object();
-    LazyState UnsafeState = new LazyState();
     LazyState syncGetState()
     {
         synchronized (BasicSync)
