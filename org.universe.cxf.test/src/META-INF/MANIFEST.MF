@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_45-b18 (Oracle Corporation)
 Main-Class: org.universe.cxf.test.TestCxfMain
-Implementation-Version: 0.4.40 2013-12-02-17-49-48
-Specification-Version: 0.4.40
+Implementation-Version: 0.4.40-SNAPSHOT 2013-12-02-17-49-48
+Specification-Version: 0.4.40-SNAPSHOT
 Specification-Vendor: devizer, aka Vladimir Goyda
 Implementation-Title: jlab
 Implementation-Vendor: http://devizer.blogspot.ru
