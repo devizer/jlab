@@ -20,7 +20,7 @@
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980667174" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980790315" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -134,7 +134,7 @@
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694420222" ignored="false" />
-    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980776876" ignored="false" />
+    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980859625" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <file path="/testcxf" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689185983" ignored="false" />
@@ -375,7 +375,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2899,7 +2899,11 @@
       <created>1385980669295</created>
       <updated>1385980669295</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="jlab-small.png">
+      <created>1385980792347</created>
+      <updated>1385980792347</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3145,7 +3149,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
