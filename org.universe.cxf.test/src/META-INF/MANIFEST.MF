@@ -2,12 +2,12 @@ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_45-b18 (Oracle Corporation)
 Main-Class: org.universe.cxf.test.TestCxfMain
-Implementation-Version: 0.4.38-SNAPSHOT 2013-12-02-15-02-15
-Specification-Version: 0.4.38-SNAPSHOT
+Implementation-Version: 0.4.39 2013-12-02-16-28-04
+Specification-Version: 0.4.39
 Specification-Vendor: devizer, aka Vladimir Goyda
 Implementation-Title: jlab
 Implementation-Vendor: http://devizer.blogspot.ru
-X-Build-Timestamp: 2013-12-02-15-02-15
+X-Build-Timestamp: 2013-12-02-16-28-04
 Class-Path: log4j-1.2.17.jar javaee-api-5.0-2.jar slf4j-log4j12-1.7.5.
  jar jul-to-slf4j-1.7.5.jar cxf-rt-transports-http-jetty-2.7.7.jar org
  .osgi.core-4.2.0.jar org.osgi.compendium-4.2.0.jar cxf-api-2.7.7.jar 

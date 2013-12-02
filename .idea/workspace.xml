@@ -13,14 +13,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="ReliableThreadLocal">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385981501717" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385986797356" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -386,7 +385,7 @@
       <file leaf-file-name="ReliableThreadLocal.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.3179959">
+            <state line="46" column="8" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.694274">
               <folding>
                 <element signature="e#323#330#0" expanded="true" />
               </folding>
@@ -397,7 +396,7 @@
       <file leaf-file-name="ThreadLocal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar:///usr/jdk/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="0" selection-start="4219" selection-end="4279" vertical-scroll-proportion="0.0">
+            <state line="179" column="8" selection-start="5914" selection-end="5914" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2919,7 +2918,11 @@
       <created>1385981503213</created>
       <updated>1385981503213</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="ReliableThreadLocal">
+      <created>1385986769873</created>
+      <updated>1385986769873</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2998,7 +3001,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="jlab-small.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReliableThreadLocal" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -3012,7 +3015,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="MetaDataReader supports: MS SQL, mysql, sqlite" />
     <MESSAGE value="MetaDataReader supports: MS SQL, mysql, sqlite, derby" />
     <MESSAGE value="ins-rabbit" />
     <MESSAGE value="ant build fixed" />
@@ -3037,6 +3039,7 @@
     <MESSAGE value="jcip annotations" />
     <MESSAGE value="fixes thread safety" />
     <MESSAGE value="jlab-small.png" />
+    <MESSAGE value="ReliableThreadLocal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3158,14 +3161,14 @@
     </entry>
     <entry file="jar:///usr/jdk/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="4219" selection-end="4279" vertical-scroll-proportion="0.0">
+        <state line="179" column="8" selection-start="5914" selection-end="5914" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.3179959">
+        <state line="46" column="8" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.694274">
           <folding>
             <element signature="e#323#330#0" expanded="true" />
           </folding>
