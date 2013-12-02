@@ -22,29 +22,27 @@ public class ReliableThreadLocal<T> {
         else
         {
             T initValue = this.initialValue();
-            state.set(createSuccessState(initValue));
+            State newState = new State();
+            newState.SuccessInit = true;
+            newState.Value = initValue;
+            state.set(newState);
             return initValue;
         }
-    }
-
-    State createSuccessState(T value)
-    {
-        State newState = new State();
-        newState.SuccessInit = true;
-        newState.Value = value;
-        return newState;
     }
 
     protected T initialValue() throws Exception {
         return null;
     }
 
-    final public void set(T value)
+    public void set(T value)
     {
-        state.set(createSuccessState(value));
+        State newState = new State();
+        newState.SuccessInit = true;
+        newState.Value = value;
+        state.set(newState);
     }
 
-    final public void reset()
+    public void reset()
     {
         state.set(new State());
     }

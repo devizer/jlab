@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
@@ -65,7 +66,7 @@
     <file path="/test" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384154992554" ignored="false" />
     <file path="/TestMQ.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385089613350" ignored="false" />
     <file path="/ThreadLocalReliable.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384259159125" ignored="false" />
-    <file path="/ReliableThreadLocal.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385960463417" ignored="false" />
+    <file path="/ReliableThreadLocal.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385986593297" ignored="false" />
     <file path="/Lazy.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385959832168" ignored="false" />
     <file path="/Parallel.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385728714534" ignored="false" />
     <file path="/AggregateException.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384569209412" ignored="false" />
@@ -324,26 +325,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestMQ.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="32" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LightSysInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NotThreadSafe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -371,10 +352,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="650" selection-end="650" vertical-scroll-proportion="0.3456284">
+            <state line="11" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -396,7 +377,27 @@
       <file leaf-file-name="ThreadSafe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+            <state line="13" column="5" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReliableThreadLocal.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.3179959">
+              <folding>
+                <element signature="e#323#330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/jdk/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="0" selection-start="4219" selection-end="4279" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -449,7 +450,6 @@
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/BinarySerializer.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/io/WindowsSystemInfo.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
         <option value="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
@@ -457,6 +457,7 @@
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/System6.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
       </list>
     </option>
   </component>
@@ -466,8 +467,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="60" />
     <option name="y" value="-8" />
-    <option name="width" value="1221" />
-    <option name="height" value="1004" />
+    <option name="width" value="1541" />
+    <option name="height" value="1209" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2922,7 +2923,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-8" width="1221" height="1004" extended-state="6" />
+    <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2939,11 +2940,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25455773" sideWeight="0.719923" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2540913" sideWeight="0.719923" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35400516" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2775152" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
@@ -3049,20 +3050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/AggregateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/Immutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/GuardedBy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="18" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
@@ -3134,13 +3121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
@@ -3164,8 +3144,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="650" selection-end="650" vertical-scroll-proportion="0.3456284">
+        <state line="11" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/jdk/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="0" selection-start="4219" selection-end="4279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="0.3179959">
+          <folding>
+            <element signature="e#323#330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
