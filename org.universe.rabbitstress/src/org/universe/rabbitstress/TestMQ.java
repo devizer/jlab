@@ -56,7 +56,7 @@ public class TestMQ {
         factory.setHost(ConnectionString);
         Channel channel = factory.newConnection().createChannel();
         QueueingConsumer queueHolder = new QueueingConsumer(channel);
-        channel.basicConsume(QueueName, true, "Holder of autodelete queue", queueHolder);
+        channel.basicConsume(QueueName, true, "Holder of autodeleted queue", queueHolder);
     }
 
     @Test

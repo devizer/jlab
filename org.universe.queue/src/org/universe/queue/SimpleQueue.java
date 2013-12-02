@@ -5,6 +5,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 import org.universe.System6;
+import org.universe.jcl.apparency.ThreadSafe;
 import org.universe.sql.JdbcCommand;
 
 import javax.sql.DataSource;
@@ -13,6 +14,7 @@ import java.util.Date;
 import java.util.UUID;
 import java.util.concurrent.*;
 
+@ThreadSafe
 // If connection thread safe, then SimpleQueue is thread safe.
 public class SimpleQueue {
 
