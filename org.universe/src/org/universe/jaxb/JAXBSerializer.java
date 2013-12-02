@@ -15,6 +15,8 @@ import java.io.StringWriter;
 @ThreadSafe
 // Three classes should be cached:
 // JAXBContext, XMLInputFactory, XMLOutputFactory
+// VO must not change state during marshalling | unmarshalling,
+// XmlAdapter must be thread safe
 public class JAXBSerializer<T> {
 
     public final Class Class;

@@ -1,9 +1,12 @@
 package org.universe;
 
+import org.universe.jcl.apparency.ThreadSafe;
+
 import java.lang.reflect.Array;
 import java.util.Locale;
 import java.util.UUID;
 
+@ThreadSafe
 public class System6 {
 
     private static String _lineSeparator;

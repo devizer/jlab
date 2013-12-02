@@ -66,10 +66,10 @@ Memory: 511 MB
 // TODO: Beta versions on MAC OS X & Windows
 public class LightSysInfo {
 
-    public static String OS_WINDOWS = "Windows";
-    public static String OS_LINUX = "Linux";
-    public static String OS_MACOSX = "Mac OS X";
-    public static String OS_OTHER = "Undefined";
+    public static final String OS_WINDOWS = "Windows";
+    public static final String OS_LINUX = "Linux";
+    public static final String OS_MACOSX = "Mac OS X";
+    public static final String OS_OTHER = "Undefined";
 
     String osFamily;
 
@@ -195,7 +195,7 @@ java.vendor:Oracle Corporation
         return null;
     }
 
-    // MemTotal:        1028116 kB
+    // MemTotal: 1028116 kB
     // will return null, if unknown
     private Integer getMemMegabytesOnLinux() {
         String raw = null;

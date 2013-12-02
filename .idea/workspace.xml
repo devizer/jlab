@@ -14,12 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/Ref.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/Ref.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/System6.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/System6.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385965778775" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385971905781" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -98,16 +102,16 @@
     <file path="/index.jsp" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384576810555" ignored="false" />
     <file path="$USER_HOME$/temp2/.idea/misc.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384576832543" ignored="false" />
     <file path="/SysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384639386543" ignored="false" />
-    <file path="/LightSysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385621067753" ignored="false" />
+    <file path="/LightSysInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979166227" ignored="false" />
     <file path="/Test_LightSystemInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384995291138" ignored="false" />
-    <file path="/Ref.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384729970937" ignored="false" />
+    <file path="/Ref.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979332743" ignored="false" />
     <file path="/MapEntryStreamIterator.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384730683282" ignored="false" />
     <file path="/WindowsSystemInfo.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384751789825" ignored="false" />
     <file path="/InternalWindowsInfoScript.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384731914186" ignored="false" />
     <file path="/servers.command" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384827429674" ignored="false" />
     <file path="/TestEnv.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385717283714" ignored="false" />
     <file path="/win-fast-tests.cmd" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689079752" ignored="false" />
-    <file path="/System6.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385521889274" ignored="false" />
+    <file path="/System6.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979356133" ignored="false" />
     <file path="/SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385964149244" ignored="false" />
     <file path="/Message.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385206201753" ignored="false" />
     <file path="/Storage.sql" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385273372960" ignored="false" />
@@ -143,6 +147,7 @@
     <file path="/new-tag" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385913743933" ignored="false" />
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <file path="/ThreadSafe.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385952491803" ignored="false" />
+    <file path="/JAXBSerializer.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979477906" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +176,42 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/ServerSide.java" line="41" class="org.universe.cxf.test.ServerSide.MyLogHook" package="org.universe.cxf.test">
         <option name="ENABLED" value="true" />
@@ -262,7 +303,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java" line="58" class="org.universe.System6" package="org.universe">
+      <breakpoint url="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java" line="61" class="org.universe.System6" package="org.universe">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -278,42 +319,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -323,24 +328,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SqlCodeReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlCodeReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe.cxf.test/src/org/universe/cxf/test/todo.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimpleQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -350,20 +337,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMQ.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestMQ.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="68" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.31750742">
+            <state line="76" column="32" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/package.html">
+      <file leaf-file-name="LightSysInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="217" selection-end="217" vertical-scroll-proportion="23.0">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -377,6 +366,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="JAXBSerializer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DayOnlyAsStringAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/ConsoleTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#327#335#0" expanded="true" />
+                <element signature="e#393#412#0" expanded="true" />
+                <element signature="e#1651#1659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ThreadSafe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -386,28 +406,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AggregateException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/AggregateException.java">
+      <file leaf-file-name="Ref.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/Ref.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="6" column="14" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Immutable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/Immutable.java">
+      <file leaf-file-name="System6.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuardedBy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/GuardedBy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="18" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -432,22 +445,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/all/backup" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/EnvQueue.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/Immutable.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Lazy.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/Stress.java" />
-        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/BinarySerializer.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/io/WindowsSystemInfo.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/jcl/ReliableThreadLocal.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
         <option value="$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/Ref.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/System6.java" />
+        <option value="$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java" />
       </list>
     </option>
   </component>
@@ -510,6 +523,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1608,7 +1622,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1626,16 +1639,16 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs/cxf-rt-2.7.7/" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
-    <property name="project.structure.side.proportion" value="0.36153162" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="project.structure.side.proportion" value="0.36153162" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="95" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
     <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="71" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="64" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1667,8 +1680,8 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1712,6 +1725,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1738,19 +1764,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2895,7 +2908,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967659" sideWeight="0.42497483" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22276741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25455773" sideWeight="0.719923" order="1" side_tool="false" content_ui="tabs" />
@@ -2903,13 +2915,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2775152" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3008,65 +3021,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/security/SimpleIntegrity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/DateCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/ConnectionMetaDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/security/ParseReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/package.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="217" selection-end="217" vertical-scroll-proportion="23.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+        <state line="8" column="7" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -3115,7 +3072,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.rabbitstress/src/org/universe/rabbitstress/TestMQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="68" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.31750742">
+        <state line="76" column="32" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/LightSysInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/ConsoleTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#327#335#0" expanded="true" />
+            <element signature="e#393#412#0" expanded="true" />
+            <element signature="e#1651#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/Ref.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/System6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/ThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jcl/apparency/NotThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/DayOnlyAsStringAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/jaxb/JAXBSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
