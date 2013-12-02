@@ -1,4 +1,4 @@
-<a name='about'><img title='About JLAB' alt='About JLAB' src='jlab-small.png' border='0' width='100px' height='60px' /></a>
+<a name='about'><img title='About JLAB' alt='About JLAB' src='https://github.com/devizer/jlab/raw/master/jlab-small.png' border='0' width='100px' height='60px' /></a>
 ----
 <img src='jlab-small.png'/> extentions, demos, tests and stress. details at my blog are labeled with [Java](http://devizer.blogspot.com/search/label/Java) tag.
 

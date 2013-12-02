@@ -20,7 +20,7 @@
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980869630" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385981276129" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -134,7 +134,7 @@
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694420222" ignored="false" />
-    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385981264682" ignored="false" />
+    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385981289009" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <file path="/testcxf" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689185983" ignored="false" />
@@ -2907,7 +2907,11 @@
       <created>1385980871224</created>
       <updated>1385980871224</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="jlab-small.png">
+      <created>1385981280975</created>
+      <updated>1385981280975</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="ToolWindowManager">
