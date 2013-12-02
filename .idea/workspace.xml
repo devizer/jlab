@@ -20,7 +20,7 @@
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385958855589" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980790315" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980869630" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -134,7 +134,7 @@
     <file path="/guide.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385388935635" ignored="false" />
     <file path="/ConnectionMetaDataReader.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385467653809" ignored="false" />
     <file path="/Test_UUID.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385694420222" ignored="false" />
-    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385980859625" ignored="false" />
+    <file path="/README.md" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385981264682" ignored="false" />
     <file path="/.gitignore" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385617405925" ignored="false" />
     <file path="/tmp1" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385628744246" ignored="false" />
     <file path="/testcxf" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689185983" ignored="false" />
@@ -375,7 +375,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -467,8 +467,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="60" />
     <option name="y" value="-8" />
-    <option name="width" value="1541" />
-    <option name="height" value="1209" />
+    <option name="width" value="1221" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2903,11 +2903,15 @@
       <created>1385980792347</created>
       <updated>1385980792347</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="jlab-small.png">
+      <created>1385980871224</created>
+      <updated>1385980871224</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
+    <frame x="60" y="-8" width="1221" height="1004" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2928,7 +2932,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2775152" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35400516" sideWeight="0.719923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.280077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
@@ -3149,7 +3153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
