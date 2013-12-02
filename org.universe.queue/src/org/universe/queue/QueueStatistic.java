@@ -1,10 +1,12 @@
 package org.universe.queue;
 
 import org.universe.ConsoleTable;
+import org.universe.jcl.apparency.ThreadSafe;
 
 import java.util.*;
 
-// статистика не защищена от misuse
+@ThreadSafe
+// но статистика не защищена от misuse
 public class QueueStatistic {
 
     Counters total = new Counters();

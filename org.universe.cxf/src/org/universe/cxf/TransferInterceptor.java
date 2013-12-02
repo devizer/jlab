@@ -10,6 +10,7 @@ import org.apache.cxf.phase.Phase;
 
 import java.util.List;
 
+// Is Not Thread Safe
 public class TransferInterceptor extends AbstractPhaseInterceptor<Message> {
 
     private MessageHook handler;
@@ -31,7 +32,7 @@ public class TransferInterceptor extends AbstractPhaseInterceptor<Message> {
     }
 
     // What the hell. list allows only one instance of the class
-    static TransferInterceptor enshureMe(List interceptors, String phase, final MessageHook newHook)
+    private static TransferInterceptor enshureMe(List interceptors, String phase, final MessageHook newHook)
     {
         TransferInterceptor me = null;
         for(int i=0; i<interceptors.size(); i++)

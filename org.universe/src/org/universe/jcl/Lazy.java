@@ -6,9 +6,9 @@ import org.universe.jcl.apparency.ThreadSafe;
 @ThreadSafe
 public abstract class Lazy<T> {
 
-    Object ExecutionAndPublicationSync = new Object();
-    Object PublicationSync = new Object();
-    Object BasicSync = new Object();
+    final private Object ExecutionAndPublicationSync = new Object();
+    final private Object PublicationSync = new Object();
+    final private Object BasicSync = new Object();
 
     @GuardedBy("BasicSync")
     LazyState UnsafeState = new LazyState();

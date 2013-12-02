@@ -2,7 +2,8 @@ package org.universe.sql;
 
 import java.sql.*;
 
-// Apache DB Utils работает по
+// Apache DB Utils работает по PreparedStatement & ResultSet
+// ms sql server & derby are not fully supported
 public class JdbcCommand {
 
     // На MS SQL Server клиенте криво метаданные читаются.
@@ -88,3 +89,4 @@ public class JdbcCommand {
                 stmt.setObject(i+1, parameters[i]);
     }
 }
+
