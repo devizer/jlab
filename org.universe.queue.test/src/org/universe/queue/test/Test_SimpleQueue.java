@@ -37,7 +37,7 @@ public class Test_SimpleQueue {
                         ret.add(EnvQueue.mysql());
                     }
 
-                    // ret.add(EnvQueue.sqliteDisk());
+                    ret.add(EnvQueue.sqliteDisk());
                     ret.add(EnvQueue.derbyDisk());
                     // ret.add(EnvQueue.sqliteMem());
                     ret.add(EnvQueue.derbyMemory());
@@ -186,7 +186,6 @@ public class Test_SimpleQueue {
                         // 2
                         boolean isNew = queue.publish(queueName, key, expectedData);
                         Assert.assertTrue(isNew);
-/*
                         // 3
                         Message.Status stat2 = queue.getMessageStatus(key);
                         Assert.assertNotNull(stat2);
@@ -200,7 +199,6 @@ public class Test_SimpleQueue {
                             else
                                 queue.postpone(queueName, msg.getId(), null);
                         }
-*/
                     }
                 };
 

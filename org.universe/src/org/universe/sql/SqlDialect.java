@@ -2,6 +2,7 @@ package org.universe.sql;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created with IntelliJ IDEA.
@@ -58,19 +59,25 @@ public class SqlDialect {
             "Rollback"
     )
     {
+        ReentrantLock lock = new ReentrantLock();
+
         @Override
         public void BeginTransaction(Connection con) throws SQLException {
+            lock.lock();
             con.setAutoCommit(false);
+            con.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
         }
 
         @Override
         public void RollbackTransaction(Connection con) throws SQLException {
             con.rollback();
+            lock.unlock();
         }
 
         @Override
         public void CommitTransaction(Connection con) throws SQLException {
             con.commit();
+            lock.unlock();
         }
     };
 
@@ -78,7 +85,7 @@ public class SqlDialect {
             "sqlserver",
             "TOP %s",
             "",
-            "Begin Transaction;",
+            "Begin Transaction; /* SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; */",
             "Commit Transaction;",
             "Rollback Transaction;"
     );
@@ -90,7 +97,30 @@ public class SqlDialect {
             "Begin;",
             "Commit;",
             "Rollback;"
-    );
+    )
+    {
+        ReentrantLock lock = new ReentrantLock();
+
+        @Override
+        public void BeginTransaction(Connection con) throws SQLException {
+            lock.lock();
+            con.setAutoCommit(false);
+            con.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
+        }
+
+        @Override
+        public void RollbackTransaction(Connection con) throws SQLException {
+            con.rollback();
+            lock.unlock();
+        }
+
+        @Override
+        public void CommitTransaction(Connection con) throws SQLException {
+            con.commit();
+            lock.unlock();
+        }
+
+    };
 
     public static SqlDialect getByUrl(String url)
     {

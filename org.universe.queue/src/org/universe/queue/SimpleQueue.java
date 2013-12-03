@@ -142,17 +142,20 @@ public class SimpleQueue {
 
         DataSource ds = dataSourceFactory.call();
         Connection connection = ds.getConnection();
-        connection.setAutoCommit(false);
+        connection.setAutoCommit(true);
+        getDialect().BeginTransaction(connection);
         // JdbcCommand.execute(connection, getDialect().Begin);
-        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
+        // connection.setTransactionIsolation(TRANSACTION_ISOLATION);
         QueryRunner qr = new QueryRunner();
 
         try
         {
 
             SqlDialect dialect = getDialect();
+            String sqlLock = (dialect.equals(SqlDialect.SQLSERVER) ? " WITH (UPDLOCK) " : "");
             String sql1 =
-                    "SELECT " + String.format(dialect.LimitTop, 1) + " Id FROM SimpleQueue " +
+                    "SELECT " + String.format(dialect.LimitTop, 1) + " Id FROM SimpleQueue "
+                            + sqlLock +
                             "WHERE " +
                             "   (QueueName = ?) " +
                             "   AND (Locked = 0) " +
@@ -160,13 +163,18 @@ public class SimpleQueue {
                             "   AND (AckDate is null) " +
                             "   ORDER BY ModifiedAt " +
                             String.format(dialect.LimitBottom, 1);
+                            // + (dialect.equals(SqlDialect.DERBY) ? " WITH RR" : "");
+
 
             Timestamp tsNow = new Timestamp(new Date().getTime());
             // mssql
             String idOut = JdbcCommand.selectFirstString(connection, sql1, queueName, tsNow);
 
             if (idOut == null)
+            {
+                getDialect().CommitTransaction(connection);
                 return null;
+            }
 
             String sql2 = "Update SimpleQueue Set Locked = 1, HandlersCount = HandlersCount + 1 Where Id = ?";
             qr.update(connection, sql2, idOut);
@@ -201,14 +209,14 @@ public class SimpleQueue {
                 ret = qr.query(connection, sql3, new BeanHandler<Message>(Message.class), idOut);
             }
 
+            getDialect().CommitTransaction(connection);
             LocalStat.incInProcess(queueName, 1);
-            connection.commit();
             return ret;
         }
         catch(Exception ex)
         {
 
-            try { connection.rollback(); }
+            try { getDialect().RollbackTransaction(connection); }
             catch(Exception ex2) {/* shout up */}
 
             throw new RuntimeException("Next delivery failed", ex);
@@ -227,8 +235,8 @@ public class SimpleQueue {
 
         DataSource ds = dataSourceFactory.call();
         Connection connection = ds.getConnection();
-        connection.setAutoCommit(false);
-        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
+        connection.setAutoCommit(true);
+        getDialect().BeginTransaction(connection);
 
         try
         {
@@ -240,12 +248,12 @@ public class SimpleQueue {
 
             LocalStat.incAck(queueName);
             LocalStat.incInProcess(queueName, -1);
-            connection.commit();
+            getDialect().CommitTransaction(connection);
         }
         catch(Exception ex)
         {
 
-            try { connection.rollback(); }
+            try { getDialect().RollbackTransaction(connection); }
             catch(Exception ex2) {/* shout up */}
 
             throw new RuntimeException("Ack failed", ex);
@@ -266,8 +274,8 @@ public class SimpleQueue {
 
         DataSource ds = dataSourceFactory.call();
         Connection connection = ds.getConnection();
-        connection.setAutoCommit(false);
-        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
+        connection.setAutoCommit(true);
+        getDialect().BeginTransaction(connection);
 
         try
         {
@@ -281,12 +289,12 @@ public class SimpleQueue {
 
             LocalStat.incInProcess(queueName, -1);
             LocalStat.incPostpone(queueName);
-            connection.commit();
+            getDialect().CommitTransaction(connection);
         }
         catch(Exception ex)
         {
 
-            try { connection.rollback(); }
+            try { getDialect().RollbackTransaction(connection); }
             catch(Exception ex2) {/* shout up */}
 
             throw new RuntimeException("Postpone failed", ex);
@@ -299,8 +307,8 @@ public class SimpleQueue {
     public Message.Status getMessageStatus(String key) throws Exception {
         DataSource ds = dataSourceFactory.call();
         Connection connection = ds.getConnection();
-        connection.setAutoCommit(false);
-        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
+        connection.setAutoCommit(true);
+        getDialect().BeginTransaction(connection);
 
         try
         {
@@ -309,16 +317,16 @@ public class SimpleQueue {
 
             QueryRunner qr = new QueryRunner();
             Message.Status ret = qr.query(connection, sql, new BeanHandler<Message.Status>(Message.Status.class), parameters);
-            connection.commit();
+            getDialect().CommitTransaction(connection);
             return ret;
         }
         catch(Exception ex)
         {
 
-            try { connection.rollback(); }
+            try { getDialect().RollbackTransaction(connection); }
             catch(Exception ex2) {/* shout up */}
 
-            throw new RuntimeException("Postpone failed", ex);
+            throw new RuntimeException("GetMessageStatus failed", ex);
         }
         finally {
             DbUtils.close(connection);

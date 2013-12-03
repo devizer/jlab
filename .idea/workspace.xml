@@ -14,18 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" afterPath="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" afterPath="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java" afterPath="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" afterPath="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386071542817" ignored="false" />
-    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386071542817" ignored="false" />
+    <file path="/Dummy.txt" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386085830106" ignored="false" />
     <file path="/profile" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383545475826" ignored="false" />
     <file path="/run" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1383547628148" ignored="false" />
     <file path="/deploy" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1384685320858" ignored="false" />
@@ -114,7 +111,7 @@
     <file path="/TestEnv.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385717283714" ignored="false" />
     <file path="/win-fast-tests.cmd" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385689079752" ignored="false" />
     <file path="/System6.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979356133" ignored="false" />
-    <file path="/SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386085367511" ignored="false" />
+    <file path="/SimpleQueue.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386092039742" ignored="false" />
     <file path="/Message.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385206201753" ignored="false" />
     <file path="/Storage.sql" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385273372960" ignored="false" />
     <file path="/SimpleQueue" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385192922481" ignored="false" />
@@ -150,7 +147,7 @@
     <file path="/update-version.xml" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385741420552" ignored="false" />
     <file path="/ThreadSafe.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385952491803" ignored="false" />
     <file path="/JAXBSerializer.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1385979477906" ignored="false" />
-    <file path="/SqlDialect.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386083080072" ignored="false" />
+    <file path="/SqlDialect.java" changelist="df7730de-2b4b-4188-9598-b54f91ab2fd1" time="1386091584336" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,10 +328,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleQueue.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="266" column="4" selection-start="9440" selection-end="9440" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -397,7 +394,7 @@
       <file leaf-file-name="SqlDialect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="8" selection-start="3428" selection-end="3428" vertical-scroll-proportion="0.0">
+            <state line="53" column="8" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -405,22 +402,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreparedStatement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/jdk/src.zip!/java/sql/PreparedStatement.java">
+      <file leaf-file-name="ReentrantLock.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="468" column="5" selection-start="22162" selection-end="22162" vertical-scroll-proportion="0.0">
+            <state line="81" column="1" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_SimpleQueue.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Test_SimpleQueue.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="16" selection-start="4381" selection-end="4381" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.6101695">
               <folding>
-                <element signature="e#7068#8410#0" expanded="true" />
-                <element signature="e#8391#8392#0" expanded="true" />
+                <element signature="e#7065#8401#0" expanded="true" />
+                <element signature="e#8382#8383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -457,10 +454,10 @@
         <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/QueueStatistic.java" />
         <option value="$PROJECT_DIR$/org.universe.queue/src/resources/SimpleQueue-derby.ddl" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/JdbcCommand.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java" />
         <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java" />
-        <option value="$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueueDataSourceFactory.java" />
       </list>
     </option>
   </component>
@@ -827,6 +824,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3263,12 +3324,16 @@
       <created>1386064325353</created>
       <updated>1386064325353</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL">
+      <created>1386085839218</created>
+      <updated>1386085839218</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-8" width="1541" height="1209" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3290,7 +3355,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30047265" sideWeight="0.60923964" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39076033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39076033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44369063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.56511056" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3342,7 +3407,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="test sqlite on arm" />
+    <option name="LAST_COMMIT_MESSAGE" value="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -3356,7 +3421,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="ant build fixed" />
     <MESSAGE value="UUID To 26 insensitive chars" />
     <MESSAGE value="Migration into gitgub" />
     <MESSAGE value="queue" />
@@ -3381,6 +3445,7 @@
     <MESSAGE value="minor fixes" />
     <MESSAGE value="jlab-small.png" />
     <MESSAGE value="test sqlite on arm" />
+    <MESSAGE value="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3394,13 +3459,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/jdk/jre/lib/rt.jar!/sun/jdbc/odbc/ee/DataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/jdk/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="45" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.0">
@@ -3471,15 +3529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="8" selection-start="3428" selection-end="3428" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all/run-fedora">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="23" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
@@ -3494,20 +3543,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java">
+    <entry file="jar:///usr/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="16" selection-start="4381" selection-end="4381" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#7068#8410#0" expanded="true" />
-            <element signature="e#8391#8392#0" expanded="true" />
-          </folding>
+        <state line="81" column="1" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.universe.queue/src/org/universe/queue/SimpleQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="266" column="4" selection-start="9440" selection-end="9440" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="8" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.6101695">
+          <folding>
+            <element signature="e#7065#8401#0" expanded="true" />
+            <element signature="e#8382#8383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
