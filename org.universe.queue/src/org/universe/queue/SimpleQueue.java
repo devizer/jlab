@@ -7,6 +7,7 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 import org.universe.System6;
 import org.universe.jcl.apparency.ThreadSafe;
 import org.universe.sql.JdbcCommand;
+import org.universe.sql.SqlDialect;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -19,42 +20,29 @@ import java.util.concurrent.*;
 public class SimpleQueue {
 
     public static final QueueStatistic LocalStat = new QueueStatistic();
-    static final int TRANSACTION_ISOLATION = Connection.TRANSACTION_SERIALIZABLE;
+    // static final int TRANSACTION_ISOLATION = Connection.TRANSACTION_SERIALIZABLE;
+
+    static final int TRANSACTION_ISOLATION = Connection.TRANSACTION_REPEATABLE_READ;
     private Callable<DataSource> dataSourceFactory;
-    Dialect _dialect;
+    SqlDialect _dialect;
     Object SyncDialect = new Object();
 
-    static enum Dialect
-    {
-        mysql,
-        derby,
-        sqlite,
-        mssql,
-    }
-
-
-    public Dialect getDialect() throws Exception {
+    public SqlDialect getDialect() throws Exception {
         if (_dialect == null)
             synchronized (SyncDialect) {
                 if (_dialect == null)
                 {
-                    _dialect = Dialect.mysql;
+                    _dialect = SqlDialect.MYSQL;
                     Connection connection = dataSourceFactory.call().getConnection();
-                    String url = connection.getMetaData().getURL();
-                    if (url != null)
+                    try
                     {
-                        url = url.toLowerCase();
-                        if (url.startsWith("jdbc:derby:"))
-                            _dialect = Dialect.derby;
-                        else if (url.startsWith("jdbc:mysql:"))
-                            _dialect = Dialect.mysql;
-                        else if (url.startsWith("jdbc:sqlite:"))
-                            _dialect = Dialect.sqlite;
-                        else if (url.startsWith("jdbc:sqlserver:"))
-                            _dialect = Dialect.mssql;
+                        String url = connection.getMetaData().getURL();
+                        _dialect = SqlDialect.getByUrl(url);
                     }
-                    connection.close();
-                    // System.out.println("Dialect: " + _dialect);
+                    finally
+                    {
+                        connection.close();
+                    }
                 }
             }
 
@@ -106,8 +94,10 @@ public class SimpleQueue {
         {
             DataSource ds = dataSourceFactory.call();
             Connection connection = ds.getConnection();
-            connection.setAutoCommit(false);
-            connection.setTransactionIsolation(TRANSACTION_ISOLATION);
+            connection.setAutoCommit(true);
+            getDialect().BeginTransaction(connection);
+            // JdbcCommand.execute(connection, getDialect().Begin);
+            // connection.setTransactionIsolation(TRANSACTION_ISOLATION);
             QueryRunner qr = new QueryRunner();
 
             try
@@ -116,7 +106,9 @@ public class SimpleQueue {
                 String id = qr.query(connection, sqlExists, new ScalarHandler<String>(), optionalKey);
                 if (id != null)
                 {
-                    connection.commit();
+                    // JdbcCommand.execute(connection, getDialect().Commit);
+                    getDialect().CommitTransaction(connection);
+                    // connection.commit();
                     return false;
                 }
                 else
@@ -124,14 +116,18 @@ public class SimpleQueue {
                     // connection = dataSourceFactory.call().getConnection();
                     // qr.update(connection, sql, parameters);
                     JdbcCommand.update(connection, sql, parameters);
-                    connection.commit();
+                    getDialect().CommitTransaction(connection);
+                    // connection.commit();
                     LocalStat.incPublish(queueName);
                     return true;
                 }
             }
             catch(Exception ex)
             {
-                try { connection.rollback(); }
+                try {
+                    // connection.Rollback();
+                    getDialect().RollbackTransaction(connection);
+                }
                 catch(Exception ex2) {/* shout up */}
 
                 throw new RuntimeException("Publish failed", ex);
@@ -147,26 +143,23 @@ public class SimpleQueue {
         DataSource ds = dataSourceFactory.call();
         Connection connection = ds.getConnection();
         connection.setAutoCommit(false);
+        // JdbcCommand.execute(connection, getDialect().Begin);
         connection.setTransactionIsolation(TRANSACTION_ISOLATION);
         QueryRunner qr = new QueryRunner();
-
-        // qr.update("Begin");
 
         try
         {
 
-            Dialect dialect = getDialect();
-            String limit1 = dialect == Dialect.mssql ? "TOP 1" : "";
-            String limit2 = dialect == Dialect.derby ? "FETCH FIRST 1 ROWS ONLY" : dialect == Dialect.mssql ? "" : "LIMIT 1";
+            SqlDialect dialect = getDialect();
             String sql1 =
-                    "SELECT " + limit1 + " Id FROM SimpleQueue " +
+                    "SELECT " + String.format(dialect.LimitTop, 1) + " Id FROM SimpleQueue " +
                             "WHERE " +
                             "   (QueueName = ?) " +
                             "   AND (Locked = 0) " +
                             "   AND ((DeliveryDate is null) or (DeliveryDate >= ?)) " +
                             "   AND (AckDate is null) " +
                             "   ORDER BY ModifiedAt " +
-                            limit2;
+                            String.format(dialect.LimitBottom, 1);
 
             Timestamp tsNow = new Timestamp(new Date().getTime());
             // mssql
@@ -183,7 +176,7 @@ public class SimpleQueue {
 
 
             Message ret;
-            if (dialect == Dialect.derby)
+            if (SqlDialect.DERBY.equals(dialect))
             {
                 // fucked derby
                 // На дерби не работает fetch Message: Stream or LOB value cannot be retrieved more than once.
@@ -208,8 +201,8 @@ public class SimpleQueue {
                 ret = qr.query(connection, sql3, new BeanHandler<Message>(Message.class), idOut);
             }
 
-            connection.commit();
             LocalStat.incInProcess(queueName, 1);
+            connection.commit();
             return ret;
         }
         catch(Exception ex)
@@ -231,14 +224,35 @@ public class SimpleQueue {
     }
 
     public void ack(String queueName, String idMessage) throws Exception {
-        String sql = "Update SimpleQueue Set AckDate = ?, Locked = 0 Where Id = ?";
-        Object[] parameters = new Object[] { new Timestamp(new Date().getTime()), idMessage };
 
-        QueryRunner qr = new QueryRunner(dataSourceFactory.call());
-        qr.update(sql, parameters);
+        DataSource ds = dataSourceFactory.call();
+        Connection connection = ds.getConnection();
+        connection.setAutoCommit(false);
+        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
 
-        LocalStat.incAck(queueName);
-        LocalStat.incInProcess(queueName, -1);
+        try
+        {
+
+            String sql = "Update SimpleQueue Set AckDate = ?, Locked = 0 Where Id = ?";
+            Object[] parameters = new Object[] { new Timestamp(new Date().getTime()), idMessage };
+
+            JdbcCommand.update(connection, sql, parameters);
+
+            LocalStat.incAck(queueName);
+            LocalStat.incInProcess(queueName, -1);
+            connection.commit();
+        }
+        catch(Exception ex)
+        {
+
+            try { connection.rollback(); }
+            catch(Exception ex2) {/* shout up */}
+
+            throw new RuntimeException("Ack failed", ex);
+        }
+        finally {
+            DbUtils.close(connection);
+        }
     }
 
     // useless
@@ -250,46 +264,111 @@ public class SimpleQueue {
         if (deliveryAt == null)
             deliveryAt = new Date(1);
 
-        Timestamp tsDelivery = deliveryAt == null ? null : new Timestamp(deliveryAt.getTime());
-        Timestamp tsNow = deliveryAt == null ? null : new Timestamp(new Date().getTime());
+        DataSource ds = dataSourceFactory.call();
+        Connection connection = ds.getConnection();
+        connection.setAutoCommit(false);
+        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
 
-        String sql = "Update SimpleQueue Set DeliveryDate=?, Locked = 0, ModifiedAt = ? Where Id = ?";
-        Object[] parameters = new Object[] { tsDelivery, tsNow, idMessage};
+        try
+        {
+            Timestamp tsDelivery = deliveryAt == null ? null : new Timestamp(deliveryAt.getTime());
+            Timestamp tsNow = deliveryAt == null ? null : new Timestamp(new Date().getTime());
 
-        QueryRunner qr = new QueryRunner(dataSourceFactory.call());
-        qr.update(sql, parameters);
+            String sql = "Update SimpleQueue Set DeliveryDate=?, Locked = 0, ModifiedAt = ? Where Id = ?";
+            Object[] parameters = new Object[] { tsDelivery, tsNow, idMessage};
 
-        LocalStat.incInProcess(queueName, -1);
-        LocalStat.incPostpone(queueName);
+            JdbcCommand.update(connection, sql, parameters);
+
+            LocalStat.incInProcess(queueName, -1);
+            LocalStat.incPostpone(queueName);
+            connection.commit();
+        }
+        catch(Exception ex)
+        {
+
+            try { connection.rollback(); }
+            catch(Exception ex2) {/* shout up */}
+
+            throw new RuntimeException("Postpone failed", ex);
+        }
+        finally {
+            DbUtils.close(connection);
+        }
     }
 
     public Message.Status getMessageStatus(String key) throws Exception {
-        String sql = "Select Id, OptionalKey, CreatedAt, ModifiedAt, AckDate, HandlersCount, Locked From SimpleQueue Where OptionalKey = ?";
-        Object[] parameters = new Object[] { key };
+        DataSource ds = dataSourceFactory.call();
+        Connection connection = ds.getConnection();
+        connection.setAutoCommit(false);
+        connection.setTransactionIsolation(TRANSACTION_ISOLATION);
 
-        QueryRunner qr = new QueryRunner(dataSourceFactory.call());
-        Message.Status ret = qr.query(sql, new BeanHandler<Message.Status>(Message.Status.class), parameters);
-        return ret;
+        try
+        {
+            String sql = "Select Id, OptionalKey, CreatedAt, ModifiedAt, AckDate, HandlersCount, Locked From SimpleQueue Where OptionalKey = ?";
+            Object[] parameters = new Object[] { key };
+
+            QueryRunner qr = new QueryRunner();
+            Message.Status ret = qr.query(connection, sql, new BeanHandler<Message.Status>(Message.Status.class), parameters);
+            connection.commit();
+            return ret;
+        }
+        catch(Exception ex)
+        {
+
+            try { connection.rollback(); }
+            catch(Exception ex2) {/* shout up */}
+
+            throw new RuntimeException("Postpone failed", ex);
+        }
+        finally {
+            DbUtils.close(connection);
+        }
     }
 
     public void dropMessageFromStorage(String idMessage) throws Exception {
         String sql = "Delete From SimpleQueue Where Id = ?";
-        JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, idMessage);
-        // QueryRunner qr = new QueryRunner(dataSourceFactory.call());
-        // qr.update(sql, idMessage);
+
+        Connection connection = null;
+        try
+        {
+            connection = dataSourceFactory.call().getConnection();
+            JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, idMessage);
+        }
+        finally
+        {
+            if (connection != null) connection.close();
+        }
     }
 
     public void deleteQueue(String queueName) throws Exception {
         String sql = "Delete From SimpleQueue Where QueueName = ?";
-        JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, queueName);
+
+        Connection connection = null;
+        try
+        {
+            connection = dataSourceFactory.call().getConnection();
+            JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, queueName);
+        }
+        finally
+        {
+            if (connection != null) connection.close();
+        }
+
     }
 
     public void purgeOldMessages(String queueName, long secondsOfGap) throws Exception {
         String sql = "Delete From SimpleQueue Where (QueueName = ?) And (CreatedAt < ?)";
         Timestamp edge = new Timestamp(new Date().getTime() - secondsOfGap*1000L);
-        JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, queueName, edge);
-        // QueryRunner qr = new QueryRunner(dataSourceFactory.call());
-        // qr.update(sql, queueName, edge);
+        Connection connection = null;
+        try
+        {
+            connection = dataSourceFactory.call().getConnection();
+            JdbcCommand.update(connection, sql, queueName, edge);
+        }
+        finally
+        {
+            if (connection != null) connection.close();
+        }
     }
 
     public void purgeOldMessages(long secondsOfGap) throws Exception {
@@ -297,6 +376,8 @@ public class SimpleQueue {
         Timestamp edge = new Timestamp(new Date().getTime() - secondsOfGap*1000L);
         JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, edge);
     }
+
+
 
 
 }

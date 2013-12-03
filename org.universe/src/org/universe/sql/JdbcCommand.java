@@ -22,6 +22,18 @@ public class JdbcCommand {
         }
     }
 
+    public static void execute(Connection con, String sql) throws SQLException {
+        Statement stmt = null;
+        try
+        {
+            stmt = con.createStatement();
+            stmt.execute(sql);
+        }
+        finally {
+            if (stmt != null) stmt.close();
+        }
+    }
+
     // Derby fetch Message using BeanHandler: Stream or LOB value cannot be retrieved more than once.
     public static byte[] selectSingleBlob(Connection con, String sql, Object... parameters) throws SQLException {
         PreparedStatement stmt = null;

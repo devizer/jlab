@@ -1,7 +1,7 @@
 /* Дерби не понимает null, bit и точку с запятой */
 
 Create Table SimpleQueue(
-  Id varchar(26) not null,
+  Id varchar(32) not null,
   OptionalKey varchar(1024),
   QueueName varchar(1024) not null,
   Message blob not null,

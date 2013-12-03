@@ -79,7 +79,7 @@ public class SimpleQueueDataSourceFactory implements Callable<DataSource> {
             init();
 
         // return poolingDataSource;
-        return bds;
+        return poolingDataSource;
     }
 
 }
