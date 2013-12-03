@@ -29,8 +29,8 @@ public class Test_SimpleQueue {
                 @Override
                 protected List<SimpleQueueDataSourceFactory> initialValue() throws Exception {
                     ArrayList<SimpleQueueDataSourceFactory> ret = new ArrayList<SimpleQueueDataSourceFactory>();
-                    ret.add(EnvQueue.derbyDisk());
                     ret.add(EnvQueue.sqliteDisk());
+                    ret.add(EnvQueue.derbyDisk());
                     // ret.add(EnvQueue.sqliteMem());
                     ret.add(EnvQueue.derbyMemory());
                     if (TestEnv.getScope() == TestEnv.Scope.DEPLOY)
@@ -78,7 +78,7 @@ public class Test_SimpleQueue {
         {
             System.out.println("Test messages lifecycle on " + ds.url);
             queue = new SimpleQueue(ds);
-            List<Integer> messageSizes = Arrays.asList(0, 1, 16, 55, 1024, 1000000, 10 * 1024 * 1024);
+            List<Integer> messageSizes = Arrays.asList(1, 0, 16, 55, 1024, 1000000, 10 * 1024 * 1024);
             System.out.print("Message Size: ");
 
             for(int sz : messageSizes)
