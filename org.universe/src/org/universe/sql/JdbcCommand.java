@@ -7,6 +7,7 @@ import java.sql.*;
 public class JdbcCommand {
 
     // На MS SQL Server клиенте криво метаданные читаются.
+    // SQLITE BLOB With zero length!!!
     public static int update(Connection con, String sql, Object... parameters) throws SQLException {
         PreparedStatement stmt = null;
         try

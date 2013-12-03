@@ -122,7 +122,8 @@ public class SimpleQueue {
                 else
                 {
                     // connection = dataSourceFactory.call().getConnection();
-                    qr.update(connection, sql, parameters);
+                    // qr.update(connection, sql, parameters);
+                    JdbcCommand.update(connection, sql, parameters);
                     connection.commit();
                     LocalStat.incPublish(queueName);
                     return true;
