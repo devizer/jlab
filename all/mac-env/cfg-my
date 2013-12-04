@@ -1,0 +1,108 @@
+cnf=/etc/my.cnf
+
+cat << _PLIST_ > ~/my-daemon
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>KeepAlive</key>
+    <true/>
+    <key>Label</key>
+    <string>com.mysql.mysql</string>
+    <key>WorkingDirectory</key>
+    <string>/usr/local/mysql</string>
+    <key>ProgramArguments</key>
+    <array>
+    <string>/usr/local/mysql/bin/mysqld</string>
+    <string>--defaults-file=$cnf</string>
+    <string>--user=root</string>
+    <string>--log-error=/tmp/my-err.log</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/tmp/my-launch.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/my-launch.log</string>
+  </dict>
+</plist>
+_PLIST_
+
+cat << _MYCNF_ > my-cnf
+[client]
+port=3306
+socket=/var/mysql/mysql.sock
+
+[mysql]
+max_allowed_packet=222M
+
+[server]
+log_error = /var/log/mysql-error.log
+port=3306
+socket=/var/mysql/mysql.sock
+
+character_set_server   = utf8
+max_allowed_packet     = 222M
+default-storage-engine = InnoDb
+key_buffer             = 1M
+thread_stack           = 256K
+thread_cache_size      = 4
+max_connections        = 100
+thread_concurrency     = 4
+
+query_cache_limit = 1M
+query_cache_size  = 1M
+
+innodb_log_buffer_size    = 1M
+innodb_lock_wait_timeout  = 120
+innodb_thread_concurrency = 10
+innodb_write_io_threads   = 5
+innodb_read_io_threads    = 5
+innodb_additional_mem_pool_size = 10M
+innodb_buffer_pool_size   = 10M
+_MYCNF_
+
+cat << _MYPASS_ > ~/.my.cnf
+[client]
+user=root
+password=root
+
+[mysql]
+user=root
+password=root
+_MYPASS_
+
+
+sudo mv my-daemon /Library/LaunchDaemons/com.mysql.mysql.plist
+sudo mv my-cnf $cnf
+sudo chown root:wheel /Library/LaunchDaemons/com.mysql.mysql.plist
+sudo chmod 755 /Library/LaunchDaemons/com.mysql.mysql.plist
+sudo chown root:wheel $cnf
+sudo chmod 644 $cnf
+
+echo ""
+echo /Library/LaunchDaemons/com.mysql.mysql.plist
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cat /Library/LaunchDaemons/com.mysql.mysql.plist
+
+echo Starting com.mysql.mysql .........
+sudo launchctl unload /Library/LaunchDaemons/com.mysql.mysql.plist
+sudo mysqladmin -u root shutdown 1>/dev/null 2>&1
+sudo launchctl load /Library/LaunchDaemons/com.mysql.mysql.plist
+sudo launchctl start com.mysql.mysql
+
+echo "Waiting for mysql response up to 30 secs..."
+i=0; while [ $i -le 30 ]; do
+ if [[ "$(mysql -u root -e 'Select 1 as ISRUNNING' | grep ISRUNNING)" != "" ]]; then
+   break;
+ fi
+ sleep 2
+ i=$(($i+1))
+done
+echo OK
+
+
+echo
+echo "MYSQL VERSION"
+mysql -e "SHOW VARIABLES LIKE '%version%';"
+echo "MYSQL ENVIRONMENT"
+mysql -e "SHOW VARIABLES WHERE Variable_Name IN ('defaults_file', 'max_allowed_packet', 'storage_engine', 'system_time_zone', 'version', 'unique_checks', 'have_innodb', 'character_set_server');"
+

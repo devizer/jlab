@@ -1,0 +1,73 @@
+rabbit=/usr/local/rabbitmq_server-3.2.1
+
+sudo mkdir -p $rabbit/home
+sudo chown root:wheel $rabbit/home
+
+cat << _PLIST_ > ~/rabbit-daemon
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    
+    <key>Disabled</key><true/>
+
+    <key>KeepAlive</key>
+    <true/>
+    
+    <key>Label</key>
+    <string>com.rabbitmq.server</string>
+    
+    <key>WorkingDirectory</key>
+    <string>$rabbit</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+      <string>$rabbit/sbin/rabbitmq-server</string>
+    </array>
+    
+    <key>StandardOutPath</key>
+    <string>/tmp/rabbit-launch.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/rabbit-launch.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+       <key>HOME</key>
+       <string>$rabbit/home</string>
+    </dict>
+
+  </dict>
+</plist>
+_PLIST_
+
+
+sudo rm /tmp/rabbit-launch.log
+sudo mv rabbit-daemon /Library/LaunchDaemons/com.rabbitmq.server.plist
+sudo chown root:wheel /Library/LaunchDaemons/com.rabbitmq.server.plist
+sudo chmod 755 /Library/LaunchDaemons/com.rabbitmq.server.plist
+
+echo ""
+echo /Library/LaunchDaemons/com.rabbitmq.server.plist
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cat /Library/LaunchDaemons/com.rabbitmq.server.plist
+
+echo Starting com.rabbitmq.server .........
+sudo launchctl unload /Library/LaunchDaemons/com.rabbitmq.server.plist
+sudo launchctl load /Library/LaunchDaemons/com.rabbitmq.server.plist
+sudo launchctl start com.rabbitmq.server
+
+echo
+echo "Waiting for mysql response up to 30 secs..."
+i=0; while [ $i -le 30 ]; do
+  i=$(($i+1))
+done
+echo OK????
+
+
+echo Launch status:
+sudo cat /tmp/rabbit-launch.log
+
+
+echo
+echo "RABBITMQ-SERVER VERSION"
+sudo rabbitmqctl status

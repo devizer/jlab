@@ -78,6 +78,7 @@ public class EnvQueue {
     static SimpleQueueDataSourceFactory CheckSchema(String dialect, SimpleQueueDataSourceFactory f) throws Exception {
         Connection connection = f.call().getConnection();
         SimpleQueueUtils.SimpleCheckSchema(connection, dialect);
+        connection.close();
 
         Connection connection2 = f.call().getConnection();
         connection.close();

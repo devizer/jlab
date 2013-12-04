@@ -12,11 +12,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.setProperty("org.apache.cxf.Logger", "org.apache.cxf.common.logging.Log4jLogger");
-
         ServerSide.Publish();
-
         ClientSide.Call();
-
         JUnitCore.runClasses(TestCxf.class);
 
 

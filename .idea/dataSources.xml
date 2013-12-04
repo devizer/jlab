@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3275920064">
+  <component name="DataSourceManagerImpl" format="xml" hash="3010969670">
     <data-source source="LOCAL" name="SimpleQueue" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="cf844592-95ef-4411-ad17-4d9f193ce9fa">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
@@ -28,7 +28,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="MySql Queue" product="MySQL" version="5.5.34-0ubuntu0.12.10.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )" uuid="2225df19-5602-41ec-ad20-df68965c5f8b">
+    <data-source source="LOCAL" name="MySql Queue" product="MySQL" version="5.6.14" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )" uuid="2225df19-5602-41ec-ad20-df68965c5f8b">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
       <synchronize>true</synchronize>
