@@ -224,9 +224,9 @@ public class Test_SimpleQueue {
     }
 
 
-    // @After
+    @After
     public void after() throws Exception {
-        queue.purgeOldMessages(queueName, 0);
+        // queue.purgeOldMessages(queueName, 0);
 
         System.out.println(SimpleQueue.LocalStat.toConsoleTable());
     }
