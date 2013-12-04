@@ -2,6 +2,7 @@ package org.universe.queue.test;
 
 import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
 import org.apache.commons.dbutils.QueryRunner;
+import org.universe.System6;
 import org.universe.queue.SimpleQueue;
 import org.universe.queue.SimpleQueueDataSourceFactory;
 import org.universe.queue.SimpleQueueUtils;
@@ -78,20 +79,9 @@ public class EnvQueue {
     static SimpleQueueDataSourceFactory CheckSchema(String dialect, SimpleQueueDataSourceFactory f) throws Exception {
         Connection connection = f.call().getConnection();
         SimpleQueueUtils.SimpleCheckSchema(connection, dialect);
-
-        Connection connection2 = f.call().getConnection();
+        ConnectionMetaDataReader rdr = ConnectionMetaDataReader.Build(connection);
+        System.out.println(dialect + System6.lineSeparator() + rdr);
         connection.close();
-        {
-            ConnectionMetaDataReader rdr = ConnectionMetaDataReader.Build(connection2);
-            System.out.println(rdr);
-            // System.out.println(rdr.getInternalLog());
-        }
-/*
-        {
-            ConnectionMetaDataReader rdr = ConnectionMetaDataReader.Build(connection);
-            System.out.println(rdr);
-        }
-*/
         return f;
     }
 

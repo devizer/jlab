@@ -31,17 +31,17 @@ public class Test_SimpleQueue {
                 @Override
                 protected List<SimpleQueueDataSourceFactory> initialValue() throws Exception {
                     ArrayList<SimpleQueueDataSourceFactory> ret = new ArrayList<SimpleQueueDataSourceFactory>();
+
                     if (TestEnv.getScope() == TestEnv.Scope.DEPLOY)
                     {
                         ret.add(EnvQueue.msSql());
                         ret.add(EnvQueue.mysql());
                     }
 
+                    ret.add(EnvQueue.derbyMemory());
                     ret.add(EnvQueue.sqliteDisk());
                     ret.add(EnvQueue.derbyDisk());
                     // ret.add(EnvQueue.sqliteMem());
-                    ret.add(EnvQueue.derbyMemory());
-
                     return ret;
 
                 }
@@ -192,7 +192,7 @@ public class Test_SimpleQueue {
                         Assert.assertEquals(key, stat2.getOptionalKey());
                         // 4
                         Message msg = queue.nextDelivery(queueName);
-                        if (msg != null)
+                        if (msg != null || true)
                         {
                             if (rnd.nextBoolean())
                                 queue.ack(queueName, msg.getId());

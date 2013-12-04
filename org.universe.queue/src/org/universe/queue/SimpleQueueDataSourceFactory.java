@@ -58,8 +58,12 @@ public class SimpleQueueDataSourceFactory implements Callable<DataSource> {
             // pool.setMaxActive(1);
 
 
+            DriverManagerConnectionFactory x = (user != null && password != null)
+                    ? new DriverManagerConnectionFactory(url, user, password)
+                    : new DriverManagerConnectionFactory(url, new Properties());
+
             factory = new PoolableConnectionFactory(
-                    new DriverManagerConnectionFactory(url, props),
+                    x,
                     pool,
                     null, null, false, true);
 

@@ -27,33 +27,24 @@ public class SimpleQueue {
     SqlDialect _dialect;
     Object SyncDialect = new Object();
 
-    public SqlDialect getDialect() throws Exception {
-        if (_dialect == null)
-            synchronized (SyncDialect) {
-                if (_dialect == null)
-                {
-                    _dialect = SqlDialect.MYSQL;
-                    Connection connection = dataSourceFactory.call().getConnection();
-                    try
-                    {
-                        String url = connection.getMetaData().getURL();
-                        _dialect = SqlDialect.getByUrl(url);
-                    }
-                    finally
-                    {
-                        connection.close();
-                    }
-                }
-            }
+    public SimpleQueue(final Callable<DataSource> dataSourceFactory) {
+        if (dataSourceFactory == null)
+            throw new IllegalArgumentException("dataSourceFactory argument is null");
 
-        return _dialect;
-    }
-
-
-    public SimpleQueue(Callable<DataSource> dataSourceFactory) {
         this.dataSourceFactory = dataSourceFactory;
     }
 
+    public SimpleQueue(final DataSource dataSource) {
+        if (dataSource == null)
+            throw new IllegalArgumentException("dataSource argument is null");
+
+        this.dataSourceFactory = new Callable<DataSource>() {
+            @Override
+            public DataSource call() throws Exception {
+                return dataSource;
+            }
+        };
+    }
 
     public void publish(String queueName, byte[] message) throws Exception {
         publish(queueName, null, message);
@@ -383,6 +374,28 @@ public class SimpleQueue {
         String sql = "Delete From SimpleQueue Where CreatedAt < ?";
         Timestamp edge = new Timestamp(new Date().getTime() - secondsOfGap*1000L);
         JdbcCommand.update(dataSourceFactory.call().getConnection(), sql, edge);
+    }
+
+    public SqlDialect getDialect() throws Exception {
+        if (_dialect == null)
+            synchronized (SyncDialect) {
+                if (_dialect == null)
+                {
+                    _dialect = SqlDialect.MYSQL;
+                    Connection connection = dataSourceFactory.call().getConnection();
+                    try
+                    {
+                        String url = connection.getMetaData().getURL();
+                        _dialect = SqlDialect.getByUrl(url);
+                    }
+                    finally
+                    {
+                        connection.close();
+                    }
+                }
+            }
+
+        return _dialect;
     }
 
 

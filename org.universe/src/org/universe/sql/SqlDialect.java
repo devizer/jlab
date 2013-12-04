@@ -2,6 +2,8 @@ package org.universe.sql;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -85,7 +87,7 @@ public class SqlDialect {
             "sqlserver",
             "TOP %s",
             "",
-            "Begin Transaction; /* SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; */",
+            "Begin Transaction; SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; ",
             "Commit Transaction;",
             "Rollback Transaction;"
     );
@@ -136,6 +138,16 @@ public class SqlDialect {
             else if (url.startsWith("jdbc:sqlserver:"))
                 return SQLSERVER;
         }
+
+        return null;
+    }
+
+    public static SqlDialect getById(String id)
+    {
+        List<SqlDialect> x = Arrays.asList(MYSQL, DERBY, SQLITE, SQLSERVER);
+        for(SqlDialect i : x)
+            if (i.Id.equalsIgnoreCase(id))
+                return i;
 
         return null;
     }

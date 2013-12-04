@@ -1,6 +1,7 @@
 package org.universe.jcl;
 
 import org.universe.ConsoleTable;
+import org.universe.Ref;
 import org.universe.jcl.apparency.ThreadSafe;
 
 import java.math.BigDecimal;
@@ -79,6 +80,8 @@ public class Stress {
 
         Iterable<Integer> range = createRange(1, numThreads, 1);
         final AtomicLong initDuration = new AtomicLong();
+        final Object syncMax = new Object();
+        final AtomicLong maxDuration = new AtomicLong(milliSeconds * 1000000L);
         Parallel.blockingFor(numThreads, range, new Parallel.Operation<Integer>() {
             @Override
             public void perform(Integer parameter) throws Exception {
@@ -117,14 +120,19 @@ public class Stress {
 
                     totalCount.getAndAdd(stride);
                 } while(System.nanoTime() < upTo);
+
                 long realMilliSeconds = System.nanoTime() - startAt;
-            }
-        });
+                synchronized (syncMax) {
+                    maxDuration.set(Math.max(maxDuration.get(), realMilliSeconds));
+                }
+
+        }});
 
         long totalDuration = System.nanoTime() - time0;
         long count = totalCount.get();
-        double msecPerItem = milliSeconds / (double) count;
-        double itemsPerSec = count / (double) milliSeconds * 1000d;
+        double realMsec = maxDuration.get() / 1000000d;
+        double msecPerItem = realMsec / (double) count;
+        double itemsPerSec = count / realMsec * 1000d;
         t.join();
         return new Stress(count,
                 successCount.get(),
