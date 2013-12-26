@@ -1,0 +1,21 @@
+#!/bin/bash
+TARGET=/usr/idea
+file=ideaIC-13.0.1.tar.gz
+url=http://download-ln.jetbrains.com/idea/$file
+rm -f $file
+wget --no-cookies --no-check-certificate $url -O $file
+rm -rf temp
+mkdir -p temp
+tar -xf $file -C ./temp/
+cd temp
+prev=$(ls -d idea*)
+if [ "$prev" == "" ]; then
+  echo Loading of $url failed. Check internet connection and try again.
+  cd ..
+else
+  sudo rm -rf $TARGET
+  sudo mv "$prev" $TARGET
+  cd ..
+  rm -rf temp
+  echo Extract $file TO $TARGET DONE
+fi

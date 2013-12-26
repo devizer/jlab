@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="3010969670">
-    <data-source source="LOCAL" name="SimpleQueue" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="cf844592-95ef-4411-ad17-4d9f193ce9fa">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="SimpleQueue" uuid="cf844592-95ef-4411-ad17-4d9f193ce9fa">
+      <driver-ref>hsqldb.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:$USER_HOME$/SumpleQueue2</jdbc-url>
@@ -15,7 +15,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="SqLite SimpleQueue" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="b76e60ac-de65-4f0f-bc5c-61404ab6d6e1">
+    <data-source source="LOCAL" name="SqLite SimpleQueue" uuid="b76e60ac-de65-4f0f-bc5c-61404ab6d6e1">
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$USER_HOME$/.tmp/queue</jdbc-url>
@@ -28,9 +29,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="MySql Queue" product="MySQL" version="5.6.14" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )" uuid="2225df19-5602-41ec-ad20-df68965c5f8b">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="MySql Queue" uuid="2225df19-5602-41ec-ad20-df68965c5f8b">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost/sandbox</jdbc-url>
