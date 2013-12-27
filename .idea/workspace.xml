@@ -13,10 +13,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL including publish status act &amp; postpone">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/ins-idea-c13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/deploy" afterPath="$PROJECT_DIR$/all/deploy" />
+    <list default="true" readonly="true" id="df7730de-2b4b-4188-9598-b54f91ab2fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/pre-fedora" afterPath="$PROJECT_DIR$/all/pre-fedora" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work.iws" />
@@ -228,10 +226,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ins-idea-c13" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ins-idea-c13" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/ins-idea-c13">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="34" selection-end="34" vertical-scroll-proportion="0.067885116" vertical-offset="0" max-vertical-offset="766">
+            <state line="21" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre-fedora" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/pre-fedora">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.27622843" vertical-offset="0" max-vertical-offset="753">
               <folding />
             </state>
           </provider>
@@ -273,6 +280,7 @@
         <option value="$PROJECT_DIR$/org.universe.queue.test/src/org/universe/queue/test/Test_SimpleQueue.java" />
         <option value="$PROJECT_DIR$/org.universe/src/org/universe/sql/SqlDialect.java" />
         <option value="$PROJECT_DIR$/all/ins-idea-c13" />
+        <option value="$PROJECT_DIR$/all/pre-fedora" />
       </list>
     </option>
   </component>
@@ -1325,7 +1333,7 @@
       <updated>1383542729648</updated>
       <workItem from="1387422093672" duration="673000" />
       <workItem from="1387811608449" duration="1213000" />
-      <workItem from="1387946613289" duration="1371000" />
+      <workItem from="1387946613289" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="First! ант не собирается - два tests">
       <created>1383546634116</created>
@@ -2167,11 +2175,15 @@
       <created>1386141835211</created>
       <updated>1386141835211</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Idea 13.0.1c">
+      <created>1388093748295</created>
+      <updated>1388093748298</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3257000" />
+    <option name="totallyTimeSpent" value="4185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1396" height="904" extended-state="6" />
@@ -2191,6 +2203,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967659" sideWeight="0.42497483" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22276741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39839572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2538825" sideWeight="0.60923964" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39985108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2206,7 +2219,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34456208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39839572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2225,7 +2237,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Migration into gitgub" />
     <MESSAGE value="queue" />
     <MESSAGE value="cxf extentions" />
     <MESSAGE value="libs" />
@@ -2250,7 +2261,8 @@
     <MESSAGE value="test sqlite on arm" />
     <MESSAGE value="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL" />
     <MESSAGE value="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL including publish status act &amp; postpone" />
-    <option name="LAST_COMMIT_MESSAGE" value="First SUCCESS multi thread stress of SimpleQueue at Derby, MS SQL, MY SQL including publish status act &amp; postpone" />
+    <MESSAGE value="Idea 13.0.1c" />
+    <option name="LAST_COMMIT_MESSAGE" value="Idea 13.0.1c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2399,7 +2411,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/ins-idea-c13">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="34" selection-end="34" vertical-scroll-proportion="0.067885116" vertical-offset="0" max-vertical-offset="766">
+        <state line="21" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all/pre-fedora">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.27622843" vertical-offset="0" max-vertical-offset="753">
           <folding />
         </state>
       </provider>

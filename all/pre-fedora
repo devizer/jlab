@@ -1,12 +1,13 @@
 #!/bin/bash
-sudo yum install ant subversion mysql-server rabbitmq-server p7zip memcached * -y
+sudo yum install ant subversion mysql-server rabbitmq-server p7zip memcached -y
 bash ins-jdk
-bash ins-idea-c
+bash ins-idea-c13
 
 echo pass | sudo -S systemctl start mysqld.service
 echo pass | sudo -S mysqladmin -u root password root
 
-svn checkout https://sandbox.repositoryhosting.com/svn/sandbox_sandbox/javalab/all
+# svn checkout https://sandbox.repositoryhosting.com/svn/sandbox_sandbox/javalab/all
+git clone https://github.com/devizer/jlab.git
 
 echo pass | sudo -S bash -c "rabbitmq-server &"
 echo pass | sudo -S service memcached start
