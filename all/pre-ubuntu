@@ -9,7 +9,7 @@ sudo apt-get -y install gnome-core lxde visualvm \
   gnome-system-monitor gnome-tweak-tool libgnomevfs2-extra gnome-commander gedit \
   vnc4server
 
-# MYSQL with password=root
+# MYSQL with root password=root
 echo mysql-server-5.5 mysql-server/root_password password root | sudo debconf-set-selections
 echo mysql-server-5.5 mysql-server/root_password_again password root | sudo debconf-set-selections
 sudo apt-get -y install mysql-server mysql-client mysql-workbench
